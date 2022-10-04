@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DrinkNutrientSolution_Disgusting.label>恶心</DrinkNutrientSolution_Disgusting.label>
+  <DrinkNutrientSolution_Disgusting.description>非安奈缇娅斯喝营养液会感到恶心.</DrinkNutrientSolution_Disgusting.description>
+
+  <DrinkNutrientSolution_Acceptable.label>可接受</DrinkNutrientSolution_Acceptable.label>
+  <DrinkNutrientSolution_Acceptable.description>非安奈缇娅斯喝营养液不会感到抗拒.</DrinkNutrientSolution_Acceptable.description>
+
+
+</LanguageData>

@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BasePawn" Name="Anneli_BasePawn" Abstract="True">
+		<thingClass>Pawn</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<hasTooltip>true</hasTooltip>
+		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+		<inspectorTabs>
+			<!-- <li>Annelitrice.ITab_Pawn_Mimicry</li> -->
+		</inspectorTabs>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<modExtensions>
+			<li Class="Annelitrice.RaceExtension">
+				<outsiderSpawnThingAfterDestruction>Anneli_OutsiderWorm</outsiderSpawnThingAfterDestruction>
+				<colonistSpawnThingAfterDestruction>Anneli_ColonistWorm</colonistSpawnThingAfterDestruction>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="Annelitrice.CompProperties_Evolution">
+			</li>
+		</comps>
+	</ThingDef>
+
+	<AlienRace.ThingDef_AlienRace ParentName="Anneli_BasePawn">
+		<defName>Annelitrice</defName>
+		<label>Annelitrice</label>
+		<description>Annelitrices look like humans, talk like humans, behave like humans and taste like humans...except their unusual sense of humor and astounding regenerative ability. Not a lot of residents on the savage planets can tell the differences between Annelitrices and humans, and nobody knows what the Annelitrices truly are and why they are created.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.00001</maleGenderProbability>
+				<allowHumanBios>true</allowHumanBios>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<canLayDown>true</canLayDown>
+				<notXenophobistTowards>
+					<li>Human</li>
+				</notXenophobistTowards>
+				<immuneToAge>true</immuneToAge>
+				<maxDamageForSocialfight>2</maxDamageForSocialfight>
+				<lovinIntervalHoursFromAge>
+					<points>
+						<li>(16, 1.5)</li>
+						<li>(500, 2.5)</li>
+						<li>(1500, 4)</li>
+						<li>(3000, 12)</li>
+						<li>(5000, 36)</li>
+					</points>
+				</lovinIntervalHoursFromAge>
+				<alienPartGenerator>
+					<headOffsetDirectional>
+						<north>(0.0, 0.118)</north>
+						<south>(0.0, 0.118)</south>
+						<east>(-0.028, 0.121)</east>
+						<west>(0.028, 0.121)</west>
+					</headOffsetDirectional>
+					<customDrawSize>(0.945, 0.99)</customDrawSize>
+					<customHeadDrawSize>(0.78, 0.795)</customHeadDrawSize>
+					<customPortraitDrawSize>(0.945, 0.99)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.78, 0.795)</customPortraitHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.95,0.95,1)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(1,0.975,0.975,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,1,1,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.90,0.80,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(0.95,0.85,0.75,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>skin</name>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGB(170,150,140)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,130,140)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,120,80)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(180,120,100)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(200,150,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(225,200,170)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(255,220,190)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(130,175,210)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,195,225)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(190,225,255)</only>
+									</li>
+
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,160,200)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(180,250,150)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(195,255,215)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(225,100,100)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,125,130)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(220,210,230)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(155,240,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(220,205,255)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(253,219,186)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(209,210,211)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(255,195,162)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(87,87,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(67,65,74)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(218,176,133)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(144,97,71)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(250,240,230)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(229,200,168)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(183,156,123)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(159,154,150)</only>
+									</li>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(148,136,159)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(170,85,94)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(187,212,238)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(228,150,156)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(191,194,181)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<aliencrowntypes>
+						<li>Anneli_Head_1</li>
+						<li>Anneli_Head_2</li>
+						<li>Anneli_Head_3</li>
+						<li>Anneli_Head_4</li>
+						<li>Anneli_Head_5</li>
+						<li>Anneli_Head_6</li>
+
+						<li>Anneli_Head_DeadFace_A</li>
+						<li>Anneli_Head_DeadFace_B</li>
+						<li>Anneli_Head_DeadFace_C</li>
+						<li>Anneli_Head_DeadFace_D</li>
+						<li>Anneli_Head_DeadFace_E</li>
+						<li>Anneli_Head_DeadFace_F</li>
+					</aliencrowntypes>
+					<alienbodytypes>
+						<li>Female</li>
+						<!--<li>Fat</li>-->
+						<!--<li>Hulk</li>-->
+						<!--<li>Male</li>-->
+						<!--<li>Thin</li>-->
+					</alienbodytypes>
+					<useGenderedHeads>false</useGenderedHeads>
+					<useGenderedBodies>false</useGenderedBodies>
+					<atlasScale>4</atlasScale><!--test-->
+					<getsGreyAt>1500</getsGreyAt> 
+					<bodyAddons>
+						<li> 
+							<path>Anneli_HairBack/Back</path>
+							<bodyPart>Head</bodyPart>
+							<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<drawSize>1</drawSize>
+							<drawnInBed>true</drawnInBed>
+							<angle>0</angle>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>Cutout</shaderType>
+							<hiddenUnderApparelTag>
+								<li>Anneli_FullHelmet</li>
+								<li>Anneli_Hood</li>
+							</hiddenUnderApparelTag>
+							<offsets>
+								<south>
+									<layerOffset>1</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.254</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.342</layerOffset>
+								</east>
+							</offsets>
+						</li>
+						<!-- <li> 
+							<path>Anneli_HairMid/Mid</path>
+							<bodyPart>Head</bodyPart>
+							<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<drawSize>1</drawSize>
+							<drawnInBed>true</drawnInBed>
+							<angle>0</angle>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>Cutout</shaderType>
+							<hiddenUnderApparelTag>
+							</hiddenUnderApparelTag>
+							<offsets>
+								<south>
+									<layerOffset>-0.291</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.262</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.341</layerOffset>
+								</east>
+							</offsets>
+						</li> -->
+						<!-- <li>
+                            <path>Arms_Addon/Left/ArmStraightA_Left_Naked</path>
+                            <bodyPart>left arm</bodyPart>
+                            <defaultOffset>Center</defaultOffset>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <drawnInBed>false</drawnInBed>
+                            <colorChannel>skin</colorChannel>
+                            <drawnDesiccated>true</drawnDesiccated>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.311</layerOffset>
+                                </south>
+                                <north>
+                            		<layerOffset>-0.26</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>0.345</layerOffset>
+                                </east>
+                                <west>
+                                    <layerOffset>-0.345</layerOffset>
+                                </west>
+                            </offsets>
+                        </li>
+                        <li>
+                            <path>Arms_Addon/Right/ArmStraightA_Right_Naked</path>
+                            <bodyPart>right arm</bodyPart>
+                            <defaultOffset>Center</defaultOffset>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <drawnInBed>false</drawnInBed>
+                            <colorChannel>skin</colorChannel>
+                            <drawnDesiccated>true</drawnDesiccated>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.311</layerOffset>
+                                </south>
+                                <north>
+                            		<layerOffset>-0.26</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.345</layerOffset>
+                                </east>
+                                <west>
+                                    <layerOffset>0.345</layerOffset>
+                                </west>
+                            </offsets>
+                        </li> -->
+                    </bodyAddons>
+                </alienPartGenerator>
+            </generalSettings>
+            <graphicPaths>
+            	<li>
+            		<head>Anneli_Face/</head>
+            		<body>Anneli_Body/</body>
+            		<skeleton>Anneli_Corpse/Dessicated_Female</skeleton>
+            		<skull>Anneli_Corpse/Dessicated_Head</skull>
+            	</li>
+            </graphicPaths>
+
+            <styleSettings>
+            	<li>
+            		<key>BeardDef</key>
+            		<value>
+            			<hasStyle>false</hasStyle>
+            			<styleTags>
+            				<li>NoBeard</li>
+            			</styleTags>
+            		</value>
+            	</li>
+            	<li>
+            		<key>TattooDef</key>
+            		<value>
+            			<hasStyle>false</hasStyle>
+            			<styleTags>
+            				<li>NoTattoo</li>
+            			</styleTags>
+            		</value>
+            	</li>
+            	<li>
+            		<key>HairDef</key>
+            		<value>
+            			<hasStyle>true</hasStyle>
+            			<styleTagsOverride>
+            				<li>Anneli</li>
+            			</styleTagsOverride>
+            		</value>
+            	</li>
+            </styleSettings>
+
+            <thoughtSettings>
+            	<cannotReceiveThoughts>
+            		<li>KnowPrisonerDiedInnocent</li>
+            		<li>KnowColonistExecuted</li>
+            		<li>KnowColonistDied</li>
+            		<li>WitnessedDeathAlly</li>
+            		<li>WitnessedDeathNonAlly</li>
+            		<li>WitnessedDeathFamily</li>
+            		<li>DeniedJoining</li>
+            		<li>ColonistBanished</li>
+            		<li>ColonistBanishedToDie</li>
+            		<li>PrisonerBanishedToDie</li>
+            		<li>ColonyPrisonerEscaped</li>
+            		<li>FailedToRescueRelative</li>
+            		<li>AteRottenFood</li>
+            		<li>AteInsectMeatAsIngredient</li>
+            		<li>AteInsectMeatDirect</li>
+            		<li>AteHumanlikeMeatAsIngredientCannibal</li>
+            		<li>AteHumanlikeMeatAsIngredient</li>
+            		<li>AteHumanlikeMeatDirectCannibal</li>
+            		<li>AteHumanlikeMeatDirect</li>
+            		<li>AteCorpse</li>
+            		<li>AteKibble</li>
+            		<li>AteRawFood</li>
+            		<li>ButcheredHumanlikeCorpse</li>
+            		<li>KnowButcheredHumanlikeCorpse</li>
+            		<li>ButcheredHumanlikeCorpseOpinion</li>
+            		<li>ObservedLayingCorpse</li>
+            		<li>ObservedLayingRottingCorpse</li>
+            		<li>ColonistLeftUnburied</li>
+            		<li>AteNutrientPasteMeal</li>
+
+            		<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelMinQualityNotMet</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelRequirementNotMet</li>
+
+            		<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
+            	</cannotReceiveThoughts>
+
+            	<replacerList>       		
+            		<li>
+            			<original>OthersDrinkNutrientSolution</original>
+            			<replacer>AnnelitriceDrinkNutrientSolution</replacer>
+            		</li>
+            		<li>
+            			<original>PawnWithGoodOpinionDied</original>
+            			<replacer>AnneliPawnWithGoodOpinionDied</replacer>
+            		</li>
+            		<li>
+            			<original>PawnWithBadOpinionDied</original>
+            			<replacer>AnneliPawnWithBadOpinionDied</replacer>
+            		</li>
+            		<li>
+            			<original>MySonDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyDaughterDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyHusbandDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyWifeDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyFianceDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyFianceeDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyLoverDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyBrotherDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MySisterDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyGrandchildDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyFatherDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyMotherDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyNieceDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyNephewDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyAuntDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyUncleDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyGrandparentDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyCousinDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyKinDied</original>
+            			<replacer>AnneliPawnDied</replacer>
+            		</li>
+            		<li>
+            			<original>MyOrganHarvested</original>
+            			<replacer>AnneliMyOrganHarvested</replacer>
+            		</li>
+            		<li>
+            			<original>WasImprisoned</original>
+            			<replacer>AnneliWasImprisoned</replacer>
+            		</li>
+            		<li>
+            			<original>RebuffedMyRomanceAttemptMood</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>FailedRomanceAttemptOnMeLowOpinionMood</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>BrokeUpWithMe</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>CheatedOnMe</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>DivorcedMe</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>RejectedMyProposal</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>IRejectedTheirProposal</original>
+            			<replacer>AnneliQuestioning</replacer>
+            		</li>
+            		<li>
+            			<original>MySonLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyDaughterLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyHusbandLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyWifeLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyFianceLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyFianceeLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyLoverLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyBrotherLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MySisterLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyGrandchildLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyFatherLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyMotherLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyNieceLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyNephewLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyHalfSiblingLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyAuntLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyUncleLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyGrandparentLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyCousinLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            		<li>
+            			<original>MyKinLost</original>
+            			<replacer>AnneliPawnLost</replacer>
+            		</li>
+            	</replacerList>
+            </thoughtSettings>
+
+            <raceRestriction>
+            	<apparelList>	
+            	</apparelList>
+            	<whiteApparelList>
+            	</whiteApparelList>
+            	<blackApparelList>
+            		<!--Disable Core Apparels-->
+
+            		<li>Apparel_CowboyHat</li>
+            		<li>Apparel_BowlerHat</li>
+            		<li>Apparel_TribalHeaddress</li>
+            		<li>Apparel_Tuque</li>
+            		<li>Apparel_WarMask</li>
+            		<li>Apparel_WarVeil</li>
+            		<li>Apparel_SimpleHelmet</li>
+            		<li>Apparel_AdvancedHelmet</li>
+            		<li>Apparel_PowerArmorHelmet</li>
+            		<li>Apparel_HatHood</li>
+            		<li>Apparel_TribalA</li>
+            		<li>Apparel_Parka</li>
+            		<li>Apparel_Pants</li>
+            		<li>Apparel_BasicShirt</li>
+            		<li>Apparel_CollarShirt</li>
+            		<li>Apparel_Duster</li>
+            		<li>Apparel_Jacket</li>
+            		<li>Apparel_PlateArmor</li>
+            		<li>Apparel_FlakVest</li>
+            		<li>Apparel_FlakPants</li>
+            		<li>Apparel_FlakJacket</li>
+            		<li>Apparel_PowerArmor</li>
+            		<li>Apparel_ArmorRecon</li>
+
+            		<!--Disable Royalty DLC Apparels-->
+
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusHelmet</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_EltexSkullcap</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusShirt</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusVest</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusRobe</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorReconPrestige</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetReconPrestige</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarinePrestige</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineHelmetPrestige</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphract</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphract</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPrestige</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphractPrestige</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorLocust</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineGrenadier</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPhoenix</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Gunlink</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Corset</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatLadies</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatTop</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Coronet</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Crown</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_CrownStellic</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Cape</li>
+            		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Beret</li>
+
+            		<!--Disable Ideology DLC Apparels-->
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Burka</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
+            		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
+            	</blackApparelList>
+            	<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+            	<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+            </raceRestriction>
+        </alienRace>
+
+        <statBases>
+        	<MarketValue>1200</MarketValue>
+        	<MentalBreakThreshold>0.25</MentalBreakThreshold>
+        	<MoveSpeed>5.0</MoveSpeed>
+        	<Mass>45</Mass>
+        	<MeatAmount>60</MeatAmount>
+        	<LeatherAmount>25</LeatherAmount>
+        	<Flammability>1.2</Flammability>
+        	<ComfyTemperatureMin>5</ComfyTemperatureMin>
+        	<ComfyTemperatureMax>20</ComfyTemperatureMax>
+        	<CarryingCapacity>80</CarryingCapacity>
+        	<GlobalLearningFactor>1.1</GlobalLearningFactor>
+        	<ResearchSpeed>1.2</ResearchSpeed>
+        	<SocialImpact>1.20</SocialImpact>
+        	<PsychicSensitivity>1.0</PsychicSensitivity>
+        	<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+        	<MedicalSurgerySuccessChance>1.2</MedicalSurgerySuccessChance>
+        	<MeleeDodgeChance>2</MeleeDodgeChance>
+        	<PainShockThreshold>0.95</PainShockThreshold>
+        	<NegotiationAbility>1.2</NegotiationAbility>
+        	<SellPriceFactor>1.2</SellPriceFactor> 
+        	<HungerRateMultiplier>1.25</HungerRateMultiplier>
+        	<EatingSpeed>1.6</EatingSpeed>
+        	<PawnBeauty>2</PawnBeauty>
+        </statBases>
+        <tools>
+        	<li>
+        		<label>left fist</label>
+        		<capacities>
+        			<li>Blunt</li>
+        		</capacities>
+        		<power>1</power>
+        		<cooldownTime>2</cooldownTime>
+        		<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        		<surpriseAttack>
+        			<extraMeleeDamages>
+        				<li>
+        					<def>Stun</def>
+        					<amount>15</amount>
+        				</li>
+        			</extraMeleeDamages>
+        		</surpriseAttack>
+        	</li>
+        	<li>
+        		<label>right fist</label>
+        		<capacities>
+        			<li>Blunt</li>
+        		</capacities>
+        		<power>1</power>
+        		<cooldownTime>2</cooldownTime>
+        		<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        		<surpriseAttack>
+        			<extraMeleeDamages>
+        				<li>
+        					<def>Stun</def>
+        					<amount>15</amount>
+        				</li>
+        			</extraMeleeDamages>
+        		</surpriseAttack>
+        	</li>
+        </tools>
+
+        <race>
+        	<thinkTreeMain>Humanlike</thinkTreeMain>
+        	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+        	<intelligence>Humanlike</intelligence>
+        	<makesFootprints>true</makesFootprints>
+        	<nameCategory>HumanStandard</nameCategory>
+        	<lifeExpectancy>5000</lifeExpectancy>
+        	<fleshType>Annely_Flesh</fleshType>
+        	<body>Anneli_Body</body>
+        	<baseBodySize>1.0</baseBodySize>
+        	<baseHealthScale>0.75</baseHealthScale>
+        	<foodType>OmnivoreHuman</foodType>
+        	<litterSizeCurve>
+        		<points>
+        			<li>(0.5, 0)</li>
+        			<li>(1, 0.70)</li>
+        			<li>(2, 0.30)</li>
+        		</points>
+        	</litterSizeCurve>
+        	<lifeStageAges>
+        		<li>
+        			<def>HumanlikeBaby</def>
+        			<minAge>0</minAge>
+        		</li>
+        		<li>
+        			<def>HumanlikeToddler</def>
+        			<minAge>1</minAge>
+        		</li>
+        		<li>
+        			<def>HumanlikeChild</def>
+        			<minAge>4</minAge>
+        		</li>
+        		<li>
+        			<def>AnneliTeenager</def>
+        			<minAge>12</minAge>
+        		</li>
+        		<li>
+        			<def>AnneliAdult</def>
+        			<minAge>16</minAge>
+        		</li>
+        	</lifeStageAges>
+        	<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+        	<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+        	<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+        	<specialShadowData>
+        		<volume>(0.3, 0.8, 0.4)</volume>
+        		<offset>(0,0,-0.3)</offset>
+        	</specialShadowData>
+        	<ageGenerationCurve>
+        		<points>
+        			<li>(12,0)</li>
+        			<li>(20,5)</li>
+        			<li>(60,50)</li>
+        			<li>(120,40)</li>
+        			<li>(200,5)</li>
+        			<li>(500,0)</li>
+        		</points>
+        	</ageGenerationCurve>
+        	<hediffGiverSets>
+        		<li>OrganicStandard</li>
+        	</hediffGiverSets>
+        </race>
+        <recipes>
+        	<li>InstallArchotechEye</li>
+        	<li>InstallArchotechArm</li>
+        	<li>InstallArchotechLeg</li>
+        	<li>InstallPowerClaw</li>
+        	<li>InstallBionicEye</li>
+        	<li>InstallBionicArm</li>
+        	<li>InstallBionicLeg</li>
+        	<li>InstallBionicSpine</li>
+        	<li>InstallBionicHeart</li>
+        	<li>InstallBionicStomach</li>
+        	<li>InstallBionicEar</li>
+        	<li>InstallSimpleProstheticArm</li>
+        	<li>InstallSimpleProstheticLeg</li>
+        	<li>InstallSimpleProstheticHeart</li>
+        	<li>InstallCochlearImplant</li>
+        	<li>InstallPegLeg</li>
+        	<li>InstallWoodenFoot</li>
+        	<li>InstallDenture</li>
+        	<li>InstallJoywire</li>
+        	<li>InstallPainstopper</li>
+        	<li>InstallNaturalHeart</li>
+        	<li>InstallNaturalLung</li>
+        	<li>InstallNaturalKidney</li>
+        	<li>InstallNaturalLiver</li>
+        	<li>ExciseCarcinoma</li>
+        	<li>AdministerMechSerumHealer</li>
+        	<li>RemoveBodyPart</li>
+        	<li>Euthanize</li>
+        	<li>Anesthetize</li>
+        </recipes>
+    </AlienRace.ThingDef_AlienRace>
+
+    <LifeStageDef>
+    	<defName>AnneliTeenager</defName>
+    	<label>Teenager</label>
+    	<adjective>Teenage</adjective>
+    	<reproductive>true</reproductive>
+    	<foodMaxFactor>3.0</foodMaxFactor>
+    </LifeStageDef>
+    <LifeStageDef>
+    	<defName>AnneliAdult</defName>
+    	<label>Adult</label>
+    	<adjective>Adult</adjective>
+    	<reproductive>true</reproductive>
+    	<foodMaxFactor>3.0</foodMaxFactor>
+    </LifeStageDef>
+
+</Defs>

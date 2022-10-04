@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annely_ResurrectUsingWorm.reportString>复活 TargetA</Annely_ResurrectUsingWorm.reportString>
+
+
+  <!-- <JobDef>
+		<defName>Annely_AssimilateCorpse</defName>
+		<driverClass>Annelitrice.JobDriver_AssimilateCorpse</driverClass>
+		<reportString>Assimilating TargetA</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef> -->
+
+  <Annely_InfestHuman.reportString>寄生中 TargetA</Annely_InfestHuman.reportString>
+  <Annely_StandStill.reportString>等待中</Annely_StandStill.reportString>
+
+
+  <!--<Annely_GainEPsFromWormIncubator.reportString>从 TargetA 获取EPs</Annely_GainEPsFromWormIncubator.reportString>-->
+  <!--<Annely_InjectEPsToWormIncubator.reportString>向 TargetA 注入EPs</Annely_InjectEPsToWormIncubator.reportString>-->
+  <!--<Annely_AssimilateCorpse.reportString>同化中 TargetA</Annely_AssimilateCorpse.reportString>-->
+  <!--<Annely_GrowAppendage.reportString>生长附肢</Annely_GrowAppendage.reportString>-->
+
+</LanguageData>

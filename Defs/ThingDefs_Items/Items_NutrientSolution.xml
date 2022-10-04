@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="MealBase">
+    <defName>Anneli_NutrientSolution</defName>
+    <label>Annelitrice nutrient solution</label>
+    <description>A bottle of suspicious liquid more efficient and nastier than nutrient paste meals. Artificial flavouring agents cannot mask its unpleasant flavors. Annelitrices won't mind it at all, as they grow up in it.</description>
+    <graphicData>
+      <texPath>Anneli_Items/NutrientSolution</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Nutrition>0.4</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <preferability>MealAwful</preferability>
+      <ateEvent>DrinkNutrientSolution</ateEvent>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart> 
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+  	<defName>Anneli_MakeNutrientSolution</defName>
+    <label>make Annelitrice nutrient solution</label>
+    <description>Juice organic matters.</description>
+    <jobString>Making Annelitrice nutrient solution.</jobString>
+    <workAmount>1000</workAmount>
+    <researchPrerequisite>Anneli_NutrientSolution</researchPrerequisite>
+      <recipeUsers>
+        <li>FueledStove</li>
+        <li>ElectricStove</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+    <workSkill>Intellectual</workSkill>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <Anneli_NutrientSolution>20</Anneli_NutrientSolution>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>InsectJelly</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+
+</Defs>

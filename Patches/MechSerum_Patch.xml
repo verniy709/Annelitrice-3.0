@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "MechSerumResurrector"]/comps/li[@Class="CompProperties_Targetable"]/compClass</xpath>
+		<value>
+			<compClass>Annelitrice.CompTargetable_SingleCorpseOverride</compClass>
+		</value>
+	</Operation>
+
+</Patch>

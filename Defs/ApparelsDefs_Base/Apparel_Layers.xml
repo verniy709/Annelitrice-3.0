@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Layer 1-->
+
+  <ApparelLayerDef>
+    <defName>Anneli_OnSkin</defName>
+    <label>Anneli_OnSkin</label>
+    <drawOrder>10</drawOrder>
+  </ApparelLayerDef>
+
+<!--   <ApparelLayerDef>
+    <defName>Anneli_OnSkin_Socks</defName>
+    <label>Anneli_OnSkin_Socks</label>
+    <drawOrder>10</drawOrder>
+  </ApparelLayerDef> -->
+
+<!--Layer 2-->
+
+  <ApparelLayerDef>
+    <defName>Anneli_Middle</defName>
+    <label>Anneli_Middle</label>
+    <drawOrder>110</drawOrder>
+  </ApparelLayerDef>
+
+<!--   <ApparelLayerDef>
+    <defName>Anneli_Middle_Shoes</defName>
+    <label>Anneli_Middle_Shoes</label>
+    <drawOrder>110</drawOrder>
+  </ApparelLayerDef> -->
+
+<!--Layer 3-->
+
+  <ApparelLayerDef>
+    <defName>Anneli_Shell</defName>
+    <label>Anneli_Shell</label>
+    <drawOrder>210</drawOrder>
+  </ApparelLayerDef>
+
+<!--Layer 4-->
+
+  <ApparelLayerDef>
+    <defName>Anneli_UpperShell_Armor</defName>
+    <label>Anneli_UpperShell_Armor</label>
+    <drawOrder>195</drawOrder>
+  </ApparelLayerDef>
+
+<!--Layer 5-->
+
+  <ApparelLayerDef>
+    <defName>Anneli_UpperShell_Tactical</defName>
+    <label>Anneli_UpperShell_Tactical</label>
+    <drawOrder>230</drawOrder>
+  </ApparelLayerDef>
+
+<!--Layer 6-->
+
+<!--Vanilla Head-->
+
+<!--Layer 7-->
+
+<ApparelLayerDef>
+    <defName>Anneli_Weapon</defName>
+    <label>Anneli_Weapon</label>
+    <drawOrder>240</drawOrder>
+  </ApparelLayerDef>
+
+<!--Layer 8-->
+
+<ApparelLayerDef>
+    <defName>Anneli_Bag</defName>
+    <label>Anneli_Bag</label>
+    <drawOrder>250</drawOrder>
+  </ApparelLayerDef>
+
+<!--Vanilla Belt-->
+
+<!--Layer 9-->
+
+  <ApparelLayerDef>
+    <defName>Anneli_Misc</defName>
+    <label>Anneli_Misc</label>
+    <drawOrder>310</drawOrder>
+  </ApparelLayerDef>
+  
+</Defs>

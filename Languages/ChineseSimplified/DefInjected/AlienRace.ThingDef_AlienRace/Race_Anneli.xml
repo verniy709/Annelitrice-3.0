@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annelitrice.label>安奈缇娅斯</Annelitrice.label>
+  <Annelitrice.description>安奈缇娅斯看上去像人类，言行举止也全都像，甚至味道也差不多...但她们有非常奇怪的幽默感还有非同寻常的再生能力。 在这个蛮荒的星球上没几个人能看出她们和普通人类的区别，也没有人知道她们存在的意义。</Annelitrice.description>
+  <Annelitrice.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Annelitrice.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Annelitrice.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>skin</Annelitrice.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Annelitrice.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>hair</Annelitrice.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>
+  <Annelitrice.tools.0.label>左拳</Annelitrice.tools.0.label>
+  <Annelitrice.tools.1.label>右拳</Annelitrice.tools.1.label>
+
+
+</LanguageData>

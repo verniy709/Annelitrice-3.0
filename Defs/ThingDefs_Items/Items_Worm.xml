@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Anneli_Worm</defName>
+		<label>annelitrice worms</label>
+		<parent>Root</parent>
+	</ThingCategoryDef>
+
+	<ThingDef Name="Anneli_Worm" Abstract="True">
+		<thingClass>Annelitrice.Worm</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>false</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<thingCategories>
+			<li>Anneli_Worm</li>
+		</thingCategories>
+		<statBases>
+			<Beauty>-4</Beauty>
+			<Mass>0.03</Mass>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<inspectorTabs>
+			<li>ITab_Pawn_Character</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+		<pathCost>14</pathCost>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Worm">
+		<defName>Anneli_ColonistWorm</defName>
+		<label>colonist worm</label>
+		<description>An Annelitrice worm. When you catch one, more have escaped.</description>
+		<graphicData>
+			<texPath>Anneli_Items/Worm_Colonist</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Worm">
+		<defName>Anneli_OutsiderWorm</defName>
+		<label>outsider worm</label>
+		<description>An Annelitrice worm. When you catch one, more have escaped.</description>
+		<graphicData>
+			<texPath>Anneli_Items/Worm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!-- Anneli_OutsiderWorm -->
+
+	<RecipeDef>
+	<defName>ButcherOutsiderWorms</defName>
+    <label>Butcher Outsider Worms</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>TableButcher</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_OutsiderWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>5</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+	<defName>ButcherOutsiderWorms_Spot</defName>
+    <label>Butcher Outsider Worms</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>ButcherSpot</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_OutsiderWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>4</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateOutsiderWorms</defName>
+    <label>Cremate Outsider Worms</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>ElectricCrematorium</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_OutsiderWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateOutsiderWorms_Spot</defName>
+    <label>Cremate Outsider Worms</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>Campfire</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_OutsiderWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<!-- Anneli_ColonistWorm -->
+
+  <RecipeDef>
+	<defName>ButcherColonistWorms</defName>
+    <label>Butcher Colonist Worms</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>TableButcher</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_ColonistWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>5</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+	<defName>ButcherColonistWorms_Spot</defName>
+    <label>Butcher Colonist Worms</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>ButcherSpot</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_ColonistWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>4</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateColonistWorms</defName>
+    <label>Cremate Colonist Worms</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>ElectricCrematorium</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_ColonistWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateColonistWorms_Spot</defName>
+    <label>Cremate Colonist Worms</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>Campfire</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_ColonistWorm</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistWorm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistWorm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

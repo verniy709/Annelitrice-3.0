@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_ApparelSpecialBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<useHitPoints>True</useHitPoints>
+		<pathCost>10</pathCost>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>1</Beauty>
+		</statBases>
+		<recipeMaker>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>true</smeltable>
+		<apparel>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_ApparelCommonBase" ParentName="Anneli_ApparelSpecialBase" Abstract="True">
+		<apparel>
+			<tags>
+				<li>Anneli</li>
+				<li>EVA</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

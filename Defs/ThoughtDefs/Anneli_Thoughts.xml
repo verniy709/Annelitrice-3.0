@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef ParentName="DeathMemory">
+    <defName>AnneliPawnWithGoodOpinionDied</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>6</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>my friend {0} died</label>
+        <description>Such loneliness.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="DeathMemory">
+    <defName>AnneliPawnWithBadOpinionDied</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>6</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>my rival {0} died</label>
+        <description>They would stay silent for a few days at least.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="DeathMemory">
+    <defName>AnneliPawnDied</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>6</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>my relative {0} died</label>
+        <description>We shall reunite soon.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AnneliMyOrganHarvested</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>5</stackLimit>
+    <stages>
+      <li>
+        <label>my organ harvested</label>
+        <description>That hurts!</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AnneliWasImprisoned</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>was imprisoned</label>
+        <description>What is the safeword?</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AnneliQuestioning</defName>
+    <durationDays>5.0</durationDays>
+    <stackLimit>10</stackLimit>
+    <stages>
+      <li>
+        <label>confused by {0}</label>
+        <description>Is this part of the plots?</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="LostMemory">
+    <defName>AnneliPawnLost</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>6</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>member {0} lost</label>
+        <description>They will be back soon.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

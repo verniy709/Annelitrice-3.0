@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Body.label>安奈缇娅斯</Anneli_Body.label>
+  <Anneli_Body.corePart.parts.6.customLabel>左肺</Anneli_Body.corePart.parts.6.customLabel>
+  <Anneli_Body.corePart.parts.7.customLabel>右肺</Anneli_Body.corePart.parts.7.customLabel>
+  <Anneli_Body.corePart.parts.8.customLabel>左肾</Anneli_Body.corePart.parts.8.customLabel>
+  <Anneli_Body.corePart.parts.9.customLabel>右肾</Anneli_Body.corePart.parts.9.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.1.customLabel>左眼</Anneli_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.2.customLabel>右眼</Anneli_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.3.customLabel>左耳</Anneli_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.4.customLabel>右耳</Anneli_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.12.customLabel>左肩</Anneli_Body.corePart.parts.12.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.0.customLabel>左锁骨</Anneli_Body.corePart.parts.12.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.customLabel>左臂</Anneli_Body.corePart.parts.12.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.0.customLabel>左肱骨</Anneli_Body.corePart.parts.12.parts.1.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.1.customLabel>左桡骨</Anneli_Body.corePart.parts.12.parts.1.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.customLabel>左手</Anneli_Body.corePart.parts.12.parts.1.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>左小指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>左无名指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>左中指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>左食指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>左拇指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.13.customLabel>右肩</Anneli_Body.corePart.parts.13.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.0.customLabel>右锁骨</Anneli_Body.corePart.parts.13.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.customLabel>右臂</Anneli_Body.corePart.parts.13.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.0.customLabel>右肱骨</Anneli_Body.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.1.customLabel>右桡骨</Anneli_Body.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.customLabel>右手</Anneli_Body.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>右小指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>右无名指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>右中指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>右食指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>右拇指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.15.customLabel>左腿</Anneli_Body.corePart.parts.15.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.0.customLabel>左股骨</Anneli_Body.corePart.parts.15.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.1.customLabel>左胫骨</Anneli_Body.corePart.parts.15.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.customLabel>左脚</Anneli_Body.corePart.parts.15.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.0.customLabel>左小趾</Anneli_Body.corePart.parts.15.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.1.customLabel>左次小趾</Anneli_Body.corePart.parts.15.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.2.customLabel>左中趾</Anneli_Body.corePart.parts.15.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.3.customLabel>左第二趾</Anneli_Body.corePart.parts.15.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.4.customLabel>左大脚趾</Anneli_Body.corePart.parts.15.parts.2.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.16.customLabel>右腿</Anneli_Body.corePart.parts.16.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.0.customLabel>右股骨</Anneli_Body.corePart.parts.16.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.1.customLabel>右胫骨</Anneli_Body.corePart.parts.16.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.customLabel>右脚</Anneli_Body.corePart.parts.16.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.0.customLabel>右小趾</Anneli_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.1.customLabel>右次小趾</Anneli_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.2.customLabel>右中趾</Anneli_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.3.customLabel>右第二趾</Anneli_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.4.customLabel>右大脚趾</Anneli_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

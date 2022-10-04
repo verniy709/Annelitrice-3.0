@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="LWM_DeepStorage">
+		<defName>Anneli_Fountain</defName>
+		<label>Anneli Fountain</label>
+		<description>A structure to house Annelitrice worms. Worms are better pets than tropical fish in your Aquarium.</description>
+		<graphicData>
+			<texPath>Anneli_Building/Fountain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.2, 0.2, 0.6)</volume>
+			</shadowData>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<rotatable>false</rotatable>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>35</Beauty>
+			<WorkToBuild>2000</WorkToBuild>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<tickerType>Normal</tickerType>
+		<stealable>false</stealable>
+		<size>(1,1)</size>
+		<designationCategory>Misc</designationCategory>
+		<selectable>true</selectable>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<ai_chillDestination>true</ai_chillDestination>
+			<allowAutoroof>true</allowAutoroof>
+			<deconstructible>false</deconstructible>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Anneli_Worm</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<researchPrerequisites>
+      		<li>Anneli_WormStorage</li>
+    	</researchPrerequisites>
+		<comps>
+			<li Class="LWM.DeepStorage.Properties">
+				<maxNumberStacks>50</maxNumberStacks>
+				<minTimeStoringTakes>10</minTimeStoringTakes>
+				<additionalTimeEachStack>5</additionalTimeEachStack>
+				<additionalTimeEachDef>2</additionalTimeEachDef>
+				<showContents>false</showContents>
+				<overlayType>SumOfAllItems</overlayType>
+			</li>
+			<li><compClass>CompQuality</compClass></li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="LWM_DeepStorage">
+		<defName>Anneli_FountainAngel</defName>
+		<label>Anneli Fountain Angel</label>
+		<description>A huge structure to house Annelitrice worms, with their Angel.</description>
+		<graphicData>
+			<texPath>Anneli_Building/Incubator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.1, 1.1, 1.5)</volume>
+			</shadowData>
+		</graphicData>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<rotatable>false</rotatable>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>200</Beauty>
+			<WorkToBuild>5000</WorkToBuild>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+      		<Gold>10</Gold>
+      		<Silver>200</Silver>
+    	</costList>
+		<tickerType>Normal</tickerType>
+		<stealable>false</stealable>
+		<size>(2,2)</size>
+		<designationCategory>Misc</designationCategory>
+		<selectable>true</selectable>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<ai_chillDestination>true</ai_chillDestination>
+			<allowAutoroof>true</allowAutoroof>
+			<deconstructible>false</deconstructible>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Anneli_Worm</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<researchPrerequisites>
+      		<li>Anneli_WormStorage</li>
+    	</researchPrerequisites>
+		<comps>
+			<li Class="LWM.DeepStorage.Properties">
+				<maxNumberStacks>200</maxNumberStacks>
+				<minTimeStoringTakes>10</minTimeStoringTakes>
+				<additionalTimeEachStack>5</additionalTimeEachStack>
+				<additionalTimeEachDef>2</additionalTimeEachDef>
+				<showContents>false</showContents>
+				<overlayType>SumOfAllItems</overlayType>
+			</li>
+			<li><compClass>CompQuality</compClass></li>
+		</comps>
+	</ThingDef>
+
+</Defs>

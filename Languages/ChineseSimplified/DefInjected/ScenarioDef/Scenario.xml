@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annelitrice_A.label>孤单的安奈缇娅斯</Annelitrice_A.label>
+  <Annelitrice_A.description>一群毛手毛脚的盗墓贼闯进了这个秘密的冷冻设施，并顺手把它砸了个稀烂.好消息是你还活着，并且这些贼并没有拿走所有的东西.坏消息是你已经迟到超过300年了.</Annelitrice_A.description>
+  <Annelitrice_A.scenario.name>孤单的安奈缇娅斯</Annelitrice_A.scenario.name>
+  <Annelitrice_A.scenario.summary>你从冷冻仓中醒来，并从一个密室中找到了一些补给物资.</Annelitrice_A.scenario.summary>
+  <Annelitrice_A.scenario.description>一群毛手毛脚的盗墓贼闯进了这个秘密的冷冻设施，并顺手把它砸了个稀烂.好消息是你还活着，并且这些贼并没有拿走所有的东西.坏消息是你已经迟到超过300年了.</Annelitrice_A.scenario.description>
+
+  <Annelitrice_B.label>流浪剧团</Annelitrice_B.label>
+  <Annelitrice_B.description>一切都有个梦幻般的开局, 但现在我们只有勉强够一天的食物了.</Annelitrice_B.description>
+  <Annelitrice_B.scenario.name>流浪剧团</Annelitrice_B.scenario.name>
+  <Annelitrice_B.scenario.summary>在这颗星球上生活的野蛮人缺乏对艺术的尊敬.</Annelitrice_B.scenario.summary>
+  <Annelitrice_B.scenario.description>一切都有个梦幻般的开局, 但现在我们只有勉强够一天的食物了.</Annelitrice_B.scenario.description>
+
+
+</LanguageData>

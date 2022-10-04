@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchTabDef>
+		<defName>Anneli_Research</defName>
+		<label>Anneli Research</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef>
+		<defName>Anneli_NutrientSolution</defName>
+		<label>Anneli Nutrient Solution</label>
+		<description>A bottle of suspicious liquid more efficient and nastier than nutrient paste meals. Artificial flavouring agents cannot mask its unpleasant flavors. Annelitrices won't mind it at all, as they grow up in it.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+      		<!-- <li>DrugProduction</li> -->
+    	</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Anneli_GrowthFactorCocktails</defName>
+		<label>Anneli Growth Factor Cocktails</label>
+		<description>A drug made of mysterious technology to revive only Annelitrices. Nobody knows what solvent is used to dissolve the nutrient of a calf in a volume of a syringe.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+      		<li>Anneli_NutrientSolution</li>
+    	</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef>
+		<defName>Anneli_Fountain</defName>
+		<label>Anneli Incubator</label>
+		<description>A structure to house Annelitrice worms.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+    	</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef> -->
+	
+	<ResearchProjectDef>
+		<defName>Anneli_PuppetTheatre</defName>
+		<label>Anneli Puppet Theatre</label>
+		<description>Puppetry is a form of theatre or performance that involves the manipulation of puppets. It basically works as a TV for medieval society. Additionally, it gives your colonists an opportunity to reproduce the plots and costumes of some famous works by an unknown movie producer.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+      		<li>Smithing</li>
+      		<li>ComplexClothing</li>
+    	</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+
+	
+</Defs>

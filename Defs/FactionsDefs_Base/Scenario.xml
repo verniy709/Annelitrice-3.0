@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ScenarioDef>
+	<defName>Annelitrice_A</defName>
+	<label>The Lone Annelitrice</label>
+	<description>A group of clumsy tomb thiefs broke into a secret cryptosleep center and demolished this place. The good news is that you are still alive and those thiefs did not take everything from you. The bad news however is that you are more than 300 years late for your appointments.</description>
+	<scenario>
+		<summary>You woke up from a cryptosleep sarcophagus, and found some resources in a hiddle storage room.</summary>
+		<playerFaction>
+		<def>PlayerFaction</def>
+		<factionDef>Anneli_Faction_Player</factionDef>
+		</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>1</pawnCount>
+					<pawnChoiceCount>6</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>1000</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>40</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_ChargeRifle</thingDef>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>500</count>
+				</li>
+					<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>150</count>
+				</li>      
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+	<ScenarioDef>
+	<defName>Annelitrice_B</defName>
+	<label>Wandering Theatre</label>
+	<description>Everything has a dreamy start, but now we only have enough food for a day.</description>
+	<scenario>
+		<summary>People on this planet do not respect artists at all.</summary>
+		<playerFaction>
+		<def>PlayerFaction</def>
+		<factionDef>Anneli_Faction_Player</factionDef>
+		</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>4</pawnCount>
+					<pawnChoiceCount>10</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>12</count>
+				</li>
+				
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

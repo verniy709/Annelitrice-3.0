@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Anneli_WormStorage</defName>
+		<label>Anneli WormStorage</label>
+		<description>A structure to house Annelitrice worms.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+    	</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.RaceSettings>
+		<defName>Anneli_Settings</defName>
+		<pawnKindSettings>		
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>Anneli_Player</li>
+					</kindDefs>
+					<chance>0</chance>
+				</li>
+			</alienslavekinds>
+
+			<alienwandererkinds>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Anneli_Player</li>
+							</kindDefs>
+							<chance>0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Anneli_Faction_Player</li> 
+					</factionDefs>
+				</li>
+			</alienwandererkinds>
+
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>Anneli_Player</li>
+					</kindDefs>
+					<chance>0</chance>
+				</li>
+			</alienrefugeekinds>
+
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Anneli_Player</li>
+							</kindDefs>
+							<chance>1</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>Anneli_Faction_Player</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+</Defs>

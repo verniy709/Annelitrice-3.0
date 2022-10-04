@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Faction_Base.leaderTitle>领袖</Anneli_Faction_Base.leaderTitle>
+
+  <Anneli_Faction_Player.label>安奈缇娅斯殖民地</Anneli_Faction_Player.label>
+  <Anneli_Faction_Player.description>一个安奈缇娅斯组建的殖民地.</Anneli_Faction_Player.description>
+  <Anneli_Faction_Player.pawnsPlural>安奈缇娅斯</Anneli_Faction_Player.pawnsPlural>
+  <Anneli_Faction_Player.leaderTitle>领袖</Anneli_Faction_Player.leaderTitle>
+
+
+</LanguageData>

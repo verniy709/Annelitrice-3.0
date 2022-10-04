@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JoyKindDef>
+    <defName>Annely_Spectate</defName>
+    <label>spectating</label>
+  </JoyKindDef>
+
+  <JoyGiverDef>
+    <defName>WatchPuppetShow</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>3.0</baseChance>
+    <canDoWhileInBed>true</canDoWhileInBed>
+	<desireSit>false</desireSit>
+    <thingDefs>
+      <li>Anneli_PuppetTheatre</li>
+    </thingDefs>
+    <jobDef>WatchPuppetShow</jobDef>
+    <joyKind>Annely_Spectate</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+
+  <JobDef>
+    <defName>WatchPuppetShow</defName>
+    <driverClass>Annelitrice.JobDriver_WatchPuppetShow</driverClass>
+    <reportString>watching puppetshow.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>12</joyMaxParticipants>
+    <joyKind>Annely_Spectate</joyKind>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Anneli_PuppetTheatre</defName>
+    <thingClass>Building</thingClass>
+    <label>Anneli Puppet Theatre</label>
+    <description>Puppetry is a form of theatre or performance that involves the manipulation of puppets. It basically works as a TV for medieval society. Additionally, it gives your colonists an opportunity to reproduce the plots and costumes of some famous works by an unknown movie producer.</description>
+    <graphicData>
+      <texPath>Anneli_Building/PuppetTheatre</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.2,2.2)</drawSize>
+      <shadowData>
+        <volume>(0.5, 1.0, 1.0)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.1,0.1,1.0,1.0)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>true</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Beauty>25</Beauty>
+      <WorkToBuild>7500</WorkToBuild>
+      <Mass>14</Mass>
+      <Flammability>1.0</Flammability>
+      <JoyGainFactor>1.1</JoyGainFactor>
+    </statBases>
+    <costList>
+      <Cloth>150</Cloth>
+      <WoodLog>100</WoodLog>
+    </costList>
+    <size>(2,2)</size>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+      <joyKind>Annely_Spectate</joyKind>
+      <watchBuildingStandDistanceRange>2~6</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>6</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <effectWatching>WatchingTelevision</effectWatching>
+    </building>
+    <researchPrerequisites>
+      <li>Anneli_PuppetTheatre</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <tradeTags>
+      <li>Television</li>
+    </tradeTags>
+    <designationCategory>Joy</designationCategory>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Annely.StoredEvolutionPoints>Stored Evolution Points: {0}</Annely.StoredEvolutionPoints>
+	<Annely.Mimicry>Mimicry</Annely.Mimicry>
+	<Annely.NotEnoughEPs>This pawn doesn't have enough EPs</Annely.NotEnoughEPs>
+	<Annely.MaxBilePoints>This pawn has reached the maximum {0} Bile points</Annely.MaxBilePoints>
+	<Annely.NoBilePoints>This pawn doesn't have any {0} Bile points to subtract</Annely.NoBilePoints>
+	<Annely.Red>Red</Annely.Red>
+	<Annely.Blue>Blue</Annely.Blue>
+	<Annely.Green>Green</Annely.Green>
+	<Annely.EPs>EPs</Annely.EPs>
+	<Annely.HealTooltip>Spend {0} evolution points to heal all diseases/injuries</Annely.HealTooltip>
+	<Annely.PlusSignTooltip>Convert {0} EPs to 1 {1} Bile Point.\nRed: 12.5% health for bodyparts\nGreen:5% movement speed and faster regeneration\nBlue:3.5% consciousness and 5% psychic sensitivity</Annely.PlusSignTooltip>
+	<Annely.MinusSignTooltip>Convert 1 {0} Bile Point to {1} EPs</Annely.MinusSignTooltip>
+	<Annely.BodyPartIsMissing>The body part is missing currently.</Annely.BodyPartIsMissing>
+	<Annely.InjectEPs>Inject EPs</Annely.InjectEPs>
+	<Annely.InjectEPsCount>Inject {0}: {{0}}x</Annely.InjectEPsCount>
+	<Annely.GainEPs>Gain EPs</Annely.GainEPs>
+	<Annely.GainEPsCount>Gain {0}: {{0}}x </Annely.GainEPsCount>
+	<Annely.Assimilate>Assimilate</Annely.Assimilate>
+	<Annely.AssimilateDesc>Assmilate a humanoid body to gain EPs and nutrition.</Annely.AssimilateDesc>
+	<Annely.Infest>Infest</Annely.Infest>
+	<Annely.InfestDesc>Infest a humanoid target. The target has 15% chance to be transformed into an Annelitrice pawn, 85% to be consumed by worms.</Annely.InfestDesc>
+	<Annely.CannotInfestTooLowFoodLevel>The pawn is too hungry to use this ability.</Annely.CannotInfestTooLowFoodLevel>
+	<Annely.PlaySong>Play song: {0}</Annely.PlaySong>
+	<Annely.PlaySongDesc>Play selected song.</Annely.PlaySongDesc>
+	<Annely.StopSong>Stop song</Annely.StopSong>
+	<Annely.StopSongDesc>Stop current song.</Annely.StopSongDesc>
+	<Annely.SelectSong>Select song</Annely.SelectSong>
+	<Annely.SelectSongDesc>Select a song to play it later.</Annely.SelectSongDesc>
+</LanguageData>

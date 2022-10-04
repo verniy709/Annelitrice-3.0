@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnneliPawnWithGoodOpinionDied.stages.0.label>我的朋友 {0} 死了</AnneliPawnWithGoodOpinionDied.stages.0.label>
+  <AnneliPawnWithGoodOpinionDied.stages.0.description>如此孤单.</AnneliPawnWithGoodOpinionDied.stages.0.description>
+
+  <AnneliPawnWithBadOpinionDied.stages.0.label>我的对手 {0} 死了</AnneliPawnWithBadOpinionDied.stages.0.label>
+  <AnneliPawnWithBadOpinionDied.stages.0.description>终于可以过几天清净日子了.</AnneliPawnWithBadOpinionDied.stages.0.description>
+
+  <AnneliPawnDied.stages.0.label>我的亲属 {0} 死了</AnneliPawnDied.stages.0.label>
+  <AnneliPawnDied.stages.0.description>我们很快就会团聚.</AnneliPawnDied.stages.0.description>
+
+  <AnneliMyOrganHarvested.stages.0.label>器官被割除</AnneliMyOrganHarvested.stages.0.label>
+  <AnneliMyOrganHarvested.stages.0.description>有点疼啊喂!</AnneliMyOrganHarvested.stages.0.description>
+
+  <AnneliWasImprisoned.stages.0.label>被囚禁</AnneliWasImprisoned.stages.0.label>
+  <AnneliWasImprisoned.stages.0.description>安全词是什么?</AnneliWasImprisoned.stages.0.description>
+
+  <AnneliQuestioning.stages.0.label>被 {0} 所困惑</AnneliQuestioning.stages.0.label>
+  <AnneliQuestioning.stages.0.description>这是剧本的一部分吗?</AnneliQuestioning.stages.0.description>
+
+  <AnneliPawnLost.stages.0.label>殖民者 {0} 失踪</AnneliPawnLost.stages.0.label>
+  <AnneliPawnLost.stages.0.description>他们应该很快就会回来.</AnneliPawnLost.stages.0.description>
+
+
+</LanguageData>

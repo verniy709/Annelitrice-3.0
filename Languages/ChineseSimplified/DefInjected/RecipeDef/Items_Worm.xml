@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_OutsiderWorm -->
+
+  <ButcherOutsiderWorms.label>屠宰外来者蠕虫</ButcherOutsiderWorms.label>
+  <ButcherOutsiderWorms.description>碾碎他们.</ButcherOutsiderWorms.description>
+  <ButcherOutsiderWorms.jobString>屠宰中.</ButcherOutsiderWorms.jobString>
+
+  <ButcherOutsiderWorms_Spot.label>屠宰外来者蠕虫</ButcherOutsiderWorms_Spot.label>
+  <ButcherOutsiderWorms_Spot.description>碾碎他们.</ButcherOutsiderWorms_Spot.description>
+  <ButcherOutsiderWorms_Spot.jobString>屠宰中.</ButcherOutsiderWorms_Spot.jobString>
+
+  <CremateOutsiderWorms.label>火化外来者蠕虫</CremateOutsiderWorms.label>
+  <CremateOutsiderWorms.description>烧死他们.</CremateOutsiderWorms.description>
+  <CremateOutsiderWorms.jobString>火化中.</CremateOutsiderWorms.jobString>
+
+  <CremateOutsiderWorms_Spot.label>火化外来者蠕虫</CremateOutsiderWorms_Spot.label>
+  <CremateOutsiderWorms_Spot.description>烧死他们.</CremateOutsiderWorms_Spot.description>
+  <CremateOutsiderWorms_Spot.jobString>火化中.</CremateOutsiderWorms_Spot.jobString>
+
+
+  <!-- Anneli_ColonistWorm -->
+
+  <ButcherColonistWorms.label>屠宰殖民者蠕虫</ButcherColonistWorms.label>
+  <ButcherColonistWorms.description>碾碎他们.</ButcherColonistWorms.description>
+  <ButcherColonistWorms.jobString>屠宰中.</ButcherColonistWorms.jobString>
+
+  <ButcherColonistWorms_Spot.label>屠宰殖民者蠕虫</ButcherColonistWorms_Spot.label>
+  <ButcherColonistWorms_Spot.description>碾碎他们.</ButcherColonistWorms_Spot.description>
+  <ButcherColonistWorms_Spot.jobString>屠宰中.</ButcherColonistWorms_Spot.jobString>
+
+  <CremateColonistWorms.label>火化殖民者蠕虫</CremateColonistWorms.label>
+  <CremateColonistWorms.description>烧死他们.</CremateColonistWorms.description>
+  <CremateColonistWorms.jobString>火化中.</CremateColonistWorms.jobString>
+
+  <CremateColonistWorms_Spot.label>火化殖民者蠕虫</CremateColonistWorms_Spot.label>
+  <CremateColonistWorms_Spot.description>烧死他们.</CremateColonistWorms_Spot.description>
+  <CremateColonistWorms_Spot.jobString>火化中.</CremateColonistWorms_Spot.jobString>
+
+
+</LanguageData>

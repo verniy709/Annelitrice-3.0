@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Childhood -->
+
+  <Anneli_NormalWorm.title>安奈缇娅斯平凡蠕虫</Anneli_NormalWorm.title>
+  <Anneli_NormalWorm.titleShort>平凡蠕虫</Anneli_NormalWorm.titleShort>
+  <Anneli_NormalWorm.baseDescription>[PAWN_nameDef]和培养仓中的同类比起来没什么特色。</Anneli_NormalWorm.baseDescription>
+
+  <Anneli_ActiveWorm.title>安奈缇娅斯精神蠕虫</Anneli_ActiveWorm.title>
+  <Anneli_ActiveWorm.titleShort>精神蠕虫</Anneli_ActiveWorm.titleShort>
+  <Anneli_ActiveWorm.baseDescription>[PAWN_nameDef]有些过于精力旺盛。</Anneli_ActiveWorm.baseDescription>
+
+  <Anneli_FriendlyWorm.title>安奈缇娅斯圣母蠕虫</Anneli_FriendlyWorm.title>
+  <Anneli_FriendlyWorm.titleShort>圣母蠕虫</Anneli_FriendlyWorm.titleShort>
+  <Anneli_FriendlyWorm.baseDescription>[PAWN_nameDef]善于和她的食物交朋友。</Anneli_FriendlyWorm.baseDescription>
+
+  <Anneli_CreativeWorm.title>安奈缇娅斯脑洞大开蠕虫</Anneli_CreativeWorm.title>
+  <Anneli_CreativeWorm.titleShort>脑洞大开蠕虫</Anneli_CreativeWorm.titleShort>
+  <Anneli_CreativeWorm.baseDescription>[PAWN_nameDef]可以用消化液来创作蒙娜丽莎。</Anneli_CreativeWorm.baseDescription>
+
+  <Anneli_DiggingWorm.title>安奈缇娅斯活体盾构机蠕虫</Anneli_DiggingWorm.title>
+  <Anneli_DiggingWorm.titleShort>活体盾构机蠕虫</Anneli_DiggingWorm.titleShort>
+  <Anneli_DiggingWorm.baseDescription>[PAWN_nameDef]喜欢在固态培养基上打洞。</Anneli_DiggingWorm.baseDescription>
+
+  <Anneli_FastGrowingWorm.title>安奈缇娅斯好胃口蠕虫</Anneli_FastGrowingWorm.title>
+  <Anneli_FastGrowingWorm.titleShort>安奈缇娅斯好胃口蠕虫</Anneli_FastGrowingWorm.titleShort>
+  <Anneli_FastGrowingWorm.baseDescription>[PAWN_nameDef]总是填不饱肚子。</Anneli_FastGrowingWorm.baseDescription>
+
+  <Anneli_BellicoseWorm.title>安奈缇娅斯好斗蠕虫</Anneli_BellicoseWorm.title>
+  <Anneli_BellicoseWorm.titleShort>好斗蠕虫</Anneli_BellicoseWorm.titleShort>
+  <Anneli_BellicoseWorm.baseDescription>[PAWN_nameDef]总是挑事儿。</Anneli_BellicoseWorm.baseDescription>
+
+  <Anneli_NerdyWorm.title>安奈缇娅斯呆子蠕虫</Anneli_NerdyWorm.title>
+  <Anneli_NerdyWorm.titleShort>呆子蠕虫</Anneli_NerdyWorm.titleShort>
+  <Anneli_NerdyWorm.baseDescription>[PAWN_nameDef]喜欢研究人类的农业史。</Anneli_NerdyWorm.baseDescription>
+
+  <Anneli_ShrewdWorm.title>安奈缇娅斯精明蠕虫</Anneli_ShrewdWorm.title>
+  <Anneli_ShrewdWorm.titleShort>精明蠕虫</Anneli_ShrewdWorm.titleShort>
+  <Anneli_ShrewdWorm.baseDescription>[PAWN_nameDef]总是能就地取材。</Anneli_ShrewdWorm.baseDescription>
+
+  <Anneli_ImitatingWorm.title>安奈缇娅斯拟态蠕虫</Anneli_ImitatingWorm.title>
+  <Anneli_ImitatingWorm.titleShort>拟态蠕虫</Anneli_ImitatingWorm.titleShort>
+  <Anneli_ImitatingWorm.baseDescription>[PAWN_nameDef]比同类更善于模仿人类。</Anneli_ImitatingWorm.baseDescription>
+
+  <Anneli_BizarreWorm.title>安奈缇娅斯奇异蠕虫</Anneli_BizarreWorm.title>
+  <Anneli_BizarreWorm.titleShort>奇异蠕虫</Anneli_BizarreWorm.titleShort>
+  <Anneli_BizarreWorm.baseDescription>[PAWN_nameDef]总是陷入沉思。</Anneli_BizarreWorm.baseDescription>
+
+  <Anneli_HoardingWorm.title>安奈缇娅斯囤积癖蠕虫</Anneli_HoardingWorm.title>
+  <Anneli_HoardingWorm.titleShort>囤积癖蠕虫</Anneli_HoardingWorm.titleShort>
+  <Anneli_HoardingWorm.baseDescription>[PAWN_nameDef]有轻微囤积症.</Anneli_HoardingWorm.baseDescription>
+
+  <Anneli_CatWorm.title>安奈缇娅斯猫蠕虫</Anneli_CatWorm.title>
+  <Anneli_CatWorm.titleShort>猫蠕虫</Anneli_CatWorm.titleShort>
+  <Anneli_CatWorm.baseDescription>[PAWN_nameDef]想变成一只真正的猫, 或者至少感染一只.</Anneli_CatWorm.baseDescription>
+
+  <Anneli_AutisticWorm.title>安奈缇娅斯自闭蠕虫</Anneli_AutisticWorm.title>
+  <Anneli_AutisticWorm.titleShort>自闭蠕虫</Anneli_AutisticWorm.titleShort>
+  <Anneli_AutisticWorm.baseDescription>[PAWN_nameDef]不喜欢和人面对面交流.</Anneli_AutisticWorm.baseDescription>
+
+
+</LanguageData>

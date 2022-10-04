@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase" Name="AnnelyResurrectorBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="AnnelyResurrectorBase">
+    <defName>Anneli_GrowthFactorCocktails</defName>
+    <label>Annelitrice growth factor cocktails</label>
+    <description>A drug made of mysterious technology to revive only Annelitrices. Nobody knows what solvent is used to dissolve the nutrient of a calf in a volume of a syringe.</description>
+    <graphicData>
+      <texPath>Anneli_Items/GrowthFactor</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <WorkToMake>1500</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>FueledStove</li>
+        <li>ElectricStove</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>Anneli_GrowthFactorCocktails</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Anneli_NutrientSolution>10</Anneli_NutrientSolution>
+      <MedicineHerbal>5</MedicineHerbal>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use growth factor cocktails</useLabel>
+        <useDuration>0</useDuration>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>Annelitrice.CompTargetable_SingleCorpseAnnelyRace</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li>
+        <compClass>CompTargetEffect_Resurrect</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

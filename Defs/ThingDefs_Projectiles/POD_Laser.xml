@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="BaseGrenadeProjectile">
+	<defName>Anneli_Projectile_PODLaser_A</defName>
+    <label>Laser</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Anneli_Projectile/POD_Laser_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>120</speed>
+      <explosionRadius>6.9</explosionRadius >
+      <damageDef>Bomb</damageDef>
+      <explosionDelay>0</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+</Defs>

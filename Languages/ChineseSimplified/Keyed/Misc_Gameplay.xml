@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annely.StoredEvolutionPoints>储存的进化点数: {0}</Annely.StoredEvolutionPoints>
+  <Annely.Mimicry>拟态</Annely.Mimicry>
+  <Annely.NotEnoughEPs>这个角色没有足够的EPs</Annely.NotEnoughEPs>
+  <Annely.MaxBilePoints>这个角色的{0}体液强化已经达到最大值</Annely.MaxBilePoints>
+  <Annely.NoBilePoints>这个角色没有可分配的{0}体液强化</Annely.NoBilePoints>
+  <Annely.Red>红</Annely.Red>
+  <Annely.Blue>蓝</Annely.Blue>
+  <Annely.Green>绿</Annely.Green>
+  <Annely.EPs>EPs</Annely.EPs>
+  <Annely.HealTooltip>花费{0}进化点数来消除所有负面影响</Annely.HealTooltip>
+  <Annely.PlusSignTooltip>转化 {0} EPs 来获取 1 点 {1}体液强化</Annely.PlusSignTooltip>
+  <Annely.MinusSignTooltip>转化 1 点 {0}体液强化 为 {1} EPs</Annely.MinusSignTooltip>
+  <Annely.BodyPartIsMissing>肢体目前暂时缺失.</Annely.BodyPartIsMissing>
+  <Annely.InjectEPs>注入EPs</Annely.InjectEPs>
+  <Annely.InjectEPsCount>注入{0}: {{0}}x</Annely.InjectEPsCount>
+  <Annely.GainEPs>获取EPs</Annely.GainEPs>
+  <Annely.GainEPsCount>获取{0}: {{0}}x </Annely.GainEPsCount>
+  <Annely.Assimilate>同化</Annely.Assimilate>
+  <Annely.AssimilateDesc>同化一具类人生物尸体来获取营养和EPs.</Annely.AssimilateDesc>
+  <Annely.Infest>侵染</Annely.Infest>
+  <Annely.InfestDesc>侵染一个类人生物. 目标有15%的概率被转化为安娜缇娅斯, 85%的概率被彻底吞噬.</Annely.InfestDesc>
+  <Annely.CannotInfestTooLowFoodLevel>这个角色没有足够的饱食度来释放技能.</Annely.CannotInfestTooLowFoodLevel>
+  <Annely.PlaySong>播放音乐: {0}</Annely.PlaySong>
+  <Annely.PlaySongDesc>播放选择的音乐.</Annely.PlaySongDesc>
+  <Annely.StopSong>停止音乐</Annely.StopSong>
+  <Annely.StopSongDesc>停止当前音乐.</Annely.StopSongDesc>
+  <Annely.SelectSong>选择音乐</Annely.SelectSong>
+  <Annely.SelectSongDesc>选择音乐来准备播放.</Annely.SelectSongDesc>
+
+</LanguageData>

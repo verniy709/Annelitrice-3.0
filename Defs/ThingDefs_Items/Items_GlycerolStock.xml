@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- <ThingDef ParentName="MealBase">
+    <defName>Anneli_GlycerolStock</defName>
+    <label>Annelitrice glycerol stock</label>
+    <description>A bottle of suspicious liquid more efficient and nastier than nutrient paste meals. Artificial flavouring agents cannot mask its unpleasant flavors. Annelitrices won't mind it at all, as they grow up in it.</description>
+    <graphicData>
+      <texPath>Anneli_Items/GlycerolStock</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Nutrition>0.4</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <preferability>MealAwful</preferability>
+      <ateEvent>DrinkGlycerolStock</ateEvent>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart> 
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+  	<defName>Anneli_MakeGlycerolStock</defName>
+    <label>make Annelitrice glycerol stock</label>
+    <description>Consume a cropse.</description>
+    <jobString>Making Annelitrice glycerol stock.</jobString>
+    <workAmount>1000</workAmount>
+    <researchPrerequisite>Anneli_GlycerolStock</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    <workSkill>Intellectual</workSkill>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+        <li>CorpsesAnimal</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+  </RecipeDef> -->
+
+</Defs>

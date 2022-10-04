@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Front_MShape_A.label>Front_MShape_A</Front_MShape_A.label>
+  <Front_MShape_B.label>Front_MShape_B</Front_MShape_B.label>
+  <Front_MShape_C.label>Front_MShape_C</Front_MShape_C.label>
+  <Front_MShape_D.label>Front_MShape_D</Front_MShape_D.label>
+  <Front_MShape_E.label>Front_MShape_E</Front_MShape_E.label>
+  <Front_MShape_F.label>Front_MShape_F</Front_MShape_F.label>
+  <Front_MShape_G.label>Front_MShape_G</Front_MShape_G.label>
+  <Front_MShape_H.label>Front_MShape_H</Front_MShape_H.label>
+  <Front_MShape_I.label>Front_MShape_I</Front_MShape_I.label>
+  <Front_MShape_J.label>Front_MShape_J</Front_MShape_J.label>
+  <Front_MShape_K.label>Front_MShape_K</Front_MShape_K.label>
+  <Front_Curtain_A.label>Front_Curtain_A</Front_Curtain_A.label>
+  <Front_Curtain_B.label>Front_Curtain_B</Front_Curtain_B.label>
+  <Front_Curtain_C.label>Front_Curtain_C</Front_Curtain_C.label>
+  <Front_Straight_A.label>Front_Straight_A</Front_Straight_A.label>
+  <Front_Straight_B.label>Front_Straight_B</Front_Straight_B.label>
+  <Front_Straight_C.label>Front_Straight_C</Front_Straight_C.label>
+  <Front_SideSwept_A.label>Front_SideSwept_A</Front_SideSwept_A.label>
+  <Front_SideSwept_B.label>Front_SideSwept_B</Front_SideSwept_B.label>
+  <Front_SideSwept_C.label>Front_SideSwept_C</Front_SideSwept_C.label>
+  <Front_SideSwept_D.label>Front_SideSwept_D</Front_SideSwept_D.label>
+  <Front_SideSwept_E.label>Front_SideSwept_E</Front_SideSwept_E.label>
+  <Front_SideSwept_F.label>Front_SideSwept_F</Front_SideSwept_F.label>
+
+
+  <!-- <HairDef>
+		<defName>Anneli_Hair_0</defName>
+		<label>Anneli_Hair_0</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Hair_0</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef> -->
+  <!--<Anneli_Hair_1.label>Anneli_Hair_1</Anneli_Hair_1.label>-->
+  <!--<Anneli_Hair_2.label>Anneli_Hair_2</Anneli_Hair_2.label>-->
+  <!--<Anneli_Hair_3.label>Anneli_Hair_3</Anneli_Hair_3.label>-->
+  <!--<Anneli_Hair_4.label>Anneli_Hair_4</Anneli_Hair_4.label>-->
+  <!--<Anneli_Hair_5.label>Anneli_Hair_5</Anneli_Hair_5.label>-->
+  <!--<Anneli_Hair_6.label>Anneli_Hair_6</Anneli_Hair_6.label>-->
+  <!--<Anneli_Hair_7.label>Anneli_Hair_7</Anneli_Hair_7.label>-->
+  <!--<Anneli_Hair_8.label>Anneli_Hair_8</Anneli_Hair_8.label>-->
+  <!--<Anneli_Hair_9.label>Anneli_Hair_9</Anneli_Hair_9.label>-->
+  <!--<Anneli_Hair_10.label>Anneli_Hair_10</Anneli_Hair_10.label>-->
+  <!--<Anneli_Hair_11.label>Anneli_Hair_11</Anneli_Hair_11.label>-->
+  <!--<Anneli_Hair_12.label>Anneli_Hair_12</Anneli_Hair_12.label>-->
+  <!--<Anneli_Hair_CosplayA_Agir_A.label>Anneli_Hair_CosplayA_Agir_A</Anneli_Hair_CosplayA_Agir_A.label>-->
+  <!--<Anneli_Hair_CosplayA_Agir_B.label>Anneli_Hair_CosplayA_Agir_B</Anneli_Hair_CosplayA_Agir_B.label>-->
+  <!--<Anneli_Hair_CosplayA_Murmansk.label>Anneli_Hair_CosplayA_Murmansk</Anneli_Hair_CosplayA_Murmansk.label>-->
+  <!--<Anneli_Hair_CosplayA_Sirius.label>Anneli_Hair_CosplayA_Sirius</Anneli_Hair_CosplayA_Sirius.label>-->
+  <!--<Anneli_Hair_CosplayA_Azusa.label>Anneli_Hair_CosplayA_Azusa</Anneli_Hair_CosplayA_Azusa.label>-->
+  <!--<Anneli_Hair_CosplayA_Haruna.label>Anneli_Hair_CosplayA_Haruna</Anneli_Hair_CosplayA_Haruna.label>-->
+  <!--<Anneli_Hair_CosplayA_Shiroko_A.label>Anneli_Hair_CosplayA_Shiroko_A</Anneli_Hair_CosplayA_Shiroko_A.label>-->
+  <!--<Anneli_Hair_CosplayA_Shiroko_B.label>Anneli_Hair_CosplayA_Shiroko_B</Anneli_Hair_CosplayA_Shiroko_B.label>-->
+  <!--<Anneli_Hair_CosplayA_Eula.label>Anneli_Hair_CosplayA_Eula</Anneli_Hair_CosplayA_Eula.label>-->
+  <!--<Anneli_Hair_CosplayA_Keqing.label>Anneli_Hair_CosplayA_Keqing</Anneli_Hair_CosplayA_Keqing.label>-->
+  <!--<Anneli_Hair_CosplayA_Lumine.label>Anneli_Hair_CosplayA_Lumine</Anneli_Hair_CosplayA_Lumine.label>-->
+
+</LanguageData>

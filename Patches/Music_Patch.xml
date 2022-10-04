@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+      <mods><li>Annelitrice 2.0</li></mods>
+      <match Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="Anneli_Gakuen_WALKWOMAN"]/comps/li[@Class="Annelitrice.CompProperties_PlayMusic"]/soundDefs</xpath>        
+        <value>
+        	<li>Anneli_Sound_SampleSongWalkwomanA</li>
+			    <li>Anneli_Sound_SampleSongWalkwomanB</li>
+        </value>
+      </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+      <mods><li>Annelitrice 2.0</li></mods>
+      <match Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="Anneli_Jurnizia_Guitar"]/comps/li[@Class="Annelitrice.CompProperties_PlayMusic"]/soundDefs</xpath>        
+        <value>
+        	<li>Anneli_Sound_SampleSongGuitarA</li>
+			    <li>Anneli_Sound_SampleSongGuitarB</li>
+        </value>
+      </match>
+    </Operation>
+
+
+</Patch>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HistoryEventDef>
+    <defName>DrinkNutrientSolution</defName>
+    <label>drink nutrient solution</label>
+  </HistoryEventDef>
+
+  <IssueDef>
+    <defName>NutrientSolutionDrinking</defName>
+    <label>nutrient solution drinking</label>
+    <iconPath>Anneli_UI/NutrientSolution_Icon</iconPath>
+  </IssueDef>
+
+  <PreceptDef>
+    <defName>DrinkNutrientSolution_Disgusting</defName>
+    <issue>NutrientSolutionDrinking</issue>
+    <label>disgusting</label>
+    <description>Nutrient solution is disgusting for non-Annelitrice.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <defaultSelectionWeight>95</defaultSelectionWeight>
+    <classic>true</classic>
+    <comps>
+      <li Class="PreceptComp_SelfTookMemoryThought">
+        <eventDef>DrinkNutrientSolution</eventDef>
+        <thought>OthersDrinkNutrientSolution</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+  <PreceptDef>
+    <defName>DrinkNutrientSolution_Acceptable</defName>
+    <issue>NutrientSolutionDrinking</issue>
+    <label>Acceptable</label>
+    <description>Nutrient solution is acceptable for non-Annelitrice.</description>
+    <impact>Low</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <defaultSelectionWeight>5</defaultSelectionWeight>
+    <classic>false</classic>
+  </PreceptDef>
+
+  <ThoughtDef>
+    <defName>OthersDrinkNutrientSolution</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>drink nutrient solution</label>
+        <description>This is terrible. I would rather starve to die.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AnnelitriceDrinkNutrientSolution</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>drink nutrient solution</label>
+        <description>Taste of home.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

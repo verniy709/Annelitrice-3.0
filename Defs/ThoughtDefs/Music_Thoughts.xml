@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>AnnelitriceAudiencesHeardMusic</defName>
+    <durationDays>0.25</durationDays>
+    <stages>
+      <li>
+        <label>heard music</label>
+        <description>Not bad.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>AnnelitricePlayerPlayedMusic</defName>
+    <durationDays>0.25</durationDays>
+    <stages>
+      <li>
+        <label>played music</label>
+        <description>Playing music is really relaxing.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
