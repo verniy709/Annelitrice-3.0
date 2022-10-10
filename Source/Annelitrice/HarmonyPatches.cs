@@ -664,8 +664,8 @@ namespace Annelitrice
         public static HashSet<string> supportedLayers = new HashSet<string>
         {
             "Anneli_UpperShell_Tactical",
-            "Anneli_Weapon"
-        };
+			"Anneli_Misc"
+		};
         public static void Postfix(PawnRenderer __instance, Pawn ___pawn, Apparel apparel, ref bool __result)
         {
             if (!__result)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_8B" ParentName="Anneli_ApparelSpecialBase"  Abstract="True">
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_Misc</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+			
+</Defs>

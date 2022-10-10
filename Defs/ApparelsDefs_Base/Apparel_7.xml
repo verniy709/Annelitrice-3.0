@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="Anneli_7A" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
-		<costStuffCount>50</costStuffCount>
+	<ThingDef Name="Anneli_7" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
-			<li>Metallic</li>
+			<li>Leathery</li>
+			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>500</WorkToMake>
-			<Mass>2</Mass>
+			<WorkToMake>200</WorkToMake>
+			<Mass>0.5</Mass>
 			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
-			<Flammability>0.15</Flammability>
+			<Flammability>0.5</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>12</CarryingCapacity>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
+				<li>Shoulders</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Anneli_Weapon</li>
+				<li>Anneli_Bag</li>
 			</layers>
 		</apparel>
 	</ThingDef>

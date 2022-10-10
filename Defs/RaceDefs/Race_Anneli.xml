@@ -55,12 +55,12 @@
 					<headOffsetDirectional>
 						<north>(0.0, 0.118)</north>
 						<south>(0.0, 0.118)</south>
-						<east>(-0.028, 0.121)</east>
-						<west>(0.028, 0.121)</west>
+						<east>(-0.027, 0.121)</east>
+						<west>(0.027, 0.121)</west>
 					</headOffsetDirectional>
-					<customDrawSize>(0.945, 0.99)</customDrawSize>
+					<customDrawSize>(0.940, 0.99)</customDrawSize>
 					<customHeadDrawSize>(0.78, 0.795)</customHeadDrawSize>
-					<customPortraitDrawSize>(0.945, 0.99)</customPortraitDrawSize>
+					<customPortraitDrawSize>(0.940, 0.99)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.78, 0.795)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>

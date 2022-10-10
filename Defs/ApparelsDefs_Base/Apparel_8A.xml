@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="Anneli_9" ParentName="Anneli_ApparelSpecialBase"  Abstract="True">
+	<ThingDef Name="Anneli_8A" ParentName="Anneli_ApparelSpecialBase"  Abstract="True">
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>

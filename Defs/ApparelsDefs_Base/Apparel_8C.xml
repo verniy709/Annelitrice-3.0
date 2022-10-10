@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_8C" ParentName="Anneli_ApparelSpecialBase"  Abstract="True">
+		<techLevel>Medieval</techLevel>
+        <smeltable>true</smeltable>
+        <burnableByRecipe>true</burnableByRecipe>
+        <weaponClasses>
+            <li>Melee</li>
+        </weaponClasses>
+        <thingCategories>
+            <li>Category_Annelitrice_Ahmislan</li>
+        </thingCategories>
+        <thingClass>VFECore.Apparel_Shield</thingClass>
+        <recipeMaker>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+        </recipeMaker>
+        <apparel>
+            <bodyPartGroups>
+                <li>LeftHand</li>
+            </bodyPartGroups>
+            <layers>
+                <li>VFEC_OuterShell</li>
+            </layers>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamaged>false</careIfDamaged>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+        </apparel>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtWeaponMelee</nameMaker>
+                <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+                <minQualityForArtistic>Excellent</minQualityForArtistic>
+            </li>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+			
+</Defs>
