@@ -18,7 +18,7 @@
 		</statBases>
 		<apparel>
 			<shellCoversHead>false</shellCoversHead>
-			<shellRenderedBehindHead>true</shellRenderedBehindHead><!--Shell layer visual glitch-->
+			<shellRenderedBehindHead>true</shellRenderedBehindHead>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>

@@ -5,7 +5,7 @@
 
 	<Operation Class="PatchOperationFindMod">
         <mods>
-				<li>Annelitrice 2.0</li>
+				<li>Annelitrice 3.0</li>
 		</mods>
         <match Class="PatchOperationAdd">
             <success>Always</success>

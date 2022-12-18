@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_5AB" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>10</ComfyTemperatureMax>
+			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_UpperShell_Tactical</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+
+</Defs>
