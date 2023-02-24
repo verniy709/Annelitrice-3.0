@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annely.StoredEvolutionPoints>Накопленные очки эволюции： {0}</Annely.StoredEvolutionPoints>
+  <Annely.Mimicry>Мимикрия</Annely.Mimicry>
+  <Annely.NotEnoughEPs>У этого персонажа недостаточно EPs</Annely.NotEnoughEPs>
+  <Annely.MaxBilePoints>Значение усиления желчи {0} для этой пешки уже достигло своего максимального значения.</Annely.MaxBilePoints>
+  <Annely.NoBilePoints>Нет никакого значения усиления желчи {0}, которое можно было бы присвоить этой пешке.</Annely.NoBilePoints>
+  <Annely.Red>Красный</Annely.Red>
+  <Annely.Blue>Голубой</Annely.Blue>
+  <Annely.Green>Зеленый</Annely.Green>
+  <Annely.EPs>Энергия</Annely.EPs>
+  <Annely.HealTooltip>Расходуйте очки эволюции (EPs){0} для лечения всех болезней и травм</Annely.HealTooltip>
+  <Annely.PlusSignTooltip>Преобразуйте {0} EPs в 1 очко {1} значение усиления желчи. Красный: HP объекта +12,5% Зеленый: скорость передвижения +5%, скорость регенерации +5% Синий: Сознание +3,5%, ментальная чувствительность +5%</Annely.PlusSignTooltip>
+  <Annely.MinusSignTooltip>Преобразуйте 1 балл {0} значения увеличения желчи в {1}EPs</Annely.MinusSignTooltip>
+  <Annely.BodyPartIsMissing>В настоящее время часть тела отсутствует.</Annely.BodyPartIsMissing>
+  <Annely.InjectEPs>Инъекции EPs</Annely.InjectEPs>
+  <Annely.InjectEPsCount>Вводить{0}: {{0}}x</Annely.InjectEPsCount>
+  <Annely.GainEPs>Получить EPs</Annely.GainEPs>
+  <Annely.GainEPsCount>Получить{0}: {{0}}x </Annely.GainEPsCount>
+  <Annely.Assimilate>Ассимилировать</Annely.Assimilate>
+  <Annely.AssimilateDesc>Ассимилируйте труп гуманоида, чтобы получить питательные вещества и EPs.</Annely.AssimilateDesc>
+  <Annely.Infest>Паразитизм</Annely.Infest>
+  <Annely.InfestDesc>Введение паразита прямо гуманоидное существо. Существует 15% вероятность того, что цель превратится в Дренею, и существует 85% вероятность того, что она будет полностью поглощена.</Annely.InfestDesc>
+  <Annely.CannotInfestTooLowFoodLevel>Этому персонажу не хватает сытости, чтобы высвободить навыки.</Annely.CannotInfestTooLowFoodLevel>
+  <Annely.PlaySong>Воспроизведение музыки: {0}</Annely.PlaySong>
+  <Annely.PlaySongDesc>Воспроизведение выбранной музыки.</Annely.PlaySongDesc>
+  <Annely.StopSong>Остановите музыку</Annely.StopSong>
+  <Annely.StopSongDesc>Остановить текущую музыку.</Annely.StopSongDesc>
+  <Annely.SelectSong>Выберите музыку</Annely.SelectSong>
+  <Annely.SelectSongDesc>Выберите музыку для подготовки к воспроизведению.</Annely.SelectSongDesc>
+
+</LanguageData>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Body.label>Дренея</Anneli_Body.label>
+  <Anneli_Body.corePart.parts.6.customLabel>Левое легкое</Anneli_Body.corePart.parts.6.customLabel>
+  <Anneli_Body.corePart.parts.7.customLabel>Правое легкое</Anneli_Body.corePart.parts.7.customLabel>
+  <Anneli_Body.corePart.parts.8.customLabel>Левая почка</Anneli_Body.corePart.parts.8.customLabel>
+  <Anneli_Body.corePart.parts.9.customLabel>Правая почка</Anneli_Body.corePart.parts.9.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.1.customLabel>Левый глаз</Anneli_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.2.customLabel>Правый глаз</Anneli_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.3.customLabel>Левое ухо</Anneli_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.11.parts.0.parts.4.customLabel>Правое ухо</Anneli_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.12.customLabel>Левое плечо</Anneli_Body.corePart.parts.12.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.0.customLabel>Левая ключица</Anneli_Body.corePart.parts.12.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.customLabel>Левая рука</Anneli_Body.corePart.parts.12.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.0.customLabel>Левая плечевая кость</Anneli_Body.corePart.parts.12.parts.1.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.1.customLabel>Левый лучевая кость</Anneli_Body.corePart.parts.12.parts.1.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.customLabel>Левая рука</Anneli_Body.corePart.parts.12.parts.1.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>Левый мизинец</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>Безымянный палец левой руки</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>Средний палец левой руки</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>Указательный палец левой руки</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>Большой палец левой руки</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.13.customLabel>Правое плечо</Anneli_Body.corePart.parts.13.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.0.customLabel>Правая ключица</Anneli_Body.corePart.parts.13.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.customLabel>Правая рука</Anneli_Body.corePart.parts.13.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.0.customLabel>Правая плечевая кость</Anneli_Body.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.1.customLabel>Правая лучевая кость</Anneli_Body.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.customLabel>Правая рука</Anneli_Body.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>Правый мизинец</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>Безымянный палец правой руки</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>Средний палец правой руки</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>Указательный палец правой руки</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>Большой палец правой руки</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.15.customLabel>Левая нога</Anneli_Body.corePart.parts.15.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.0.customLabel>Левое бедро</Anneli_Body.corePart.parts.15.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.1.customLabel>Левая большеберцовая кость</Anneli_Body.corePart.parts.15.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.customLabel>Левая нога</Anneli_Body.corePart.parts.15.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.0.customLabel>Мизинец левой ноги</Anneli_Body.corePart.parts.15.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.1.customLabel>Нижний палец левой ноги</Anneli_Body.corePart.parts.15.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.2.customLabel>Средний палец левой ноги</Anneli_Body.corePart.parts.15.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.3.customLabel>Второй палец левой ноги</Anneli_Body.corePart.parts.15.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.15.parts.2.parts.4.customLabel>Большой палец левой ноги</Anneli_Body.corePart.parts.15.parts.2.parts.4.customLabel>
+  <Anneli_Body.corePart.parts.16.customLabel>Правая нога</Anneli_Body.corePart.parts.16.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.0.customLabel>Правая бедренная кость</Anneli_Body.corePart.parts.16.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.1.customLabel>Правая большеберцовая кость</Anneli_Body.corePart.parts.16.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.customLabel>Правая нога</Anneli_Body.corePart.parts.16.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.0.customLabel>Мизинец правой ноги</Anneli_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.1.customLabel>Нижний палец правой ноги</Anneli_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.2.customLabel>Средний палец правой ноги</Anneli_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.3.customLabel>Второй палец правой ноги</Anneli_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Anneli_Body.corePart.parts.16.parts.2.parts.4.customLabel>Большой палец правой ноги</Anneli_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

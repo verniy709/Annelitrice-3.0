@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annely_Regeneration.label>Регенерация</Annely_Regeneration.label>
+  <Annely_Regeneration.description>Регенерация.</Annely_Regeneration.description>
+  <Annely_Regeneration.comps.0.labelTendedWell>Перевязанный</Annely_Regeneration.comps.0.labelTendedWell>
+  <Annely_Regeneration.comps.0.labelTendedWellInner>Сшитые</Annely_Regeneration.comps.0.labelTendedWellInner>
+  <Annely_Regeneration.comps.0.labelSolidTendedWell>Просто обработан</Annely_Regeneration.comps.0.labelSolidTendedWell>
+  <Annely_Regeneration.injuryProps.destroyedLabel>Разрушенный</Annely_Regeneration.injuryProps.destroyedLabel>
+  <Annely_Regeneration.labelNoun>Возрождение</Annely_Regeneration.labelNoun>
+
+  <Annely_Infection.label>Паразитический</Annely_Infection.label>
+  <Annely_Infection.description>.</Annely_Infection.description>
+  <Annely_Infection.stages.0.label>Рания стадия</Annely_Infection.stages.0.label>
+  <Annely_Infection.stages.1.label>Средне Стадия</Annely_Infection.stages.1.label>
+  <Annely_Infection.stages.2.label>Поздняя стадия</Annely_Infection.stages.2.label>
+  <Annely_Infection.stages.3.label>Заключительный этап</Annely_Infection.stages.3.label>
+  <Annely_Infection.labelNoun>Паразитический</Annely_Infection.labelNoun>
+
+
+</LanguageData>

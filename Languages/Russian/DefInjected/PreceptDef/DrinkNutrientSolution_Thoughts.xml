@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DrinkNutrientSolution_Disgusting.label>Тошнота</DrinkNutrientSolution_Disgusting.label>
+  <DrinkNutrientSolution_Disgusting.description>Не Дренеи будут чувствовать себя плохо, когда пьют питательный раствор.</DrinkNutrientSolution_Disgusting.description>
+
+  <DrinkNutrientSolution_Acceptable.label>Приемлемый</DrinkNutrientSolution_Acceptable.label>
+  <DrinkNutrientSolution_Acceptable.description>Не Дренеи будут чувствовать себя устойчивыми к употреблению питательного раствора.</DrinkNutrientSolution_Acceptable.description>
+
+
+</LanguageData>

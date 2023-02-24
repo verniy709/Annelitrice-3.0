@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Faction_Base.leaderTitle>Лидер</Anneli_Faction_Base.leaderTitle>
+
+  <Anneli_Faction_Player.label>Колония Дренеи</Anneli_Faction_Player.label>
+  <Anneli_Faction_Player.description>Колония, образованная Дренеи.</Anneli_Faction_Player.description>
+  <Anneli_Faction_Player.pawnsPlural>Дренеи</Anneli_Faction_Player.pawnsPlural>
+  <Anneli_Faction_Player.leaderTitle>Дренеи</Anneli_Faction_Player.leaderTitle>
+
+
+</LanguageData>

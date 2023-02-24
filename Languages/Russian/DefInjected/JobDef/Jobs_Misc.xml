@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annely_ResurrectUsingWorm.reportString>Воскресить цель</Annely_ResurrectUsingWorm.reportString>
+  <Annely_GainEPsFromWormIncubator.reportString>Из цель получить EPs</Annely_GainEPsFromWormIncubator.reportString>
+  <Annely_InjectEPsToWormIncubator.reportString>В цель вводить EPs</Annely_InjectEPsToWormIncubator.reportString>
+  <Annely_AssimilateCorpse.reportString>Ассимиляция цель</Annely_AssimilateCorpse.reportString>
+  <Annely_InfestHuman.reportString>Паразитировать цель</Annely_InfestHuman.reportString>
+  <Annely_StandStill.reportString>Ожидание</Annely_StandStill.reportString>
+  <Annely_GrowAppendage.reportString>Рост придатков</Annely_GrowAppendage.reportString>
+
+
+</LanguageData>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef Name="Anneli_FactionBase" Abstract="True">
+		<defName>Anneli_Faction_Base</defName>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<colorSpectrum>
+			<li>(1.0, 1.0, 1.0)</li>
+		</colorSpectrum>
+	  <!-- Disallowed Precepts -->
+		<disallowedPrecepts>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+
+      		<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
+    	</disallowedPrecepts>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>True</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Leader</leaderTitle>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(35,     15)</li>
+				<li>(100,   120)</li>
+				<li>(1000,  500)</li>
+				<li>(2000,  800)</li>
+				<li>(4000, 1000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
+	</FactionDef>
+
+	<FactionDef ParentName="Anneli_FactionBase">
+		<defName>Anneli_Faction_Player</defName>
+		<label>Annelitrice Colony</label>
+		<pawnSingular>Annelitrice</pawnSingular>
+		<pawnsPlural>Annelitrices</pawnsPlural>
+		<description>A colony founded by some Annelitrice survivors.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Anneli_Player</basicMemberKind>
+		<techLevel>Medieval</techLevel>
+		<allowedCultures>
+			<li>Anneli_Cultures_Rustican</li>
+		</allowedCultures>
+		<backstoryCategories>
+			<li>Anneli_Story</li>
+		</backstoryCategories>
+		<settlementTexturePath>Anneli_Factions/Anneli_Player</settlementTexturePath>
+		<factionIconPath>Anneli_Factions/Anneli_Player</factionIconPath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+
+</Defs>

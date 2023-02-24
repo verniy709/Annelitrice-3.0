@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Annelitrice_A.label>Одинокая Дренеи</Annelitrice_A.label>
+  <Annelitrice_A.description>Вы потеряли память и ничего не помните. Хорошая новость в том, что ты все еще живы. Плохая новость заключается в том что вас окружает неизвестность.</Annelitrice_A.description>
+  <Annelitrice_A.scenario.name>Одинокая Дренеи</Annelitrice_A.scenario.name>
+  <Annelitrice_A.scenario.summary>Вы нашли кое-какие припасы.</Annelitrice_A.scenario.summary>
+  <Annelitrice_A.scenario.description>Вы потеряли память и ничего не помните. Хорошая новость в том, что ты все еще живы. Плохая новость заключается в том что вас окружает неизвестность.</Annelitrice_A.scenario.description>
+
+  <Annelitrice_B.label>Бродячая группа</Annelitrice_B.label>
+  <Annelitrice_B.description>У всего есть фантастическое начало, но сейчас у нас едва хватает еды на день.</Annelitrice_B.description>
+  <Annelitrice_B.scenario.name>Бродячая группа</Annelitrice_B.scenario.name>
+  <Annelitrice_B.scenario.summary>Варварам, живущим на этой планете, не хватает уважения к искусству.</Annelitrice_B.scenario.summary>
+  <Annelitrice_B.scenario.description>У всего есть фантастическое начало, но сейчас у нас едва хватает еды на день.</Annelitrice_B.scenario.description>
+
+
+</LanguageData>

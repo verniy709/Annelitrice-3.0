@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--  Annelitrice  -->
+
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+				<li>Annelitrice 2.0</li>
+		</mods>
+        <match Class="PatchOperationAdd">
+            <success>Always</success>
+            <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+            <value>
+				<li>Anneli_Faction_Player</li>
+            </value>
+        </match>
+    </Operation>
+	
+	
+</Patch>

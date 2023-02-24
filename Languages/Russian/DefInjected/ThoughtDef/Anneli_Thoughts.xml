@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnneliPawnWithGoodOpinionDied.stages.0.label>Мой друг {0} мертвый</AnneliPawnWithGoodOpinionDied.stages.0.label>
+  <AnneliPawnWithGoodOpinionDied.stages.0.description>Так одиноко.</AnneliPawnWithGoodOpinionDied.stages.0.description>
+
+  <AnneliPawnWithBadOpinionDied.stages.0.label>Мой противник {0} мертвый</AnneliPawnWithBadOpinionDied.stages.0.label>
+  <AnneliPawnWithBadOpinionDied.stages.0.description>Я наконец-то смогу прожить несколько чистых дней.</AnneliPawnWithBadOpinionDied.stages.0.description>
+
+  <AnneliPawnDied.stages.0.label>Мои родственники {0} мертвый</AnneliPawnDied.stages.0.label>
+  <AnneliPawnDied.stages.0.description>Мы скоро воссоединимся.</AnneliPawnDied.stages.0.description>
+
+  <AnneliMyOrganHarvested.stages.0.label>Удаленные органы</AnneliMyOrganHarvested.stages.0.label>
+  <AnneliMyOrganHarvested.stages.0.description>Это немного больно, эй!</AnneliMyOrganHarvested.stages.0.description>
+
+  <AnneliWasImprisoned.stages.0.label>Заключенный</AnneliWasImprisoned.stages.0.label>
+  <AnneliWasImprisoned.stages.0.description>Что такое слово безопасности?</AnneliWasImprisoned.stages.0.description>
+
+  <AnneliQuestioning.stages.0.label>Колонист {0} Смущенный</AnneliQuestioning.stages.0.label>
+  <AnneliQuestioning.stages.0.description>Это часть сценария??</AnneliQuestioning.stages.0.description>
+
+  <AnneliPawnLost.stages.0.label>Колонист {0} Пропал</AnneliPawnLost.stages.0.label>
+  <AnneliPawnLost.stages.0.description>Они должны скоро вернуться.</AnneliPawnLost.stages.0.description>
+
+
+</LanguageData>

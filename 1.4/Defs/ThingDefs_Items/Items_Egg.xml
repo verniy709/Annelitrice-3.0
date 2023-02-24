@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Anneli_Egg</defName>
+		<label>annelitrice egg</label>
+		<parent>ItemsMisc</parent>
+	</ThingCategoryDef>
+
+	<ThingDef Name="Anneli_Egg" Abstract="True">
+		<thingClass>Annelitrice.Egg</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>false</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<thingCategories>
+			<li>Anneli_Egg</li>
+		</thingCategories>
+		<statBases>
+			<Beauty>-4</Beauty>
+			<Mass>0.03</Mass>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<inspectorTabs>
+			<li>ITab_Pawn_Character</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+		<pathCost>14</pathCost>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Egg">
+		<defName>Anneli_ColonistEgg</defName>
+		<label>colonist Egg</label>
+		<description>An Annelitrice Egg. Once you catch one, it's likely that several more have already escaped.</description>
+		<graphicData>
+			<texPath>Anneli_Items/Egg_Colonist</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="Anneli_Egg">
+		<defName>Anneli_OutsiderEgg</defName>
+		<label>outsider Egg</label>
+		<description>An Annelitrice Egg. Once you catch one, it's likely that several more have already escaped.</description>
+		<graphicData>
+			<texPath>Anneli_Items/Egg</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!-- Anneli_OutsiderEgg -->
+
+	<RecipeDef>
+	<defName>ButcherOutsiderEggs</defName>
+    <label>Butcher Outsider Eggs</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>TableButcher</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>5</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+	<defName>ButcherOutsiderEggs_Spot</defName>
+    <label>Butcher Outsider Eggs</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>ButcherSpot</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>4</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateOutsiderEggs</defName>
+    <label>Cremate Outsider Eggs</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>ElectricCrematorium</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateOutsiderEggs_Spot</defName>
+    <label>Cremate Outsider Eggs</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>Campfire</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_OutsiderEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_OutsiderEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<!-- Anneli_ColonistEgg -->
+
+  <RecipeDef>
+	<defName>ButcherColonistEggs</defName>
+    <label>Butcher Colonist Eggs</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>TableButcher</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_ColonistEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>5</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+	<defName>ButcherColonistEggs_Spot</defName>
+    <label>Butcher Colonist Eggs</label>
+    <description>Crush them.</description>
+    <recipeUsers>
+		<li>ButcherSpot</li>
+	</recipeUsers>
+    <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+    <jobString>Butchering.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <uiIconThing>Anneli_ColonistEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+		<Meat_Megaspider>4</Meat_Megaspider>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateColonistEggs</defName>
+    <label>Cremate Colonist Eggs</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>ElectricCrematorium</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_ColonistEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CremateColonistEggs_Spot</defName>
+    <label>Cremate Colonist Eggs</label>
+    <description>Burn them.</description>
+    <recipeUsers>
+		<li>Campfire</li>
+	</recipeUsers>
+    <jobString>Cremating.</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <uiIconThing>Anneli_ColonistEgg</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Anneli_ColonistEgg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Anneli_ColonistEgg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_OutsiderWorm -->
+
+  <ButcherOutsiderWorms.label>Уничтожение инопланетных паразитов</ButcherOutsiderWorms.label>
+  <ButcherOutsiderWorms.description>Сокруши их.</ButcherOutsiderWorms.description>
+  <ButcherOutsiderWorms.jobString>Забой паразита.</ButcherOutsiderWorms.jobString>
+
+  <ButcherOutsiderWorms_Spot.label>Уничтожение инопланетных паразитов</ButcherOutsiderWorms_Spot.label>
+  <ButcherOutsiderWorms_Spot.description>Сокруши их.</ButcherOutsiderWorms_Spot.description>
+  <ButcherOutsiderWorms_Spot.jobString>Забой паразита.</ButcherOutsiderWorms_Spot.jobString>
+
+  <CremateOutsiderWorms.label>Кремируйте паразитов</CremateOutsiderWorms.label>
+  <CremateOutsiderWorms.description>Сожгите их заживо.</CremateOutsiderWorms.description>
+  <CremateOutsiderWorms.jobString>Кремация паразита.</CremateOutsiderWorms.jobString>
+
+  <CremateOutsiderWorms_Spot.label>Кремируйте паразитов</CremateOutsiderWorms_Spot.label>
+  <CremateOutsiderWorms_Spot.description>Сожгите их заживо.</CremateOutsiderWorms_Spot.description>
+  <CremateOutsiderWorms_Spot.jobString>Кремация паразита.</CremateOutsiderWorms_Spot.jobString>
+
+
+  <!-- Anneli_ColonistWorm -->
+
+  <ButcherColonistWorms.label>Убейте паразита</ButcherColonistWorms.label>
+  <ButcherColonistWorms.description>Сокруши их.</ButcherColonistWorms.description>
+  <ButcherColonistWorms.jobString>Забой паразита.</ButcherColonistWorms.jobString>
+
+  <ButcherColonistWorms_Spot.label>Убейте паразита</ButcherColonistWorms_Spot.label>
+  <ButcherColonistWorms_Spot.description>Сокруши их.</ButcherColonistWorms_Spot.description>
+  <ButcherColonistWorms_Spot.jobString>Забой паразита.</ButcherColonistWorms_Spot.jobString>
+
+  <CremateColonistWorms.label>Кремируйте паразитов</CremateColonistWorms.label>
+  <CremateColonistWorms.description>Сожгите их заживо.</CremateColonistWorms.description>
+  <CremateColonistWorms.jobString>Кремация паразита.</CremateColonistWorms.jobString>
+
+  <CremateColonistWorms_Spot.label>Кремируйте паразита</CremateColonistWorms_Spot.label>
+  <CremateColonistWorms_Spot.description>Сожгите их заживо.</CremateColonistWorms_Spot.description>
+  <CremateColonistWorms_Spot.jobString>Кремация паразита.</CremateColonistWorms_Spot.jobString>
+
+
+</LanguageData>

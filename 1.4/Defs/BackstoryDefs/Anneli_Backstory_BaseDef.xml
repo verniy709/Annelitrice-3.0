@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef Name="Anneli_Backstory_Base" Abstract="True">
+	<forcedTraitsChance>
+		<li>
+			<defName>Bisexual</defName>
+			<chance>99</chance>
+		</li>
+	</forcedTraitsChance>
+	<disallowedTraitsChance>
+		<li>
+			<defName>Beauty</defName>
+			<degree>-1</degree>
+			<chance>100</chance>
+		</li>
+		<li>
+			<defName>Beauty</defName>
+			<degree>-2</degree>
+			<chance>100</chance>
+		</li>
+		<li>
+			<defName>AnnoyingVoice</defName>
+		</li>
+		<li>
+			<defName>CreepyBreathing</defName>
+		</li>
+	</disallowedTraitsChance>
+	<forcedHediffs>
+	</forcedHediffs>  
+
+	<bodyTypeGlobal>Female</bodyTypeGlobal>
+
+</AlienRace.BackstoryDef>
+
+</Defs>

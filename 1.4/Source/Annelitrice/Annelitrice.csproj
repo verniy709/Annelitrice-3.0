@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Annelitrice</RootNamespace>
+    <AssemblyName>Annelitrice</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="AlienRace">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\839005762\1.4\Assemblies\AlienRace.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnnelitriceShieldBelt.cs" />
+    <Compile Include="BaseHairDef.cs" />
+    <Compile Include="CompApparelHediffGiver.cs" />
+    <Compile Include="CompApparelSecialTex.cs" />
+    <Compile Include="CompPlayMusic.cs" />
+    <Compile Include="JobDriver_WatchPuppetShow.cs" />
+    <Compile Include="Hediff_AnnelyInfection.cs" />
+    <Compile Include="HediffComp_GenerateEvolutionPoints.cs" />
+    <Compile Include="AnnelitriceUtils.cs" />
+    <Compile Include="JobDriver_InfestHuman.cs" />
+    <Compile Include="JobDriver_AssimilateCorpse.cs" />
+    <Compile Include="JobDriver_GrowAppendage.cs" />
+    <Compile Include="JobDriver_InjectEPsToWormIncubator.cs" />
+    <Compile Include="JobGiver_GrowAppendages.cs" />
+    <Compile Include="JobDriver_ResurrectUsingWorm.cs" />
+    <Compile Include="UIUtility.cs" />
+    <Compile Include="Textures.cs" />
+    <Compile Include="RaceExtension.cs" />
+    <Compile Include="AnnelitriceDefOf.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="CompTargetable_SingleCorpseOverride.cs" />
+    <Compile Include="ITab_Pawn_Mimicry.cs" />
+    <Compile Include="CompEvolution.cs" />
+    <Compile Include="JobDriver_GainEPsFromWormIncubator.cs" />
+    <Compile Include="HediffExtension.cs" />
+    <Compile Include="WormIncubator.cs" />
+    <Compile Include="Worm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref">
+      <Version>1.4.3525</Version>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony">
+      <Version>2.2.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

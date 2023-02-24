@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ApparelLayerDef>
+    <defName>Anneli_Socks</defName>
+    <label>Anneli_Socks</label>
+    <drawOrder>5</drawOrder>
+  </ApparelLayerDef> -->
+
+  <Anneli_OnSkin.label>Нижнее белье Дренеи</Anneli_OnSkin.label>
+
+
+  <!-- <ApparelLayerDef>
+    <defName>Anneli_Shoes</defName>
+    <label>Anneli_Shoes</label>
+    <drawOrder>105</drawOrder>
+  </ApparelLayerDef> -->
+
+  <Anneli_Middle.label>Одежда Дренеи</Anneli_Middle.label>
+
+
+  <!-- Layer 3 -->
+
+  <Anneli_Shell.label>Верхняя одежда Дренеи</Anneli_Shell.label>
+
+
+  <!-- Layer 4 -->
+
+  <Anneli_UpperShell_Armor.label>Внешняя броня Дренеи</Anneli_UpperShell_Armor.label>
+
+
+  <!-- Layer 5 -->
+
+  <Anneli_UpperShell_Tactical.label>Внешнее тактическое снаряжение Дренеи</Anneli_UpperShell_Tactical.label>
+
+
+  <!-- Layer 7 -->
+
+  <Anneli_Bag.label>Сумка Дренеи</Anneli_Bag.label>
+
+
+  <!-- Layer 8 -->
+
+  <Anneli_Misc.label>Дренеи Разное</Anneli_Misc.label>
+
+
+</LanguageData>

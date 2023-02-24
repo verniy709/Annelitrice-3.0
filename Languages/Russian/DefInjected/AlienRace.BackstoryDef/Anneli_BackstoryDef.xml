@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Childhood -->
+
+  <Anneli_NormalWorm.title>Гражданинка федерации</Anneli_NormalWorm.title>
+  <Anneli_NormalWorm.titleShort>Гражданинка</Anneli_NormalWorm.titleShort>
+  <Anneli_NormalWorm.baseDescription>[PAWN_nameDef]законопослушная гражданинка который за всю жизнь и мухи не обидела.</Anneli_NormalWorm.baseDescription>
+
+  <Anneli_ActiveWorm.title>Спортсменка федерации</Anneli_ActiveWorm.title>
+  <Anneli_ActiveWorm.titleShort>Спортсменка</Anneli_ActiveWorm.titleShort>
+  <Anneli_ActiveWorm.baseDescription>[PAWN_nameDef]активная спортсменка участвующая во всех сореванованиях которые ей попадались.</Anneli_ActiveWorm.baseDescription>
+
+  <Anneli_FriendlyWorm.title>Девственица</Anneli_FriendlyWorm.title>
+  <Anneli_FriendlyWorm.titleShort>Девственица</Anneli_FriendlyWorm.titleShort>
+  <Anneli_FriendlyWorm.baseDescription>[PAWN_nameDef] Хранит себя для лучшего мужчины которого она предстовляет у себя в голове.</Anneli_FriendlyWorm.baseDescription>
+
+  <Anneli_CreativeWorm.title>Творец снов</Anneli_CreativeWorm.title>
+  <Anneli_CreativeWorm.titleShort>Творец</Anneli_CreativeWorm.titleShort>
+  <Anneli_CreativeWorm.baseDescription>[PAWN_nameDef]Ученый который верит что может подчинить и управлять сон.</Anneli_CreativeWorm.baseDescription>
+
+  <Anneli_DiggingWorm.title>Шахтер федерации</Anneli_DiggingWorm.title>
+  <Anneli_DiggingWorm.titleShort>Шахтер</Anneli_DiggingWorm.titleShort>
+  <Anneli_DiggingWorm.baseDescription>[PAWN_nameDef]Работала на планете Иония в шахтах где добывала разную руду для федерации.</Anneli_DiggingWorm.baseDescription>
+
+  <Anneli_FastGrowingWorm.title>Разведчик федерации</Anneli_FastGrowingWorm.title>
+  <Anneli_FastGrowingWorm.titleShort>Разведчик</Anneli_FastGrowingWorm.titleShort>
+  <Anneli_FastGrowingWorm.baseDescription>[PAWN_nameDef]Работая на федерацию собрала очень много секретных даных из-за чего ее решили ликвидировать.</Anneli_FastGrowingWorm.baseDescription>
+
+  <Anneli_BellicoseWorm.title>Военаслужащий федерации</Anneli_BellicoseWorm.title>
+  <Anneli_BellicoseWorm.titleShort>Военаслужащий</Anneli_BellicoseWorm.titleShort>
+  <Anneli_BellicoseWorm.baseDescription>[PAWN_nameDef]Специально обученая боец который поступил на военую службу в федерацию для дольнейшего развития.</Anneli_BellicoseWorm.baseDescription>
+
+  <Anneli_NerdyWorm.title>Библиотекарь</Anneli_NerdyWorm.title>
+  <Anneli_NerdyWorm.titleShort>Библиотекарь</Anneli_NerdyWorm.titleShort>
+  <Anneli_NerdyWorm.baseDescription>[PAWN_nameDef]Очень любит книги.</Anneli_NerdyWorm.baseDescription>
+
+  <Anneli_ShrewdWorm.title>Ученый федерации</Anneli_ShrewdWorm.title>
+  <Anneli_ShrewdWorm.titleShort>Ученый</Anneli_ShrewdWorm.titleShort>
+  <Anneli_ShrewdWorm.baseDescription>[PAWN_nameDef]работая на федерации изучала малекулярное строение секретного вещества.</Anneli_ShrewdWorm.baseDescription>
+
+  <Anneli_ImitatingWorm.title>Местная проститутка</Anneli_ImitatingWorm.title>
+  <Anneli_ImitatingWorm.titleShort>Проститутка</Anneli_ImitatingWorm.titleShort>
+  <Anneli_ImitatingWorm.baseDescription>[PAWN_nameDef]обычная проститка с улицы но очень способная. Может входить в доверие к кому угодно.</Anneli_ImitatingWorm.baseDescription>
+
+  <Anneli_BizarreWorm.title>Страный персонаж</Anneli_BizarreWorm.title>
+  <Anneli_BizarreWorm.titleShort>Странная</Anneli_BizarreWorm.titleShort>
+  <Anneli_BizarreWorm.baseDescription>[PAWN_nameDef]Всегда в в своих собственых мысля и фантазиях.</Anneli_BizarreWorm.baseDescription>
+
+  <Anneli_HoardingWorm.title>Эмоциональный персонаж</Anneli_HoardingWorm.title>
+  <Anneli_HoardingWorm.titleShort>Эмоциональная</Anneli_HoardingWorm.titleShort>
+  <Anneli_HoardingWorm.baseDescription>[PAWN_nameDef]Всегда ко всему относится очень эмоционально очень легко понять ее чувства.</Anneli_HoardingWorm.baseDescription>
+
+  <Anneli_CatWorm.title>Укротитель животных</Anneli_CatWorm.title>
+  <Anneli_CatWorm.titleShort>Укротитель</Anneli_CatWorm.titleShort>
+  <Anneli_CatWorm.baseDescription>[PAWN_nameDef]очень любить животных она с ними на ты. Работая в зоопарке ее очень ценили как сотрудника.</Anneli_CatWorm.baseDescription>
+
+  <Anneli_AutisticWorm.title>Замкнутая личность</Anneli_AutisticWorm.title>
+  <Anneli_AutisticWorm.titleShort>Замкнутый</Anneli_AutisticWorm.titleShort>
+  <Anneli_AutisticWorm.baseDescription>[PAWN_nameDef]Не любит общаться с людьми лицом к лицо ее жизнь это глобальная сеть где она может все.</Anneli_AutisticWorm.baseDescription>
+
+
+</LanguageData>

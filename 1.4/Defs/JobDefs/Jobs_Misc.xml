@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<JobDef>
+		<defName>Anneli_ResurrectUsingEgg</defName>
+		<driverClass>Annelitrice.JobDriver_ResurrectUsingEgg</driverClass>
+		<reportString>Resurrecting TargetA</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<!-- <JobDef>
+		<defName>Anneli_GainEPsFromEggIncubator</defName>
+		<driverClass>Annelitrice.JobDriver_GainEPsFromEggIncubator</driverClass>
+		<reportString>Gaining EPs from TargetA</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef> -->
+
+	<!-- <JobDef>
+		<defName>Anneli_InjectEPsToEggIncubator</defName>
+		<driverClass>Annelitrice.JobDriver_InjectEPsToEggIncubator</driverClass>
+		<reportString>Injecting EPs to TargetA</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef> -->
+
+	<!-- <JobDef>
+		<defName>Anneli_AssimilateCorpse</defName>
+		<driverClass>Annelitrice.JobDriver_AssimilateCorpse</driverClass>
+		<reportString>Assimilating TargetA</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef> -->
+
+	<JobDef>
+		<defName>Anneli_InfestHuman</defName>
+		<driverClass>Annelitrice.JobDriver_InfestHuman</driverClass>
+		<reportString>Infesting TargetA</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>Anneli_StandStill</defName>
+		<driverClass>Annelitrice.JobDriver_StandSilentlyFaceTarget</driverClass>
+		<reportString>standing</reportString>
+		<casualInterruptible>false</casualInterruptible>
+		<playerInterruptible>false</playerInterruptible>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+	<!-- <JobDef>
+		<defName>Anneli_GrowAppendage</defName>
+		<driverClass>Annelitrice.JobDriver_GrowAppendage</driverClass>
+		<reportString>Growing appendage</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef> -->
+
+	<!-- <ThinkTreeDef>
+		<defName>Anneli_GrowAppendage</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>99</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="Annelitrice.ThinkNode_ConditionalHasCompEvolution">
+					<subNodes>
+						<li Class="Annelitrice.JobGiver_GrowAppendages"/>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef> -->
+</Defs>
