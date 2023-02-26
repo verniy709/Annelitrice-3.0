@@ -42,9 +42,9 @@
 							<east>(0, 0)</east>
 							<west>(0, 0)</west>
 						</headOffsetDirectional>
-						<customDrawSize>(1, 1)</customDrawSize>
+						<customDrawSize>(0.7, 0.7)</customDrawSize>
 						<customHeadDrawSize>(1, 1)</customHeadDrawSize>
-						<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+						<customPortraitDrawSize>(0.7, 0.7)</customPortraitDrawSize>
 						<customPortraitHeadDrawSize>(1, 1)</customPortraitHeadDrawSize>
 						<colorChannels>
 							<li>
@@ -350,6 +350,26 @@
 					</replacerList>
 				</thoughtSettings>
 				<raceRestriction>
+					<blackGeneTags>
+						<li>HairStyle</li>
+						<li>Fur</li>
+						<li>BeardStyle</li>
+						<li>EyeColor</li>
+						<li>Tail</li>
+						<li>SkinColorOverride</li>
+						<li>Beauty</li>
+					</blackGeneTags>
+					<blackEndoCategories>
+						<li>HairColor</li>
+						<li>BodyType</li>
+						<li>Melanin</li>
+						<li>Head</li>
+						<li>Ears</li>
+						<li>Nose</li>
+						<li>Jaw</li>
+						<li>Hands</li>
+						<li>Headbone</li>
+					</blackEndoCategories>
 					<apparelList>	
 					</apparelList>
 					<whiteApparelList>
@@ -380,7 +400,7 @@
 				<NegotiationAbility>1.2</NegotiationAbility>
 				<SellPriceFactor>1.2</SellPriceFactor> 
 				<EatingSpeed>1.6</EatingSpeed>
-				<PawnBeauty>2</PawnBeauty>
+				<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 			</statBases>
 			<tools>
 				<li>
@@ -413,7 +433,7 @@
 				<lifeExpectancy>5000</lifeExpectancy>
 				<fleshType>Anneli_Flesh</fleshType>
 				<body>BeetleLikeWithClaw</body>
-				<baseBodySize>0.2</baseBodySize>
+				<baseBodySize>1.0</baseBodySize>
 				<baseHealthScale>0.5</baseHealthScale>
 				<foodType>OmnivoreHuman</foodType>
 				<litterSizeCurve>
@@ -456,7 +476,7 @@
 				<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 				<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 				<specialShadowData>
-					<volume>(0.3, 0.3, 0.3)</volume>
+					<volume>(0.2, 0.2, 0.6)</volume>
 					<offset>(0,0,-0.3)</offset>
 				</specialShadowData>
 				<ageGenerationCurve>
@@ -465,9 +485,9 @@
 						<li>(16,100)</li>
 						<li>(35,100)</li>
 						<li>(50,30)</li>
-						<li>(120,18)</li>
+						<li>(100,18)</li>
 						<li>(200,5)</li>
-						<li>(500,0)</li>
+						<li>(1000,0)</li>
 					</points>
 				</ageGenerationCurve>
 				<hediffGiverSets>

@@ -21,13 +21,12 @@
     </injuryProps>
   </HediffDef>
 
-
   <HediffDef ParentName="DiseaseBase">
     <defName>Anneli_Infection</defName>
     <label>infestation</label>
     <labelNoun>infestation</labelNoun>
     <hediffClass>HediffWithComps</hediffClass>
-    <description>Amidst the vast expanse of the universe, I am attuned to the gentle melody that reverberates through its infinite expanse. Though my mortal form may be withering away, I am not overwhelmed by sorrow.\n\nTranslation: the patient is a host of Annelitrice.</description>
+    <description>The patient is infected with annelitrice larvae, which are parasitic worms. As a result of the infection, the patient is producing 2-5 eggs per day.</description>
     <makesSickThought>true</makesSickThought>
     <tendable>true</tendable>
     <minSeverity>0.001</minSeverity>
@@ -38,14 +37,14 @@
         <becomeVisible>true</becomeVisible>
         <vomitMtbDays>4.0</vomitMtbDays>
         <painOffset>0.02</painOffset>
-        <hungerRateFactorOffset>1</hungerRateFactorOffset>
+        <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
       </li>
       <li>
         <label>Middle-stage</label>
         <minSeverity>0.333</minSeverity>
         <vomitMtbDays>3.5</vomitMtbDays>
         <painOffset>0.02</painOffset>
-        <hungerRateFactorOffset>0.7</hungerRateFactorOffset>
+        <hungerRateFactorOffset>0.4</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -58,7 +57,7 @@
         <minSeverity>0.666</minSeverity>
         <vomitMtbDays>2.5</vomitMtbDays>
         <painOffset>0.02</painOffset>
-        <hungerRateFactorOffset>0.4</hungerRateFactorOffset>
+        <hungerRateFactorOffset>0.7</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -71,7 +70,7 @@
         <minSeverity>0.90</minSeverity>
         <vomitMtbDays>1.5</vomitMtbDays>
         <painOffset>0.02</painOffset>
-        <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+        <hungerRateFactorOffset>1.0</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Moving</capacity>
@@ -93,16 +92,16 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>CureAnneli_Infection</defName>
-    <label>cure anneli infection</label>
-    <description>This smedical operation cures anneli infection.</description>
+    <label>cure annelitrice infection</label>
+    <description>This smedical operation cures annelitrice infection.</description>
     <workerClass>Recipe_RemoveHediff</workerClass>
-    <jobString>Curing Anneli_Infection.</jobString>
+    <jobString>Curing annelitrice infection.</jobString>
     <workAmount>1000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>false</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <removesHediff>Anneli_Infection</removesHediff>
-    <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s anneli infection.</successfullyRemovedHediffMessage>
+    <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s annelitrice infection.</successfullyRemovedHediffMessage>
     <skillRequirements>
       <Medicine>5</Medicine>
     </skillRequirements>
@@ -122,6 +121,20 @@
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
+
+  <HediffDef>
+    <defName>Anneli_Pupation</defName>
+    <label>annelitrice pupation</label>
+    <description>Ecdysone is a special hormone that helps insects grow and change. It's made by a special gland in response to different signals from its surroundings. Basically, if you give the larvae food, they'll turn into pupae.</description>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
 </Defs>
-
-

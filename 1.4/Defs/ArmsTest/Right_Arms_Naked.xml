@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_ArmTest_Right" ParentName="Anneli_ArmTest_ApparelSpecialBase"  Abstract="True">
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>1</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>RightHand</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_Misc</li>
+			</layers>
+			<tags>
+				<li>Anneli_ArmTest</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightA_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmStraightA_Right_Naked</defName>
+		<description>(ArmTest)ArmStraightA_Right_Naked</description>
+		<label>(ArmTest)ArmStraightA_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmStraightA/ArmStraightA_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmStraightA/ArmStraightA_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightB_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmStraightB_Right_Naked</defName>
+		<description>(ArmTest)ArmStraightB_Right_Naked</description>
+		<label>(ArmTest)ArmStraightB_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmStraightB/ArmStraightB_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmStraightB/ArmStraightB_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightC_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmStraightC_Right_Naked</defName>
+		<description>(ArmTest)ArmStraightC_Right_Naked</description>
+		<label>(ArmTest)ArmStraightC_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmStraightC/ArmStraightC_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmStraightC/ArmStraightC_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightD_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmStraightD_Right_Naked</defName>
+		<description>(ArmTest)ArmStraightD_Right_Naked</description>
+		<label>(ArmTest)ArmStraightD_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmStraightD/ArmStraightD_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmStraightD/ArmStraightD_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightE_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmStraightE_Right_Naked</defName>
+		<description>(ArmTest)ArmStraightE_Right_Naked</description>
+		<label>(ArmTest)ArmStraightE_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmStraightE/ArmStraightE_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmStraightE/ArmStraightE_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightF_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmStraightF_Right_Naked</defName>
+		<description>(ArmTest)ArmStraightF_Right_Naked</description>
+		<label>(ArmTest)ArmStraightF_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmStraightF/ArmStraightF_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmStraightF/ArmStraightF_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowA_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandLowA_Right_Naked</defName>
+		<description>(ArmTest)ArmHandLowA_Right_Naked</description>
+		<label>(ArmTest)ArmHandLowA_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandLowA/ArmHandLowA_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandLowA/ArmHandLowA_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowB_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandLowB_Right_Naked</defName>
+		<description>(ArmTest)ArmHandLowB_Right_Naked</description>
+		<label>(ArmTest)ArmHandLowB_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandLowB/ArmHandLowB_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandLowB/ArmHandLowB_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowC_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandLowC_Right_Naked</defName>
+		<description>(ArmTest)ArmHandLowC_Right_Naked</description>
+		<label>(ArmTest)ArmHandLowC_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandLowC/ArmHandLowC_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandLowC/ArmHandLowC_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowD_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandLowD_Right_Naked</defName>
+		<description>(ArmTest)ArmHandLowD_Right_Naked</description>
+		<label>(ArmTest)ArmHandLowD_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandLowD/ArmHandLowD_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandLowD/ArmHandLowD_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowE_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandLowE_Right_Naked</defName>
+		<description>(ArmTest)ArmHandLowE_Right_Naked</description>
+		<label>(ArmTest)ArmHandLowE_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandLowE/ArmHandLowE_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandLowE/ArmHandLowE_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowF_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandLowF_Right_Naked</defName>
+		<description>(ArmTest)ArmHandLowF_Right_Naked</description>
+		<label>(ArmTest)ArmHandLowF_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandLowF/ArmHandLowF_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandLowF/ArmHandLowF_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidA_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandMidA_Right_Naked</defName>
+		<description>(ArmTest)ArmHandMidA_Right_Naked</description>
+		<label>(ArmTest)ArmHandMidA_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandMidA/ArmHandMidA_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandMidA/ArmHandMidA_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidB_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandMidB_Right_Naked</defName>
+		<description>(ArmTest)ArmHandMidB_Right_Naked</description>
+		<label>(ArmTest)ArmHandMidB_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandMidB/ArmHandMidB_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandMidB/ArmHandMidB_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidC_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandMidC_Right_Naked</defName>
+		<description>(ArmTest)ArmHandMidC_Right_Naked</description>
+		<label>(ArmTest)ArmHandMidC_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandMidC/ArmHandMidC_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandMidC/ArmHandMidC_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidD_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandMidD_Right_Naked</defName>
+		<description>(ArmTest)ArmHandMidD_Right_Naked</description>
+		<label>(ArmTest)ArmHandMidD_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandMidD/ArmHandMidD_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandMidD/ArmHandMidD_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidE_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandMidE_Right_Naked</defName>
+		<description>(ArmTest)ArmHandMidE_Right_Naked</description>
+		<label>(ArmTest)ArmHandMidE_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandMidE/ArmHandMidE_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandMidE/ArmHandMidE_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidF_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandMidF_Right_Naked</defName>
+		<description>(ArmTest)ArmHandMidF_Right_Naked</description>
+		<label>(ArmTest)ArmHandMidF_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandMidF/ArmHandMidF_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandMidF/ArmHandMidF_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighA_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandHighA_Right_Naked</defName>
+		<description>(ArmTest)ArmHandHighA_Right_Naked</description>
+		<label>(ArmTest)ArmHandHighA_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandHighA/ArmHandHighA_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandHighA/ArmHandHighA_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighB_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandHighB_Right_Naked</defName>
+		<description>(ArmTest)ArmHandHighB_Right_Naked</description>
+		<label>(ArmTest)ArmHandHighB_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandHighB/ArmHandHighB_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandHighB/ArmHandHighB_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighC_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandHighC_Right_Naked</defName>
+		<description>(ArmTest)ArmHandHighC_Right_Naked</description>
+		<label>(ArmTest)ArmHandHighC_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandHighC/ArmHandHighC_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandHighC/ArmHandHighC_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighD_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandHighD_Right_Naked</defName>
+		<description>(ArmTest)ArmHandHighD_Right_Naked</description>
+		<label>(ArmTest)ArmHandHighD_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandHighD/ArmHandHighD_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandHighD/ArmHandHighD_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighE_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandHighE_Right_Naked</defName>
+		<description>(ArmTest)ArmHandHighE_Right_Naked</description>
+		<label>(ArmTest)ArmHandHighE_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandHighE/ArmHandHighE_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandHighE/ArmHandHighE_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighF_Right_Naked-->
+	<ThingDef ParentName="Anneli_ArmTest_Right">
+		<defName>ArmHandHighF_Right_Naked</defName>
+		<description>(ArmTest)ArmHandHighF_Right_Naked</description>
+		<label>(ArmTest)ArmHandHighF_Right_Naked</label>
+		<graphicData>
+			<texPath>Naked/ArmHandHighF/ArmHandHighF_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Naked/ArmHandHighF/ArmHandHighF_Right</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+</Defs>

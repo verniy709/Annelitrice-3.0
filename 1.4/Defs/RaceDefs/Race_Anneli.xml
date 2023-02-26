@@ -27,54 +27,54 @@
 		<defName>Annelitrice</defName>
 		<label>annelitrice</label>
 		<description>Annelitrice are a highly pathogenic parasitic species that can be found on numerous planets.
-Its life cycle is more complex than that of most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.</description>
-		<alienRace>
-			<generalSettings>
-				<maleGenderProbability>0.00001</maleGenderProbability>
-				<allowHumanBios>true</allowHumanBios>
-				<humanRecipeImport>true</humanRecipeImport>
-				<immuneToXenophobia>false</immuneToXenophobia>
-				<canLayDown>true</canLayDown>
-				<notXenophobistTowards>
-					<li>Human</li>
-				</notXenophobistTowards>
-				<immuneToAge>true</immuneToAge>
-				<maxDamageForSocialfight>2</maxDamageForSocialfight>
-				<lovinIntervalHoursFromAge>
-					<points>
-						<li>(16, 1.5)</li>
-						<li>(500, 2.5)</li>
-						<li>(1500, 4)</li>
-						<li>(3000, 12)</li>
-						<li>(5000, 36)</li>
-					</points>
-				</lovinIntervalHoursFromAge>
-				<alienPartGenerator>
-					<headTypes Inherit="False">
-						<li>Anneli_Head_1</li>
-						<li>Anneli_Head_2</li>
-						<li>Anneli_Head_3</li>
-						<li>Anneli_Head_4</li>
-						<li>Anneli_Head_5</li>
-						<li>Anneli_Head_6</li>
-					</headTypes>
-					<bodyTypes>
-						<li>Female</li>
+			Its life cycle is more complex than that of most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.</description>
+			<alienRace>
+				<generalSettings>
+					<maleGenderProbability>0.00001</maleGenderProbability>
+					<allowHumanBios>true</allowHumanBios>
+					<humanRecipeImport>true</humanRecipeImport>
+					<immuneToXenophobia>false</immuneToXenophobia>
+					<canLayDown>true</canLayDown>
+					<notXenophobistTowards>
+						<li>Human</li>
+					</notXenophobistTowards>
+					<immuneToAge>true</immuneToAge>
+					<maxDamageForSocialfight>2</maxDamageForSocialfight>
+					<lovinIntervalHoursFromAge>
+						<points>
+							<li>(16, 1.5)</li>
+							<li>(500, 2.5)</li>
+							<li>(1500, 4)</li>
+							<li>(3000, 12)</li>
+							<li>(5000, 36)</li>
+						</points>
+					</lovinIntervalHoursFromAge>
+					<alienPartGenerator>
+						<headTypes Inherit="False">
+							<li>Anneli_Head_1</li>
+							<li>Anneli_Head_2</li>
+							<li>Anneli_Head_3</li>
+							<li>Anneli_Head_4</li>
+							<li>Anneli_Head_5</li>
+							<li>Anneli_Head_6</li>
+						</headTypes>
+						<bodyTypes>
+							<li>Female</li>
 						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li> -->
 					</bodyTypes>
 					<atlasScale>4</atlasScale><!--test-->
 					<getsGreyAt>1500</getsGreyAt> 
 					<headOffsetDirectional>
-						<north>(0.0, 0.138)</north>
-						<south>(0.0, 0.138)</south>
-						<east>(-0.039, 0.140)</east>
-						<west>(0.039, 0.140)</west>
+						<north>(0.0, 0.140)</north>
+						<south>(0.0, 0.140)</south>
+						<east>(-0.039, 0.142)</east>
+						<west>(0.039, 0.142)</west>
 					</headOffsetDirectional>
 					<customDrawSize>(0.98, 1.06)</customDrawSize>
-					<customHeadDrawSize>(0.69, 0.69)</customHeadDrawSize>
+					<customHeadDrawSize>(0.71, 0.72)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.98, 1.06)</customPortraitDrawSize>
-					<customPortraitHeadDrawSize>(0.69, 0.69)</customPortraitHeadDrawSize>
+					<customPortraitHeadDrawSize>(0.71, 0.72)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -286,7 +286,7 @@ Its life cycle is more complex than that of most identified species, involving b
 									<layerOffset>-0.254</layerOffset>
 								</north>
 								<east>
-									<layerOffset>-0.329</layerOffset>
+									<layerOffset>-0.328</layerOffset>
 								</east>
 							</offsets>
 						</li>
@@ -296,8 +296,8 @@ Its life cycle is more complex than that of most identified species, involving b
 			<graphicPaths>
 				<body>Anneli_Body/</body>
 				<head>Anneli_Face/</head>
-<!-- 				<skeleton>Anneli_Corpse/Body/Dessicated_Female</skeleton>
-				<skull>Anneli_Corpse/Head/Dessicated_Head</skull> -->
+				<!-- <skeleton>Anneli_Corpse/Body/Dessicated_Female</skeleton> -->
+				<!-- <skull>Anneli_Corpse/Head/Dessicated_Head</skull> -->
 			</graphicPaths>
 			<styleSettings>
 				<li>
@@ -572,81 +572,31 @@ Its life cycle is more complex than that of most identified species, involving b
 				</replacerList>
 			</thoughtSettings>
 			<raceRestriction>
+				<blackGeneTags>
+					<li>HairStyle</li>
+					<li>Fur</li>
+					<li>BeardStyle</li>
+					<li>EyeColor</li>
+					<li>Tail</li>
+					<li>SkinColorOverride</li>
+					<li>Beauty</li>
+				</blackGeneTags>
+				<blackEndoCategories>
+					<li>HairColor</li>
+					<li>BodyType</li>
+					<li>Melanin</li>
+					<li>Head</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Hands</li>
+					<li>Headbone</li>
+				</blackEndoCategories>
 				<apparelList>	
 				</apparelList>
 				<whiteApparelList>
 				</whiteApparelList>
-				<blackApparelList>
-					<!--Disable Core Apparels-->
-					<li>Apparel_CowboyHat</li>
-					<li>Apparel_BowlerHat</li>
-					<li>Apparel_TribalHeaddress</li>
-					<li>Apparel_Tuque</li>
-					<li>Apparel_WarMask</li>
-					<li>Apparel_WarVeil</li>
-					<li>Apparel_SimpleHelmet</li>
-					<li>Apparel_AdvancedHelmet</li>
-					<li>Apparel_PowerArmorHelmet</li>
-					<li>Apparel_HatHood</li>
-					<li>Apparel_TribalA</li>
-					<li>Apparel_Parka</li>
-					<li>Apparel_Pants</li>
-					<li>Apparel_BasicShirt</li>
-					<li>Apparel_CollarShirt</li>
-					<li>Apparel_Duster</li>
-					<li>Apparel_Jacket</li>
-					<li>Apparel_PlateArmor</li>
-					<li>Apparel_FlakVest</li>
-					<li>Apparel_FlakPants</li>
-					<li>Apparel_FlakJacket</li>
-					<li>Apparel_PowerArmor</li>
-					<li>Apparel_ArmorRecon</li>
-					<!--Disable Royalty DLC Apparels-->
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusHelmet</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_EltexSkullcap</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusShirt</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusVest</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PsyfocusRobe</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorReconPrestige</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetReconPrestige</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarinePrestige</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineHelmetPrestige</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphract</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphract</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPrestige</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorHelmetCataphractPrestige</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorLocust</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorMarineGrenadier</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ArmorCataphractPhoenix</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Gunlink</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Corset</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_VestRoyal</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_RobeRoyal</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatLadies</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_HatTop</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Coronet</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Crown</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_CrownStellic</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Cape</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_Beret</li>
-					<!--Disable Ideology DLC Apparels-->
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Headwrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Broadwrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_VisageMask</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Slicecap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Collar</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_AuthorityCap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Tailcap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Shadecone</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Flophat</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_BodyStrap</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Burka</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Robe</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_TortureCrown</li>
-					<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_Blindfold</li>
-				</blackApparelList>
-				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
 			</raceRestriction>
 		</alienRace>
@@ -768,23 +718,13 @@ Its life cycle is more complex than that of most identified species, involving b
 			</specialShadowData>
 			<ageGenerationCurve>
 				<points>
-					<!-- <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(6,86)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(9.5,118)</li> 
-					<li MayRequire="Ludeon.RimWorld.Biotech">(9.51,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(10,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(10.001,122)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(10.999,130)</li>
-					<li>(11,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(11.001,130)</li> -->
-					<li>(12,0)</li>
+					<li>(12,10)</li>
 					<li>(16,100)</li>
 					<li>(35,100)</li>
-					<li>(50,30)</li>
-					<li>(120,18)</li>
+					<li>(50,10)</li>
+					<li>(100,5)</li>
 					<li>(200,5)</li>
-					<li>(500,0)</li>
+					<li>(1000,0)</li>
 				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>

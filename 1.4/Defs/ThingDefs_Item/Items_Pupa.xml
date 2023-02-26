@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>Anneli_Pupa</defName>
+		<label>annelitrice pupa</label>
+		<description>An intermediate developmental stage between the larval and adult stages. Please wait patiently.</description>
+		<graphicData>
+			<texPath>Anneli_Items/Pupa</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>1.30</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>5.0</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Flammability>0.7</Flammability>
+			<Nutrition>1.0</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<stackLimit>1</stackLimit>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>Chicken</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
