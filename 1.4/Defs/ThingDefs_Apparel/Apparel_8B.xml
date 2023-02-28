@@ -3,6 +3,9 @@
 
 	<ThingDef Name="Anneli_8B" ParentName="Anneli_ApparelSpecialBase"  Abstract="True">
 		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
@@ -11,5 +14,5 @@
 			</layers>
 		</apparel>
 	</ThingDef>
-			
+	
 </Defs>

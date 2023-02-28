@@ -71,10 +71,10 @@
 						<east>(-0.039, 0.142)</east>
 						<west>(0.039, 0.142)</west>
 					</headOffsetDirectional>
-					<customDrawSize>(0.98, 1.06)</customDrawSize>
-					<customHeadDrawSize>(0.71, 0.72)</customHeadDrawSize>
-					<customPortraitDrawSize>(0.98, 1.06)</customPortraitDrawSize>
-					<customPortraitHeadDrawSize>(0.71, 0.72)</customPortraitHeadDrawSize>
+					<customDrawSize>(0.98, 1.07)</customDrawSize>
+					<customHeadDrawSize>(0.70, 0.71)</customHeadDrawSize>
+					<customPortraitDrawSize>(0.98, 1.07)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.70, 0.71)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -283,7 +283,7 @@
 									<layerOffset>1</layerOffset>
 								</south>
 								<north>
-									<layerOffset>-0.254</layerOffset>
+									<layerOffset>-0.269</layerOffset>
 								</north>
 								<east>
 									<layerOffset>-0.328</layerOffset>
@@ -714,10 +714,11 @@
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
 				<volume>(0.3, 0.8, 0.4)</volume>
-				<offset>(0,0,-0.3)</offset>
+				<offset>(0,0,-0.8)</offset>
 			</specialShadowData>
 			<ageGenerationCurve>
 				<points>
+					<li>(0,0)</li>
 					<li>(12,10)</li>
 					<li>(16,100)</li>
 					<li>(35,100)</li>
