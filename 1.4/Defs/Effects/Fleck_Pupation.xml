@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+  <EffecterDef>
+    <defName>Anneli_PupationStart</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <moteDef>Mote_ExtinguisherPuff</moteDef>
+        <burstCount>10~15</burstCount>
+        <speed>4.8~8.4</speed>
+        <scale>4~5</scale>
+      </li>
+    </children>
+  </EffecterDef>
+
 	<EffecterDef>
     <defName>Anneli_PupationFinish</defName>
     <children>

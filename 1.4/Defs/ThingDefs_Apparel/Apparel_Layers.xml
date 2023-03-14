@@ -82,5 +82,23 @@
     <label>Anneli_Misc</label>
     <drawOrder>310</drawOrder>
   </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_ArmTestA</defName>
+    <label>Anneli_ArmTestA</label>
+    <drawOrder>400</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_ArmTestB</defName>
+    <label>Anneli_ArmTestB</label>
+    <drawOrder>401</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_ArmTestC</defName>
+    <label>Anneli_ArmTestC</label>
+    <drawOrder>402</drawOrder>
+  </ApparelLayerDef>
   
 </Defs>

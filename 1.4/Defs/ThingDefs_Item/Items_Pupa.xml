@@ -11,14 +11,17 @@
 			<drawSize>1.30</drawSize>
 		</graphicData>
 		<statBases>
+			<Beauty>-4</Beauty>
 			<Mass>5.0</Mass>
 			<MaxHitPoints>200</MaxHitPoints>
-			<DeteriorationRate>2</DeteriorationRate>
+			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0.7</Flammability>
 			<Nutrition>1.0</Nutrition>
 			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
 		</statBases>
 		<stackLimit>1</stackLimit>
+    	<tradeability>None</tradeability>
+    	<scatterableOnMapGen>false</scatterableOnMapGen>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>

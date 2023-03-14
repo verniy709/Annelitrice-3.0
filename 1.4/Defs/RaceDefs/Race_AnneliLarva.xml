@@ -475,19 +475,19 @@
 				<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 				<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 				<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-				<specialShadowData>
+				<!-- <specialShadowData>
 					<volume>(0.2, 0.2, 0.6)</volume>
 					<offset>(0,0,-0.3)</offset>
-				</specialShadowData>
+				</specialShadowData> -->
 				<ageGenerationCurve>
 					<points>
-						<li>(12,0)</li>
-						<li>(16,100)</li>
+						<li>(0,0)</li>
+						<li>(12,5)</li>
+						<li>(16,10)</li>
 						<li>(35,100)</li>
-						<li>(50,30)</li>
-						<li>(100,18)</li>
+						<li>(100,10)</li>
 						<li>(200,5)</li>
-						<li>(1000,0)</li>
+						<li>(2000,0)</li>
 					</points>
 				</ageGenerationCurve>
 				<hediffGiverSets>

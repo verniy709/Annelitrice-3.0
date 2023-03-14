@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="MealBase">
     <defName>Anneli_NutrientSolution</defName>
-    <label>Annelitrice nutrient solution</label>
+    <label>annelitrice nutrient solution</label>
     <description>A bottle of suspicious liquid more efficient and nastier than nutrient paste meals. Artificial flavouring agents cannot mask its unpleasant flavors. Annelitrices won't mind it at all, as they grow up in it.</description>
     <graphicData>
       <texPath>Anneli_Items/NutrientSolution</texPath>
@@ -35,7 +35,7 @@
       </li>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
-        <useLabel>Use growth factor cocktails</useLabel>
+        <useLabel>Use annelitrice nutrient solution</useLabel>
         <useDuration>0</useDuration>
       </li>
       <li Class="CompProperties_Targetable">
@@ -43,8 +43,8 @@
         <fleshCorpsesOnly>true</fleshCorpsesOnly>
         <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
       </li>
-      <li>
-        <compClass>CompTargetEffect_Resurrect</compClass>
+      <li Class="CompProperties_TargetEffectResurrect">
+        <moteDef>Mote_ResurrectFlash</moteDef>
       </li>
     </comps>
   </ThingDef>

@@ -60,223 +60,221 @@
 						</headTypes>
 						<bodyTypes>
 							<li>Female</li>
-						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li> -->
-					</bodyTypes>
-					<atlasScale>4</atlasScale><!--test-->
-					<getsGreyAt>1500</getsGreyAt> 
-					<headOffsetDirectional>
-						<north>(0.0, 0.140)</north>
-						<south>(0.0, 0.140)</south>
-						<east>(-0.039, 0.142)</east>
-						<west>(0.039, 0.142)</west>
-					</headOffsetDirectional>
-					<customDrawSize>(0.98, 1.07)</customDrawSize>
-					<customHeadDrawSize>(0.70, 0.71)</customHeadDrawSize>
-					<customPortraitDrawSize>(0.98, 1.07)</customPortraitDrawSize>
-					<customPortraitHeadDrawSize>(0.70, 0.71)</customPortraitHeadDrawSize>
-					<colorChannels>
-						<li>
-							<name>skin</name>
-							<first Class="ColorGenerator_Options">
-								<options>
-									<li>
-										<weight>2</weight>
-										<only>RGBA(1,0.95,0.95,1)</only>
-									</li>
-									<li>
-										<weight>3</weight>
-										<only>RGBA(1,0.975,0.975,1)</only>
-									</li>
-									<li>
-										<weight>2</weight>
-										<only>RGBA(1,1,1,1)</only>
-									</li>
-									<li>
-										<weight>2</weight>
-										<only>RGBA(1,0.90,0.80,1)</only>
-									</li>
-									<li>
-										<weight>2</weight>
-										<only>RGBA(0.95,0.85,0.75,1)</only>
-									</li>
-								</options>
-							</first>
-						</li>
-						<li>
-							<name>skin</name>
-							<second Class="ColorGenerator_Options">
-								<options>
-									<!--Common-->
-									<li>
-										<weight>10</weight>
-										<only>RGB(170,150,140)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(160,130,140)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(160,120,80)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(180,120,100)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(200,150,90)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(225,200,170)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(255,220,190)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(130,175,210)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(160,195,225)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGB(190,225,255)</only>
-									</li>
+						</bodyTypes>
+						<atlasScale>4</atlasScale><!--test-->
+						<getsGreyAt>500</getsGreyAt> 
+						<headOffsetDirectional>
+							<north>(0.0, 0.143)</north>
+							<south>(0.0, 0.143)</south>
+							<east>(-0.041, 0.146)</east>
+							<west>(0.041, 0.146)</west>
+						</headOffsetDirectional>
+						<customDrawSize>(0.99, 1.08)</customDrawSize>
+						<customHeadDrawSize>(0.69, 0.70)</customHeadDrawSize>
+						<customPortraitDrawSize>(0.99, 1.08)</customPortraitDrawSize>
+						<customPortraitHeadDrawSize>(0.69, 0.70)</customPortraitHeadDrawSize>
+						<colorChannels>
+							<li>
+								<name>skin</name>
+								<first Class="ColorGenerator_Options">
+									<options>
+										<li>
+											<weight>2</weight>
+											<only>RGBA(1,0.95,0.95,1)</only>
+										</li>
+										<li>
+											<weight>3</weight>
+											<only>RGBA(1,0.975,0.975,1)</only>
+										</li>
+										<li>
+											<weight>2</weight>
+											<only>RGBA(1,1,1,1)</only>
+										</li>
+										<li>
+											<weight>2</weight>
+											<only>RGBA(1,0.90,0.80,1)</only>
+										</li>
+										<li>
+											<weight>2</weight>
+											<only>RGBA(0.95,0.85,0.75,1)</only>
+										</li>
+									</options>
+								</first>
+							</li>
+							<li>
+								<name>skin</name>
+								<second Class="ColorGenerator_Options">
+									<options>
+										<!--Common-->
+										<li>
+											<weight>10</weight>
+											<only>RGB(170,150,140)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(160,130,140)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(160,120,80)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(180,120,100)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(200,150,90)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(225,200,170)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(255,220,190)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(130,175,210)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(160,195,225)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGB(190,225,255)</only>
+										</li>
 
-									<!--Rare-->
-									<li>
-										<weight>1</weight>
-										<only>RGBA(255,160,200)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(180,250,150)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(195,255,215)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(225,100,100)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(255,125,130)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(220,210,230)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(155,240,255)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(220,205,255)</only>
-									</li>
-								</options>
-							</second>
-						</li>
-						<li>
-							<name>hair</name>
-							<first Class="ColorGenerator_Options">
-								<options>
-									<!--Common-->
-									<li>
-										<weight>10</weight>
-										<only>RGBA(253,219,186)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(209,210,211)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(255,195,162)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(87,87,90)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(67,65,74)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(218,176,133)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(144,97,71)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(250,240,230)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(229,200,168)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(183,156,123)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(159,154,150)</only>
-									</li>
-									<!--Rare-->
-									<li>
-										<weight>1</weight>
-										<only>RGBA(148,136,159)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(170,85,94)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(187,212,238)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(228,150,156)</only>
-									</li>
-									<li>
-										<weight>1</weight>
-										<only>RGBA(191,194,181)</only>
-									</li>
-								</options>
-							</first>
-						</li>
-					</colorChannels>
-					<bodyAddons>
-						<li> 
-							<path>Anneli_HairBack/Back</path>
-							<bodyPart>Head</bodyPart>
-							<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
-							<inFrontOfBody>false</inFrontOfBody>
-							<colorChannel>hair</colorChannel>
-							<drawSize>1</drawSize>
-							<drawnInBed>true</drawnInBed>
-							<angle>0</angle>
-							<defaultOffset>Center</defaultOffset>
-							<alignWithHead>true</alignWithHead>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<shaderType>Cutout</shaderType>
-							<drawnDesiccated>false</drawnDesiccated>
-							<hiddenUnderApparelTag>
-								<li>Anneli_FullHelmet</li>
-								<li>Anneli_Hood</li>
+										<!--Rare-->
+										<li>
+											<weight>1</weight>
+											<only>RGBA(255,160,200)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(180,250,150)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(195,255,215)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(225,100,100)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(255,125,130)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(220,210,230)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(155,240,255)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(220,205,255)</only>
+										</li>
+									</options>
+								</second>
+							</li>
+							<li>
+								<name>hair</name>
+								<first Class="ColorGenerator_Options">
+									<options>
+										<!--Common-->
+										<li>
+											<weight>10</weight>
+											<only>RGBA(253,219,186)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(209,210,211)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(255,195,162)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(87,87,90)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(67,65,74)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(218,176,133)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(144,97,71)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(250,240,230)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(229,200,168)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(183,156,123)</only>
+										</li>
+										<li>
+											<weight>10</weight>
+											<only>RGBA(159,154,150)</only>
+										</li>
+										<!--Rare-->
+										<li>
+											<weight>1</weight>
+											<only>RGBA(148,136,159)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(170,85,94)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(187,212,238)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(228,150,156)</only>
+										</li>
+										<li>
+											<weight>1</weight>
+											<only>RGBA(191,194,181)</only>
+										</li>
+									</options>
+								</first>
+							</li>
+						</colorChannels>
+						<bodyAddons>
+							<li> 
+								<path>Anneli_HairBack/Back</path>
+								<bodyPart>Head</bodyPart>
+								<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
+								<inFrontOfBody>false</inFrontOfBody>
+								<colorChannel>hair</colorChannel>
+								<drawSize>1</drawSize>
+								<drawnInBed>true</drawnInBed>
+								<angle>0</angle>
+								<defaultOffset>Center</defaultOffset>
+								<alignWithHead>true</alignWithHead>
+								<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+								<shaderType>Cutout</shaderType>
+								<drawnDesiccated>false</drawnDesiccated>
+								<hiddenUnderApparelTag>
+								<!-- <li>Anneli_FullHelmet</li>
+								<li>Anneli_Hood</li> -->
 							</hiddenUnderApparelTag>
 							<offsets>
 								<south>
@@ -298,6 +296,51 @@
 				<head>Anneli_Face/</head>
 				<!-- <skeleton>Anneli_Corpse/Body/Dessicated_Female</skeleton> -->
 				<!-- <skull>Anneli_Corpse/Head/Dessicated_Head</skull> -->
+				<apparel>
+					<individualPaths>
+						<li>
+							<key>Apparel_ShieldBelt</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_SmokepopBelt</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_FirefoampopPack</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PsychicShockLance</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PsychicInsanityLance</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PackJump</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PackBroadshield</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PackControl</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PackBandwidth</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+						<li>
+							<key>Apparel_PackTox</key>
+							<value>Anneli_Null/Anneli_Null</value>
+						</li>
+					</individualPaths>
+				</apparel>
+				
 			</graphicPaths>
 			<styleSettings>
 				<li>
@@ -363,6 +406,10 @@
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelMinQualityNotMet</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelRequirementNotMet</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">KilledChild</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">AteBabyFood</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">IngestedHemogenPack</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">XenogermHarvested_Prisoner</li>
 				</cannotReceiveThoughts>
 				<replacerList>       		
 					<li>
@@ -569,9 +616,24 @@
 						<original>MyKinLost</original>
 						<replacer>AnneliPawnLost</replacer>
 					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<original>MyBirthMotherDied</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<original>KilledMyBirthMother</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<original>MyBirthMotherLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
 				</replacerList>
 			</thoughtSettings>
 			<raceRestriction>
+				<blackGeneList>
+					<li>Brow_Heavy</li>
+				</blackGeneList>
 				<blackGeneTags>
 					<li>HairStyle</li>
 					<li>Fur</li>
@@ -595,6 +657,16 @@
 				<apparelList>	
 				</apparelList>
 				<whiteApparelList>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_FirefoampopPack</li>
+					<li>Apparel_PsychicShockLance</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
@@ -713,19 +785,18 @@
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
-				<volume>(0.3, 0.8, 0.4)</volume>
-				<offset>(0,0,-0.8)</offset>
+				<volume>(0.2, 0.7, 0.15)</volume>
+				<offset>(0,0,-0.77)</offset>
 			</specialShadowData>
 			<ageGenerationCurve>
 				<points>
 					<li>(0,0)</li>
-					<li>(12,10)</li>
-					<li>(16,100)</li>
+					<li>(12,5)</li>
+					<li>(16,10)</li>
 					<li>(35,100)</li>
-					<li>(50,10)</li>
-					<li>(100,5)</li>
+					<li>(100,10)</li>
 					<li>(200,5)</li>
-					<li>(1000,0)</li>
+					<li>(2000,0)</li>
 				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>

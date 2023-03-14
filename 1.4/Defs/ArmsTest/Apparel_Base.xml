@@ -33,7 +33,7 @@
 		<burnableByRecipe>true</burnableByRecipe>
 		<smeltable>true</smeltable>
 		<apparel>
-			<useWornGraphicMask>false</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
       		<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">

@@ -7,7 +7,7 @@
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
-		<maxGenerationAge>2000</maxGenerationAge>
+		<!-- <maxGenerationAge>2000</maxGenerationAge> -->
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
 		<invNutrition>4.5</invNutrition>
 		<initialWillRange>5~15</initialWillRange>

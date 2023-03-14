@@ -17,8 +17,6 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<apparel>
-			<shellCoversHead>false</shellCoversHead>
-			<shellRenderedBehindHead>true</shellRenderedBehindHead>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>

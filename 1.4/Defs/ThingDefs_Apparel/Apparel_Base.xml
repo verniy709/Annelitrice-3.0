@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="Anneli_ApparelSpecialBase" Abstract="True">
+	<ThingDef Name="Anneli_ApparelCommonBase" Abstract="True">
 		<thingClass>Apparel</thingClass>
 		<category>Item</category>
 		<selectable>True</selectable>
@@ -31,9 +31,17 @@
 		<tickerType>Never</tickerType>
 		<burnableByRecipe>true</burnableByRecipe>
 		<smeltable>true</smeltable>
+		<tradeNeverStack>true</tradeNeverStack>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<messageOnDeteriorateInStorage>false</messageOnDeteriorateInStorage>
+		<deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
 		<apparel>
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<tags>
+				<li>Anneli</li>
+				<li>EVA</li>
+			</tags>
 		</apparel>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
@@ -44,15 +52,6 @@
 				<compClass>CompColorable</compClass>
 			</li>
 		</comps>
-	</ThingDef>
-
-	<ThingDef Name="Anneli_ApparelCommonBase" ParentName="Anneli_ApparelSpecialBase" Abstract="True">
-		<apparel>
-			<tags>
-				<li>Anneli</li>
-				<li>EVA</li>
-			</tags>
-		</apparel>
 	</ThingDef>
 	
 </Defs>

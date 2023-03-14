@@ -26,17 +26,18 @@
 		<inspectorTabs>
 			<li>ITab_Pawn_Character</li>
 		</inspectorTabs>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
 		<alwaysHaulable>true</alwaysHaulable>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<rotatable>false</rotatable>
     <stackLimit>1</stackLimit>
     <tradeability>None</tradeability>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
     <pathCost>14</pathCost>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="Anneli_Egg">
@@ -231,6 +232,48 @@
   </defaultIngredientFilter>
   <products>
     <Luciferium>1</Luciferium>
+  </products>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>MedicineIndustrialAnneliEggs</defName>
+  <label>medicine industrial production</label>
+  <description>medicine industrial production.</description>
+  <recipeUsers>
+    <li>Anneli_Fountain</li>
+  </recipeUsers>
+  <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+  <jobString>Butchering.</jobString>
+  <workAmount>300</workAmount>
+  <workSkill>Crafting</workSkill>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>ButcherFlesh</effectWorking>
+  <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+  <uiIconThing>MedicineIndustrial</uiIconThing>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_OutsiderEgg</li>
+          <li>Anneli_ColonistEgg</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Anneli_OutsiderEgg</li>
+      <li>Anneli_ColonistEgg</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+    <thingDefs>
+      <li>Anneli_OutsiderEgg</li>
+    </thingDefs>
+  </defaultIngredientFilter>
+  <products>
+    <MedicineIndustrial>1</MedicineIndustrial>
   </products>
 </RecipeDef>
 

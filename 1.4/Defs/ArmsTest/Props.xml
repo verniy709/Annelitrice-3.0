@@ -35,11 +35,11 @@
 		<description>(ArmTest)PropsBroom</description>
 		<label>(ArmTest)PropsBroom</label>
 		<graphicData>
-			<texPath>Props/PropsBroom/PropsBroom</texPath>
+			<texPath>Anneli_Arms/Props/PropsBroom/PropsBroom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsBroom/PropsBroom</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsBroom/PropsBroom</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -49,11 +49,11 @@
 		<description>(ArmTest)PropsAxe</description>
 		<label>(ArmTest)PropsAxe</label>
 		<graphicData>
-			<texPath>Props/PropsAxe/PropsAxe</texPath>
+			<texPath>Anneli_Arms/Props/PropsAxe/PropsAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsAxe/PropsAxe</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsAxe/PropsAxe</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -63,11 +63,11 @@
 		<description>(ArmTest)PropsPickaxe</description>
 		<label>(ArmTest)PropsPickaxe</label>
 		<graphicData>
-			<texPath>Props/PropsPickaxe/PropsPickaxe</texPath>
+			<texPath>Anneli_Arms/Props/PropsPickaxe/PropsPickaxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsPickaxe/PropsPickaxe</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsPickaxe/PropsPickaxe</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -77,11 +77,11 @@
 		<description>(ArmTest)PropsShovel</description>
 		<label>(ArmTest)PropsShovel</label>
 		<graphicData>
-			<texPath>Props/PropsShovel/PropsShovel</texPath>
+			<texPath>Anneli_Arms/Props/PropsShovel/PropsShovel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsShovel/PropsShovel</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsShovel/PropsShovel</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -91,11 +91,11 @@
 		<description>(ArmTest)PropsCleaver</description>
 		<label>(ArmTest)PropsCleaver</label>
 		<graphicData>
-			<texPath>Props/PropsCleaver/PropsCleaver</texPath>
+			<texPath>Anneli_Arms/Props/PropsCleaver/PropsCleaver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsCleaver/PropsCleaver</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsCleaver/PropsCleaver</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -105,11 +105,11 @@
 		<description>(ArmTest)PropsHammer</description>
 		<label>(ArmTest)PropsHammer</label>
 		<graphicData>
-			<texPath>Props/PropsHammer/PropsHammer</texPath>
+			<texPath>Anneli_Arms/Props/PropsHammer/PropsHammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsHammer/PropsHammer</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsHammer/PropsHammer</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -119,11 +119,11 @@
 		<description>(ArmTest)PropsSickle</description>
 		<label>(ArmTest)PropsSickle</label>
 		<graphicData>
-			<texPath>Props/PropsSickle/PropsSickle</texPath>
+			<texPath>Anneli_Arms/Props/PropsSickle/PropsSickle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Props/PropsSickle/PropsSickle</wornGraphicPath>
+			<wornGraphicPath>Anneli_Arms/Props/PropsSickle/PropsSickle</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

@@ -397,7 +397,7 @@ namespace Annelitrice
 			{
 				defaultLabel = "Anneli.Infest".Translate(),
 				defaultDesc = "Anneli.InfestDesc".Translate(),
-				icon = ContentFinder<Texture2D>.Get("Anneli_Skill/Infest"),
+				icon = ContentFinder<Texture2D>.Get("Anneli_UI/Anneli_Infect"),
 				action = delegate
 				{
 					Find.Targeter.BeginTargeting(GetHumanoidTargetParameters(pawn), delegate (LocalTargetInfo t)

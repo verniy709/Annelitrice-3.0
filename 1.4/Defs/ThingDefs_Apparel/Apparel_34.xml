@@ -21,8 +21,6 @@
 			<SuppressionPower>0.2</SuppressionPower>
 		</equippedStatOffsets>
 		<apparel>
-			<shellCoversHead>false</shellCoversHead>
-			<shellRenderedBehindHead>true</shellRenderedBehindHead><!--Shell layer visual glitch-->
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
