@@ -7,7 +7,6 @@
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
-		<!-- <maxGenerationAge>2000</maxGenerationAge> -->
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
 		<invNutrition>4.5</invNutrition>
 		<initialWillRange>5~15</initialWillRange>
@@ -25,6 +24,20 @@
 		<defName>Anneli_Player</defName>
 		<label>Annelitrice Colonist</label>
 		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
+		<apparelMoney>100~150</apparelMoney>
+		<isFighter>false</isFighter>
+		<backstoryCategories>
+			<li>Anneli_Story</li>
+		</backstoryCategories>
+		<apparelTags>
+			<li>Anneli</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_KindBase">
+		<defName>Anneli_Wild</defName>
+		<label>Annelitrice Wild</label>
+		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
 		<backstoryCategories>

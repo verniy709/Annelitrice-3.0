@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_LeftArmBase_SSS" ParentName="Anneli_ArmTest_ApparelSpecialBase"  Abstract="True">
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>1</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>LeftHand</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_ArmTestB</li>
+			</layers>
+			<tags>
+				<li>Anneli_ArmTest</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightA_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmStraightA_Left_SSS</defName>
+		<description>(ArmTest)ArmStraightA_Left_SSS</description>
+		<label>(ArmTest)ArmStraightA_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmStraightA/ArmStraightA_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmStraightA/ArmStraightA_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightB_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmStraightB_Left_SSS</defName>
+		<description>(ArmTest)ArmStraightB_Left_SSS</description>
+		<label>(ArmTest)ArmStraightB_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmStraightB/ArmStraightB_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmStraightB/ArmStraightB_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightC_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmStraightC_Left_SSS</defName>
+		<description>(ArmTest)ArmStraightC_Left_SSS</description>
+		<label>(ArmTest)ArmStraightC_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmStraightC/ArmStraightC_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmStraightC/ArmStraightC_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightD_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmStraightD_Left_SSS</defName>
+		<description>(ArmTest)ArmStraightD_Left_SSS</description>
+		<label>(ArmTest)ArmStraightD_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmStraightD/ArmStraightD_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmStraightD/ArmStraightD_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightE_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmStraightE_Left_SSS</defName>
+		<description>(ArmTest)ArmStraightE_Left_SSS</description>
+		<label>(ArmTest)ArmStraightE_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmStraightE/ArmStraightE_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmStraightE/ArmStraightE_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmStraightF_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmStraightF_Left_SSS</defName>
+		<description>(ArmTest)ArmStraightF_Left_SSS</description>
+		<label>(ArmTest)ArmStraightF_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmStraightF/ArmStraightF_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmStraightF/ArmStraightF_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowA_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandLowA_Left_SSS</defName>
+		<description>(ArmTest)ArmHandLowA_Left_SSS</description>
+		<label>(ArmTest)ArmHandLowA_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandLowA/ArmHandLowA_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandLowA/ArmHandLowA_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowB_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandLowB_Left_SSS</defName>
+		<description>(ArmTest)ArmHandLowB_Left_SSS</description>
+		<label>(ArmTest)ArmHandLowB_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandLowB/ArmHandLowB_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandLowB/ArmHandLowB_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowC_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandLowC_Left_SSS</defName>
+		<description>(ArmTest)ArmHandLowC_Left_SSS</description>
+		<label>(ArmTest)ArmHandLowC_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandLowC/ArmHandLowC_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandLowC/ArmHandLowC_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowD_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandLowD_Left_SSS</defName>
+		<description>(ArmTest)ArmHandLowD_Left_SSS</description>
+		<label>(ArmTest)ArmHandLowD_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandLowD/ArmHandLowD_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandLowD/ArmHandLowD_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowE_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandLowE_Left_SSS</defName>
+		<description>(ArmTest)ArmHandLowE_Left_SSS</description>
+		<label>(ArmTest)ArmHandLowE_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandLowE/ArmHandLowE_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandLowE/ArmHandLowE_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandLowF_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandLowF_Left_SSS</defName>
+		<description>(ArmTest)ArmHandLowF_Left_SSS</description>
+		<label>(ArmTest)ArmHandLowF_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandLowF/ArmHandLowF_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandLowF/ArmHandLowF_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidA_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidA_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidA_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidA_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidA/ArmHandMidA_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidA/ArmHandMidA_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidB_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidB_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidB_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidB_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidB/ArmHandMidB_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidB/ArmHandMidB_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidC_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidC_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidC_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidC_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidC/ArmHandMidC_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidC/ArmHandMidC_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidD_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidD_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidD_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidD_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidD/ArmHandMidD_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidD/ArmHandMidD_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidE_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidE_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidE_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidE_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidE/ArmHandMidE_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidE/ArmHandMidE_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidF_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidF_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidF_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidF_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidF/ArmHandMidF_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidF/ArmHandMidF_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandMidG_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandMidG_Left_SSS</defName>
+		<description>(ArmTest)ArmHandMidG_Left_SSS</description>
+		<label>(ArmTest)ArmHandMidG_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandMidG/ArmHandMidG_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandMidG/ArmHandMidG_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighA_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandHighA_Left_SSS</defName>
+		<description>(ArmTest)ArmHandHighA_Left_SSS</description>
+		<label>(ArmTest)ArmHandHighA_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandHighA/ArmHandHighA_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandHighA/ArmHandHighA_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighB_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandHighB_Left_SSS</defName>
+		<description>(ArmTest)ArmHandHighB_Left_SSS</description>
+		<label>(ArmTest)ArmHandHighB_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandHighB/ArmHandHighB_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandHighB/ArmHandHighB_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighC_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandHighC_Left_SSS</defName>
+		<description>(ArmTest)ArmHandHighC_Left_SSS</description>
+		<label>(ArmTest)ArmHandHighC_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandHighC/ArmHandHighC_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandHighC/ArmHandHighC_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighD_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandHighD_Left_SSS</defName>
+		<description>(ArmTest)ArmHandHighD_Left_SSS</description>
+		<label>(ArmTest)ArmHandHighD_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandHighD/ArmHandHighD_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandHighD/ArmHandHighD_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighE_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandHighE_Left_SSS</defName>
+		<description>(ArmTest)ArmHandHighE_Left_SSS</description>
+		<label>(ArmTest)ArmHandHighE_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandHighE/ArmHandHighE_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandHighE/ArmHandHighE_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--ArmHandHighF_Left_SSS-->
+	<ThingDef ParentName="Anneli_LeftArmBase_SSS">
+		<defName>ArmHandHighF_Left_SSS</defName>
+		<description>(ArmTest)ArmHandHighF_Left_SSS</description>
+		<label>(ArmTest)ArmHandHighF_Left_SSS</label>
+		<graphicData>
+			<texPath>Anneli_Arms/SSS/ArmHandHighF/ArmHandHighF_Left</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Arms/SSS/ArmHandHighF/ArmHandHighF_Left</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

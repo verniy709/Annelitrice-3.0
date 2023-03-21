@@ -8,26 +8,26 @@
 		<colorSpectrum>
 			<li>(1.0, 1.0, 1.0)</li>
 		</colorSpectrum>
-	  <!-- Disallowed Precepts -->
+		<!-- Disallowed Precepts -->
 		<disallowedPrecepts>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
 
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
-      		<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
 
-      		<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
-    	</disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
+		</disallowedPrecepts>
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>True</canSiege>
 		<canStageAttacks>true</canStageAttacks>
@@ -49,7 +49,7 @@
 		<defName>Anneli_Faction_Player</defName>
 		<label>Annelitrice Colony</label>
 		<pawnSingular>Annelitrice</pawnSingular>
-		<pawnsPlural>Annelitrices</pawnsPlural>
+		<pawnsPlural>Annelitrice</pawnsPlural>
 		<description>A colony founded by some Annelitrice survivors.</description>
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>Anneli_Player</basicMemberKind>
@@ -65,6 +65,33 @@
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	</FactionDef>
+
+	<FactionDef ParentName="Anneli_FactionBase">
+		<defName>Anneli_Faction_Wild</defName>
+		<pawnSingular>Annelitrice</pawnSingular>
+		<pawnsPlural>Annelitrice</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>2000</configurationListOrderPriority>
+		<displayInFactionSelection>false</displayInFactionSelection>
+		<fixedName>Annelitrice Wild</fixedName>
+		<factionIconPath>Anneli_Factions/Anneli_Player</factionIconPath>
+		<techLevel>Medieval</techLevel>
+		<backstoryCategories>
+			<li>Anneli_Story</li>
+		</backstoryCategories>
+		<hidden>true</hidden>
+		<rescueesCanJoin>true</rescueesCanJoin>
+		<autoFlee>false</autoFlee>
+		<allowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+		</allowedMemes>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+		</requiredMemes>
 	</FactionDef>
 
 </Defs>

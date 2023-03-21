@@ -69,10 +69,10 @@
 							<east>(-0.041, 0.146)</east>
 							<west>(0.041, 0.146)</west>
 						</headOffsetDirectional>
-						<customDrawSize>(0.99, 1.08)</customDrawSize>
-						<customHeadDrawSize>(0.69, 0.70)</customHeadDrawSize>
-						<customPortraitDrawSize>(0.99, 1.08)</customPortraitDrawSize>
-						<customPortraitHeadDrawSize>(0.69, 0.70)</customPortraitHeadDrawSize>
+						<customDrawSize>(1.00, 1.09)</customDrawSize>
+						<customHeadDrawSize>(0.68, 0.69)</customHeadDrawSize>
+						<customPortraitDrawSize>(1.00, 1.09)</customPortraitDrawSize>
+						<customPortraitHeadDrawSize>(0.68, 0.69)</customPortraitHeadDrawSize>
 						<colorChannels>
 							<li>
 								<name>skin</name>
@@ -786,7 +786,7 @@
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
 				<volume>(0.2, 0.7, 0.15)</volume>
-				<offset>(0,0,-0.77)</offset>
+				<offset>(0,0,-0.75)</offset>
 			</specialShadowData>
 			<ageGenerationCurve>
 				<points>
