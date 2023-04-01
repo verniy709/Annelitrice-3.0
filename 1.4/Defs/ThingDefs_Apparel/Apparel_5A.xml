@@ -17,9 +17,10 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<ComfyTemperatureMax>10</ComfyTemperatureMax>
 			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
+			<CarryingCapacity>20</CarryingCapacity>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

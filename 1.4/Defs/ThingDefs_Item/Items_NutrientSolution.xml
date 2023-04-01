@@ -5,7 +5,7 @@
     <label>annelitrice nutrient solution</label>
     <description>A bottle of suspicious liquid more efficient and nastier than nutrient paste meals. Artificial flavouring agents cannot mask its unpleasant flavors. Annelitrices won't mind it at all, as they grow up in it.</description>
     <graphicData>
-      <texPath>Anneli_Items/NutrientSolution</texPath>
+      <texPath>Anneli_Item/NutrientSolution</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <thingClass>ThingWithComps</thingClass>

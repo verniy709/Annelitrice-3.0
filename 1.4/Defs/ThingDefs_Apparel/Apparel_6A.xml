@@ -15,7 +15,6 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<forceRenderUnderHair>false</forceRenderUnderHair>
 		</apparel>
 	</ThingDef>
 

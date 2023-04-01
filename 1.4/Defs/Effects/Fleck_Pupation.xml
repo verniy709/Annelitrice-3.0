@@ -1,32 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <EffecterDef>
-    <defName>Anneli_PupationStart</defName>
-    <children>
-      <li>
-        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <positionRadius>0.2</positionRadius>
-        <moteDef>Mote_ExtinguisherPuff</moteDef>
-        <burstCount>10~15</burstCount>
-        <speed>4.8~8.4</speed>
-        <scale>4~5</scale>
-      </li>
-    </children>
-  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_PupaFormationA</defName>
+    <graphicData>
+      <texPath>Anneli_Effect/PupaFormationA</texPath>
+      <shaderType>MoteDistorted</shaderType>
+      <shaderParameters>
+        <_distortionScrollSpeed>(0.1, 0.1, 0.0)</_distortionScrollSpeed>
+        <_distortionScale>0.4</_distortionScale>
+        <_distortionIntensity>0.0</_distortionIntensity>
+      </shaderParameters>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.8</fadeInTime>
+    <solidTime>0.1</solidTime>
+    <fadeOutTime>1.3</fadeOutTime>
+    <speedPerTime>-0.15</speedPerTime> 
+  </FleckDef>
 
-	<EffecterDef>
-    <defName>Anneli_PupationFinish</defName>
-    <children>
-      <li>
-        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <positionRadius>0.2</positionRadius>
-        <moteDef>Mote_ExtinguisherPuff</moteDef>
-        <burstCount>10~15</burstCount>
-        <speed>4.8~8.4</speed>
-        <scale>4~5</scale>
-      </li>
-    </children>
-  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_PupaFormationB</defName>
+    <graphicData>
+      <texPath>Anneli_Effect/PupaFormationB</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.5</fadeInTime>
+    <solidTime>1.0</solidTime>
+    <fadeOutTime>4.5</fadeOutTime>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_PupaFormationC</defName>
+    <graphicData>
+      <texPath>Anneli_Effect/PupaFormationC</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.5</fadeInTime>
+    <solidTime>5.0</solidTime>
+    <fadeOutTime>1.0</fadeOutTime>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_PupaFinishA</defName>
+    <graphicData>
+      <texPath>Anneli_Effect/PupaFinishA</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <growthRate>0.8</growthRate>
+    <fadeInTime>0.1</fadeInTime>
+    <solidTime>0.1</solidTime>
+    <fadeOutTime>0.9</fadeOutTime>
+    <speedPerTime>-1.3</speedPerTime> 
+  </FleckDef>
 
 </Defs>

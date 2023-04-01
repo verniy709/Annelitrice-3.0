@@ -17,7 +17,7 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<Cleanliness>0.05</Cleanliness>
+			<SocialImpact>0.1</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

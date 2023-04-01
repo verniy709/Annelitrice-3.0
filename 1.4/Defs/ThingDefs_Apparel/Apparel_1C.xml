@@ -17,7 +17,7 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.05</MoveSpeed>
+			<MoveSpeed>0.1</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

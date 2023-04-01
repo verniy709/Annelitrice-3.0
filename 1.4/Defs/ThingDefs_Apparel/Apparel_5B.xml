@@ -9,8 +9,8 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<ComfyTemperatureMin>-4</ComfyTemperatureMin>
-			<ComfyTemperatureMax>4</ComfyTemperatureMax>
+			<MoveSpeed>0.1</MoveSpeed>
+			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

@@ -16,9 +16,11 @@
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
+			<ArrestSuccessChance>0.1</ArrestSuccessChance>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>
-			<SuppressionPower>0.2</SuppressionPower>
+			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.1</CertaintyLossFactor>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

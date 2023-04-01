@@ -17,7 +17,9 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<ToxicResistance>1.0</ToxicResistance>
+			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 		</equippedStatOffsets>
 		<apparel>
 			<forceRenderUnderHair>true</forceRenderUnderHair><!-- under hair -->

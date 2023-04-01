@@ -13,8 +13,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<CarryingCapacity>12</CarryingCapacity>
-			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<CarryingCapacity>40</CarryingCapacity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

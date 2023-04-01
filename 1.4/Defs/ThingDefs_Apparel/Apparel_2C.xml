@@ -8,6 +8,9 @@
 			<Mass>0.5</Mass>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Feet</li>

@@ -51,4 +51,38 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>Anneli_PupationStart</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_PupationStart</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~30</volumeRange>
+				<distRange>5~15</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Anneli_PupationFinish</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_PupationFinish</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~30</volumeRange>
+				<distRange>5~15</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

@@ -6,7 +6,7 @@
 		<label>annelitrice pupa</label>
 		<description>An intermediate developmental stage between the larval and adult stages. Please wait patiently.</description>
 		<graphicData>
-			<texPath>Anneli_Items/Pupa</texPath>
+			<texPath>Anneli_Item/Pupa</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>1.30</drawSize>
 		</graphicData>

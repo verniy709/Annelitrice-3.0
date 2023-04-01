@@ -17,7 +17,9 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<ToxicResistance>0.5</ToxicResistance>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 		</equippedStatOffsets>
 		<apparel>
 			<forceRenderUnderHair>true</forceRenderUnderHair><!-- under hair -->

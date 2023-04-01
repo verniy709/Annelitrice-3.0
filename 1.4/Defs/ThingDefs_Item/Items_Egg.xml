@@ -45,7 +45,7 @@
     <label>colonist Egg</label>
     <description>An Annelitrice Egg. Once you catch one, it's likely that several more have already escaped.</description>
     <graphicData>
-     <texPath>Anneli_Items/Egg_Colonist</texPath>
+     <texPath>Anneli_Item/Egg_Colonist</texPath>
      <graphicClass>Graphic_Random</graphicClass>
      <drawSize>0.80</drawSize>
    </graphicData>
@@ -56,7 +56,7 @@
   <label>outsider Egg</label>
   <description>An Annelitrice Egg. Once you catch one, it's likely that several more have already escaped.</description>
   <graphicData>
-   <texPath>Anneli_Items/Egg</texPath>
+   <texPath>Anneli_Item/Egg</texPath>
    <graphicClass>Graphic_Random</graphicClass>
    <drawSize>0.80</drawSize>
  </graphicData>

@@ -26,7 +26,13 @@
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
   <incompatibleWith>
-    <!-- <li>velc.HatsDisplaySelection</li> -->
-    <!-- Break Pawn Rendering -->
+    <li>Verniy709.Annelitrice2.0</li>
+    <li>Verniy709.FacialAnimationForAnnelitrice</li>
+    <li>Verniy709.FacialAnimationForAnnelitriceRemake</li>
+    <li>Verniy709.Annelitrice.Ahmislan</li>
+    <li>Verniy709.Annelitrice.CosplayA</li>
+    <li>Verniy709.Annelitrice.Gakuen</li>
+    <li>Verniy709.Annelitrice.Jurnizia</li>
+    <li>Verniy709.Annelitrice.Yorha</li>
   </incompatibleWith>
 </ModMetaData>

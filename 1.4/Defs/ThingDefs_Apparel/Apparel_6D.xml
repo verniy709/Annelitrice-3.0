@@ -13,9 +13,8 @@
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 		</equippedStatOffsets>
 		<apparel>
-			<forceRenderUnderHair>true</forceRenderUnderHair>
 			<bodyPartGroups>
-				<li>Shoulders</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>

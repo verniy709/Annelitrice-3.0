@@ -27,7 +27,7 @@
 		<defName>Annelitrice</defName>
 		<label>annelitrice</label>
 		<description>Annelitrice are a highly pathogenic parasitic species that can be found on numerous planets.
-			Its life cycle is more complex than that of most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.</description>
+			Its life cycle is more complex than that of most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.\n\nTo annelitrice, the reality that other creatures live and believe in appears to be nothing more than an illusory and meaningless playground. They are fully aware that their presence exists solely to please the beings of a higher dimension.</description>
 			<alienRace>
 				<generalSettings>
 					<maleGenderProbability>0.00001</maleGenderProbability>
@@ -64,10 +64,10 @@
 						<atlasScale>4</atlasScale><!--test-->
 						<getsGreyAt>500</getsGreyAt> 
 						<headOffsetDirectional>
-							<north>(0.0, 0.143)</north>
-							<south>(0.0, 0.143)</south>
-							<east>(-0.041, 0.146)</east>
-							<west>(0.041, 0.146)</west>
+							<north>(0.0, 0.144)</north>
+							<south>(0.0, 0.144)</south>
+							<east>(-0.042, 0.146)</east>
+							<west>(0.042, 0.146)</west>
 						</headOffsetDirectional>
 						<customDrawSize>(1.00, 1.09)</customDrawSize>
 						<customHeadDrawSize>(0.68, 0.69)</customHeadDrawSize>
