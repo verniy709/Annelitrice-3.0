@@ -8,7 +8,8 @@
 	</ThingCategoryDef>
 
 	<ThingDef Name="Anneli_Egg" Abstract="True">
-		<thingClass>Annelitrice.Egg</thingClass>
+		<!-- <thingClass>Annelitrice.Egg</thingClass> -->
+    <thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawerType>MapMeshOnly</drawerType>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>

@@ -11,14 +11,14 @@
 		<hasTooltip>true</hasTooltip>
 		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
 		<drawGUIOverlay>true</drawGUIOverlay>
-		<modExtensions>
+		<!-- <modExtensions>
 			<li Class="Annelitrice.RaceExtension">
 				<outsiderSpawnThingAfterDestruction>Anneli_OutsiderEgg</outsiderSpawnThingAfterDestruction>
 				<colonistSpawnThingAfterDestruction>Anneli_ColonistEgg</colonistSpawnThingAfterDestruction>
 			</li>
-		</modExtensions>
+		</modExtensions> -->
 		<comps>
-			<li Class="Annelitrice.CompProperties_Evolution">
+			<li Class="Annelitrice.CompProperties_Regeneration">
 			</li>
 		</comps>
 	</ThingDef>
@@ -64,15 +64,15 @@
 						<atlasScale>4</atlasScale><!--test-->
 						<getsGreyAt>500</getsGreyAt> 
 						<headOffsetDirectional>
-							<north>(0.0, 0.144)</north>
-							<south>(0.0, 0.144)</south>
-							<east>(-0.042, 0.146)</east>
-							<west>(0.042, 0.146)</west>
+							<north>(0.0, 0.148)</north>
+							<south>(0.0, 0.148)</south>
+							<east>(-0.0435, 0.150)</east>
+							<west>(0.0435, 0.150)</west>
 						</headOffsetDirectional>
-						<customDrawSize>(1.00, 1.09)</customDrawSize>
-						<customHeadDrawSize>(0.68, 0.69)</customHeadDrawSize>
-						<customPortraitDrawSize>(1.00, 1.09)</customPortraitDrawSize>
-						<customPortraitHeadDrawSize>(0.68, 0.69)</customPortraitHeadDrawSize>
+						<customDrawSize>(1.00, 1.095)</customDrawSize>
+						<customHeadDrawSize>(0.67, 0.685)</customHeadDrawSize>
+						<customPortraitDrawSize>(1.00, 1.095)</customPortraitDrawSize>
+						<customPortraitHeadDrawSize>(0.67, 0.685)</customPortraitHeadDrawSize>
 						<colorChannels>
 							<li>
 								<name>skin</name>

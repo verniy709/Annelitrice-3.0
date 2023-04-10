@@ -35,20 +35,6 @@ namespace Annelitrice
 			}
 		}
 
-		//private int ticksUntilNextUpdate = 0;
-
-		//public override void PostExposeData()
-		//{
-		//	Scribe_Values.Look(ref ticksUntilNextUpdate, "ticksUntilNextUpdate", 0);
-		//	base.PostExposeData();
-		//}
-
-		//public override void PostPostMake()
-		//{
-		//	ticksUntilNextUpdate = Find.TickManager.TicksGame;
-		//	base.PostPostMake();
-		//}
-
 		public Pawn ApparelUser => (this.parent.ParentHolder as Pawn_ApparelTracker)?.pawn;
 
 		public override void CompTick()

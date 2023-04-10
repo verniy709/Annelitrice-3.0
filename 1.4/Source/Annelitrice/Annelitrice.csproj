@@ -54,33 +54,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnnelitriceShieldBelt.cs" />
-    <Compile Include="BaseHairDef.cs" />
     <Compile Include="CompApparelHediffGiver.cs" />
     <Compile Include="CompApparelSecialTex.cs" />
     <Compile Include="CompPlayMusic.cs" />
     <Compile Include="JobDriver_WatchPuppetShow.cs" />
-    <Compile Include="Hediff_AnnelyInfection.cs" />
-    <Compile Include="HediffComp_GenerateEvolutionPoints.cs" />
-    <Compile Include="AnnelitriceUtils.cs" />
-    <Compile Include="JobDriver_InfestHuman.cs" />
-    <Compile Include="JobDriver_AssimilateCorpse.cs" />
-    <Compile Include="JobDriver_GrowAppendage.cs" />
-    <Compile Include="JobDriver_InjectEPsToWormIncubator.cs" />
-    <Compile Include="JobGiver_GrowAppendages.cs" />
-    <Compile Include="JobDriver_ResurrectUsingWorm.cs" />
-    <Compile Include="UIUtility.cs" />
-    <Compile Include="Textures.cs" />
-    <Compile Include="RaceExtension.cs" />
     <Compile Include="AnnelitriceDefOf.cs" />
     <Compile Include="HarmonyPatches.cs" />
-    <Compile Include="CompTargetable_SingleCorpseOverride.cs" />
-    <Compile Include="ITab_Pawn_Mimicry.cs" />
-    <Compile Include="CompEvolution.cs" />
-    <Compile Include="JobDriver_GainEPsFromWormIncubator.cs" />
-    <Compile Include="HediffExtension.cs" />
-    <Compile Include="WormIncubator.cs" />
-    <Compile Include="Worm.cs" />
+    <Compile Include="CompRegeneration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
