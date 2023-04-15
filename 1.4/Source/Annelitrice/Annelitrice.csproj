@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnnelitriceCorpsePatch.cs" />
     <Compile Include="CompApparelHediffGiver.cs" />
     <Compile Include="CompApparelSecialTex.cs" />
     <Compile Include="CompPlayMusic.cs" />

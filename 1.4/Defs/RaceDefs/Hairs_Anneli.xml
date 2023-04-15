@@ -122,6 +122,16 @@
 	</HairDef>
 
 	<HairDef>
+		<defName>Front_MShape_M</defName>
+		<label>Front_MShape_M</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_HairFront/Front_MShape_M</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
 		<defName>Front_Curtain_A</defName>
 		<label>Front_Curtain_A</label>
 		<styleGender>Any</styleGender>
@@ -256,6 +266,16 @@
 		<label>Front_SideSwept_H</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_HairFront/Front_SideSwept_H</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Front_SideSwept_I</defName>
+		<label>Front_SideSwept_I</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_HairFront/Front_SideSwept_I</texPath>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>

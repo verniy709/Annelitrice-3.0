@@ -1,278 +1,262 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BasePawn" Name="Anneli_BasePawn" Abstract="True">
-		<thingClass>Pawn</thingClass>
-		<category>Pawn</category>
-		<selectable>true</selectable>
-		<tickerType>Normal</tickerType>
-		<altitudeLayer>Pawn</altitudeLayer>
-		<useHitPoints>false</useHitPoints>
-		<hasTooltip>true</hasTooltip>
-		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<!-- <modExtensions>
-			<li Class="Annelitrice.RaceExtension">
-				<outsiderSpawnThingAfterDestruction>Anneli_OutsiderEgg</outsiderSpawnThingAfterDestruction>
-				<colonistSpawnThingAfterDestruction>Anneli_ColonistEgg</colonistSpawnThingAfterDestruction>
-			</li>
-		</modExtensions> -->
+	<LifeStageDef>
+		<defName>AnneliAdult</defName>
+		<label>Adult</label>
+		<adjective>Adult</adjective>
+		<reproductive>true</reproductive>
+		<foodMaxFactor>3.0</foodMaxFactor>
+	</LifeStageDef>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Anneli_BasePawn" Abstract="True">
 		<comps>
-			<li Class="Annelitrice.CompProperties_Regeneration">
-			</li>
+			<li><compClass>Annelitrice.CompProperties_Regeneration</compClass></li>
 		</comps>
-	</ThingDef>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.00001</maleGenderProbability>
+				<allowHumanBios>true</allowHumanBios>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<canLayDown>true</canLayDown>
+				<notXenophobistTowards>
+					<li>Human</li>
+				</notXenophobistTowards>
+				<immuneToAge>true</immuneToAge>
+				<maxDamageForSocialfight>2</maxDamageForSocialfight>
+				<lovinIntervalHoursFromAge>
+					<points>
+						<li>(16, 1.5)</li>
+						<li>(500, 2.5)</li>
+						<li>(1500, 4)</li>
+						<li>(3000, 12)</li>
+						<li>(5000, 36)</li>
+					</points>
+				</lovinIntervalHoursFromAge>
+				<alienPartGenerator>
+					<headTypes Inherit="False">
+						<li>Anneli_Head_1</li>
+						<li>Anneli_Head_2</li>
+						<li>Anneli_Head_3</li>
+						<li>Anneli_Head_4</li>
+						<li>Anneli_Head_5</li>
+						<li>Anneli_Head_6</li>
+					</headTypes>
+					<bodyTypes>
+						<li>Female</li>
+					</bodyTypes>
+					<getsGreyAt>1500</getsGreyAt> 
+					<headOffsetDirectional>
+						<north>(0.0, 0.153)</north>
+						<south>(0.0, 0.153)</south>
+						<east>(-0.0443, 0.155)</east>
+						<west>(0.0443, 0.155)</west>
+					</headOffsetDirectional>
+					<customDrawSize>(1.00, 1.112)</customDrawSize>
+					<customHeadDrawSize>(0.685, 0.7)</customHeadDrawSize>
+					<customPortraitDrawSize>(1.00, 1.112)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.685, 0.7)</customPortraitHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.95,0.95,1)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(1,0.975,0.975,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,1,1,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.90,0.80,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(0.95,0.85,0.75,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>skin</name>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGB(170,150,140)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,130,140)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,120,80)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(180,120,100)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(200,150,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(225,200,170)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(255,220,190)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(130,175,210)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,195,225)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(190,225,255)</only>
+									</li>
 
-	<AlienRace.ThingDef_AlienRace ParentName="Anneli_BasePawn">
-		<defName>Annelitrice</defName>
-		<label>annelitrice</label>
-		<description>Annelitrice are a highly pathogenic parasitic species that can be found on numerous planets.
-			Its life cycle is more complex than that of most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.\n\nTo annelitrice, the reality that other creatures live and believe in appears to be nothing more than an illusory and meaningless playground. They are fully aware that their presence exists solely to please the beings of a higher dimension.</description>
-			<alienRace>
-				<generalSettings>
-					<maleGenderProbability>0.00001</maleGenderProbability>
-					<allowHumanBios>true</allowHumanBios>
-					<humanRecipeImport>true</humanRecipeImport>
-					<immuneToXenophobia>false</immuneToXenophobia>
-					<canLayDown>true</canLayDown>
-					<notXenophobistTowards>
-						<li>Human</li>
-					</notXenophobistTowards>
-					<immuneToAge>true</immuneToAge>
-					<maxDamageForSocialfight>2</maxDamageForSocialfight>
-					<lovinIntervalHoursFromAge>
-						<points>
-							<li>(16, 1.5)</li>
-							<li>(500, 2.5)</li>
-							<li>(1500, 4)</li>
-							<li>(3000, 12)</li>
-							<li>(5000, 36)</li>
-						</points>
-					</lovinIntervalHoursFromAge>
-					<alienPartGenerator>
-						<headTypes Inherit="False">
-							<li>Anneli_Head_1</li>
-							<li>Anneli_Head_2</li>
-							<li>Anneli_Head_3</li>
-							<li>Anneli_Head_4</li>
-							<li>Anneli_Head_5</li>
-							<li>Anneli_Head_6</li>
-						</headTypes>
-						<bodyTypes>
-							<li>Female</li>
-						</bodyTypes>
-						<atlasScale>4</atlasScale><!--test-->
-						<getsGreyAt>500</getsGreyAt> 
-						<headOffsetDirectional>
-							<north>(0.0, 0.148)</north>
-							<south>(0.0, 0.148)</south>
-							<east>(-0.0435, 0.150)</east>
-							<west>(0.0435, 0.150)</west>
-						</headOffsetDirectional>
-						<customDrawSize>(1.00, 1.095)</customDrawSize>
-						<customHeadDrawSize>(0.67, 0.685)</customHeadDrawSize>
-						<customPortraitDrawSize>(1.00, 1.095)</customPortraitDrawSize>
-						<customPortraitHeadDrawSize>(0.67, 0.685)</customPortraitHeadDrawSize>
-						<colorChannels>
-							<li>
-								<name>skin</name>
-								<first Class="ColorGenerator_Options">
-									<options>
-										<li>
-											<weight>2</weight>
-											<only>RGBA(1,0.95,0.95,1)</only>
-										</li>
-										<li>
-											<weight>3</weight>
-											<only>RGBA(1,0.975,0.975,1)</only>
-										</li>
-										<li>
-											<weight>2</weight>
-											<only>RGBA(1,1,1,1)</only>
-										</li>
-										<li>
-											<weight>2</weight>
-											<only>RGBA(1,0.90,0.80,1)</only>
-										</li>
-										<li>
-											<weight>2</weight>
-											<only>RGBA(0.95,0.85,0.75,1)</only>
-										</li>
-									</options>
-								</first>
-							</li>
-							<li>
-								<name>skin</name>
-								<second Class="ColorGenerator_Options">
-									<options>
-										<!--Common-->
-										<li>
-											<weight>10</weight>
-											<only>RGB(170,150,140)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(160,130,140)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(160,120,80)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(180,120,100)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(200,150,90)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(225,200,170)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(255,220,190)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(130,175,210)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(160,195,225)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGB(190,225,255)</only>
-										</li>
-
-										<!--Rare-->
-										<li>
-											<weight>1</weight>
-											<only>RGBA(255,160,200)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(180,250,150)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(195,255,215)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(225,100,100)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(255,125,130)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(220,210,230)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(155,240,255)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(220,205,255)</only>
-										</li>
-									</options>
-								</second>
-							</li>
-							<li>
-								<name>hair</name>
-								<first Class="ColorGenerator_Options">
-									<options>
-										<!--Common-->
-										<li>
-											<weight>10</weight>
-											<only>RGBA(253,219,186)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(209,210,211)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(255,195,162)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(87,87,90)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(67,65,74)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(218,176,133)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(144,97,71)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(250,240,230)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(229,200,168)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(183,156,123)</only>
-										</li>
-										<li>
-											<weight>10</weight>
-											<only>RGBA(159,154,150)</only>
-										</li>
-										<!--Rare-->
-										<li>
-											<weight>1</weight>
-											<only>RGBA(148,136,159)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(170,85,94)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(187,212,238)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(228,150,156)</only>
-										</li>
-										<li>
-											<weight>1</weight>
-											<only>RGBA(191,194,181)</only>
-										</li>
-									</options>
-								</first>
-							</li>
-						</colorChannels>
-						<bodyAddons>
-							<li> 
-								<path>Anneli_HairBack/Back</path>
-								<bodyPart>Head</bodyPart>
-								<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
-								<inFrontOfBody>false</inFrontOfBody>
-								<colorChannel>hair</colorChannel>
-								<drawSize>1</drawSize>
-								<drawnInBed>true</drawnInBed>
-								<angle>0</angle>
-								<defaultOffset>Center</defaultOffset>
-								<alignWithHead>true</alignWithHead>
-								<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-								<shaderType>Cutout</shaderType>
-								<drawnDesiccated>false</drawnDesiccated>
-								<hiddenUnderApparelTag>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,160,200)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(180,250,150)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(195,255,215)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(225,100,100)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,125,130)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(220,210,230)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(155,240,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(220,205,255)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(253,219,186)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(209,210,211)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(255,195,162)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(87,87,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(67,65,74)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(218,176,133)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(144,97,71)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(250,240,230)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(229,200,168)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(183,156,123)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(159,154,150)</only>
+									</li>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(148,136,159)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(170,85,94)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(187,212,238)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(228,150,156)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(191,194,181)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li> 
+							<path>Anneli_HairBack/Back</path>
+							<bodyPart>Head</bodyPart>
+							<linkVariantIndexWithPrevious>false</linkVariantIndexWithPrevious>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<drawSize>1</drawSize>
+							<drawnInBed>true</drawnInBed>
+							<angle>0</angle>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>Cutout</shaderType>
+							<drawnDesiccated>false</drawnDesiccated>
+							<hiddenUnderApparelTag>
 								<!-- <li>Anneli_FullHelmet</li>
 								<li>Anneli_Hood</li> -->
 							</hiddenUnderApparelTag>
@@ -294,8 +278,8 @@
 			<graphicPaths>
 				<body>Anneli_Body/</body>
 				<head>Anneli_Face/</head>
-				<!-- <skeleton>Anneli_Corpse/Body/Dessicated_Female</skeleton> -->
-				<!-- <skull>Anneli_Corpse/Head/Dessicated_Head</skull> -->
+				<skeleton>Anneli_Corpse/Dessicated/Dessicated_Female</skeleton>
+				<skull>Anneli_Corpse/Skull/Dessicated_Head</skull>
 				<apparel>
 					<individualPaths>
 						<li>
@@ -339,8 +323,7 @@
 							<value>Anneli_Null/Anneli_Null</value>
 						</li>
 					</individualPaths>
-				</apparel>
-				
+				</apparel>	
 			</graphicPaths>
 			<styleSettings>
 				<li>
@@ -371,7 +354,6 @@
 					</value>
 				</li>
 			</styleSettings>
-
 			<thoughtSettings>
 				<cannotReceiveThoughts>
 					<li>KnowPrisonerDiedInnocent</li>
@@ -668,35 +650,10 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
 				</whiteApparelList>
-				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
 			</raceRestriction>
 		</alienRace>
-
-		<statBases>
-			<MarketValue>1200</MarketValue>
-			<MentalBreakThreshold>0.25</MentalBreakThreshold>
-			<MoveSpeed>5.0</MoveSpeed>
-			<Mass>45</Mass>
-			<MeatAmount>60</MeatAmount>
-			<LeatherAmount>25</LeatherAmount>
-			<Flammability>1.2</Flammability>
-			<ComfyTemperatureMin>5</ComfyTemperatureMin>
-			<ComfyTemperatureMax>20</ComfyTemperatureMax>
-			<CarryingCapacity>80</CarryingCapacity>
-			<GlobalLearningFactor>1.1</GlobalLearningFactor>
-			<ResearchSpeed>1.2</ResearchSpeed>
-			<SocialImpact>1.20</SocialImpact>
-			<PsychicSensitivity>1.0</PsychicSensitivity>
-			<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
-			<MedicalSurgerySuccessChance>1.2</MedicalSurgerySuccessChance>
-			<MeleeDodgeChance>2</MeleeDodgeChance>
-			<PainShockThreshold>0.95</PainShockThreshold>
-			<NegotiationAbility>1.2</NegotiationAbility>
-			<SellPriceFactor>1.2</SellPriceFactor> 
-			<EatingSpeed>1.6</EatingSpeed>
-			<PawnBeauty>2</PawnBeauty>
-		</statBases>
 		<tools>
 			<li>
 				<label>left fist</label>
@@ -740,6 +697,7 @@
 			<makesFootprints>true</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>
 			<lifeExpectancy>5000</lifeExpectancy>
+			<useMeatFrom>Megaspider</useMeatFrom>
 			<fleshType>Anneli_Flesh</fleshType>
 			<body>Anneli_Body</body>
 			<baseBodySize>1.0</baseBodySize>
@@ -803,44 +761,36 @@
 				<li>OrganicStandard</li>
 			</hediffGiverSets>
 		</race>
-		<recipes>
-			<li>InstallArchotechEye</li>
-			<li>InstallArchotechArm</li>
-			<li>InstallArchotechLeg</li>
-			<li>InstallPowerClaw</li>
-			<li>InstallBionicEye</li>
-			<li>InstallBionicArm</li>
-			<li>InstallBionicLeg</li>
-			<li>InstallBionicSpine</li>
-			<li>InstallBionicHeart</li>
-			<li>InstallBionicStomach</li>
-			<li>InstallBionicEar</li>
-			<li>InstallSimpleProstheticArm</li>
-			<li>InstallSimpleProstheticLeg</li>
-			<li>InstallSimpleProstheticHeart</li>
-			<li>InstallCochlearImplant</li>
-			<li>InstallPegLeg</li>
-			<li>InstallWoodenFoot</li>
-			<li>InstallDenture</li>
-			<li>InstallJoywire</li>
-			<li>InstallPainstopper</li>
-			<li>InstallNaturalHeart</li>
-			<li>InstallNaturalLung</li>
-			<li>InstallNaturalKidney</li>
-			<li>InstallNaturalLiver</li>
-			<li>ExciseCarcinoma</li>
-			<li>AdministerMechSerumHealer</li>
-			<li>RemoveBodyPart</li>
-			<li>Euthanize</li>
-			<li>Anesthetize</li>
-		</recipes>
 	</AlienRace.ThingDef_AlienRace>
-	<LifeStageDef>
-		<defName>AnneliAdult</defName>
-		<label>Adult</label>
-		<adjective>Adult</adjective>
-		<reproductive>true</reproductive>
-		<foodMaxFactor>3.0</foodMaxFactor>
-	</LifeStageDef>
+
+	<AlienRace.ThingDef_AlienRace ParentName="Anneli_BasePawn">
+		<defName>Annelitrice</defName>
+		<label>annelitrice</label>
+		<description>Annelitrice are a highly pathogenic parasitic species found on numerous planets.Based on multiple reports, it has been noted that annelitrice do not possess a fixed physical form. Instead, their shape tends to vary depending on the observer. These creatures are typically observed as bilaterally symmetrical animals or even human-like figures. Its life cycle is more complex than most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.\n\nTo annelitrice, the reality that other creatures live and believe in appears to be nothing more than an illusory and meaningless playground. They are fully aware that their presence exists solely to please the beings of a higher dimension.</description>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<MentalBreakThreshold>0.25</MentalBreakThreshold>
+			<MoveSpeed>5.0</MoveSpeed>
+			<Mass>45</Mass>
+			<MeatAmount>100</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+			<Flammability>1.2</Flammability>
+			<ComfyTemperatureMin>5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<CarryingCapacity>80</CarryingCapacity>
+			<GlobalLearningFactor>1.1</GlobalLearningFactor>
+			<ResearchSpeed>1.2</ResearchSpeed>
+			<SocialImpact>1.20</SocialImpact>
+			<PsychicSensitivity>1.0</PsychicSensitivity>
+			<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+			<MedicalSurgerySuccessChance>1.2</MedicalSurgerySuccessChance>
+			<MeleeDodgeChance>2</MeleeDodgeChance>
+			<PainShockThreshold>0.95</PainShockThreshold>
+			<NegotiationAbility>1.2</NegotiationAbility>
+			<SellPriceFactor>1.2</SellPriceFactor> 
+			<EatingSpeed>1.6</EatingSpeed>
+			<PawnBeauty>2</PawnBeauty>
+		</statBases>
+	</AlienRace.ThingDef_AlienRace>
 
 </Defs>
