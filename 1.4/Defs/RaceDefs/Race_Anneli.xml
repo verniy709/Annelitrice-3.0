@@ -11,7 +11,14 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Anneli_BasePawn" Abstract="True">
 		<comps>
-			<li><compClass>Annelitrice.CompProperties_Regeneration</compClass></li>
+			<li Class="Annelitrice.CompProperties_ConnaturalAbilities">
+				<abilities>
+					<li>Anneli_Infest</li>
+				</abilities>
+			</li>
+			<li>
+				<compClass>Annelitrice.CompRegeneration</compClass>
+			</li>
 		</comps>
 		<alienRace>
 			<generalSettings>
@@ -48,10 +55,10 @@
 					</bodyTypes>
 					<getsGreyAt>1500</getsGreyAt> 
 					<headOffsetDirectional>
-						<north>(0.0, 0.153)</north>
-						<south>(0.0, 0.153)</south>
-						<east>(-0.0443, 0.155)</east>
-						<west>(0.0443, 0.155)</west>
+						<north>(0.0, 0.1535)</north>
+						<south>(0.0, 0.1535)</south>
+						<east>(-0.0445, 0.155)</east>
+						<west>(0.0445, 0.155)</west>
 					</headOffsetDirectional>
 					<customDrawSize>(1.00, 1.112)</customDrawSize>
 					<customHeadDrawSize>(0.685, 0.7)</customHeadDrawSize>
@@ -64,11 +71,11 @@
 								<options>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(1,0.95,0.95,1)</only>
+										<only>RGBA(1,0.94,0.94,1)</only>
 									</li>
 									<li>
 										<weight>3</weight>
-										<only>RGBA(1,0.975,0.975,1)</only>
+										<only>RGBA(1,0.97,0.97,1)</only>
 									</li>
 									<li>
 										<weight>2</weight>
@@ -76,11 +83,15 @@
 									</li>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(1,0.90,0.80,1)</only>
+										<only>RGBA(1,0.94,0.91,1)</only>
 									</li>
 									<li>
 										<weight>2</weight>
-										<only>RGBA(0.95,0.85,0.75,1)</only>
+										<only>RGBA(1,0.91,0.94,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(0.97,0.85,0.79,1)</only>
 									</li>
 								</options>
 							</first>

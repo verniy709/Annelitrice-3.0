@@ -6,13 +6,6 @@ using Verse;
 
 namespace Annelitrice
 {
-	public class CompProperties_Regeneration : CompProperties
-	{
-		public CompProperties_Regeneration()
-		{
-			compClass = typeof(CompRegeneration);
-		}
-	}
 	public class CompRegeneration : ThingComp
 	{
 		private Dictionary<Hediff_MissingPart, int> missingParts = new Dictionary<Hediff_MissingPart, int>();

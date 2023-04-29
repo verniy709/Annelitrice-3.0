@@ -1,33 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ThingDef ParentName="EggFertBase">
-		<defName>Anneli_Pupa</defName>
-		<label>annelitrice pupa</label>
-		<description>An intermediate developmental stage between the larval and adult stages. Please wait patiently.</description>
-		<graphicData>
-			<texPath>Anneli_Item/Pupa</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<drawSize>1.30</drawSize>
-		</graphicData>
-		<statBases>
-			<Beauty>-4</Beauty>
-			<Mass>5.0</Mass>
-			<MaxHitPoints>200</MaxHitPoints>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0.7</Flammability>
-			<Nutrition>1.0</Nutrition>
-			<FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
-		</statBases>
-		<stackLimit>1</stackLimit>
-    	<tradeability>None</tradeability>
-    	<scatterableOnMapGen>false</scatterableOnMapGen>
-		<comps>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
-				<hatcherPawn>Chicken</hatcherPawn>
-			</li>
-		</comps>
-	</ThingDef>
+<!--Tower-->
+  <ThingDef>
+    <defName>Anneli_Pupa</defName>
+    <label>annelitrice pupa</label>
+    <description>An intermediate developmental stage between the larval and adult stages. Please wait patiently.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <useHitPoints>false</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <graphicData>
+      <texPath>Anneli_Item/Pupa</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>1.30</drawSize>
+    </graphicData>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>EggsFertilized</li>
+    </thingCategories>
+    <statBases>
+      <Mass>5.0</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Flammability>0</Flammability>
+      <Nutrition>1.0</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <inspectorTabs>
+      <li>Annelitrice.ITab_Pawn_Character</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>Annelitrice.CompContainPawn</compClass>
+      </li>
+      <li>
+        <compClass>Annelitrice.CompEgg</compClass>
+      </li>
+    </comps>
+  </ThingDef>
 
 </Defs>

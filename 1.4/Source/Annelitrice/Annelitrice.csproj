@@ -54,7 +54,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnnelitriceCorpsePatch.cs" />
+    <Compile Include="CompConnaturalAbilities.cs" />
+    <Compile Include="CompProperties_ConnaturalAbilities.cs" />
+    <Compile Include="ITab_Pawn_Character.cs" />
+    <Compile Include="Hediff_EggInfected.cs" />
+    <Compile Include="CompLarva.cs" />
+    <Compile Include="CompEgg.cs" />
+    <Compile Include="CompContainPawn.cs" />
+    <Compile Include="HarmonyPatches\Corpse_Destroy_Patch.cs" />
+    <Compile Include="HarmonyPatches\IngestFood.cs" />
+    <Compile Include="HarmonyPatches\PatchMain.cs" />
     <Compile Include="CompApparelHediffGiver.cs" />
     <Compile Include="CompApparelSecialTex.cs" />
     <Compile Include="CompPlayMusic.cs" />
@@ -62,6 +71,7 @@
     <Compile Include="AnnelitriceDefOf.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="CompRegeneration.cs" />
+    <Compile Include="CompTargetable_SingleCorpseOverride.cs" />    
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

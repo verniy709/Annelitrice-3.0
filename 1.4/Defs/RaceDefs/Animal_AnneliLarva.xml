@@ -65,7 +65,18 @@
 				<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 				<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			</race>
+    <!-- Tower-->
+    <inspectorTabs>
+      <li>Annelitrice.ITab_Pawn_Character</li>
+    </inspectorTabs>
 			<comps Inherit="False">
+        <!-- Tower : New Comps-->
+        <li>
+          <compClass>Annelitrice.CompContainPawn</compClass>
+        </li>
+        <li>
+          <compClass>Annelitrice.CompLarva</compClass>
+        </li>
 			</comps>
 		</ThingDef>
 

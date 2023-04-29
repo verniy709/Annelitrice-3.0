@@ -38,7 +38,7 @@
 		<defName>Anneli_Wild</defName>
 		<label>Annelitrice Wild</label>
 		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
-		<apparelMoney>100~150</apparelMoney>
+		<apparelMoney>0</apparelMoney>
 		<isFighter>false</isFighter>
 		<backstoryCategories>
 			<li>Anneli_Story</li>

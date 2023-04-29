@@ -162,6 +162,16 @@
 	</HairDef>
 
 	<HairDef>
+		<defName>Front_Curtain_D</defName>
+		<label>Front_Curtain_D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_HairFront/Front_Curtain_D</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
 		<defName>Front_Straight_A</defName>
 		<label>Front_Straight_A</label>
 		<styleGender>Any</styleGender>
@@ -186,6 +196,16 @@
 		<label>Front_Straight_C</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_HairFront/Front_Straight_C</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Front_Straight_D</defName>
+		<label>Front_Straight_D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_HairFront/Front_Straight_D</texPath>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>

@@ -24,8 +24,9 @@
 			<Mass>0.03</Mass>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
+    <!--Tower-->
 		<inspectorTabs>
-			<li>ITab_Pawn_Character</li>
+			<li>Annelitrice.ITab_Pawn_Character</li>
 		</inspectorTabs>
 		<alwaysHaulable>true</alwaysHaulable>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -36,8 +37,17 @@
     <pathCost>14</pathCost>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
+    <!-- Tower : tickerType-->
+    <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
+      <!--Tower-->
+      <li>
+        <compClass>Annelitrice.CompEgg</compClass>
+      </li>
+      <li>
+        <compClass>Annelitrice.CompContainPawn</compClass>
+      </li>
     </comps>
   </ThingDef>
 

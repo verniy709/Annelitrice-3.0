@@ -25,7 +25,8 @@
     <defName>Anneli_Infection</defName>
     <label>infestation</label>
     <labelNoun>infestation</labelNoun>
-    <hediffClass>HediffWithComps</hediffClass>
+    <!--Tower-->
+    <hediffClass>Annelitrice.Hediff_EggInfected</hediffClass>
     <description>The patient is infected with annelitrice larvae, which are parasitic worms. As a result of the infection, the patient is producing 2-5 eggs per day.</description>
     <makesSickThought>true</makesSickThought>
     <tendable>true</tendable>

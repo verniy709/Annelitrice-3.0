@@ -38,11 +38,11 @@
         <useLabel>Use annelitrice nutrient solution</useLabel>
         <useDuration>0</useDuration>
       </li>
-      <!-- <li Class="CompProperties_Targetable">
+      <li Class="CompProperties_Targetable">
         <compClass>Annelitrice.CompTargetable_SingleCorpseAnneliRace</compClass>
         <fleshCorpsesOnly>true</fleshCorpsesOnly>
         <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
-      </li> -->
+      </li>
       <li Class="CompProperties_TargetEffectResurrect">
         <moteDef>Mote_ResurrectFlash</moteDef>
       </li>
