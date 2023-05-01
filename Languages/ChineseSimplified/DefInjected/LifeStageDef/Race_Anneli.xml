@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AnneliTeenager.label>青少年</AnneliTeenager.label>
-  <AnneliTeenager.adjective>青少年</AnneliTeenager.adjective>
-
   <AnneliAdult.label>成年</AnneliAdult.label>
-  <AnneliAdult.adjective>成年</AnneliAdult.adjective>
+  <AnneliAdult.adjective>成年的</AnneliAdult.adjective>
 
 
 </LanguageData>

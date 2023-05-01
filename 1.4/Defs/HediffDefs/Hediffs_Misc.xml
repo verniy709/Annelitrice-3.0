@@ -25,9 +25,8 @@
     <defName>Anneli_Infection</defName>
     <label>infestation</label>
     <labelNoun>infestation</labelNoun>
-    <!--Tower-->
     <hediffClass>Annelitrice.Hediff_EggInfected</hediffClass>
-    <description>The patient is infected with annelitrice larvae, which are parasitic worms. As a result of the infection, the patient is producing 2-5 eggs per day.</description>
+    <description>The hediff would induce the target to produce 2-4 Anneli_OutsiderEgg every in-game day. These eggs would then hatch into new pawns that belong to the player's faction.</description>
     <makesSickThought>true</makesSickThought>
     <tendable>true</tendable>
     <minSeverity>0.001</minSeverity>

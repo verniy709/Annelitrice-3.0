@@ -24,7 +24,6 @@
 			<Mass>0.03</Mass>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-    <!--Tower-->
 		<inspectorTabs>
 			<li>Annelitrice.ITab_Pawn_Character</li>
 		</inspectorTabs>
@@ -53,8 +52,8 @@
 
   <ThingDef ParentName="Anneli_Egg">
     <defName>Anneli_ColonistEgg</defName>
-    <label>colonist Egg</label>
-    <description>An Annelitrice Egg. Once you catch one, it's likely that several more have already escaped.</description>
+    <label>colonist egg</label>
+    <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
     <graphicData>
      <texPath>Anneli_Item/Egg_Colonist</texPath>
      <graphicClass>Graphic_Random</graphicClass>
@@ -64,8 +63,8 @@
 
  <ThingDef ParentName="Anneli_Egg">
   <defName>Anneli_OutsiderEgg</defName>
-  <label>outsider Egg</label>
-  <description>An Annelitrice Egg. Once you catch one, it's likely that several more have already escaped.</description>
+  <label>outsider egg</label>
+  <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
   <graphicData>
    <texPath>Anneli_Item/Egg</texPath>
    <graphicClass>Graphic_Random</graphicClass>

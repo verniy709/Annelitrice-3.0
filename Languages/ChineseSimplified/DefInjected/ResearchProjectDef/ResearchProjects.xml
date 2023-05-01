@@ -1,31 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Anneli_NutrientSolution.label>安奈缇娅斯营养液</Anneli_NutrientSolution.label>
-  <Anneli_NutrientSolution.description>有些可疑，而且比营养膏还要“丰富”的饮料，再多的人工香料也没法掩盖其本身的浓厚气味。但安奈缇娅斯不会在意，因为他们生长在其中.</Anneli_NutrientSolution.description>
+  <Anneli_Fountain.label>安妮莉特丝喷泉</Anneli_Fountain.label>
+  <Anneli_Fountain.description>安妮莉特丝的生产建筑.</Anneli_Fountain.description>
 
-  <Anneli_GrowthFactorCocktails.label>安奈缇娅斯复合生长促进剂</Anneli_GrowthFactorCocktails.label>
-  <Anneli_GrowthFactorCocktails.description>由谜之科技制作，只能用来复活安奈缇娅斯.没人知道这东西用了什么溶剂来把一整头小牛的营养物质溶进一个小针管的溶液中.</Anneli_GrowthFactorCocktails.description>
+  <Anneli_NutrientSolution.label>安妮莉特丝营养液</Anneli_NutrientSolution.label>
+  <Anneli_NutrientSolution.description>这瓶可疑液体比营养膏更加高效而且更加恶心。人工调味剂掩盖不了它令人不愉快的味道。然而对于生长在其中的安妮莉特丝来说，她们并不介意。</Anneli_NutrientSolution.description>
 
+  <Anneli_PuppetTheatre.label>安妮莉特丝木偶戏</Anneli_PuppetTheatre.label>
+  <Anneli_PuppetTheatre.description>木偶剧是一种涉及操作木偶的戏剧或表演形式。它基本上在中世纪社会中充当电视的角色。此外，它为你的殖民者提供了一个机会：重新演绎一些来自一位未知电影制片人的著名作品的情节和服装。</Anneli_PuppetTheatre.description>
 
-  <!-- <ResearchProjectDef>
-		<defName>Anneli_Fountain</defName>
-		<label>Anneli Incubator</label>
-		<description>A structure to house Annelitrice worms.</description>
-		<baseCost>600</baseCost>
-		<techLevel>Medieval</techLevel>
-		<prerequisites>
-    	</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>0</researchViewY>
-		<tab>Anneli_Research</tab>
-	</ResearchProjectDef> -->
-
-  <Anneli_PuppetTheatre.label>安奈缇娅斯人偶剧院</Anneli_PuppetTheatre.label>
-  <Anneli_PuppetTheatre.description>通过操作人偶来进行表演. 这几乎就是中世纪版本的电视. 除此之外，殖民者似乎能从改编自未知导演剧本的表演中获取一些服装灵感.</Anneli_PuppetTheatre.description>
-
-
-  <!-- <Anneli_WormStorage.label>安奈缇娅斯蠕虫储存</Anneli_WormStorage.label>
-  <Anneli_WormStorage.description>用来安置安奈缇娅斯蠕虫的容器。</Anneli_WormStorage.description> -->
 
 </LanguageData>

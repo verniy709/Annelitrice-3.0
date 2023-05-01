@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Anneli_Player.label>安奈缇娅斯殖民者</Anneli_Player.label>
-  <Anneli_Player.labelPlural>安奈缇娅斯殖民者</Anneli_Player.labelPlural>
-  <Anneli_Player.labelMale>安奈缇娅斯殖民者</Anneli_Player.labelMale>
-  <Anneli_Player.labelMalePlural>安奈缇娅斯殖民者</Anneli_Player.labelMalePlural>
-  <Anneli_Player.labelFemale>安奈缇娅斯殖民者</Anneli_Player.labelFemale>
-  <Anneli_Player.labelFemalePlural>安奈缇娅斯殖民者</Anneli_Player.labelFemalePlural>
+  <Anneli_Player.label>安妮莉特丝殖民者</Anneli_Player.label>
+  <Anneli_Player.labelPlural>安妮莉特丝殖民者</Anneli_Player.labelPlural>
+  <Anneli_Player.labelMale>安妮莉特丝殖民者</Anneli_Player.labelMale>
+  <Anneli_Player.labelMalePlural>安妮莉特丝殖民者</Anneli_Player.labelMalePlural>
+  <Anneli_Player.labelFemale>安妮莉特丝殖民者</Anneli_Player.labelFemale>
+  <Anneli_Player.labelFemalePlural>安妮莉特丝殖民者</Anneli_Player.labelFemalePlural>
+
+  <Anneli_Wild.label>野生安妮莉特丝</Anneli_Wild.label>
+  <Anneli_Wild.labelPlural>野生安妮莉特丝</Anneli_Wild.labelPlural>
+  <Anneli_Wild.labelMale>野生安妮莉特丝</Anneli_Wild.labelMale>
+  <Anneli_Wild.labelMalePlural>野生安妮莉特丝</Anneli_Wild.labelMalePlural>
+  <Anneli_Wild.labelFemale>野生安妮莉特丝</Anneli_Wild.labelFemale>
+  <Anneli_Wild.labelFemalePlural>野生安妮莉特丝</Anneli_Wild.labelFemalePlural>
 
 
 </LanguageData>

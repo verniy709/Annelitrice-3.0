@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CureAnneli_Infection.label>治疗安妮莉特丝感染</CureAnneli_Infection.label>
+  <CureAnneli_Infection.description>治疗安妮莉特丝感染.</CureAnneli_Infection.description>
+  <CureAnneli_Infection.jobString>治疗安妮莉特丝感染中.</CureAnneli_Infection.jobString>
+  <CureAnneli_Infection.successfullyRemovedHediffMessage>{0} 成功治疗 {1} 的安妮莉特丝感染.</CureAnneli_Infection.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

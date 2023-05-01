@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>Anneli_Fountain</defName>
 		<label>Annelitrice Fountain</label>
-		<description>The production bench for Annelitrice recipes.</description>
+		<description>The production bench for annelitrice recipes.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Anneli_Building/Fountain</texPath>

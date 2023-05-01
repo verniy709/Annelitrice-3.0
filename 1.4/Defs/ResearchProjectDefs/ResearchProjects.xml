@@ -7,7 +7,7 @@
 
 	<ResearchProjectDef>
 		<defName>Anneli_Fountain</defName>
-		<label>Anneli Incubator</label>
+		<label>Annelitrice Fountain</label>
 		<description>The production bench for Annelitrice recipes.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Medieval</techLevel>
@@ -21,7 +21,7 @@
 	<ResearchProjectDef>
 		<defName>Anneli_NutrientSolution</defName>
 		<label>Anneli Nutrient Solution</label>
-		<description>A bottle of suspicious liquid more efficient and nastier than nutrient paste meals. Artificial flavouring agents cannot mask its unpleasant flavors. Annelitrices won't mind it at all, as they grow up in it.</description>
+		<description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, annelitrice have no aversion to it since they are raised in its presence.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
@@ -35,7 +35,7 @@
 	<ResearchProjectDef>
 		<defName>Anneli_PuppetTheatre</defName>
 		<label>Anneli Puppet Theatre</label>
-		<description>Puppetry is a form of theatre or performance that involves the manipulation of puppets. It basically works as a TV for medieval society. Additionally, it gives your colonists an opportunity to reproduce the plots and costumes of some famous works by an unknown movie producer.</description>
+		<description>Puppetry is a type of theatrical or performance art that revolves around the manipulation of puppets. It essentially serves as a form of entertainment for medieval societies and provides your colonists with a chance to recreate the stories and costumes of well-known works by unknown artists.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>

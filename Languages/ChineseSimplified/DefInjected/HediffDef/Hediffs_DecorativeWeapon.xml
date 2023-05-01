@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Aura_Bravery.label>充满勇气</Anneli_Aura_Bravery.label>
+  <Anneli_Aura_Bravery.description>增加疼痛耐受.</Anneli_Aura_Bravery.description>
+  <Anneli_Aura_Bravery.labelNoun>勇气</Anneli_Aura_Bravery.labelNoun>
+
+  <Anneli_Aura_Recklessness.label>极度鲁莽</Anneli_Aura_Recklessness.label>
+  <Anneli_Aura_Recklessness.description>增加近战能力.</Anneli_Aura_Recklessness.description>
+  <Anneli_Aura_Recklessness.labelNoun>鲁莽</Anneli_Aura_Recklessness.labelNoun>
+
+  <Anneli_Aura_Trustworthiness.label>值得信赖</Anneli_Aura_Trustworthiness.label>
+  <Anneli_Aura_Trustworthiness.description>增加防御.</Anneli_Aura_Trustworthiness.description>
+  <Anneli_Aura_Trustworthiness.labelNoun>防御</Anneli_Aura_Trustworthiness.labelNoun>
+
+
+</LanguageData>

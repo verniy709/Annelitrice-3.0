@@ -1,21 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Annely_Regeneration.label>再生</Annely_Regeneration.label>
-  <Annely_Regeneration.description>再生.</Annely_Regeneration.description>
-  <Annely_Regeneration.comps.0.labelTendedWell>已包扎</Annely_Regeneration.comps.0.labelTendedWell>
-  <Annely_Regeneration.comps.0.labelTendedWellInner>已缝合</Annely_Regeneration.comps.0.labelTendedWellInner>
-  <Annely_Regeneration.comps.0.labelSolidTendedWell>已简单处理</Annely_Regeneration.comps.0.labelSolidTendedWell>
-  <Annely_Regeneration.injuryProps.destroyedLabel>被毁</Annely_Regeneration.injuryProps.destroyedLabel>
-  <Annely_Regeneration.labelNoun>重生</Annely_Regeneration.labelNoun>
+  <Anneli_Regeneration.label>重生</Anneli_Regeneration.label>
+  <Anneli_Regeneration.description>重生.</Anneli_Regeneration.description>
+  <Anneli_Regeneration.comps.0.labelTendedWell>已包扎</Anneli_Regeneration.comps.0.labelTendedWell>
+  <Anneli_Regeneration.comps.0.labelTendedWellInner>已缝合</Anneli_Regeneration.comps.0.labelTendedWellInner>
+  <Anneli_Regeneration.comps.0.labelSolidTendedWell>已简单处理</Anneli_Regeneration.comps.0.labelSolidTendedWell>
+  <Anneli_Regeneration.injuryProps.destroyedLabel>已被毁</Anneli_Regeneration.injuryProps.destroyedLabel>
+  <Anneli_Regeneration.labelNoun>重生</Anneli_Regeneration.labelNoun>
 
-  <Annely_Infection.label>寄生</Annely_Infection.label>
-  <Annely_Infection.description>.</Annely_Infection.description>
-  <Annely_Infection.stages.0.label>早期</Annely_Infection.stages.0.label>
-  <Annely_Infection.stages.1.label>中期</Annely_Infection.stages.1.label>
-  <Annely_Infection.stages.2.label>晚期</Annely_Infection.stages.2.label>
-  <Annely_Infection.stages.3.label>最终阶段</Annely_Infection.stages.3.label>
-  <Annely_Infection.labelNoun>寄生</Annely_Infection.labelNoun>
+  <Anneli_Infection.label>寄生</Anneli_Infection.label>
+  <Anneli_Infection.description>这个异常状态会让目标每个游戏日产生2-4个Anneli_OutsiderEgg。这些蛋会孵化成新的人物，归属于玩家的阵营。</Anneli_Infection.description>
+  <Anneli_Infection.stages.0.label>早期</Anneli_Infection.stages.0.label>
+  <Anneli_Infection.stages.1.label>中期</Anneli_Infection.stages.1.label>
+  <Anneli_Infection.stages.2.label>晚期</Anneli_Infection.stages.2.label>
+  <Anneli_Infection.stages.3.label>最终阶段</Anneli_Infection.stages.3.label>
+  <Anneli_Infection.labelNoun>寄生</Anneli_Infection.labelNoun>
 
+  <Anneli_Pupation.label>安妮莉特丝蛹化</Anneli_Pupation.label>
+  <Anneli_Pupation.description>蜕皮素是一种类固醇激素，对生物的发育和变态过程起着关键作用。它由前胸腺在受到激素和环境信号的刺激后产生和释放。简而言之，喂饱幼虫她们就会蛹化。</Anneli_Pupation.description>
+  <Anneli_Pupation.stages.0.label>正常状态</Anneli_Pupation.stages.0.label>
 
 </LanguageData>

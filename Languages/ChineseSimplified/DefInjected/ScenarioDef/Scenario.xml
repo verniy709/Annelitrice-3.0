@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Annelitrice_A.label>孤单的安奈缇娅斯</Annelitrice_A.label>
-  <Annelitrice_A.description>一群毛手毛脚的盗墓贼闯进了这个秘密的冷冻设施，并顺手把它砸了个稀烂.好消息是你还活着，并且这些贼并没有拿走所有的东西.坏消息是你已经迟到超过300年了.</Annelitrice_A.description>
-  <Annelitrice_A.scenario.name>孤单的安奈缇娅斯</Annelitrice_A.scenario.name>
+  <Annelitrice_A.label>孤独的安妮莉特丝</Annelitrice_A.label>
+  <Annelitrice_A.description>一群毛手毛脚的盗墓者潜入了一个隐秘的冷冻睡眠设施，并顺手把它砸了个稀烂。尽管如此，你仍然成功地幸存下来，更幸运的是，他们没有把所有的财物都抢走。然而，坏消息是你已经迟到超过300年了。</Annelitrice_A.description>
+  <Annelitrice_A.scenario.name>孤独的安妮莉特丝</Annelitrice_A.scenario.name>
   <Annelitrice_A.scenario.summary>你从冷冻仓中醒来，并从一个密室中找到了一些补给物资.</Annelitrice_A.scenario.summary>
-  <Annelitrice_A.scenario.description>一群毛手毛脚的盗墓贼闯进了这个秘密的冷冻设施，并顺手把它砸了个稀烂.好消息是你还活着，并且这些贼并没有拿走所有的东西.坏消息是你已经迟到超过300年了.</Annelitrice_A.scenario.description>
+  <Annelitrice_A.scenario.description>一群毛手毛脚的盗墓者潜入了一个隐秘的冷冻睡眠设施，并顺手把它砸了个稀烂。尽管如此，你仍然成功地幸存下来，更幸运的是，他们没有把所有的财物都抢走。然而，坏消息是你已经迟到超过300年了。</Annelitrice_A.scenario.description>
 
-  <Annelitrice_B.label>流浪剧团</Annelitrice_B.label>
-  <Annelitrice_B.description>一切都有个梦幻般的开局, 但现在我们只有勉强够一天的食物了.</Annelitrice_B.description>
-  <Annelitrice_B.scenario.name>流浪剧团</Annelitrice_B.scenario.name>
+  <Annelitrice_B.label>流动剧团</Annelitrice_B.label>
+  <Annelitrice_B.description>这个巡回演出剧团在星际间声名显赫，用她们引人入胜的表演，在无数行星上取悦了观众。但命运却对她们恶毒地开了个玩笑。她们无意中招惹了某个星球的达官显贵，并招致她们的设备被没收，戏服被抢走，财产被洗劫一空，在广袤的太空中漂泊无依，最终落脚在一颗贫瘠荒凉的星球上。她们的希望和梦想已经支离破碎。</Annelitrice_B.description>
+  <Annelitrice_B.scenario.name>流动剧团</Annelitrice_B.scenario.name>
   <Annelitrice_B.scenario.summary>在这颗星球上生活的野蛮人缺乏对艺术的尊敬.</Annelitrice_B.scenario.summary>
-  <Annelitrice_B.scenario.description>一切都有个梦幻般的开局, 但现在我们只有勉强够一天的食物了.</Annelitrice_B.scenario.description>
+  <Annelitrice_B.scenario.description>这个巡回演出剧团在星际间声名显赫，用她们引人入胜的表演，在无数行星上取悦了观众。但命运却对她们恶毒地开了个玩笑。她们无意中招惹了某个星球的达官显贵，并招致她们的设备被没收，戏服被抢走，财产被洗劫一空，在广袤的太空中漂泊无依，最终落脚在一颗贫瘠荒凉的星球上。她们的希望和梦想已经支离破碎。</Annelitrice_B.scenario.description>
 
 
 </LanguageData>
