@@ -39,13 +39,11 @@
         <useDuration>0</useDuration>
       </li>
       <li Class="CompProperties_Targetable">
-        <compClass>Annelitrice.CompTargetable_SingleCorpseAnneliRace</compClass>
-        <fleshCorpsesOnly>true</fleshCorpsesOnly>
-        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+        <compClass>Annelitrice.CompTargetable_Parameters_Egg</compClass>
       </li>
-      <li Class="CompProperties_TargetEffectResurrect">
-        <moteDef>Mote_ResurrectFlash</moteDef>
-      </li>
+      <li>
+        <compClass>Annelitrice.CompTargetEffect_NutrientSolution</compClass>
+      </li>      
     </comps>
   </ThingDef>
 

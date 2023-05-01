@@ -35,11 +35,13 @@ namespace Annelitrice
         {
             IntVec3 pos = parent.Position;
             Map map = parent.Map;
+            DefDatabase<EffecterDef>.GetNamed("Anneli_PupationStart").Spawn(pos, map);
             ThingWithComps pupa = ThingMaker.MakeThing(ThingDef.Named("Anneli_Pupa")) as ThingWithComps;
             CompContainPawn onwer = parent.GetComp<CompContainPawn>();
             onwer.GetDirectlyHeldThings().TryTransferAllToContainer(pupa.GetComp<CompContainPawn>().GetDirectlyHeldThings());
             GenSpawn.Spawn(pupa, pos, map, WipeMode.VanishOrMoveAside);
-            parent.Destroy();
+			DefDatabase<EffecterDef>.GetNamed("Anneli_PupationStart").Spawn(pos, map);
+			parent.Destroy();
         }
         public override void PostExposeData()
         {

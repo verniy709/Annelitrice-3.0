@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JobDriver_UseNutrientSolution.cs" />
     <Compile Include="CompConnaturalAbilities.cs" />
     <Compile Include="CompProperties_ConnaturalAbilities.cs" />
     <Compile Include="ITab_Pawn_Character.cs" />
@@ -69,9 +70,10 @@
     <Compile Include="CompPlayMusic.cs" />
     <Compile Include="JobDriver_WatchPuppetShow.cs" />
     <Compile Include="AnnelitriceDefOf.cs" />
-    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HarmonyPatches\DateChance.cs" />
     <Compile Include="CompRegeneration.cs" />
-    <Compile Include="CompTargetable_SingleCorpseOverride.cs" />    
+    <Compile Include="CompTargetable_Parameters_Egg.cs" />
+    <Compile Include="CompTargetEffect_NutrientSolution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

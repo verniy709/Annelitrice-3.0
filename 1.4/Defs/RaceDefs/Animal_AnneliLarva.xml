@@ -52,6 +52,7 @@
 				<baseHungerRate>0.10</baseHungerRate>
 				<baseHealthScale>0.4</baseHealthScale>
 				<useMeatFrom>Megaspider</useMeatFrom>
+				<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 				<lifeExpectancy>5000</lifeExpectancy>
 				<wildness>0.0</wildness>
 				<trainability>Advanced</trainability>

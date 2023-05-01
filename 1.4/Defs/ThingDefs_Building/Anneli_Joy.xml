@@ -1,37 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <JoyKindDef>
-    <defName>Anneli_Spectate</defName>
-    <label>spectating</label>
-  </JoyKindDef>
-
-  <JoyGiverDef>
-    <defName>WatchPuppetShow</defName>
-    <giverClass>JoyGiver_WatchBuilding</giverClass>
-    <baseChance>3.0</baseChance>
-    <canDoWhileInBed>true</canDoWhileInBed>
-	<desireSit>false</desireSit>
-    <thingDefs>
-      <li>Anneli_PuppetTheatre</li>
-    </thingDefs>
-    <jobDef>WatchPuppetShow</jobDef>
-    <joyKind>Anneli_Spectate</joyKind>
-    <requiredCapacities>
-      <li>Sight</li>
-    </requiredCapacities>
-  </JoyGiverDef>
-
-  <JobDef>
-    <defName>WatchPuppetShow</defName>
-    <driverClass>Annelitrice.JobDriver_WatchPuppetShow</driverClass>
-    <reportString>watching puppetshow.</reportString>
-    <joyDuration>4000</joyDuration>
-    <joyMaxParticipants>12</joyMaxParticipants>
-    <joyKind>Anneli_Spectate</joyKind>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
-
   <ThingDef ParentName="BuildingBase">
     <defName>Anneli_PuppetTheatre</defName>
     <thingClass>Building</thingClass>

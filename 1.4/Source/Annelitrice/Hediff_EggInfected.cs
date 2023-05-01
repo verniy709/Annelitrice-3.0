@@ -12,7 +12,7 @@ namespace Annelitrice
         public override void PostAdd(DamageInfo? dinfo)
         {
             base.PostAdd(dinfo);
-            infectedTime = Find.TickManager.TicksGame +1;
+            infectedTime = Find.TickManager.TicksGame -1;
         }
         public override void PostTick()
         {

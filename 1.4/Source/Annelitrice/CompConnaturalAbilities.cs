@@ -15,20 +15,6 @@ namespace Annelitrice
         {
             RestoreAbilities();
         }
-        public override IEnumerable<Gizmo> CompGetGizmosExtra()
-        {
-            if (parent.Faction != null && parent.Faction.IsPlayer)
-            {
-                foreach (var x in (parent as Pawn).abilities.abilities)
-                {
-                    foreach (var y in x.GetGizmos())
-                    {
-                        yield return y;
-                    }
-                }
-            }
-
-        }
         private void RestoreAbilities()
         {
             if (parent is Pawn pawn)

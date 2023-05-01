@@ -26,10 +26,13 @@ namespace Annelitrice
         }
         public override void CompTick()
         {
-            eggTime++;
-            if(eggTime > SpawnTime)
+            if (parent.def.defName == "Anneli_Pupa")
             {
-                Hatch();
+                eggTime++;
+                if (eggTime > SpawnTime)
+                {
+                    Hatch_Pupa();
+                }
             }
         }
         public void Hatch()
@@ -53,9 +56,13 @@ namespace Annelitrice
             {
                 ResurrectionUtility.Resurrect(pawn);
             }
+            if (pawn.Faction != Faction.OfPlayer)
+            {
+                pawn.SetFaction(Faction.OfPlayer);
+            }
             onwer.GetDirectlyHeldThings().TryDrop(pawn,pos, map, ThingPlaceMode.Near,1,out _);
-            
-            parent.Destroy();
+			DefDatabase<EffecterDef>.GetNamed("Anneli_PupationFinish").Spawn(pos, map);
+			parent.Destroy();
         }
         private void Hatch_Egg()
         {
@@ -64,7 +71,6 @@ namespace Annelitrice
             Pawn pawn =PawnGenerator.GeneratePawn(PawnKindDef.Named("AnnelitriceLarvaAsAnimal"),Faction.OfPlayer);
             parent.GetComp<CompContainPawn>().GetDirectlyHeldThings().TryTransferAllToContainer(pawn.GetComp<CompContainPawn>().GetDirectlyHeldThings());
             GenSpawn.Spawn(pawn, pos, map, WipeMode.VanishOrMoveAside);
-            DefDatabase<EffecterDef>.GetNamed("Anneli_PupationFinish").Spawn(pos, map);
             parent.Destroy();
         }
         public override void PostExposeData()
@@ -72,13 +78,13 @@ namespace Annelitrice
             Scribe_Values.Look(ref eggTime, "eggTime");
         }
         private int eggTime;
-        public const int SpawnTime = 600000;
+        public const int SpawnTime = 30000;
 
         public static ThingWithComps MakeEgg(Pawn pawn)
         {
             ThingWithComps egg;
             
-            if (pawn.Faction.IsPlayer)
+            if (pawn.Faction != null && pawn.Faction.IsPlayer)
             {
                 egg = ThingMaker.MakeThing(ThingDef.Named("Anneli_ColonistEgg")) as ThingWithComps;
             }
