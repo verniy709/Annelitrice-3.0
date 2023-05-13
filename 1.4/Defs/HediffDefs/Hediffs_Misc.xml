@@ -28,7 +28,7 @@
     <hediffClass>Annelitrice.Hediff_EggInfected</hediffClass>
     <description>The hediff would induce the target to produce 2-4 Anneli_OutsiderEgg every in-game day. These eggs would then hatch into new pawns that belong to the player's faction.</description>
     <makesSickThought>true</makesSickThought>
-    <tendable>true</tendable>
+    <tendable>false</tendable>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
     <stages>
@@ -83,17 +83,13 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>0.2</severityPerDay>
       </li>
-      <li Class="HediffCompProperties_TendDuration">
-        <severityPerDayTended>-1</severityPerDayTended>
-        <baseTendDurationHours>24</baseTendDurationHours>
-      </li>
     </comps>
   </HediffDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
-    <defName>CureAnneli_Infection</defName>
+    <defName>Cure_Anneli_Infection</defName>
     <label>cure annelitrice infection</label>
-    <description>This smedical operation cures annelitrice infection.</description>
+    <description>This medical operation cures annelitrice infection.</description>
     <workerClass>Recipe_RemoveHediff</workerClass>
     <jobString>Curing annelitrice infection.</jobString>
     <workAmount>1000</workAmount>
@@ -102,9 +98,6 @@
     <targetsBodyPart>false</targetsBodyPart>
     <removesHediff>Anneli_Infection</removesHediff>
     <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s annelitrice infection.</successfullyRemovedHediffMessage>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -112,7 +105,7 @@
             <li>MedicineHerbal</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>

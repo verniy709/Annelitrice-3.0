@@ -17,7 +17,7 @@ namespace Annelitrice
         public override void PostTick()
         {
             base.PostTick();
-            if(Find.TickManager.TicksGame - infectedTime % 60000 == 0 && pawn.Spawned)
+            if((Find.TickManager.TicksGame - infectedTime) % 60000 == 0 && pawn.Spawned)
             {
                 LayEggs();
             }
