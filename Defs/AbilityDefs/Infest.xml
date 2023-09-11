@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityDef>
+		<defName>Anneli_Infest</defName>
+		<label>annelitrice infest</label>
+		<description>The hediff would induce the target to produce 2-4 Anneli_OutsiderEgg every in-game day. These eggs would then hatch into new pawns that belong to the player's faction.</description>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<hostile>false</hostile>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>False</drawAimPie>
+			<warmupTime>1</warmupTime>
+			<range>-1</range>
+			<targetParams>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>Anneli_Infection</hediffDef>
+				<goodwillImpact>-15</goodwillImpact>
+				<applicableToMechs>False</applicableToMechs>
+			</li>
+			<li Class="CompProperties_AbilityEffecterOnTarget">
+				<effecterDef>Anneli_Infest</effecterDef>
+				<maintainForTicks>80</maintainForTicks>
+			</li>
+		</comps>
+	</AbilityDef>
+
+</Defs>

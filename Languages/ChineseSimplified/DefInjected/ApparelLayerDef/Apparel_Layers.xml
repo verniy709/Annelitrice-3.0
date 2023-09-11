@@ -1,43 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Layer 1 -->
-
-  <Anneli_OnSkin.label>Anneli_OnSkin</Anneli_OnSkin.label>
-
-
-  <!-- Layer 2 -->
-
-  <Anneli_Middle.label>Anneli_Middle</Anneli_Middle.label>
-
-
-  <!-- Layer 3 -->
-
-  <Anneli_Shell.label>Anneli_Shell</Anneli_Shell.label>
-
-
-  <!-- Layer 4 -->
-
-  <Anneli_UpperShell_Armor.label>Anneli_UpperShell_Armor</Anneli_UpperShell_Armor.label>
-
-
-  <!-- Layer 5 -->
-
-  <Anneli_UpperShell_Tactical.label>Anneli_UpperShell_Tactical</Anneli_UpperShell_Tactical.label>
-
-
-  <!-- Layer 7 -->
-
-  <Anneli_Weapon.label>Anneli_Weapon</Anneli_Weapon.label>
-  <Anneli_Bag.label>Anneli_Bag</Anneli_Bag.label>
-
-
-  <!-- Layer 9 -->
-
-  <Anneli_Misc.label>Anneli_Misc</Anneli_Misc.label>
-  <Anneli_ArmTestA.label>Anneli_ArmTestA</Anneli_ArmTestA.label>
-  <Anneli_ArmTestB.label>Anneli_ArmTestB</Anneli_ArmTestB.label>
-  <Anneli_ArmTestC.label>Anneli_ArmTestC</Anneli_ArmTestC.label>
+  <Anneli_Knee.label>安妮莉特丝_护膝</Anneli_Knee.label>
+  <Anneli_Armor.label>安妮莉特丝_盔甲</Anneli_Armor.label>
+  <Anneli_Tactical.label>安妮莉特丝_战术</Anneli_Tactical.label>
+  <Anneli_Bag.label>安妮莉特丝_背包</Anneli_Bag.label>
+  <Anneli_Misc.label>安妮莉特丝_杂项</Anneli_Misc.label>
 
 
 </LanguageData>

@@ -1,36 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Front_MShape_A.label>Front_MShape_A</Front_MShape_A.label>
-  <Front_MShape_B.label>Front_MShape_B</Front_MShape_B.label>
-  <Front_MShape_C.label>Front_MShape_C</Front_MShape_C.label>
-  <Front_MShape_D.label>Front_MShape_D</Front_MShape_D.label>
-  <Front_MShape_E.label>Front_MShape_E</Front_MShape_E.label>
-  <Front_MShape_F.label>Front_MShape_F</Front_MShape_F.label>
-  <Front_MShape_G.label>Front_MShape_G</Front_MShape_G.label>
-  <Front_MShape_H.label>Front_MShape_H</Front_MShape_H.label>
-  <Front_MShape_I.label>Front_MShape_I</Front_MShape_I.label>
-  <Front_MShape_J.label>Front_MShape_J</Front_MShape_J.label>
-  <Front_MShape_K.label>Front_MShape_K</Front_MShape_K.label>
-  <Front_MShape_L.label>Front_MShape_L</Front_MShape_L.label>
-  <Front_MShape_M.label>Front_MShape_M</Front_MShape_M.label>
-  <Front_Curtain_A.label>Front_Curtain_A</Front_Curtain_A.label>
-  <Front_Curtain_B.label>Front_Curtain_B</Front_Curtain_B.label>
-  <Front_Curtain_C.label>Front_Curtain_C</Front_Curtain_C.label>
-  <Front_Curtain_D.label>Front_Curtain_D</Front_Curtain_D.label>
-  <Front_Straight_A.label>Front_Straight_A</Front_Straight_A.label>
-  <Front_Straight_B.label>Front_Straight_B</Front_Straight_B.label>
-  <Front_Straight_C.label>Front_Straight_C</Front_Straight_C.label>
-  <Front_Straight_D.label>Front_Straight_D</Front_Straight_D.label>
-  <Front_SideSwept_A.label>Front_SideSwept_A</Front_SideSwept_A.label>
-  <Front_SideSwept_B.label>Front_SideSwept_B</Front_SideSwept_B.label>
-  <Front_SideSwept_C.label>Front_SideSwept_C</Front_SideSwept_C.label>
-  <Front_SideSwept_D.label>Front_SideSwept_D</Front_SideSwept_D.label>
-  <Front_SideSwept_E.label>Front_SideSwept_E</Front_SideSwept_E.label>
-  <Front_SideSwept_F.label>Front_SideSwept_F</Front_SideSwept_F.label>
-  <Front_SideSwept_G.label>Front_SideSwept_G</Front_SideSwept_G.label>
-  <Front_SideSwept_H.label>Front_SideSwept_H</Front_SideSwept_H.label>
-  <Front_SideSwept_I.label>Front_SideSwept_I</Front_SideSwept_I.label>
+  <Anneli_HairCombo_BraidA.label>(Anneli)combo braid A</Anneli_HairCombo_BraidA.label>
+  <Anneli_HairCombo_FlatA.label>(Anneli)combo flat A</Anneli_HairCombo_FlatA.label>
+  <Anneli_HairCombo_FlatB.label>(Anneli)combo flat B</Anneli_HairCombo_FlatB.label>
+  <Anneli_HairCombo_LongA.label>(Anneli)combo long A</Anneli_HairCombo_LongA.label>
+  <Anneli_HairCombo_LongB.label>(Anneli)combo long B</Anneli_HairCombo_LongB.label>
+  <Anneli_HairCombo_LongC.label>(Anneli)combo long C</Anneli_HairCombo_LongC.label>
+  <Anneli_HairCombo_LongD.label>(Anneli)combo long D</Anneli_HairCombo_LongD.label>
+  <Anneli_HairCombo_LongE.label>(Anneli)combo long E</Anneli_HairCombo_LongE.label>
+  <Anneli_HairCombo_ShortA.label>(Anneli)combo short A</Anneli_HairCombo_ShortA.label>
+  <Anneli_HairCombo_ShortB.label>(Anneli)combo short B</Anneli_HairCombo_ShortB.label>
+  <Anneli_HairCombo_ShortC.label>(Anneli)combo short C</Anneli_HairCombo_ShortC.label>
+  <Anneli_HairCombo_ShortD.label>(Anneli)combo short D</Anneli_HairCombo_ShortD.label>
+  <Anneli_HairCombo_ShortE.label>(Anneli)combo short E</Anneli_HairCombo_ShortE.label>
+  <Anneli_HairCombo_TiedA.label>(Anneli)combo tied A</Anneli_HairCombo_TiedA.label>
+  <Anneli_HairCombo_TiedB.label>(Anneli)combo tied B</Anneli_HairCombo_TiedB.label>
+  <Anneli_HairCombo_TiedC.label>(Anneli)combo tied C</Anneli_HairCombo_TiedC.label>
 
+
+  <!--<Front_MShape_A.label>Front_MShape_A</Front_MShape_A.label>-->
+  <!--<Front_MShape_B.label>Front_MShape_B</Front_MShape_B.label>-->
+  <!--<Front_MShape_C.label>Front_MShape_C</Front_MShape_C.label>-->
+  <!--<Front_MShape_D.label>Front_MShape_D</Front_MShape_D.label>-->
+  <!--<Front_MShape_E.label>Front_MShape_E</Front_MShape_E.label>-->
+  <!--<Front_MShape_F.label>Front_MShape_F</Front_MShape_F.label>-->
+  <!--<Front_MShape_G.label>Front_MShape_G</Front_MShape_G.label>-->
+  <!--<Front_MShape_H.label>Front_MShape_H</Front_MShape_H.label>-->
+  <!--<Front_MShape_I.label>Front_MShape_I</Front_MShape_I.label>-->
+  <!--<Front_MShape_J.label>Front_MShape_J</Front_MShape_J.label>-->
+  <!--<Front_MShape_K.label>Front_MShape_K</Front_MShape_K.label>-->
+  <!--<Front_MShape_L.label>Front_MShape_L</Front_MShape_L.label>-->
+  <!--<Front_MShape_M.label>Front_MShape_M</Front_MShape_M.label>-->
+  <!--<Front_Curtain_A.label>Front_Curtain_A</Front_Curtain_A.label>-->
+  <!--<Front_Curtain_B.label>Front_Curtain_B</Front_Curtain_B.label>-->
+  <!--<Front_Curtain_C.label>Front_Curtain_C</Front_Curtain_C.label>-->
+  <!--<Front_Curtain_D.label>Front_Curtain_D</Front_Curtain_D.label>-->
+  <!--<Front_Straight_A.label>Front_Straight_A</Front_Straight_A.label>-->
+  <!--<Front_Straight_B.label>Front_Straight_B</Front_Straight_B.label>-->
+  <!--<Front_Straight_C.label>Front_Straight_C</Front_Straight_C.label>-->
+  <!--<Front_Straight_D.label>Front_Straight_D</Front_Straight_D.label>-->
+  <!--<Front_SideSwept_A.label>Front_SideSwept_A</Front_SideSwept_A.label>-->
+  <!--<Front_SideSwept_B.label>Front_SideSwept_B</Front_SideSwept_B.label>-->
+  <!--<Front_SideSwept_C.label>Front_SideSwept_C</Front_SideSwept_C.label>-->
+  <!--<Front_SideSwept_D.label>Front_SideSwept_D</Front_SideSwept_D.label>-->
+  <!--<Front_SideSwept_E.label>Front_SideSwept_E</Front_SideSwept_E.label>-->
+  <!--<Front_SideSwept_F.label>Front_SideSwept_F</Front_SideSwept_F.label>-->
+  <!--<Front_SideSwept_G.label>Front_SideSwept_G</Front_SideSwept_G.label>-->
+  <!--<Front_SideSwept_H.label>Front_SideSwept_H</Front_SideSwept_H.label>-->
+  <!--<Front_SideSwept_I.label>Front_SideSwept_I</Front_SideSwept_I.label>-->
 
 </LanguageData>

@@ -20,10 +20,15 @@
       <displayName>Humanoid Alien Races 2.0</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
     </li>
+    <li>
+      <packageId>NareisLib.kamijouko.nazunarei</packageId>
+      <displayName>NareisLib</displayName>
+    </li>
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>erdelf.HumanoidAlienRaces</li>
+    <li>NareisLib.kamijouko.nazunarei</li>
   </loadAfter>
   <incompatibleWith>
     <li>Verniy709.Annelitrice2.0</li>

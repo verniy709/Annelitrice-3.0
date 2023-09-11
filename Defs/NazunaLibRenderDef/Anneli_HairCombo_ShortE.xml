@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_HairCombo_ShortE</defName>
+		<originalDef>Anneli_HairCombo_ShortE</originalDef>
+		<originalDefClass>HairDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Hair/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Middle_Short_E</li>
+				</prefix>
+				<renderLayer>BottomHair</renderLayer>
+				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.5, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.5, 0)</drawOffsetWest>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+			<li>
+				<prefix>
+					<li>Front_Curtain_A</li>
+					<li>Front_MShape_A</li>
+					<li>Front_MShape_C</li>
+					<li>Front_MShape_E</li>
+					<li>Front_MShape_H</li>
+					<li>Front_MShape_I</li>
+					<li>Front_MShape_J</li>
+					<li>Front_MShape_K</li>
+					<li>Front_MShape_L</li>
+					<li>Front_MShape_M</li>
+					<li>Front_SideSwept_A</li>
+					<li>Front_SideSwept_C</li>
+					<li>Front_SideSwept_D</li>
+					<li>Front_SideSwept_E</li>
+					<li>Front_SideSwept_F</li>
+					<li>Front_SideSwept_H</li>
+					<li>Front_SideSwept_I</li>
+					<li>Front_Straight_A</li>
+					<li>Front_Straight_B</li>
+					<li>Front_Straight_C</li>
+					<li>Front_Straight_D</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
+				<drawOffsetSouth>(0, 0.5, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.5, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.5, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.5, 0)</drawOffsetWest>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+					<li>Back_HalfUpBraid_A</li>
+					<li>Back_HalfUpBraid_B</li>
+					<li>Back_HalfUpBraid_E</li>
+					<li>Back_Ponytail_C</li>
+				</prefix>
+				<renderLayer>BottomHair</renderLayer>
+				<textureLevelsName>Anneli_BackHair</textureLevelsName>
+				<drawOffsetSouth>(0, -0.5, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.5, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+				<weightOfThePrefix>
+					<li>
+						<key>Anneli_Null</key>
+						<value>3</value>
+					</li>
+				</weightOfThePrefix>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+</Defs>
