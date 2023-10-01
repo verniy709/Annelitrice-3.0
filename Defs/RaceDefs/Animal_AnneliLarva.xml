@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<FleshTypeDef>
+		<defName>Anneli_Larva</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>Damage_HitInsect</damageEffecter>
+		<genericWounds>
+			<li>
+				<texture>Things/Pawn/Wounds/WoundA</texture>
+				<color>0.23,0.20,0.17</color>
+			</li>
+			<li>
+				<texture>Things/Pawn/Wounds/WoundB</texture>
+				<color>0.23,0.20,0.17</color>
+			</li>
+			<li>
+				<texture>Things/Pawn/Wounds/WoundC</texture>
+				<color>0.23,0.20,0.17</color>
+			</li>
+		</genericWounds>
+	</FleshTypeDef>
+
 	<LifeStageDef>
 		<defName>Anneli_Larva</defName>
 		<label>annelitrice larva</label>
@@ -47,6 +67,7 @@
 				</li>
 			</tools>
 			<race>
+				<fleshType>Anneli_Larva</fleshType>
 				<body>BeetleLike</body>
 				<baseBodySize>1.0</baseBodySize>
 				<baseHungerRate>2.0</baseHungerRate>
@@ -54,6 +75,7 @@
 				<useMeatFrom>Megaspider</useMeatFrom>
 				<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 				<lifeExpectancy>5000</lifeExpectancy>
+				<gestationPeriodDays>500</gestationPeriodDays>
 				<wildness>0.0</wildness>
 				<trainability>Advanced</trainability>
 				<lifeStageAges>
@@ -66,16 +88,16 @@
 				<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 				<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			</race>
-    <inspectorTabs>
-      <li>Annelitrice.ITab_Pawn_Character</li>
-    </inspectorTabs>
+			<inspectorTabs>
+				<li>Annelitrice.ITab_Pawn_Character</li>
+			</inspectorTabs>
 			<comps Inherit="False">
-        <li>
-          <compClass>Annelitrice.CompContainPawn</compClass>
-        </li>
-        <li>
-          <compClass>Annelitrice.CompLarva</compClass>
-        </li>
+				<li>
+					<compClass>Annelitrice.CompContainPawn</compClass>
+				</li>
+				<li>
+					<compClass>Annelitrice.CompLarva</compClass>
+				</li>
 			</comps>
 		</ThingDef>
 
@@ -86,6 +108,7 @@
 			<combatPower>40</combatPower>
 			<canArriveManhunter>false</canArriveManhunter>
 			<ecoSystemWeight>0</ecoSystemWeight>
+			<wildGroupSize>0</wildGroupSize>
 			<alternateGraphicChance>0.89</alternateGraphicChance>
 			<alternateGraphics>
 				<li><texPath>Anneli_Larva/Larva1</texPath></li>

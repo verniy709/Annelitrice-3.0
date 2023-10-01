@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!--Tower-->
   <ThingDef>
     <defName>Anneli_Pupa</defName>
     <label>annelitrice pupa</label>
@@ -14,31 +13,28 @@
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>1.30</drawSize>
     </graphicData>
-    <ingestible>
-      <foodType>AnimalProduct</foodType>
-      <ingestEffect>EatMeat</ingestEffect>
-      <ingestSound>RawMeat_Eat</ingestSound>
-      <tasteThought>AteRawFood</tasteThought>
-      <preferability>DesperateOnly</preferability>
-    </ingestible>
-    <tickerType>Normal</tickerType>
     <thingCategories>
-      <li>EggsFertilized</li>
+      <li>Anneli_Egg</li>
     </thingCategories>
     <statBases>
       <Mass>5.0</Mass>
       <MaxHitPoints>200</MaxHitPoints>
       <DeteriorationRate>0</DeteriorationRate>
       <Flammability>0</Flammability>
-      <Nutrition>1.0</Nutrition>
-      <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
     </statBases>
-    <stackLimit>1</stackLimit>
-    <tradeability>None</tradeability>
-    <scatterableOnMapGen>false</scatterableOnMapGen>
     <inspectorTabs>
       <li>Annelitrice.ITab_Pawn_Character</li>
     </inspectorTabs>
+    <alwaysHaulable>false</alwaysHaulable>  <!-- Not Haulable -->
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <pathCost>14</pathCost>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
     <comps>
       <li>
         <compClass>Annelitrice.CompContainPawn</compClass>

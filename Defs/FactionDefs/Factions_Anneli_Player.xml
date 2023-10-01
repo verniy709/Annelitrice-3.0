@@ -61,7 +61,7 @@
 			<li>Anneli_Story</li>
 		</backstoryCategories>
 		<settlementTexturePath>Anneli_Factions/Anneli_Player</settlementTexturePath>
-		<factionIconPath>Anneli_Faction/Anneli_Player</factionIconPath>
+		<factionIconPath>Anneli_Factions/Anneli_Player</factionIconPath>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -76,7 +76,7 @@
 		<configurationListOrderPriority>2000</configurationListOrderPriority>
 		<displayInFactionSelection>false</displayInFactionSelection>
 		<fixedName>Annelitrice Wild</fixedName>
-		<factionIconPath>Anneli_Faction/Anneli_Player</factionIconPath>
+		<factionIconPath>Anneli_Factions/Anneli_Player</factionIconPath>
 		<techLevel>Medieval</techLevel>
 		<backstoryCategories>
 			<li>Anneli_Story</li>

@@ -8,7 +8,7 @@
 		<useHitPoints>True</useHitPoints>
 		<pathCost>10</pathCost>
 		<graphicData>
-			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<onGroundRandomRotateAngle>20</onGroundRandomRotateAngle>
 			<drawSize>1</drawSize>
 		</graphicData>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -35,7 +35,6 @@
 		<tradeability>Sellable</tradeability>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<messageOnDeteriorateInStorage>false</messageOnDeteriorateInStorage>
-		<deteriorateFromEnvironmentalEffects>false</deteriorateFromEnvironmentalEffects>
 		<apparel>
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>

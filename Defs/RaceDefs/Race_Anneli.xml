@@ -362,6 +362,8 @@
 					<li>ObservedLayingRottingCorpse</li>
 					<li>ColonistLeftUnburied</li>
 					<li>AteNutrientPasteMeal</li>
+					<li>DeadMansApparel</li>
+					<li>HumanLeatherApparelSad</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelMinQualityNotMet</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelRequirementNotMet</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
