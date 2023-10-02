@@ -31,6 +31,28 @@
 		</styleTags>
 	</HairDef>
 
+	<!-- NEW -->
+	<HairDef>
+		<defName>Anneli_HairCombo_FlatC</defName>
+		<label>(Anneli)combo flat C</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<!-- NEW -->
+	<HairDef>
+		<defName>Anneli_HairCombo_FlatD</defName>
+		<label>(Anneli)combo flat D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
 	<HairDef>
 		<defName>Anneli_HairCombo_LongA</defName>
 		<label>(Anneli)combo long A</label>
@@ -154,6 +176,17 @@
 	<HairDef>
 		<defName>Anneli_HairCombo_TiedC</defName>
 		<label>(Anneli)combo tied C</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<!-- NEW -->
+	<HairDef>
+		<defName>Anneli_HairCombo_TiedD</defName>
+		<label>(Anneli)combo tied D</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
 		<styleTags>

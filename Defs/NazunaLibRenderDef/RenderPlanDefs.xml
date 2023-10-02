@@ -11,6 +11,8 @@
 			<li>Anneli_HairCombo_BraidA</li>
 			<li>Anneli_HairCombo_FlatA</li>
 			<li>Anneli_HairCombo_FlatB</li>
+			<li>Anneli_HairCombo_FlatC</li>
+			<li>Anneli_HairCombo_FlatD</li>
 			<li>Anneli_HairCombo_LongA</li>
 			<li>Anneli_HairCombo_LongB</li>
 			<li>Anneli_HairCombo_LongC</li>
@@ -24,6 +26,7 @@
 			<li>Anneli_HairCombo_TiedA</li>
 			<li>Anneli_HairCombo_TiedB</li>
 			<li>Anneli_HairCombo_TiedC</li>
+			<li>Anneli_HairCombo_TiedD</li>
 		</plans>
 	</NareisLib.RenderPlanDef>
 </Defs>

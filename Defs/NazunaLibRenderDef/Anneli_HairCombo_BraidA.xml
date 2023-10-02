@@ -28,7 +28,6 @@
 					<li>Front_MShape_B</li>
 					<li>Front_MShape_C</li>
 					<li>Front_MShape_E</li>
-					<li>Front_MShape_F</li>
 					<li>Front_MShape_G</li>
 					<li>Front_MShape_H</li>
 					<li>Front_MShape_I</li>
@@ -42,6 +41,8 @@
 					<li>Front_SideSwept_F</li>
 					<li>Front_SideSwept_G</li>
 					<li>Front_SideSwept_I</li>
+					<li>Front_SideSwept_J</li>
+					<li>Front_SideSwept_K</li>
 					<li>Front_Straight_C</li>
 					<li>Front_Straight_D</li>
 				</prefix>

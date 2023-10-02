@@ -22,6 +22,38 @@
 			</li>
 			<li>
 				<prefix>
+					<li>Anneli_Null</li>
+					<li>Ahoge_Curved</li>
+					<li>Ahoge_Heart</li>
+					<li>Ahoge_Normal</li>
+					<li>Ahoge_Short</li>
+					<li>Ahoge_Thick</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
+				<drawOffsetSouth>(0, 1, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -1, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -1, 0)</drawOffsetWest>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+				<weightOfThePrefix>
+					<li>
+						<key>Anneli_Null</key>
+						<value>30</value>
+					</li>
+					<li>
+						<key>Ahoge_Normal</key>
+						<value>5</value>
+					</li>
+					<li>
+						<key>Ahoge_Short</key>
+						<value>3</value>
+					</li>
+				</weightOfThePrefix>
+			</li>
+			<li>
+				<prefix>
 					<li>Front_Curtain_A</li>
 					<li>Front_MShape_A</li>
 					<li>Front_MShape_C</li>
@@ -31,6 +63,8 @@
 					<li>Front_MShape_K</li>
 					<li>Front_MShape_L</li>
 					<li>Front_MShape_M</li>
+					<li>Front_MShape_N</li>
+					<li>Front_MShape_O</li>
 					<li>Front_SideSwept_A</li>
 					<li>Front_SideSwept_C</li>
 					<li>Front_SideSwept_D</li>
@@ -38,6 +72,7 @@
 					<li>Front_SideSwept_F</li>
 					<li>Front_SideSwept_H</li>
 					<li>Front_SideSwept_I</li>
+					<li>Front_SideSwept_K</li>
 					<li>Front_Straight_A</li>
 					<li>Front_Straight_B</li>
 					<li>Front_Straight_C</li>
