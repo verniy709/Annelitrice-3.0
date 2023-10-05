@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_YoRHaLTS_Left"]/behaviors</xpath>
+        <value>
+            <!-- Think Job Category -->
+            <li>
+                <key>Reign</key>
+                <value>
+                    <exPath>Anneli_Arms/YoRHaLTS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_YoRHaLTS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Reach Out Job Category -->
+            <li>
+                <key>LinkPsylinkable</key>
+                <value>
+                    <exPath>Anneli_Arms/YoRHaLTS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_YoRHaLTS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Salute Job Category -->
+            <li>
+                <key>BestowingCeremony</key>
+                <value>
+                    <exPath>Anneli_Arms/YoRHaLTS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_YoRHaLTS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+        </value>
+    </Operation>
+</Patch>
