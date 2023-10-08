@@ -46,6 +46,7 @@
 		</apparel>
 		<tradeTags>
 			<li>BasicClothing</li>
+			<li>Clothing</li>
 		</tradeTags>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>

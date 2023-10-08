@@ -3677,7 +3677,7 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmHandHighA/</li>
+								<li>ArmHandLowG/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3697,7 +3697,7 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmHandHighA/</li>
+								<li>ArmHandLowG/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3759,7 +3759,7 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmHandLowC/</li>
+								<li>ArmHandLowG/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3779,47 +3779,7 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmHandLowC/</li>
-							</value>
-						</li>
-					</pathDict>
-				</value>
-			</li>
-			<li>
-				<key>Sow</key>
-				<value>
-					<exPath>Anneli_Arms/Naked/</exPath>
-					<randomChange>true</randomChange>          
-					<useRandomTimeDelta>true</useRandomTimeDelta>
-					<actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
-					<textures>
-						<li>Anneli_Arm</li>
-					</textures>
-					<pathDict>
-						<li>
-							<key>Standing</key>
-							<value>
-								<li>ArmHandLowC/</li>
-							</value>
-						</li>
-					</pathDict>
-				</value>
-			</li>
-			<li>
-				<key>PlantSeed</key>
-				<value>
-					<exPath>Anneli_Arms/Naked/</exPath>
-					<randomChange>true</randomChange>          
-					<useRandomTimeDelta>true</useRandomTimeDelta>
-					<actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
-					<textures>
-						<li>Anneli_Arm</li>
-					</textures>
-					<pathDict>
-						<li>
-							<key>Standing</key>
-							<value>
-								<li>ArmHandLowC/</li>
+								<li>ArmHandLowG/</li>
 							</value>
 						</li>
 					</pathDict>
@@ -3861,6 +3821,47 @@
 							<key>Standing</key>
 							<value>
 								<li>ArmHandLowC/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsHoe) Job Category -->
+			<li>
+				<key>Sow</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowG/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>PlantSeed</key>
+				<value>
+					<exPath>Anneli_Arms/Naked/</exPath>
+					<randomChange>true</randomChange>          
+					<useRandomTimeDelta>true</useRandomTimeDelta>
+					<actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+					<textures>
+						<li>Anneli_Arm</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>ArmHandLowG/</li>
 							</value>
 						</li>
 					</pathDict>

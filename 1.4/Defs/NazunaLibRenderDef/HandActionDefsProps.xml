@@ -401,40 +401,6 @@
 					</pathDict>
 				</value>
 			</li>
-			<li>
-				<key>Sow</key>
-				<value>
-					<exPath>Anneli_Arms/Props/</exPath>         
-					<textures>
-						<li>Anneli_Props</li>
-					</textures>
-					<pathDict>
-						<li>
-							<key>Standing</key>
-							<value>
-								<li>PropsShovel/</li>
-							</value>
-						</li>
-					</pathDict>
-				</value>
-			</li>
-			<li>
-				<key>PlantSeed</key>
-				<value>
-					<exPath>Anneli_Arms/Props/</exPath>         
-					<textures>
-						<li>Anneli_Props</li>
-					</textures>
-					<pathDict>
-						<li>
-							<key>Standing</key>
-							<value>
-								<li>PropsShovel/</li>
-							</value>
-						</li>
-					</pathDict>
-				</value>
-			</li>
 			<!-- Work (PropsAxe) Job Category -->
 			<li>
 				<key>CutPlant</key>
@@ -465,6 +431,41 @@
 							<key>Standing</key>
 							<value>
 								<li>PropsAxe/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<!-- Work (PropsHoe) Job Category -->
+			<li>
+				<key>Sow</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHoe/</li>
+							</value>
+						</li>
+					</pathDict>
+				</value>
+			</li>
+			<li>
+				<key>PlantSeed</key>
+				<value>
+					<exPath>Anneli_Arms/Props/</exPath>         
+					<textures>
+						<li>Anneli_Props</li>
+					</textures>
+					<pathDict>
+						<li>
+							<key>Standing</key>
+							<value>
+								<li>PropsHoe/</li>
 							</value>
 						</li>
 					</pathDict>
