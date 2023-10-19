@@ -23,6 +23,7 @@
     <li>
       <packageId>NareisLib.kamijouko.nazunarei</packageId>
       <displayName>NareisLib</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2999614450</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>

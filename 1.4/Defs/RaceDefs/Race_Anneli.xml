@@ -67,9 +67,9 @@
 						<west>(0.046, 0.155)</west>
 					</headOffsetDirectional>
 					<customDrawSize>(0.98, 1.112)</customDrawSize>
-					<customHeadDrawSize>(0.68, 0.695)</customHeadDrawSize>
+					<customHeadDrawSize>(0.675, 0.69)</customHeadDrawSize>
 					<customPortraitDrawSize>(0.98, 1.112)</customPortraitDrawSize>
-					<customPortraitHeadDrawSize>(0.68, 0.695)</customPortraitHeadDrawSize>
+					<customPortraitHeadDrawSize>(0.675, 0.69)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>
 							<name>skin</name>
