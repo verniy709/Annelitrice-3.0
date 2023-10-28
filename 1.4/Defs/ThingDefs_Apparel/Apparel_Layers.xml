@@ -8,6 +8,12 @@
   </ApparelLayerDef>
 
   <ApparelLayerDef>
+    <defName>Anneli_Hand</defName>
+    <label>Anneli_Hand</label>
+    <drawOrder>100</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
     <defName>Anneli_Armor</defName>
     <label>Anneli_Armor</label>
     <drawOrder>200</drawOrder>

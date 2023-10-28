@@ -5,9 +5,6 @@
 		<startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
-		<colorSpectrum>
-			<li>(1.0, 1.0, 1.0)</li>
-		</colorSpectrum>
 		<!-- Disallowed Precepts -->
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
@@ -51,6 +48,9 @@
 		<pawnSingular>Annelitrice</pawnSingular>
 		<pawnsPlural>Annelitrice</pawnsPlural>
 		<description>A colony founded by annelitrice survivors.</description>
+		<colorSpectrum>
+			<li>(1, 1, 1)</li>
+		</colorSpectrum>
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>Anneli_Player</basicMemberKind>
 		<techLevel>Medieval</techLevel>
@@ -71,6 +71,9 @@
 		<defName>Anneli_Faction_Wild</defName>
 		<pawnSingular>Annelitrice</pawnSingular>
 		<pawnsPlural>Annelitrice</pawnsPlural>
+		<colorSpectrum>
+			<li>(1, 1, 1)</li>
+		</colorSpectrum>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>2000</configurationListOrderPriority>

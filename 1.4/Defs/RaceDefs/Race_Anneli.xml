@@ -66,9 +66,9 @@
 						<east>(-0.046, 0.155)</east>
 						<west>(0.046, 0.155)</west>
 					</headOffsetDirectional>
-					<customDrawSize>(0.98, 1.112)</customDrawSize>
+					<customDrawSize>(0.99, 1.112)</customDrawSize>
 					<customHeadDrawSize>(0.675, 0.69)</customHeadDrawSize>
-					<customPortraitDrawSize>(0.98, 1.112)</customPortraitDrawSize>
+					<customPortraitDrawSize>(0.99, 1.112)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.675, 0.69)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>

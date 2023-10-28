@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="Anneli_UpdateFeatureBase">
+    <modNameReadable>Annelitrice 3.0</modNameReadable>
+    <modIdentifier>Verniy709.Annelitrice3.0</modIdentifier>
+    <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3034077531</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+  <HugsLib.UpdateFeatureDef ParentName="Anneli_UpdateFeatureBase">
+    <defName>Annelitrice_3_0_2</defName>
+    <assemblyVersion>0.0.2</assemblyVersion>
+    <targetAudience>AllPlayers</targetAudience>
+    <content>This update tweaked some rendering parameters, which may cause some apparel, arm issues, and hair issues with red errors. To fix it, just strip and re-equip the apparel.\n\n此更新微调了一些渲染参数，可能会导致一些服装、手臂和头发出现红色错误。要修复它，只需脱下并重新穿上这些服装。\n\nこのアップデートでは、一部のレンダリングパラメータが微調整され、一部の服装、腕、髪に赤いエラーが発生する可能性があります。修正するには、服を脱ぎ、再度装備してください。\n\nЭто обновление внесло некоторые изменения в параметры рендеринга, что может вызвать проблемы с отображением одежды, рук и волос с появлением красных ошибок. Чтобы исправить это, просто снимите и снова экипируйте одежду.</content>
+  </HugsLib.UpdateFeatureDef>
+</Defs>
