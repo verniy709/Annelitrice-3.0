@@ -10,7 +10,7 @@
   <Anneli_Regeneration.labelNoun>重生</Anneli_Regeneration.labelNoun>
 
   <Anneli_Infection.label>寄生</Anneli_Infection.label>
-  <Anneli_Infection.description>这个异常状态会让目标每个游戏日产生2-4个Anneli_OutsiderEgg。这些蛋会孵化成新的人物，归属于玩家的阵营。</Anneli_Infection.description>
+  <Anneli_Infection.description>这个异常状态会让目标每个游戏日产生2-4个安妮莉蛋。这些蛋会孵化成新的人物，归属于玩家的阵营。</Anneli_Infection.description>
   <Anneli_Infection.stages.0.label>早期</Anneli_Infection.stages.0.label>
   <Anneli_Infection.stages.1.label>中期</Anneli_Infection.stages.1.label>
   <Anneli_Infection.stages.2.label>晚期</Anneli_Infection.stages.2.label>

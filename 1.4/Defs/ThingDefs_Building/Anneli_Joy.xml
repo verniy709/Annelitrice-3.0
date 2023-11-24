@@ -10,7 +10,7 @@
       <texPath>Anneli_Building/PuppetTheatre</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(2.2,2.2)</drawSize>
+      <drawSize>(1.1,1.1)</drawSize>
       <shadowData>
         <volume>(0.5, 1.0, 1.0)</volume>
       </shadowData>
@@ -36,10 +36,10 @@
       <JoyGainFactor>1.1</JoyGainFactor>
     </statBases>
     <costList>
-      <Cloth>150</Cloth>
-      <WoodLog>100</WoodLog>
+      <Cloth>50</Cloth>
+      <WoodLog>50</WoodLog>
     </costList>
-    <size>(2,2)</size>
+    <size>(1,1)</size>
     <thingCategories>
       <li>BuildingsJoy</li>
     </thingCategories>

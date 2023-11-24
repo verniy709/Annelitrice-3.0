@@ -74,8 +74,8 @@
 				<baseHealthScale>0.4</baseHealthScale>
 				<useMeatFrom>Megaspider</useMeatFrom>
 				<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-				<lifeExpectancy>5000</lifeExpectancy>
-				<gestationPeriodDays>500</gestationPeriodDays>
+				<lifeExpectancy>100</lifeExpectancy>
+				<gestationPeriodDays>100</gestationPeriodDays>
 				<wildness>0.0</wildness>
 				<trainability>Advanced</trainability>
 				<lifeStageAges>

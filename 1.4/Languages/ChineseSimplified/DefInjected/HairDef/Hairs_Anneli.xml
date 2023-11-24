@@ -4,6 +4,12 @@
   <Anneli_HairCombo_BraidA.label>(Anneli)combo braid A</Anneli_HairCombo_BraidA.label>
   <Anneli_HairCombo_FlatA.label>(Anneli)combo flat A</Anneli_HairCombo_FlatA.label>
   <Anneli_HairCombo_FlatB.label>(Anneli)combo flat B</Anneli_HairCombo_FlatB.label>
+
+
+  <!-- NEW -->
+
+  <Anneli_HairCombo_FlatC.label>(Anneli)combo flat C</Anneli_HairCombo_FlatC.label>
+  <Anneli_HairCombo_FlatD.label>(Anneli)combo flat D</Anneli_HairCombo_FlatD.label>
   <Anneli_HairCombo_LongA.label>(Anneli)combo long A</Anneli_HairCombo_LongA.label>
   <Anneli_HairCombo_LongB.label>(Anneli)combo long B</Anneli_HairCombo_LongB.label>
   <Anneli_HairCombo_LongC.label>(Anneli)combo long C</Anneli_HairCombo_LongC.label>
@@ -17,6 +23,7 @@
   <Anneli_HairCombo_TiedA.label>(Anneli)combo tied A</Anneli_HairCombo_TiedA.label>
   <Anneli_HairCombo_TiedB.label>(Anneli)combo tied B</Anneli_HairCombo_TiedB.label>
   <Anneli_HairCombo_TiedC.label>(Anneli)combo tied C</Anneli_HairCombo_TiedC.label>
+  <Anneli_HairCombo_TiedD.label>(Anneli)combo tied D</Anneli_HairCombo_TiedD.label>
 
 
   <!--<Front_MShape_A.label>Front_MShape_A</Front_MShape_A.label>-->

@@ -37,11 +37,14 @@ namespace Annelitrice
 
 		public Pawn ApparelUser => (this.parent.ParentHolder as Pawn_ApparelTracker)?.pawn;
 
+
+
 		public override void CompTick()
 		{
 			base.CompTick();
 
 			var apparelUser = ApparelUser;
+
 
 			//update hediffs every tickRate. Detect apparel user and hediff.
 			if (Find.TickManager.TicksGame % Props.tickRate == 0 && apparelUser != null && Props.hediffDef != null)

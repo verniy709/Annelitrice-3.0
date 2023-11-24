@@ -66,7 +66,7 @@
     <label>inspired by trustworthy presence</label>
     <labelNoun>trustworthy presence</labelNoun>
     <description>Increase defense.</description>
-    <defaultLabelColor>(204,0,0)</defaultLabelColor>
+    <defaultLabelColor>(30,120,210)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
     <tendable>false</tendable>
@@ -83,6 +83,64 @@
       <li>
         <statOffsets>
           <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Anneli_Aura_Zeal</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>inspired by zealous presence</label>
+    <labelNoun>zealous presence</labelNoun>
+    <description>Increase movement speed and decrase mental break threshold.</description>
+    <defaultLabelColor>(240,220,160)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <makesSickThought>false</makesSickThought>
+    <tendable>false</tendable>
+    <makesAlert>false</makesAlert>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-8.0</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Anneli_Aura_Nobility</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>inspired by noble presence</label>
+    <labelNoun>noble presence</labelNoun>
+    <description>Increase general labor and construction speed.</description>
+    <defaultLabelColor>(175,105,240)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <makesSickThought>false</makesSickThought>
+    <tendable>false</tendable>
+    <makesAlert>false</makesAlert>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-8.0</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+          <ConstructionSpeed>0.1</ConstructionSpeed>
         </statOffsets>
       </li>
     </stages>
