@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HarmonyPatches\patch_DrawEquipment.cs" />
     <Compile Include="JobDriver_UseNutrientSolution.cs" />
     <Compile Include="CompConnaturalAbilities.cs" />
     <Compile Include="CompProperties_ConnaturalAbilities.cs" />

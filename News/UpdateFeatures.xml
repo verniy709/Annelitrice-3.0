@@ -8,7 +8,13 @@
   <HugsLib.UpdateFeatureDef ParentName="Anneli_UpdateFeatureBase">
     <defName>Annelitrice_3_0_2</defName>
     <assemblyVersion>0.0.2</assemblyVersion>
-    <targetAudience>AllPlayers</targetAudience>
+    <targetAudience>ReturningPlayers</targetAudience>
     <content>This update tweaked some rendering parameters, which may cause some apparel, arm issues, and hair issues with red errors. To fix it, just strip and re-equip the apparel.\n\n此更新微调了一些渲染参数，可能会导致一些服装、手臂和头发出现红色错误。要修复它，只需脱下并重新穿上这些服装。\n\nこのアップデートでは、一部のレンダリングパラメータが微調整され、一部の服装、腕、髪に赤いエラーが発生する可能性があります。修正するには、服を脱ぎ、再度装備してください。\n\nЭто обновление внесло некоторые изменения в параметры рендеринга, что может вызвать проблемы с отображением одежды, рук и волос с появлением красных ошибок. Чтобы исправить это, просто снимите и снова экипируйте одежду.</content>
+  </HugsLib.UpdateFeatureDef>
+  <HugsLib.UpdateFeatureDef ParentName="Anneli_UpdateFeatureBase">
+    <defName>Annelitrice_3_0_3</defName>
+    <assemblyVersion>0.0.3</assemblyVersion>
+    <targetAudience>ReturningPlayers</targetAudience>
+    <content>Ahmislan (medieval and isekai theme) has been released. This update tweaked some rendering parameters, which may cause some apparel, arm issues, and hair issues with red errors. To fix it, just strip and re-equip the apparel.\n\n艾米斯兰（中世纪和异世界主题）已经发布。此更新微调了一些渲染参数，可能会导致一些服装、手臂和头发出现红色错误。要修复它，只需脱下并重新穿上这些服装。\n\nアーミスラン（中世と異世界のテーマ）がリリースされました。このアップデートでは、一部のレンダリングパラメータが微調整され、一部の服装、腕、髪に赤いエラーが発生する可能性があります。修正するには、服を脱ぎ、再度装備してください。\n\nВышла игра Ahmislan (средневековая и исекай тематика). Это обновление внесло некоторые изменения в параметры рендеринга, что может вызвать проблемы с отображением одежды, рук и волос с появлением красных ошибок. Чтобы исправить это, просто снимите и снова экипируйте одежду.</content>
   </HugsLib.UpdateFeatureDef>
 </Defs>

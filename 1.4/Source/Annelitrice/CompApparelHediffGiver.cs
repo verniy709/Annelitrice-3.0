@@ -37,6 +37,7 @@ namespace Annelitrice
 
 		public Pawn ApparelUser => (this.parent.ParentHolder as Pawn_ApparelTracker)?.pawn;
 
+		public bool IsPawnInCurrentMap(Pawn pawn) => Find.CurrentMap.mapPawns.AllPawns.Contains(pawn);
 
 
 		public override void CompTick()
@@ -45,9 +46,8 @@ namespace Annelitrice
 
 			var apparelUser = ApparelUser;
 
-
 			//update hediffs every tickRate. Detect apparel user and hediff.
-			if (Find.TickManager.TicksGame % Props.tickRate == 0 && apparelUser != null && Props.hediffDef != null)
+			if (apparelUser != null && IsPawnInCurrentMap(apparelUser) && Props.hediffDef != null && Find.TickManager.TicksGame % Props.tickRate == 0)
 			{
 				//check radius of apparel users
 				foreach (var thing in GenRadial.RadialDistinctThingsAround(apparelUser.Position, apparelUser.Map, this.Props.radius, true))
