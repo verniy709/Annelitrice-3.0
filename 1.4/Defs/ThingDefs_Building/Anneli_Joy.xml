@@ -10,7 +10,7 @@
       <texPath>Anneli_Building/PuppetTheatre</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(1.5,1.5)</drawSize>
+      <drawSize>(1.6,1.6)</drawSize>
       <shadowData>
         <volume>(0.5, 1.0, 1.0)</volume>
       </shadowData>
