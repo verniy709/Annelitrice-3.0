@@ -15,8 +15,7 @@
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>UpperHead</li>
-				<li>Eyes</li>
+				<li>FullHead</li>
 				<li>Neck</li>
 			</bodyPartGroups>
 			<layers>

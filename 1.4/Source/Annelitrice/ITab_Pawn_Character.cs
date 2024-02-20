@@ -27,8 +27,8 @@ namespace Annelitrice
 		}
 		public ITab_Pawn_Character()
 		{
-			this.labelKey = "TabCharacter_Annelitrice";
-			this.tutorTag = "Character_Annelitrice";
+			this.labelKey = "TabCharacter_Annelitrice".Translate();
+			this.tutorTag = "Character_Annelitrice".Translate();
 		}
 		protected override void UpdateSize()
 		{

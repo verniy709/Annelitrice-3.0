@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<TabCharacter_Annelitrice>安妮莉特丝</TabCharacter_Annelitrice>
+	<Character_Annelitrice>安妮莉特丝</Character_Annelitrice>
+	<Anneli.PlaySong>播放音乐</Anneli.PlaySong>
+	<Anneli.PlaySongDesc>播放音乐</Anneli.PlaySongDesc>
+	<Anneli.StopSong>停止播放音乐</Anneli.StopSong>
+	<Anneli.StopSongDesc>停止播放音乐</Anneli.StopSongDesc>
+	<Anneli.SelectSong>选择音乐</Anneli.SelectSong>
+	<Anneli.SelectSongDesc>选择音乐</Anneli.SelectSongDesc>
+</LanguageData>

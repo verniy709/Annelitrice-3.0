@@ -23,7 +23,7 @@
 
 	<LifeStageDef>
 		<defName>Anneli_Larva</defName>
-		<label>annelitrice larva</label>
+		<label></label>
 		<bodySizeFactor>1.0</bodySizeFactor>
 		<foodMaxFactor>12</foodMaxFactor>
 		<healthScaleFactor>1.0</healthScaleFactor>
