@@ -64,8 +64,8 @@
 					<headOffsetDirectional>
 						<north>(0.0, 0.209)</north>
 						<south>(0.0, 0.209)</south>
-						<east>(-0.051, 0.211)</east>
-						<west>(0.051, 0.211)</west>
+						<east>(-0.052, 0.211)</east>
+						<west>(0.052, 0.211)</west>
 					</headOffsetDirectional>
 					<customDrawSize>(1.09, 1.225)</customDrawSize>
 					<customHeadDrawSize>(0.737, 0.759)</customHeadDrawSize>
@@ -368,6 +368,7 @@
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelMinQualityNotMet</li>
 					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelRequirementNotMet</li>
 					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">KilledChild</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">AteBabyFood</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">IngestedHemogenPack</li>

@@ -101,11 +101,11 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>MedicineHerbal</li>
-          </thingDefs>
+          <categories>
+            <li>Medicine</li>
+          </categories>
         </filter>
-        <count>5</count>
+        <count>3</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
