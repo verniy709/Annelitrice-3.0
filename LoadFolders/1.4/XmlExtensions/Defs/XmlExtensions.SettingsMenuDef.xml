@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Anneli_XmlExtensions</defName>
+		<modId>Annelitrice 3.0</modId>
+		<label>Annelitrice 3.0</label>
+		<tKey>Anneli_Title</tKey>
+		<settings>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Annelitrice 3.0</text>
+				<font>Medium</font>
+				<anchor>Middle</anchor>
+				<tKey>Anneli_Title</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Require a restart to take effect</text>
+				<font>Small</font>
+				<anchor>Middle</anchor>
+				<tKey>Anneli_Description</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>Disable NSFW Bodytype</key>
+				<label>Disable NSFW Bodytype</label>
+				<defaultValue>false</defaultValue>
+				<tKey>Anneli_NSFW_Checkbox</tKey>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>
+

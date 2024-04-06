@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_1</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_1</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_2</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_2</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_3</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_3</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_4</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_4</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_5</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_5</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_6</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_6</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_DeadFace_A</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_DeadFace_A</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_DeadFace_B</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_DeadFace_B</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_DeadFace_C</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_DeadFace_C</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_DeadFace_D</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_DeadFace_D</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_DeadFace_E</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_DeadFace_E</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_DeadFace_F</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_DeadFace_F</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+
+</Defs>

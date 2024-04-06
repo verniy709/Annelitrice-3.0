@@ -6,5 +6,6 @@
 		<li IfModActive="Ludeon.Rimworld.Royalty">LoadFolders/1.4/Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Ideology">LoadFolders/1.4/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">LoadFolders/1.4/Biotech</li>
+		<li IfModActive="imranfish.xmlextensions">LoadFolders/1.4/XmlExtensions</li>
 	</v1.4>
 </loadFolders>

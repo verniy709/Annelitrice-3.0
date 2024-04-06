@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Faction_Base.leaderTitle>领袖</Anneli_Faction_Base.leaderTitle>
+
+  <Anneli_Faction_Player.label>安妮莉特丝殖民地</Anneli_Faction_Player.label>
+  <Anneli_Faction_Player.description>由幸存的安妮莉特丝所建立的殖民地.</Anneli_Faction_Player.description>
+  <Anneli_Faction_Player.pawnsPlural>安妮莉特丝</Anneli_Faction_Player.pawnsPlural>
+  <Anneli_Faction_Player.leaderTitle>领袖</Anneli_Faction_Player.leaderTitle>
+
+  <Anneli_Faction_Wild.fixedName>安妮莉特丝野生</Anneli_Faction_Wild.fixedName>
+  <Anneli_Faction_Wild.pawnsPlural>安妮莉特丝</Anneli_Faction_Wild.pawnsPlural>
+  <Anneli_Faction_Wild.leaderTitle>领袖</Anneli_Faction_Wild.leaderTitle>
+
+
+</LanguageData>

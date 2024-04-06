@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>Anneli_Pupa</defName>
+    <label>annelitrice pupa</label>
+    <description>An intermediate developmental stage between the larval and adult stages. Please wait patiently.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <useHitPoints>false</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <graphicData>
+      <texPath>Anneli_Item/Pupa</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>1.30</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>Anneli_Egg</li>
+    </thingCategories>
+    <statBases>
+      <Mass>5.0</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Flammability>0</Flammability>
+    </statBases>
+    <inspectorTabs>
+      <li>Annelitrice.ITab_Pawn_Character</li>
+    </inspectorTabs>
+    <alwaysHaulable>false</alwaysHaulable>  <!-- Not Haulable -->
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <pathCost>14</pathCost>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li>
+        <compClass>Annelitrice.CompContainPawn</compClass>
+      </li>
+      <li>
+        <compClass>Annelitrice.CompEgg</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

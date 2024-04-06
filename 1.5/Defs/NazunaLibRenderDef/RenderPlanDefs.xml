@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.RenderPlanDef>
+		<defName>Anneli_RenderPlanBase</defName>
+		<races>
+			<li>Annelitrice</li>
+		</races>
+		<plans>
+			<!-- <li>Anneli_BodyTypes_Female</li> -->
+			<li>Anneli_Arm_Generic</li>
+			<li>Anneli_HairCombo_BraidA</li>
+			<li>Anneli_HairCombo_FlatA</li>
+			<li>Anneli_HairCombo_FlatB</li>
+			<li>Anneli_HairCombo_FlatC</li>
+			<li>Anneli_HairCombo_FlatD</li>
+			<li>Anneli_HairCombo_LongA</li>
+			<li>Anneli_HairCombo_LongB</li>
+			<li>Anneli_HairCombo_LongC</li>
+			<li>Anneli_HairCombo_LongD</li>
+			<li>Anneli_HairCombo_LongE</li>
+			<li>Anneli_HairCombo_ShortA</li>
+			<li>Anneli_HairCombo_ShortB</li>
+			<li>Anneli_HairCombo_ShortC</li>
+			<li>Anneli_HairCombo_ShortD</li>
+			<li>Anneli_HairCombo_ShortE</li>
+			<li>Anneli_HairCombo_TiedA</li>
+			<li>Anneli_HairCombo_TiedB</li>
+			<li>Anneli_HairCombo_TiedC</li>
+			<li>Anneli_HairCombo_TiedD</li>
+		</plans>
+	</NareisLib.RenderPlanDef>
+</Defs>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>Anneli_Fleck_Note1</defName>
+		<graphicData>
+			<texPath>Anneli_Music/Note1</texPath>
+			<renderInstanced>true</renderInstanced>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0.04</fadeInTime>
+		<solidTime>0.03</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>Anneli_Fleck_Note2</defName>
+		<graphicData>
+			<texPath>Anneli_Music/Note2</texPath>
+			<renderInstanced>true</renderInstanced>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0.04</fadeInTime>
+		<solidTime>0.03</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>Anneli_Fleck_Note3</defName>
+		<graphicData>
+			<texPath>Anneli_Music/Note3</texPath>
+			<renderInstanced>true</renderInstanced>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0.04</fadeInTime>
+		<solidTime>0.03</solidTime>
+		<fadeOutTime>1</fadeOutTime>
+	</FleckDef>
+
+	<EffecterDef>
+		<defName>Anneli_Effecter_Note1</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Anneli_Fleck_Note1</fleckDef>
+				<ticksBetweenMotes>30</ticksBetweenMotes>
+				<scale>0.30~0.50</scale>
+				<absoluteAngle>true</absoluteAngle>
+				<angle>0~360</angle>
+				<speed>0.15~0.3</speed>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>Anneli_Effecter_Note2</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Anneli_Fleck_Note2</fleckDef>
+				<ticksBetweenMotes>30</ticksBetweenMotes>
+				<scale>0.30~0.50</scale>
+				<absoluteAngle>true</absoluteAngle>
+				<angle>0~360</angle>
+				<speed>0.15~0.3</speed>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<EffecterDef>
+		<defName>Anneli_Effecter_Note3</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Anneli_Fleck_Note3</fleckDef>
+				<ticksBetweenMotes>30</ticksBetweenMotes>
+				<scale>0.30~0.50</scale>
+				<absoluteAngle>true</absoluteAngle>
+				<angle>0~360</angle>
+				<speed>0.15~0.3</speed>
+			</li>
+		</children>
+	</EffecterDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+  <Operation Class="XmlExtensions.OptionalPatch">
+    <modId>Annelitrice 3.0</modId>
+    <key>Disable NSFW Bodytype</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+      <Operation Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+          @Name="Anneli_BasePawn"
+          ]/alienRace/graphicPaths/body</xpath>
+          <value>
+            <body>Anneli_BodyCensored/</body>
+          </value>
+        </Operation>
+      </caseTrue>
+    </Operation>
+  </Patch>

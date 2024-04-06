@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OthersDrinkNutrientSolution.stages.0.label>喝了营养液</OthersDrinkNutrientSolution.stages.0.label>
+  <OthersDrinkNutrientSolution.stages.0.description>这太折磨了，请给我来个痛快的.</OthersDrinkNutrientSolution.stages.0.description>
+
+  <AnneliDrinkNutrientSolution.stages.0.label>喝了营养液</AnneliDrinkNutrientSolution.stages.0.label>
+  <AnneliDrinkNutrientSolution.stages.0.description>有家常菜的味道.</AnneliDrinkNutrientSolution.stages.0.description>
+
+  <AnneliPawnWithGoodOpinionDied.stages.0.label>我的朋友 {0} 死了</AnneliPawnWithGoodOpinionDied.stages.0.label>
+  <AnneliPawnWithGoodOpinionDied.stages.0.description>这几天会有点孤单.</AnneliPawnWithGoodOpinionDied.stages.0.description>
+
+  <AnneliPawnWithBadOpinionDied.stages.0.label>我的仇敌 {0} 死了</AnneliPawnWithBadOpinionDied.stages.0.label>
+  <AnneliPawnWithBadOpinionDied.stages.0.description>至少能过几天清净日子.</AnneliPawnWithBadOpinionDied.stages.0.description>
+
+  <AnneliPawnDied.stages.0.label>我的亲属 {0} 死了</AnneliPawnDied.stages.0.label>
+  <AnneliPawnDied.stages.0.description>我们很快就会再相见.</AnneliPawnDied.stages.0.description>
+
+  <AnneliMyOrganHarvested.stages.0.label>我的器官被割取了</AnneliMyOrganHarvested.stages.0.label>
+  <AnneliMyOrganHarvested.stages.0.description>有点疼!</AnneliMyOrganHarvested.stages.0.description>
+
+  <AnneliWasImprisoned.stages.0.label>被监禁了</AnneliWasImprisoned.stages.0.label>
+  <AnneliWasImprisoned.stages.0.description>还没有告诉我安全词吗?</AnneliWasImprisoned.stages.0.description>
+
+  <AnneliQuestioning.stages.0.label>被 {0} 搞糊涂了</AnneliQuestioning.stages.0.label>
+  <AnneliQuestioning.stages.0.description>这似乎和剧本对不上?</AnneliQuestioning.stages.0.description>
+
+  <AnneliPawnLost.stages.0.label>同伴 {0} 迷失</AnneliPawnLost.stages.0.label>
+  <AnneliPawnLost.stages.0.description>她们很快就会归来.</AnneliPawnLost.stages.0.description>
+
+
+</LanguageData>

@@ -263,7 +263,7 @@
 					</bodyAddons>
 				</alienPartGenerator>
 			</generalSettings>
-			<graphicPaths>
+			<graphicPaths Inherit="False">
 				<body>Anneli_Body/</body>
 				<head>Anneli_Face/</head>
 				<skeleton>Anneli_Corpse/Dessicated/Dessicated_Female</skeleton>
