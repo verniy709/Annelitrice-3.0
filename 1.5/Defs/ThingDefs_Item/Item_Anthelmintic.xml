@@ -48,7 +48,7 @@
     <defName>Anneli_AnthelminticHigh</defName>
     <hediffClass>Hediff_High</hediffClass>
     <label>annelitrice anthelmintic</label>
-    <description>Penoxycyline-induced immunity to certain illnesses. This only blocks new infections; it does nothing for those who are already infected, even if their infection is dormant.</description>
+    <description>Penoxycyline-induced immunity to gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror. This only blocks new infections; it does nothing for those who are already infected, even if their infection is dormant.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
