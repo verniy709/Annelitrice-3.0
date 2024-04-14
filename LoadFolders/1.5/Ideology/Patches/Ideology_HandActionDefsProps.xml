@@ -55,23 +55,6 @@
                     </pathDict>
                 </value>
             </li>
-            <li>
-                <key>ExtractSkull</key>
-                <value>
-                    <exPath>Anneli_Arms/Props/</exPath>         
-                    <textures>
-                        <li>Anneli_Props</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>PropsCleaver/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>
             <!-- Work (PropsSickle) Job Category -->
             <li>
                 <key>PruneGauranlenTree</key>

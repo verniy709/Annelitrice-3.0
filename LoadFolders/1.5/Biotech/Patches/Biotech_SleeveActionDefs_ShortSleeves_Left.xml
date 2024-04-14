@@ -359,19 +359,6 @@
                     <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
                 </value>
             </li>
-            <li>
-                <key>StudyItem</key>
-                <value>
-                    <exPath>Anneli_Arms/SS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_SS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
             <!-- Move Job Category -->
             <li>
                 <key>NatureRunning</key>

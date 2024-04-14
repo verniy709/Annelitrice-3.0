@@ -3,128 +3,9 @@
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LLS_Right"]/behaviors</xpath>
         <value>
-            <!-- Command Job Category -->
+            <!-- Idle Job Category -->
             <li>
-                <key>ActivateArchonexusCore</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>PrisonerEnslave</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>SlaveSuppress</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Communicate Job Category -->
-            <li>
-                <key>Dance</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>GotoAndBeSociallyActive</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>PrepareSkylantern</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>InduceSlaveToRebel</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>PrisonerConvert</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>SlaveEmancipation</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Eat Job Category -->
-            <li>
-                <key>EatAtCannibalPlatter</key>
+                <key>FleeAndCowerShort</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -138,7 +19,7 @@
             </li>
             <!-- Haul Job Category -->
             <li>
-                <key>DeliverToAltar</key>
+                <key>CarryToEntityHolder</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -151,35 +32,7 @@
                 </value>
             </li>
             <li>
-                <key>CarryToBiosculpterPod</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Pray Job Category -->
-            <li>
-                <key>MeditatePray</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Reach Out Job Category -->
-            <li>
-                <key>GiveToPawn</key>
+                <key>TransferBetweenEntityHolders</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -192,139 +45,7 @@
                 </value>
             </li>
             <li>
-                <key>OpenStylingStationDialog</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>UseStylingStation</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>UseStylingStationAutomatic</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>ExtractRelic</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>InstallRelic</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>ExtractToInventory</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>GetNeuralSupercharge</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>DyeHair</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>ChangeTreeMode</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Salute Job Category -->
-            <li>
-                <key>AcceptRole</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Idle Job Category -->
-            <li>
-                <key>EnterBiosculpterPod</key>
+                <key>CarryToEntityHolderAlreadyHolding</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -338,7 +59,7 @@
             </li>
             <!-- Work Job Category -->
             <li>
-                <key>Blind</key>
+                <key>TendEntity</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -351,7 +72,7 @@
                 </value>
             </li>
             <li>
-                <key>RecolorApparel</key>
+                <key>BuildCubeSculpture</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -364,7 +85,143 @@
                 </value>
             </li>
             <li>
-                <key>Hack</key>
+                <key>TakeBioferriteOutOfHarvester</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>FillIn</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Reach Out Job Category -->
+            <li>
+                <key>ReleaseEntity</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>ActivateMonolith</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>    
+            <!-- Think Job Category -->
+            <li>
+                <key>InvestigateMonolith</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Communicate Job Category -->
+            <li>
+                <key>TalkCreepJoiner</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Command Job Category -->
+            <li>
+                <key>PrisonerInterrogateIdentity</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>ActivitySuppression</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Fist Job Category -->
+            <li>
+                <key>UnnaturalCorpseAttack</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>UnnaturalCorpseSkip</key>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Pray Job Category -->
+            <li>
+                <key>GoldenCubePlay</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -378,7 +235,7 @@
             </li>
             <!-- Work (PropsCleaver) Job Category -->
             <li>
-                <key>Sacrifice</key>
+                <key>ExecuteEntity</key>
                 <value>
                     <exPath>Anneli_Arms/LLS/</exPath>
                     <textures>
@@ -390,46 +247,6 @@
                     <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
                 </value>
             </li>
-            <li>
-                <key>Scarify</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>SlaveExecution</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <!-- Work (PropsSickle) Job Category -->
-            <li>
-                <key>PruneGauranlenTree</key>
-                <value>
-                    <exPath>Anneli_Arms/LLS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_LLS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>            
         </value>
     </Operation>
 </Patch>

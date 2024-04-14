@@ -2212,6 +2212,85 @@
 					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
 				</value>
 			</li>
+			<!-- Added in 1.5 -->
+			<li>
+				<key>ExtractSkull</key>
+				<value>
+					<exPath>Anneli_Arms/ShirtSS/</exPath>
+					<textures>
+						<li>Anneli_Arm_ShirtSS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>EnterPortal</key>
+				<value>
+					<exPath>Anneli_Arms/ShirtSS/</exPath>
+					<textures>
+						<li>Anneli_Arm_ShirtSS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>Reading</key>
+				<value>
+					<exPath>Anneli_Arms/ShirtSS/</exPath>
+					<textures>
+						<li>Anneli_Arm_ShirtSS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>StudyItem</key>
+				<value>
+					<exPath>Anneli_Arms/ShirtSS/</exPath>
+					<textures>
+						<li>Anneli_Arm_ShirtSS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>StudyInteract</key>
+				<value>
+					<exPath>Anneli_Arms/ShirtSS/</exPath>
+					<textures>
+						<li>Anneli_Arm_ShirtSS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
+			<li>
+				<key>AnalyzeItem</key>
+				<value>
+					<exPath>Anneli_Arms/ShirtSS/</exPath>
+					<textures>
+						<li>Anneli_Arm_ShirtSS</li>
+					</textures>
+					<linkedWithAction>true</linkedWithAction>
+					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+					<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+				</value>
+			</li>
 		</behaviors>
 	</NareisLib.ActionDef>
 </Defs>
