@@ -39,6 +39,7 @@
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<wearPerDay>0</wearPerDay>
 			<tags>
 				<li>Anneli</li>
 				<li>EVA</li>
@@ -58,5 +59,11 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+	<ThingCategoryDef>
+		<defName>Category_Annelitrice_Transmog</defName>
+		<parent>Apparel</parent>
+		<label>Annelitrice Transmog Apparels</label>
+	</ThingCategoryDef>
 	
 </Defs>

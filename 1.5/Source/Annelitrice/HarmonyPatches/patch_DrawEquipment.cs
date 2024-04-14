@@ -13,11 +13,11 @@ using Verse.Sound;
 
 namespace Annelitrice.HarmonyPatches
 {
-	class patch_DrawEquipment
+	internal class patch_DrawEquipment
 	{
-		[HarmonyPatch(typeof(PawnRenderer), "DrawEquipmentAiming")]
+		[HarmonyPatch(typeof(PawnRenderUtility), "DrawEquipmentAndApparelExtras")]
 		[HarmonyBefore("com.yayo.yayoAni")]
-		public static class DrawEquipmentAiming_Patch
+		private static class DrawEquipmentAndApparelExtras_Patch
 		{
 			public static float northZOffset = 0.23f;
 			public static float eastZOffset = 0.23f;
@@ -28,35 +28,34 @@ namespace Annelitrice.HarmonyPatches
 			public static float southXOffset = 0.0f;
 			public static float westXOffset = 0.1f;
 
-
-			public static void Prefix(PawnRenderer __instance, Pawn ___pawn, Thing eq, ref Vector3 drawLoc, float aimAngle)
+			private static void Prefix(Pawn pawn, Vector3 drawPos)
 			{
 				// Check if the pawn is annelitrice
-				if (___pawn.def != null && ___pawn.def is ThingDef_AlienRace annelitrice && annelitrice.defName.Equals("Annelitrice"))
+				if (pawn.def != null && pawn.def is ThingDef_AlienRace annelitrice && annelitrice.defName.Equals("Annelitrice"))
 				{
 					// Check if the pawn's current job is null or neverShowWeapon
-					if (___pawn.CurJob == null || ___pawn.CurJob.def.neverShowWeapon)
+					if (pawn.CurJob == null /*|| pawn.CurJob.def.neverShowWeapon*/)
 						return;
 
-					if (___pawn.Rotation == Rot4.North)
+					if (pawn.Rotation == Rot4.North)
 					{
-						drawLoc.z += northZOffset;
-						drawLoc.x += northXOffset;
+						drawPos.z += northZOffset;
+						drawPos.x += northXOffset;
 					}
-					else if (___pawn.Rotation == Rot4.East)
+					else if (pawn.Rotation == Rot4.East)
 					{
-						drawLoc.z += eastZOffset;
-						drawLoc.x += eastXOffset;
+						drawPos.z += eastZOffset;
+						drawPos.x += eastXOffset;
 					}
-					else if (___pawn.Rotation == Rot4.South)
+					else if (pawn.Rotation == Rot4.South)
 					{
-						drawLoc.z += southZOffset;
-						drawLoc.x += southXOffset;
+						drawPos.z += southZOffset;
+						drawPos.x += southXOffset;
 					}
-					else if (___pawn.Rotation == Rot4.West)
+					else if (pawn.Rotation == Rot4.West)
 					{
-						drawLoc.z += westZOffset;
-						drawLoc.x += westXOffset;
+						drawPos.z += westZOffset;
+						drawPos.x += westXOffset;
 					}
 					return;
 				}

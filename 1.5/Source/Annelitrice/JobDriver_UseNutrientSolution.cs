@@ -67,7 +67,7 @@ namespace Annelitrice
                 {
 					if(Target is Corpse corpse && corpse.def.defName == "Corpse_Annelitrice")
                     {
-						ResurrectionUtility.ResurrectWithSideEffects(corpse.InnerPawn);
+						ResurrectionUtility.TryResurrectWithSideEffects(corpse.InnerPawn);
 					}
 				}
 				Item.SplitOff(1).Destroy(DestroyMode.Vanish);

@@ -13,13 +13,6 @@
 		<invNutrition>4.5</invNutrition>
 		<initialWillRange>1~5</initialWillRange>
 		<initialResistanceRange>10~25</initialResistanceRange>
-		<styleItemTags>
-			<li>
-				<tag>Anneli</tag>
-				<baseWeight>1</baseWeight>
-				<weightFactor>1</weightFactor>
-			</li>
-		</styleItemTags>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_KindBase">

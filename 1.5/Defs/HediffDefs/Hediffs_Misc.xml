@@ -3,9 +3,9 @@
 
   <HediffDef ParentName="InjuryBase">
     <defName>Anneli_Regeneration</defName>
-    <label>regeneration</label>
-    <labelNoun>regeneration</labelNoun>
-    <description>regeneration.</description>
+    <label>annelitrice regeneration</label>
+    <labelNoun>annelitrice regeneration</labelNoun>
+    <description>Annelitrice regeneration of lost bodyparts.</description>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
@@ -23,8 +23,8 @@
 
   <HediffDef ParentName="DiseaseBase">
     <defName>Anneli_Infection</defName>
-    <label>infestation</label>
-    <labelNoun>infestation</labelNoun>
+    <label>annelitrice infestation</label>
+    <labelNoun>annelitrice infestation</labelNoun>
     <hediffClass>Annelitrice.Hediff_EggInfected</hediffClass>
     <description>The hediff would induce the target to produce 2-4 Anneli_OutsiderEgg every in-game day. These eggs would then hatch into new pawns that belong to the player's faction.</description>
     <makesSickThought>true</makesSickThought>

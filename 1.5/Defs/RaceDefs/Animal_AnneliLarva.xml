@@ -78,6 +78,7 @@
 				<gestationPeriodDays>100</gestationPeriodDays>
 				<wildness>0.0</wildness>
 				<trainability>Advanced</trainability>
+				<isImmuneToInfections>true</isImmuneToInfections>
 				<lifeStageAges>
 					<li>
 						<def>Anneli_Larva</def>

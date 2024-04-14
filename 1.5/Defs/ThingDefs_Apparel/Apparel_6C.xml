@@ -22,7 +22,6 @@
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>
 		</equippedStatOffsets>
 		<apparel>
-			<forceRenderUnderHair>true</forceRenderUnderHair><!-- under hair -->
 			<bodyPartGroups>
 				<li>Neck</li>
 			</bodyPartGroups>

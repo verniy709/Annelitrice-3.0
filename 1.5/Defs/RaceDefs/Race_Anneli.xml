@@ -5,7 +5,7 @@
 		<defName>AnneliAdult</defName>
 		<label>Adult</label>
 		<adjective>Adult</adjective>
-		<reproductive>true</reproductive>
+		<reproductive>false</reproductive>
 		<foodMaxFactor>3.0</foodMaxFactor>
 		<silhouetteGraphicData>
 			<texPath>Anneli_Silhouettes/Silhouette_AnneliAdult</texPath>
@@ -24,14 +24,14 @@
 			<li>
 				<compClass>Annelitrice.CompRegeneration</compClass>
 			</li>
-			<li Class="NareisLib.MultiRenderCompProperties">
+			<!-- <li Class="NareisLib.MultiRenderCompProperties">
 				<handDefNameAndWeights>
 					<li>
 						<key>Anneli_Arm_Generic</key>
 						<value>1</value>
 					</li>
 				</handDefNameAndWeights>
-			</li>
+			</li> -->
 		</comps>
 		<alienRace>
 			<generalSettings>
@@ -43,15 +43,6 @@
 				<immuneToAge>true</immuneToAge>
 				<maxDamageForSocialfight>2</maxDamageForSocialfight>
 				<additionalTraits>0~2</additionalTraits>
-				<!-- <lovinIntervalHoursFromAge>
-					<points>
-						<li>(16, 1)</li>
-						<li>(500, 1)</li>
-						<li>(1500, 1.5)</li>
-						<li>(3000, 2)</li>
-						<li>(5000, 3)</li>
-					</points>
-				</lovinIntervalHoursFromAge> -->
 				<alienPartGenerator>
 					<headTypes Inherit="False">
 						<li>Anneli_Head_1</li>
@@ -65,12 +56,19 @@
 						<li>Female</li>
 					</bodyTypes>
 					<oldHairAgeRange>70~100</oldHairAgeRange>			
-					<!-- Size 1.1 -->
 					<headOffsetDirectional>
-						<north>(0.0, 0.209)</north>
-						<south>(0.0, 0.209)</south>
-						<east>(-0.052, 0.211)</east>
-						<west>(0.052, 0.211)</west>
+						<north>
+							<offset>(0.0, 0.209)</offset>
+						</north>
+						<south>
+							<offset>(0.0, 0.209)</offset>
+						</south>
+						<east>
+							<offset>(-0.052, 0.21)</offset>
+						</east>
+						<west>
+							<offset>(0.052, 0.21)</offset>
+						</west>
 					</headOffsetDirectional>
 					<customDrawSize>(1.09, 1.225)</customDrawSize>
 					<customHeadDrawSize>(0.737, 0.759)</customHeadDrawSize>
@@ -624,6 +622,15 @@
 					<li>Voice</li>
 				</blackEndoCategories>
 				<apparelList>	
+					<li>Anneli_Transmog_Armor_Vanilla</li>
+					<li>Anneli_Transmog_Armor_Enhanced</li>
+					<li>Anneli_Transmog_Armor_Overpowered</li>
+					<li>Anneli_Transmog_Helmet_Vanilla</li>
+					<li>Anneli_Transmog_Helmet_Enhanced</li>
+					<li>Anneli_Transmog_Helmet_Overpowered</li>
+					<li>Anneli_Transmog_ShieldBelt_Vanilla</li>
+					<li>Anneli_Transmog_ShieldBelt_Enhanced</li>
+					<li>Anneli_Transmog_ShieldBelt_Overpowered</li>
 				</apparelList>
 				<whiteApparelList>
 					<li>Apparel_ShieldBelt</li>
@@ -691,9 +698,9 @@
 			<baseBodySize>1.0</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
-			<isImmuneToInfection>true</isImmuneToInfection>
+			<isImmuneToInfections>true</isImmuneToInfections>
 			<canBecomeShambler>true</canBecomeShambler>
-			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Advanced</knowledgeCategory>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>

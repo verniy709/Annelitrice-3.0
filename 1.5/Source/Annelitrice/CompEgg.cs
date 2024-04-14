@@ -54,7 +54,7 @@ namespace Annelitrice
             Pawn pawn = onwer.GetDirectlyHeldThings().First() as Pawn;
             if (pawn.Dead)
             {
-                ResurrectionUtility.Resurrect(pawn);
+                ResurrectionUtility.TryResurrectWithSideEffects(pawn);
             }
             if (pawn.Faction != Faction.OfPlayer)
             {

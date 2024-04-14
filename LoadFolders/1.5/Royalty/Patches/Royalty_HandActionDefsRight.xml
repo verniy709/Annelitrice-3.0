@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Generic_Right"]/behaviors</xpath> 
+        <value>
+            <!-- Think Job Category -->
+            <li>
+                <key>Reign</key>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>          
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <!-- Reach Out Job Category -->
+            <li>
+                <key>LinkPsylinkable</key>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>          
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <!-- Salute Job Category -->
+            <li>
+                <key>BestowingCeremony</key>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>          
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+        </value>
+    </Operation>
+</Patch>
