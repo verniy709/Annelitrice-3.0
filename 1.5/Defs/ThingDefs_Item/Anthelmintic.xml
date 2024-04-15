@@ -4,11 +4,11 @@
   <ThingDef ParentName="DrugBase">
     <defName>Anneli_Anthelmintic</defName>
     <label>annelitrice anthelmintic</label>
-    <description>An annelitrice egg extract for preventing parasitic infections before they take hold. Blocks gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
+    <description>An annelitrice egg extract for preventing parasitic infections before they take hold. Blocks gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror, annelitrice infection. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
     <possessionCount>10</possessionCount>
     <descriptionHyperlinks><HediffDef>Anneli_AnthelminticHigh</HediffDef></descriptionHyperlinks>
     <graphicData>
-      <texPath>Things/Item/Drug/Penoxycyline</texPath><!--ToDo-->
+      <texPath>Anneli_Item/Anthelmintic</texPath><!--ToDo-->
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>false</socialPropernessMatters>
@@ -48,7 +48,7 @@
     <defName>Anneli_AnthelminticHigh</defName>
     <hediffClass>Hediff_High</hediffClass>
     <label>annelitrice anthelmintic</label>
-    <description>Penoxycyline-induced immunity to gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror. This only blocks new infections; it does nothing for those who are already infected, even if their infection is dormant.</description>
+    <description>Anthelmintic-induced immunity to gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror, annelitrice infection. This only blocks new infections; it does nothing for those who are already infected, even if their infection is dormant.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>

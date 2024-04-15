@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TabCharacter_Annelitrice>安妮莉特丝</TabCharacter_Annelitrice>
+  <Character_Annelitrice>安妮莉特丝</Character_Annelitrice>
+
+  <Anneli.PlaySong>播放</Anneli.PlaySong>
+  <Anneli.PlaySongDesc>播放选择的音乐</Anneli.PlaySongDesc>
+  <Anneli.StopSong>停止</Anneli.StopSong>
+  <Anneli.StopSongDesc>停止播放当前音乐</Anneli.StopSongDesc>
+  <Anneli.SelectSong>选择</Anneli.SelectSong>
+  <Anneli.SelectSongDesc>从列表中选择音乐</Anneli.SelectSongDesc>
+
+  <Anneli.SettingTitle>安妮莉特丝3.0</Anneli.SettingTitle>
+  <Anneli.CensoredBodytypeLabel>需要重启来生效</Anneli.CensoredBodytypeLabel>
+  <Anneli.CensoredBodytypeCheckbox>和谐裸体</Anneli.CensoredBodytypeCheckbox>
+
+</LanguageData>

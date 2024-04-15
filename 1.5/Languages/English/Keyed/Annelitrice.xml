@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<TabCharacter_Annelitrice>Annelitrice</TabCharacter_Annelitrice>
+	<Character_Annelitrice>Annelitrice</Character_Annelitrice>
+
+	<Anneli.PlaySong>play</Anneli.PlaySong>
+	<Anneli.PlaySongDesc>play the selected song</Anneli.PlaySongDesc>
+	<Anneli.StopSong>stop</Anneli.StopSong>
+	<Anneli.StopSongDesc>stop the current song</Anneli.StopSongDesc>
+	<Anneli.SelectSong>select</Anneli.SelectSong>
+	<Anneli.SelectSongDesc>select a song in the list</Anneli.SelectSongDesc>
+
+	<Anneli.SettingTitle>Annelitrice 3.0</Anneli.SettingTitle>
+	<Anneli.CensoredBodytypeLabel>Require restarting to take effect</Anneli.CensoredBodytypeLabel>
+	<Anneli.CensoredBodytypeCheckbox>Censor NSFW Bodytype</Anneli.CensoredBodytypeCheckbox>
+</LanguageData>

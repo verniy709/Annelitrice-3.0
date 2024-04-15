@@ -36,15 +36,15 @@ namespace Annelitrice
 		{
 			Listing_Standard listingStandard = new Listing_Standard();
 			listingStandard.Begin(inRect);
-			listingStandard.Label("Require restarting to take effect".Translate());
-			listingStandard.CheckboxLabeled("Censor NSFW Bodytype".Translate(), ref AnnelitriceSettings.censorBool);
+			listingStandard.Label("Anneli.CensoredBodytypeLabel".Translate());
+			listingStandard.CheckboxLabeled("Anneli.CensoredBodytypeCheckbox".Translate(), ref AnnelitriceSettings.censorBool);
 			listingStandard.End();
 			base.DoSettingsWindowContents(inRect);
 		}
 
 		public override string SettingsCategory()
 		{
-			return "Annelitrice 3.0".Translate();
+			return "Anneli.SettingTitle".Translate();
 		}
 	}
 
