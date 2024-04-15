@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Anthelmintic.label>安妮莉特丝驱虫药</Anneli_Anthelmintic.label>
+  <Anneli_Anthelmintic.description>驱虫药使得人物对肠道蠕虫、肌肉寄生虫、纤维纳米机械感染、感官纳米机械感染、昏睡病、金属寄生和安妮莉特丝寄生的免疫。这只阻止新的感染；对已经感染的人没有任何作用，即使他们的感染处于隐藏状态。</Anneli_Anthelmintic.description>
+  <Anneli_Anthelmintic.ingestible.ingestCommandString>服用 {0}</Anneli_Anthelmintic.ingestible.ingestCommandString>
+  <Anneli_Anthelmintic.ingestible.ingestReportString>服用 {0} 中.</Anneli_Anthelmintic.ingestible.ingestReportString>
+
+
+</LanguageData>
