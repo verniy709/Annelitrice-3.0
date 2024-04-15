@@ -376,6 +376,9 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">AteBabyFood</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">IngestedHemogenPack</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">XenogermHarvested_Prisoner</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">AteTwistedMeat</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">WearingDreadLeather</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">DeathRefusalSickness</li>
 				</cannotReceiveThoughts>
 				<replacerList>       		
 					<li>
