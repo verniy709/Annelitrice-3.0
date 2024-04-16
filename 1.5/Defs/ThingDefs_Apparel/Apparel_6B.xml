@@ -15,6 +15,7 @@
 			<layers>
 				<li>EyeCover</li>
 			</layers>
+			<parentTagDef>ApparelHead</parentTagDef>
 		</apparel>
 	</ThingDef>
 

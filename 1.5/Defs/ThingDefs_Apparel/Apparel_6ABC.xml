@@ -22,6 +22,7 @@
 				<li>EyeCover</li>
 				<li>Overhead</li>
 			</layers>
+			<parentTagDef>ApparelHead</parentTagDef>
 		</apparel>		
 	</ThingDef>
 

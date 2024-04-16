@@ -694,6 +694,8 @@
 			<makesFootprints>true</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>
 			<lifeExpectancy>100</lifeExpectancy>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<fleshType>Anneli_Flesh</fleshType>
 			<body>Anneli_Body</body>
@@ -701,9 +703,9 @@
 			<baseBodySize>1.0</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
-			<isImmuneToInfections>true</isImmuneToInfections>
 			<canBecomeShambler>true</canBecomeShambler>
 			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Advanced</knowledgeCategory>
+			<anomalyKnowledge>3</anomalyKnowledge>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
