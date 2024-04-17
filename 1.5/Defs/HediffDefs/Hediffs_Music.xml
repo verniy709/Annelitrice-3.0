@@ -15,9 +15,8 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-8.0</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
       </li>
     </comps>
     <stages>
@@ -45,9 +44,8 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-8.0</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
       </li>
     </comps>
     <stages>
@@ -76,9 +74,8 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-8.0</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
       </li>
     </comps>
     <stages>
@@ -119,9 +116,8 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-8.0</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
       </li>
     </comps>
     <stages>
@@ -143,9 +139,8 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-8.0</severityPerDay>
-        <showHoursToRecover>true</showHoursToRecover>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
       </li>
     </comps>
     <stages>

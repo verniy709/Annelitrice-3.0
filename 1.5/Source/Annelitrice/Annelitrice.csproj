@@ -55,6 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnnelitriceSettings.cs" />
+    <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
+    <Compile Include="CompApparelCauseHediff_AoE.cs" />
     <Compile Include="HarmonyPatches\patch_DrawEquipment.cs" />
     <Compile Include="JobDriver_UseNutrientSolution.cs" />
     <Compile Include="CompConnaturalAbilities.cs" />
@@ -67,8 +69,6 @@
     <Compile Include="HarmonyPatches\Corpse_Destroy_Patch.cs" />
     <Compile Include="HarmonyPatches\IngestFood.cs" />
     <Compile Include="HarmonyPatches\PatchMain.cs" />
-    <Compile Include="CompApparelHediffGiver.cs" />
-    <Compile Include="CompApparelSecialTex.cs" />
     <Compile Include="CompPlayMusic.cs" />
     <Compile Include="JobDriver_WatchPuppetShow.cs" />
     <Compile Include="AnnelitriceDefOf.cs" />

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/NareisLib.ActionDef[defName="Anneli_BodyPropsA"]/behaviors</xpath>
+        <value>
+            <!-- Idle (Swimsuit) Job Category -->
+            <li>
+                <key>DBHGoSwimming</key>
+                <value>
+                    <exPath>Anneli_Arms/BodyProps/</exPath>         
+                    <textures>
+                        <li>Anneli_BodyProps</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>BodyPropsSwimsuitA/</li>
+                                <li>BodyPropsSwimsuitB/</li>
+                                <li>BodyPropsSwimsuitC/</li>
+                                <li>BodyPropsSwimsuitD/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>   
+            <!-- Idle (Towel) Job Category -->
+            <li>
+                <key>DBHUseSauna</key>
+                <value>
+                    <exPath>Anneli_Arms/BodyProps/</exPath>         
+                    <textures>
+                        <li>Anneli_BodyProps</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>BodyPropsTowelA/</li>
+                                <li>BodyPropsTowelB/</li>
+                                <li>BodyPropsTowelC/</li>
+                                <li>BodyPropsTowelD/</li>
+                                <li>BodyPropsTowelE/</li>
+                                <li>BodyPropsTowelF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>         
+        </value>
+    </Operation>
+</Patch>

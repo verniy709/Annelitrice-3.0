@@ -16,8 +16,8 @@ namespace Annelitrice.HarmonyPatches
 	internal class patch_DrawEquipment
 	{
 		[HarmonyPatch(typeof(PawnRenderUtility), "DrawEquipmentAndApparelExtras")]
-		[HarmonyBefore("com.yayo.yayoAni")]
-		private static class DrawEquipmentAndApparelExtras_Patch
+		//[HarmonyBefore("com.yayo.yayoAni")]
+		public static class DrawEquipmentAndApparelExtras_Patch
 		{
 			public static float northZOffset = 0.23f;
 			public static float eastZOffset = 0.23f;
@@ -28,34 +28,30 @@ namespace Annelitrice.HarmonyPatches
 			public static float southXOffset = 0.0f;
 			public static float westXOffset = 0.1f;
 
-			private static void Prefix(Pawn pawn, Vector3 drawPos)
+			public static void Prefix(Pawn pawn, Vector3 drawPos)
 			{
 				// Check if the pawn is annelitrice
 				if (pawn.def != null && pawn.def is ThingDef_AlienRace annelitrice && annelitrice.defName.Equals("Annelitrice"))
 				{
 					// Check if the pawn's current job is null or neverShowWeapon
-					if (pawn.CurJob == null /*|| pawn.CurJob.def.neverShowWeapon*/)
+					if (pawn.CurJob == null || pawn.CurJob.def.neverShowWeapon)
 						return;
 
 					if (pawn.Rotation == Rot4.North)
 					{
-						drawPos.z += northZOffset;
-						drawPos.x += northXOffset;
+						drawPos += new Vector3(northXOffset, 0f, northZOffset);
 					}
 					else if (pawn.Rotation == Rot4.East)
 					{
-						drawPos.z += eastZOffset;
-						drawPos.x += eastXOffset;
+						drawPos += new Vector3(eastXOffset, 0f, eastZOffset);
 					}
 					else if (pawn.Rotation == Rot4.South)
 					{
-						drawPos.z += southZOffset;
-						drawPos.x += southXOffset;
+						drawPos += new Vector3(southXOffset, 0f, southZOffset);
 					}
 					else if (pawn.Rotation == Rot4.West)
 					{
-						drawPos.z += westZOffset;
-						drawPos.x += westXOffset;
+						drawPos += new Vector3(westXOffset, 0f, westZOffset);
 					}
 					return;
 				}
