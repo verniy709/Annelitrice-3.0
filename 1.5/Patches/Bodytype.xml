@@ -8,7 +8,13 @@
           @Name="Anneli_BasePawn"
           ]/alienRace/graphicPaths/body</xpath>
           <value>
-            <body>Anneli_BodyCensored/</body>
+            <body>
+              <path>Anneli_BodyCensored/Naked_Female</path>
+              <extendedGraphics>
+                <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
+                <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_BodyCensored/Naked_Shambler</Mutant>
+              </extendedGraphics>
+            </body>
           </value>
         </li>
       </operations>

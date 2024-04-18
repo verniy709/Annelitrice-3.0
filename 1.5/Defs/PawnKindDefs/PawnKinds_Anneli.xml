@@ -13,6 +13,11 @@
 		<invNutrition>4.5</invNutrition>
 		<initialWillRange>1~5</initialWillRange>
 		<initialResistanceRange>10~25</initialResistanceRange>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1</Anneli_Xenotype>
+			</xenotypeChances>
+		</xenotypeSet>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_KindBase">
@@ -21,10 +26,14 @@
 		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
-		<backstoryCategories>
-			<li>Anneli_Childhood</li>
-			<li>Anneli_Story</li>
-		</backstoryCategories>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<apparelTags>
 			<li>Anneli_Underwear</li>
 		</apparelTags>
@@ -36,10 +45,14 @@
 		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
-		<backstoryCategories>
-			<li>Anneli_Childhood</li>
-			<li>Anneli_Story</li>
-		</backstoryCategories>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
 		<apparelTags>
 			<li>Anneli_Underwear</li>
 		</apparelTags>

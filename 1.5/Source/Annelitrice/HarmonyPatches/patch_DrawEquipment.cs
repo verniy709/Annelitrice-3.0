@@ -31,7 +31,7 @@ namespace Annelitrice.HarmonyPatches
 			public static void Prefix(Pawn pawn, Vector3 drawPos)
 			{
 				// Check if the pawn is annelitrice
-				if (pawn.def != null && pawn.def is ThingDef_AlienRace annelitrice && annelitrice.defName.Equals("Annelitrice"))
+				if (pawn.def != null && pawn.def.defName == AnnelitriceDefOf.Annelitrice.defName)
 				{
 					// Check if the pawn's current job is null or neverShowWeapon
 					if (pawn.CurJob == null || pawn.CurJob.def.neverShowWeapon)

@@ -40,6 +40,11 @@
 				<li>(4000, 1000)</li>
 			</points>
 		</raidLootValueFromPointsCurve>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1</Anneli_Xenotype>
+			</xenotypeChances>
+		</xenotypeSet>
 	</FactionDef>
 
 	<FactionDef ParentName="Anneli_FactionBase">
@@ -57,9 +62,14 @@
 		<allowedCultures>
 			<li>Anneli_Cultures_Rustican</li>
 		</allowedCultures>
-		<backstoryCategories>
-			<li>Anneli_Story</li>
-		</backstoryCategories>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 		<settlementTexturePath>Anneli_Factions/Anneli_Player</settlementTexturePath>
 		<factionIconPath>Anneli_Factions/Anneli_Player</factionIconPath>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
@@ -81,9 +91,14 @@
 		<fixedName>Annelitrice Wild</fixedName>
 		<factionIconPath>Anneli_Factions/Anneli_Player</factionIconPath>
 		<techLevel>Medieval</techLevel>
-		<backstoryCategories>
-			<li>Anneli_Story</li>
-		</backstoryCategories>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 		<hidden>true</hidden>
 		<rescueesCanJoin>true</rescueesCanJoin>
 		<autoFlee>false</autoFlee>

@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnnelitriceSettings.cs" />
+    <Compile Include="PawnRenderSubWorker_NoDraw .cs" />
     <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
     <Compile Include="CompApparelCauseHediff_AoE.cs" />
     <Compile Include="HarmonyPatches\patch_DrawEquipment.cs" />

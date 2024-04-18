@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>Anneli_Ageless</defName>
+		<label>annelitrice ageless</label>
+		<description>Carriers of this gene have archites in the bloodstream which continuously reverse the process of aging. By 20, the aging process stops completely.</description>
+		<iconPath>UI/Icons/Genes/Gene_Ageless</iconPath>
+		<displayCategory>Archite</displayCategory>
+		<biologicalAgeTickFactorFromAgeCurve>
+			<points>
+				<li>(13, 1)</li>
+				<li>(20, 0)</li>
+			</points>
+		</biologicalAgeTickFactorFromAgeCurve>
+		<biostatMet>3</biostatMet>
+		<symbolPack>
+			<wholeNameSymbols>
+				<li><symbol>immortal</symbol></li>
+				<li><symbol>methuselah</symbol></li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li><symbol>god</symbol></li>
+				<li><symbol>deo</symbol></li>
+				<li><symbol>deu</symbol></li>
+				<li><symbol>methu</symbol></li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li><symbol>god</symbol></li>
+				<li><symbol>deus</symbol></li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype</defName>
+		<label>Annelitrice</label>
+		<description>Xenotype for annelitrice race.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>AptitudeStrong_Social</li>
+			<li>AptitudeStrong_Intellectual</li>
+			<li>Immunity_SuperStrong</li>
+			<li>Anneli_Ageless</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+</Defs>

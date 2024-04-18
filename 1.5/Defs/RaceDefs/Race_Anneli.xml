@@ -32,6 +32,15 @@
 					</li>
 				</handDefNameAndWeights>
 			</li> -->
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+				<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+				<getsColdContainmentBonus>true</getsColdContainmentBonus>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+				<frequencyTicks>120000</frequencyTicks>
+				<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+				<requiresImprisonment>true</requiresImprisonment>
+			</li>
 		</comps>
 		<alienRace>
 			<generalSettings>
@@ -45,12 +54,12 @@
 				<additionalTraits>0~2</additionalTraits>
 				<alienPartGenerator>
 					<headTypes Inherit="False">
-						<li>Anneli_Head_1</li>
-						<li>Anneli_Head_2</li>
-						<li>Anneli_Head_3</li>
-						<li>Anneli_Head_4</li>
-						<li>Anneli_Head_5</li>
-						<li>Anneli_Head_6</li>
+						<li>Anneli_Head_A</li>
+						<li>Anneli_Head_B</li>
+						<li>Anneli_Head_C</li>
+						<li>Anneli_Head_D</li>
+						<li>Anneli_Head_E</li>
+						<li>Anneli_Head_F</li>
 					</headTypes>
 					<bodyTypes>
 						<li>Female</li>
@@ -267,8 +276,26 @@
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>
-				<body>Anneli_Body/</body>
-				<head>Anneli_Face/</head>
+				<body>
+					<path>Anneli_Body/Naked_Female</path>
+					<extendedGraphics>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Body/Naked_Shambler</Mutant>
+					</extendedGraphics>
+				</body>
+				<head>
+					<path>Anneli_Head/Anneli_Head_A</path>
+					<extendedGraphics>
+						<HeadType For="Anneli_Head_A">Anneli_Head/Anneli_Head_A</HeadType>
+						<HeadType For="Anneli_Head_B">Anneli_Head/Anneli_Head_B</HeadType>
+						<HeadType For="Anneli_Head_C">Anneli_Head/Anneli_Head_C</HeadType>
+						<HeadType For="Anneli_Head_D">Anneli_Head/Anneli_Head_D</HeadType>
+						<HeadType For="Anneli_Head_E">Anneli_Head/Anneli_Head_E</HeadType>
+						<HeadType For="Anneli_Head_F">Anneli_Head/Anneli_Head_F</HeadType>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Head/Anneli_Head_G</Mutant>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Head/Anneli_Head_G</Mutant>
+					</extendedGraphics>
+				</head>
 				<skeleton>Anneli_Corpse/Dessicated/Dessicated_Female</skeleton>
 				<skull>Anneli_Corpse/Skull/Dessicated_Head</skull>
 				<apparel>
@@ -602,6 +629,7 @@
 			<raceRestriction>
 				<blackGeneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
 				</blackGeneList>
 				<blackGeneTags>
 					<li>HairStyle</li>
@@ -624,6 +652,25 @@
 					<li>Headbone</li>
 					<li>Voice</li>
 				</blackEndoCategories>
+				<geneList>
+					<li>Anneli_Ageless</li>
+				</geneList>
+				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
+				</xenotypeList>
+				<blackXenotypeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+				</blackXenotypeList>
 				<apparelList>	
 					<li>Anneli_Transmog_Armor_Vanilla</li>
 					<li>Anneli_Transmog_Armor_Enhanced</li>
@@ -646,6 +693,11 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicShockLance</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicInsanityLance</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_BiomutationLance</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DeadlifePack</li>
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
@@ -761,6 +813,7 @@
 			</ageGenerationCurve>
 			<hediffGiverSets>
 				<li>OrganicStandard</li>
+				<li>Human</li>
 			</hediffGiverSets>
 		</race>
 	</AlienRace.ThingDef_AlienRace>
@@ -778,18 +831,13 @@
 			<LeatherAmount>0</LeatherAmount>
 			<Flammability>1.2</Flammability>
 			<ComfyTemperatureMin>5</ComfyTemperatureMin>
-			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<ComfyTemperatureMax>25</ComfyTemperatureMax>
 			<CarryingCapacity>80</CarryingCapacity>
 			<GlobalLearningFactor>1.1</GlobalLearningFactor>
-			<ResearchSpeed>1.2</ResearchSpeed>
-			<SocialImpact>1.20</SocialImpact>
 			<PsychicSensitivity>1.0</PsychicSensitivity>
-			<ImmunityGainSpeed>1.75</ImmunityGainSpeed>
 			<MedicalSurgerySuccessChance>1.2</MedicalSurgerySuccessChance>
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<PainShockThreshold>0.95</PainShockThreshold>
-			<NegotiationAbility>1.2</NegotiationAbility>
-			<SellPriceFactor>1.2</SellPriceFactor> 
 			<EatingSpeed>1.6</EatingSpeed>
 			<PawnBeauty>2</PawnBeauty>
 		</statBases>

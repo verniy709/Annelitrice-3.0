@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<Operation Class="PatchOperationConditional">
-  <xpath>Defs/HediffDef[defName = "ArchotechEye" or defName = "BionicEye"]/eyeGraphicSouth</xpath>
-   <match Class="PatchOperationRemove">
-    <xpath>Defs/HediffDef[defName = "ArchotechEye" or defName = "BionicEye"]/eyeGraphicSouth</xpath>
-  </match>
-</Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/HediffDef[defName="ArchotechEye" or defName="BionicEye"]/renderNodeProperties/li[workerClass="PawnRenderNodeWorker_HediffEye"]/subworkerClasses</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/HediffDef[defName="ArchotechEye" or defName="BionicEye"]/renderNodeProperties/li[workerClass="PawnRenderNodeWorker_HediffEye"]</xpath>
+      <value>
+        <subworkerClasses></subworkerClasses>
+      </value>
+    </nomatch>
+  </Operation>
 
-<Operation Class="PatchOperationConditional">
-  <xpath>Defs/HediffDef[defName = "ArchotechEye" or defName = "BionicEye"]/eyeGraphicEast</xpath>
-   <match Class="PatchOperationRemove">
-    <xpath>Defs/HediffDef[defName = "ArchotechEye" or defName = "BionicEye"]/eyeGraphicEast</xpath>
-  </match>
-</Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/HediffDef[defName="ArchotechEye" or defName="BionicEye"]/renderNodeProperties/li[workerClass="PawnRenderNodeWorker_HediffEye"]/subworkerClasses</xpath>
+    <value>
+      <li>Annelitrice.PawnRenderSubworker_NoDraw</li>
+    </value>
+  </Operation>
 
 </Patch>
