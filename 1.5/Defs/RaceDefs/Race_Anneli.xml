@@ -279,21 +279,21 @@
 				<body>
 					<path>Anneli_Body/Naked_Female</path>
 					<extendedGraphics>
-						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
 						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Body/Naked_Shambler</Mutant>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
 					</extendedGraphics>
 				</body>
 				<head>
 					<path>Anneli_Head/Anneli_Head_A</path>
 					<extendedGraphics>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Head/Anneli_Head_G</Mutant>
+						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Head/Anneli_Head_G</Mutant>
 						<HeadType For="Anneli_Head_A">Anneli_Head/Anneli_Head_A</HeadType>
 						<HeadType For="Anneli_Head_B">Anneli_Head/Anneli_Head_B</HeadType>
 						<HeadType For="Anneli_Head_C">Anneli_Head/Anneli_Head_C</HeadType>
 						<HeadType For="Anneli_Head_D">Anneli_Head/Anneli_Head_D</HeadType>
 						<HeadType For="Anneli_Head_E">Anneli_Head/Anneli_Head_E</HeadType>
 						<HeadType For="Anneli_Head_F">Anneli_Head/Anneli_Head_F</HeadType>
-						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Head/Anneli_Head_G</Mutant>
-						<Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Head/Anneli_Head_G</Mutant>
 					</extendedGraphics>
 				</head>
 				<skeleton>Anneli_Corpse/Dessicated/Dessicated_Female</skeleton>

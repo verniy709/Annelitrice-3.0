@@ -11,8 +11,8 @@
             <body>
               <path>Anneli_BodyCensored/Naked_Female</path>
               <extendedGraphics>
-                <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
                 <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_BodyCensored/Naked_Shambler</Mutant>
+                <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
               </extendedGraphics>
             </body>
           </value>

@@ -37,13 +37,18 @@
         <useJob>UseItem</useJob>
         <useLabel>Use annelitrice nutrient solution</useLabel>
         <useDuration>0</useDuration>
+        <warmupMote>Mote_ResurrectAbility</warmupMote>
+        <showUseGizmo>true</showUseGizmo>
       </li>
       <li Class="CompProperties_Targetable">
         <compClass>Annelitrice.CompTargetable_Parameters_Egg</compClass>
       </li>
       <li>
         <compClass>Annelitrice.CompTargetEffect_NutrientSolution</compClass>
-      </li>      
+      </li>   
+      <li Class="CompProperties_TargetEffectResurrect">
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>   
     </comps>
   </ThingDef>
 
@@ -54,12 +59,12 @@
     <jobString>Making Annelitrice nutrient solution.</jobString>
     <workAmount>1000</workAmount>
     <researchPrerequisite>Anneli_NutrientSolution</researchPrerequisite>
-      <recipeUsers>
-        <li>FueledStove</li>
-        <li>ElectricStove</li>
-        <li>DrugLab</li>
-        <li>Anneli_Fountain</li>
-      </recipeUsers>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+      <li>DrugLab</li>
+      <li>Anneli_Fountain</li>
+    </recipeUsers>
     <workSkill>Intellectual</workSkill>
     <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
