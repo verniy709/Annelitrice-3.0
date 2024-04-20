@@ -15,10 +15,12 @@ namespace Annelitrice
 	public class AnnelitriceSettings : ModSettings
 	{
 		public static bool censorBool = false;
+		public static bool removeRaceRestrictionBool = false;
 
 		public override void ExposeData()
 		{
 			Scribe_Values.Look(ref censorBool, "censorBool");
+			Scribe_Values.Look(ref removeRaceRestrictionBool, "removeRaceRestrictionBool");
 			base.ExposeData();
 		}
 	}
@@ -36,8 +38,9 @@ namespace Annelitrice
 		{
 			Listing_Standard listingStandard = new Listing_Standard();
 			listingStandard.Begin(inRect);
-			listingStandard.Label("Anneli.CensoredBodytypeLabel".Translate());
+			listingStandard.Label("Anneli.SettingLabel".Translate());
 			listingStandard.CheckboxLabeled("Anneli.CensoredBodytypeCheckbox".Translate(), ref AnnelitriceSettings.censorBool);
+			listingStandard.CheckboxLabeled("Anneli.RemoveRaceRestrictionCheckbox".Translate(), ref AnnelitriceSettings.removeRaceRestrictionBool);
 			listingStandard.End();
 			base.DoSettingsWindowContents(inRect);
 		}
@@ -48,7 +51,7 @@ namespace Annelitrice
 		}
 	}
 
-	public class PatchOperationSetting : PatchOperation
+	public class PatchOperationSettingA : PatchOperation
 	{
 		private List<PatchOperation> operations = new List<PatchOperation>();
 
@@ -57,6 +60,29 @@ namespace Annelitrice
 		protected override bool ApplyWorker(XmlDocument xml)
 		{
 			if (AnnelitriceSettings.censorBool)
+			{
+				foreach (PatchOperation operation in operations)
+				{
+					if (!operation.Apply(xml))
+					{
+						lastFailedOperation = operation;
+						return false;
+					}
+				}
+			}
+			return true;
+		}
+	}
+
+	public class PatchOperationSettingB : PatchOperation
+	{
+		private List<PatchOperation> operations = new List<PatchOperation>();
+
+		private PatchOperation lastFailedOperation;
+
+		protected override bool ApplyWorker(XmlDocument xml)
+		{
+			if (AnnelitriceSettings.removeRaceRestrictionBool)
 			{
 				foreach (PatchOperation operation in operations)
 				{

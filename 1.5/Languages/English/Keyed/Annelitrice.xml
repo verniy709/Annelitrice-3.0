@@ -11,6 +11,9 @@
 	<Anneli.SelectSongDesc>select a song in the list</Anneli.SelectSongDesc>
 
 	<Anneli.SettingTitle>Annelitrice 3.0</Anneli.SettingTitle>
-	<Anneli.CensoredBodytypeLabel>Require restarting to take effect</Anneli.CensoredBodytypeLabel>
+	<Anneli.SettingLabel>Require restarting to take effect</Anneli.SettingLabel>
 	<Anneli.CensoredBodytypeCheckbox>Censor NSFW Bodytype</Anneli.CensoredBodytypeCheckbox>
+	<Anneli.RemoveRaceRestrictionCheckbox>Remove Race Apparel Restriction</Anneli.RemoveRaceRestrictionCheckbox>
+
+	
 </LanguageData>

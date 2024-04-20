@@ -96,19 +96,6 @@
 				</value>
 			</li>
 			<li>
-				<key>ActivateThing</key>
-				<value>
-					<exPath>Anneli_Arms/LLS/</exPath>
-					<textures>
-						<li>Anneli_Arm_LLS</li>
-					</textures>
-					<linkedWithAction>true</linkedWithAction>
-					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-					<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-				</value>
-			</li>
-			<li>
 				<key>Tame</key>
 				<value>
 					<exPath>Anneli_Arms/LLS/</exPath>
@@ -1445,19 +1432,6 @@
 			</li>
 			<li>
 				<key>Research</key>
-				<value>
-					<exPath>Anneli_Arms/LLS/</exPath>
-					<textures>
-						<li>Anneli_Arm_LLS</li>
-					</textures>
-					<linkedWithAction>true</linkedWithAction>
-					<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-					<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-					<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-				</value>
-			</li>
-			<li>
-				<key>StudyBuilding</key>
 				<value>
 					<exPath>Anneli_Arms/LLS/</exPath>
 					<textures>

@@ -653,7 +653,7 @@
 					<li>Voice</li>
 				</blackEndoCategories>
 				<geneList>
-					<li>Anneli_Ageless</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
 				</geneList>
 				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
@@ -740,8 +740,8 @@
 			</li>
 		</tools>
 		<race>
-			<thinkTreeMain>Humanlike</thinkTreeMain>
-			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<thinkTreeMain>Anneli_Humanlike</thinkTreeMain>
+			<thinkTreeConstant>Anneli_HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>

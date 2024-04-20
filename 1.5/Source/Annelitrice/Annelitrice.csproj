@@ -58,7 +58,7 @@
     <Compile Include="PawnRenderSubWorker_NoDraw .cs" />
     <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
     <Compile Include="CompApparelCauseHediff_AoE.cs" />
-    <Compile Include="HarmonyPatches\patch_DrawEquipment.cs" />
+    <Compile Include="HarmonyPatches\DrawEquipmentAiming.cs" />
     <Compile Include="JobDriver_UseNutrientSolution.cs" />
     <Compile Include="CompConnaturalAbilities.cs" />
     <Compile Include="CompProperties_ConnaturalAbilities.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="CompLarva.cs" />
     <Compile Include="CompEgg.cs" />
     <Compile Include="CompContainPawn.cs" />
-    <Compile Include="HarmonyPatches\Corpse_Destroy_Patch.cs" />
+    <Compile Include="HarmonyPatches\Corpse_Destroy.cs" />
     <Compile Include="HarmonyPatches\IngestFood.cs" />
     <Compile Include="HarmonyPatches\PatchMain.cs" />
     <Compile Include="CompPlayMusic.cs" />

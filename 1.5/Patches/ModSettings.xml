@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-  <Operation Class="Annelitrice.PatchOperationSetting">
+  <Operation Class="Annelitrice.PatchOperationSettingA">
     <operations>
       <li Class="PatchOperationReplace">
         <xpath>Defs/AlienRace.ThingDef_AlienRace[
@@ -19,4 +19,18 @@
         </li>
       </operations>
     </Operation>
+
+    <Operation Class="Annelitrice.PatchOperationSettingB">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+          @Name="Anneli_BasePawn"
+          ]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+          <value>
+            <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+          </value>
+        </li>
+      </operations>
+    </Operation>
+
   </Patch>

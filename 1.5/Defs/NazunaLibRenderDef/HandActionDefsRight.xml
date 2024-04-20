@@ -166,29 +166,6 @@
 				</value>
 			</li>
 			<li>
-				<key>ActivateThing</key>
-				<value>
-					<exPath>Anneli_Arms/Naked/</exPath>
-					<randomChange>true</randomChange>          
-					<useRandomTimeDelta>true</useRandomTimeDelta>
-					<actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
-					<textures>
-						<li>Anneli_Arm</li>
-					</textures>
-					<pathDict>
-						<li>
-							<key>Standing</key>
-							<value>
-								<li>ArmStraightB/</li>
-								<li>ArmHandLowA/</li>
-								<li>ArmStraightA/</li>
-								<li>ArmHandHighA/</li>
-							</value>
-						</li>
-					</pathDict>
-				</value>
-			</li>
-			<li>
 				<key>Tame</key>
 				<value>
 					<exPath>Anneli_Arms/Naked/</exPath>
@@ -2336,27 +2313,6 @@
 			</li>
 			<li>
 				<key>Research</key>
-				<value>
-					<exPath>Anneli_Arms/Naked/</exPath>
-					<randomChange>true</randomChange>          
-					<useRandomTimeDelta>true</useRandomTimeDelta>
-					<actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
-					<textures>
-						<li>Anneli_Arm</li>
-					</textures>
-					<pathDict>
-						<li>
-							<key>Standing</key>
-							<value>
-								<li>ArmStraightA/</li>
-								<li>ArmHandLowA/</li>
-							</value>
-						</li>
-					</pathDict>
-				</value>
-			</li>
-			<li>
-				<key>StudyBuilding</key>
 				<value>
 					<exPath>Anneli_Arms/Naked/</exPath>
 					<randomChange>true</randomChange>          
