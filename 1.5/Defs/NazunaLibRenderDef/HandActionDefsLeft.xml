@@ -3891,6 +3891,7 @@
 					</pathDict>
 				</value>
 			</li>
+			<!-- Grab -->
 			<li>
 				<key>AttackMelee</key>
 				<value>
@@ -3905,7 +3906,7 @@
 						<li>
 							<key>Standing</key>
 							<value>
-								<li>ArmHandLowC/</li>
+								<li>ArmStraightE/</li>
 							</value>
 						</li>
 					</pathDict>

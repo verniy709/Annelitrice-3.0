@@ -11,8 +11,9 @@
             <body>
               <path>Anneli_BodyCensored/Naked_Female</path>
               <extendedGraphics>
-                <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_BodyCensored/Naked_Shambler</Mutant>
-                <Mutant MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Mutant>
+                <RotStage For="Dessicated">Anneli_Corpse/Dessicated/Dessicated_Female</RotStage>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_BodyCensored/Naked_Shambler</Hediff>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Hediff>
               </extendedGraphics>
             </body>
           </value>

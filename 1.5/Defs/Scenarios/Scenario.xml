@@ -47,6 +47,12 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>Gun_ChargeRifle</thingDef>
 				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Schematic</thingDef>
+          <count>2</count>
+          <quality>Normal</quality>
+        </li>
 
 				<!-- Scatter some things near player start -->
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
@@ -93,6 +99,18 @@
 					<thingDef>MealSurvivalPack</thingDef>
 					<count>12</count>
 				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Novel</thingDef>
+          <count>3</count>
+          <quality>Normal</quality>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>TextBook</thingDef>
+          <count>1</count>
+          <quality>Normal</quality>
+        </li>
 			</parts>
 		</scenario>
 	</ScenarioDef>
