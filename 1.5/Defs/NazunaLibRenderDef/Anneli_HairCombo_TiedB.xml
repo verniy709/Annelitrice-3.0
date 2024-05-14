@@ -11,7 +11,7 @@
 				<prefix>
 					<li>Middle_Tied_B</li>
 				</prefix>
-				<renderLayer>BottomHair</renderLayer>
+				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 85, 0)</drawOffsetEast>
@@ -101,7 +101,7 @@
 					<li>Anneli_Null</li>
 					<li>Back_HalfUpBraid_E</li>
 				</prefix>
-				<renderLayer>BottomHair</renderLayer>
+				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<drawOffsetSouth>(0, -1, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 86, 0)</drawOffsetEast>

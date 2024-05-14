@@ -11,7 +11,7 @@
 				<prefix>
 					<li>Middle_Flat_B</li>
 				</prefix>
-				<renderLayer>BottomHair</renderLayer>
+				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 85, 0)</drawOffsetEast>
@@ -94,7 +94,7 @@
 					<li>Back_Pigtail_E</li>
 					<li>Back_Pigtail_F</li>
 				</prefix>
-				<renderLayer>BottomHair</renderLayer>
+				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<drawOffsetSouth>(0, -1, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 86, 0)</drawOffsetEast>
