@@ -43,7 +43,7 @@
 
   <ThingDef Name="Anneli_Transmog_ShieldBelt" ParentName="Anneli_ShieldBelt" Abstract="True">
     <thingCategories>
-      <li>Category_Annelitrice_Transmog</li>
+      <li>Anneli_Category_Transmog</li>
     </thingCategories>
     <recipeMaker>
       <recipeUsers>

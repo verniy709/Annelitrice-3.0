@@ -279,7 +279,6 @@
 				<body>
 					<path>Anneli_Body/Naked_Female</path>
 					<extendedGraphics>
-						<RotStage For="Dessicated">Anneli_Corpse/Dessicated/Dessicated_Female</RotStage>
 						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Body/Naked_Shambler</Hediff>
 						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Hediff>
 					</extendedGraphics>
@@ -287,7 +286,6 @@
 				<head>
 					<path>Anneli_Head/Anneli_Head_A</path>
 					<extendedGraphics>
-						<RotStage For="Dessicated">Anneli_Corpse/Skull/Dessicated_Head</RotStage>
 						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Head/Anneli_Head_G</Hediff>
 						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Head/Anneli_Head_G</Hediff>
 						<HeadType For="Anneli_Head_A">Anneli_Head/Anneli_Head_A</HeadType>

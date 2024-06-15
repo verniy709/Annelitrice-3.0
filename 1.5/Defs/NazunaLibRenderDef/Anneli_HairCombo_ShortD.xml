@@ -31,10 +31,10 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
-				<drawOffsetSouth>(0, 88, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 88, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 88, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 88, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 89, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 89, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 89, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 89, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 				<weightOfThePrefix>
@@ -80,10 +80,10 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
-				<drawOffsetSouth>(0, 87, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 87, 0)</drawOffsetEast>
+				<drawOffsetSouth>(0, 88, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 88, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 87, 0)</drawOffsetWest>
+				<drawOffsetWest>(0, 88, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
@@ -97,9 +97,9 @@
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<drawOffsetSouth>(0, -1, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 86, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 86, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 86, 0)</drawOffsetWest>
+				<drawOffsetEast>(0, 87, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 87, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 87, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 				<weightOfThePrefix>

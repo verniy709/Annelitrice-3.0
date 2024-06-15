@@ -62,7 +62,7 @@
 	</ThingDef>
 
 	<ThingCategoryDef>
-		<defName>Category_Annelitrice_Transmog</defName>
+		<defName>Anneli_Category_Transmog</defName>
 		<parent>Apparel</parent>
 		<label>Annelitrice Transmog Apparels</label>
 	</ThingCategoryDef>

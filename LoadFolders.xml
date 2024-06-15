@@ -8,6 +8,7 @@
 		<li IfModActive="Ludeon.RimWorld.Biotech">LoadFolders/1.4/Biotech</li>
 		<li IfModActive="imranfish.xmlextensions">LoadFolders/1.4/XmlExtensions</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">LoadFolders/1.4/DubsBadHygiene</li>
+		<li IfModActive="Dubwise.DubsBadHygiene.Lite">LoadFolders/1.4/DubsBadHygieneLite</li>
 	</v1.4>
 	<v1.5>
 		<li>/</li>
@@ -17,5 +18,6 @@
 		<li IfModActive="Ludeon.RimWorld.Biotech">LoadFolders/1.5/Biotech</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">LoadFolders/1.5/Anomaly</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">LoadFolders/1.5/DubsBadHygiene</li>
+		<li IfModActive="Dubwise.DubsBadHygiene.Lite">LoadFolders/1.5/DubsBadHygieneLite</li>
 	</v1.5>
 </loadFolders>
