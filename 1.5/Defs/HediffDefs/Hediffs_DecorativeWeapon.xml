@@ -141,4 +141,32 @@
     </stages>
   </HediffDef>
 
+  <HediffDef>
+    <defName>Anneli_Aura_Honor</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>inspired by honorable presence</label>
+    <labelNoun>honorable presence</labelNoun>
+    <description>Reduce the need for sleep.</description>
+    <defaultLabelColor>(206,126,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <makesSickThought>false</makesSickThought>
+    <tendable>false</tendable>
+    <makesAlert>false</makesAlert>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.9</painFactor>
+        <statOffsets>
+          <RestFallRateFactor>-0.1</RestFallRateFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
 </Defs>

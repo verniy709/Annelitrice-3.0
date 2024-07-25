@@ -129,7 +129,7 @@
     <defName>Anneli_Music_Serene</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by serene music</label>
-    <labelNoun>serene serene</labelNoun>
+    <labelNoun>serene music</labelNoun>
     <description>Increase work efficiency.</description>
     <defaultLabelColor>(147,196,125)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -147,6 +147,35 @@
       <li>
         <statOffsets>
           <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Anneli_Music_Aggressive</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>inspired by aggressive music</label>
+    <labelNoun>aggressive music</labelNoun>
+    <description>Increase combat efficiency.</description>
+    <defaultLabelColor>(255,20,40)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <makesSickThought>false</makesSickThought>
+    <tendable>false</tendable>
+    <makesAlert>false</makesAlert>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>500</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <MeleeHitChance>0.1</MeleeHitChance>
+          <MeleeDodgeChance>0.1</MeleeDodgeChance>
         </statOffsets>
       </li>
     </stages>
