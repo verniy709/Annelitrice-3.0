@@ -22,7 +22,7 @@
 		<description>No worn textures. This helmet is for players who prefer a vanilla combat experience, without any overpowered or game-changing mods.</description>
 		<label>(Anneli)6ABC_Helmet_Vanilla</label>
 		<graphicData>
-			<texPath>Anneli_Transmog/Anneli_Helmet</texPath><!--ToDo-->
+			<texPath>Anneli_Transmog/Anneli_Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -44,7 +44,7 @@
 		<description>No worn textures. This enhanced helmet is for players who use diverse mod items with varying levels of strength.</description>
 		<label>(Anneli)6ABC_Helmet_Enhanced</label>
 		<graphicData>
-			<texPath>Anneli_Transmog/Anneli_Helmet</texPath><!--ToDo-->
+			<texPath>Anneli_Transmog/Anneli_Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -74,7 +74,7 @@
 		<description>No worn textures. This overpowered helmet is for players uninterested in game balance.</description>
 		<label>(Anneli)6ABC_Helmet_OP</label>
 		<graphicData>
-			<texPath>Anneli_Transmog/Anneli_Helmet</texPath><!--ToDo-->
+			<texPath>Anneli_Transmog/Anneli_Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>

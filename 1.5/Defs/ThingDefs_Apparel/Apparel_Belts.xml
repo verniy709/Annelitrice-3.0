@@ -109,7 +109,7 @@
     <description>Can be used with ranged weapons. This overpowered shield belt is for players uninterested in game balance.</description>
     <label>(Anneli)ShieldBelt_OP</label>
     <graphicData>
-      <texPath>Anneli_Transmog/Anneli_ShieldBelt</texPath><!--ToDo-->
+      <texPath>Anneli_Transmog/Anneli_ShieldBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">

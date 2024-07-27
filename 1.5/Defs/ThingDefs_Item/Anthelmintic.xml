@@ -8,7 +8,7 @@
     <possessionCount>10</possessionCount>
     <descriptionHyperlinks><HediffDef>Anneli_AnthelminticHigh</HediffDef></descriptionHyperlinks>
     <graphicData>
-      <texPath>Anneli_Item/Anthelmintic</texPath><!--ToDo-->
+      <texPath>Anneli_Item/Anthelmintic</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>false</socialPropernessMatters>
