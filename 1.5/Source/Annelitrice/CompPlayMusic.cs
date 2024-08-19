@@ -171,7 +171,17 @@ namespace Annelitrice
             }
             return null;
         }
-        public override void PostExposeData()
+
+		public override void Initialize(CompProperties props)
+		{
+			base.Initialize(props);
+			if (curSoundDef == null && Props.soundDefs?.Any() == true)
+			{
+				curSoundDef = Props.soundDefs.First();
+			}
+		}
+
+		public override void PostExposeData()
         {
             base.PostExposeData();
             Scribe_Defs.Look(ref curSoundDef, "curSoundDef");

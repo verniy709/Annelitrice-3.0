@@ -67,9 +67,9 @@
 						<east>(-0.052, 0.211)</east>
 						<west>(0.052, 0.211)</west>
 					</headOffsetDirectional>
-					<customDrawSize>(1.09, 1.225)</customDrawSize>
+					<customDrawSize>(1.1, 1.225)</customDrawSize>
 					<customHeadDrawSize>(0.737, 0.759)</customHeadDrawSize>
-					<customPortraitDrawSize>(1.09, 1.225)</customPortraitDrawSize>
+					<customPortraitDrawSize>(1.1, 1.225)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.737, 0.759)</customPortraitHeadDrawSize>
 					<colorChannels>
 						<li>
@@ -693,9 +693,22 @@
 				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
+				<!-- Cause errors if no HumanlikeChild or HumanlikeAdult is given-->
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>0.01</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>0.02</minAge>
+				</li>
 				<li>
 					<def>AnneliAdult</def>
-					<minAge>0</minAge>
+					<minAge>0.03</minAge>
 				</li>
 			</lifeStageAges>
 			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
