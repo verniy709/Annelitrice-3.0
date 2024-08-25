@@ -13,10 +13,10 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
-				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 85, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 85, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 85, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.500, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 3.769, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 3.769, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 3.769, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
@@ -31,10 +31,10 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
-				<drawOffsetSouth>(0, 89, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 89, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 89, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 89, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 3.923, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 3.923, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 3.923, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 3.923, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 				<weightOfThePrefix>
@@ -89,10 +89,10 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
-				<drawOffsetSouth>(0, 88, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 88, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 88, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 3.885, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 3.885, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.462, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 3.885, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
@@ -103,10 +103,10 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
-				<drawOffsetSouth>(0, -1, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 87, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 87, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 87, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.462, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 3.846, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 3.846, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 3.846, 0)</drawOffsetWest>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 				<weightOfThePrefix>
