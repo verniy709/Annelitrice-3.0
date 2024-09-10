@@ -161,7 +161,6 @@
 										<weight>10</weight>
 										<only>RGB(190,225,255)</only>
 									</li>
-
 									<!--Rare-->
 									<li>
 										<weight>1</weight>
@@ -271,8 +270,414 @@
 								</options>
 							</first>
 						</li>
+						<li>
+							<name>tattoo</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(253,219,186)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(209,210,211)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(255,195,162)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(87,87,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(67,65,74)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(218,176,133)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(144,97,71)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(250,240,230)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(229,200,168)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(183,156,123)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(159,154,150)</only>
+									</li>
+								</options>
+							</first>
+						</li>
 					</colorChannels>
 					<bodyAddons>
+						<li>
+							<path>Anneli_Gene/Ear/Human/Ear_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>-0.346</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.346</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0.0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.346</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Left</Gene> -->
+								<!-- <Gene For="Anneli_Gene_Ear_Halfling">Anneli_Gene/Ear/Halfling/Ear_Left</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>	
+						<li>
+							<path>Anneli_Gene/Ear/Human/Ear_Right</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>-0.346</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.346</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.346</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0.0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Right</Gene> -->
+								<!-- <Gene For="Anneli_Gene_Ear_Halfling">Anneli_Gene/Ear/Halfling/Ear_Right</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Kemonomimi_CatEarA">Anneli_Gene/Kemonomimi/CatEarA/Kemonomimi_Left</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Kemonomimi_CatEarA">Anneli_Gene/Kemonomimi/CatEarA/Kemonomimi_Right</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Gene/Horn/DragonHornA/Horn_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<!-- <allowColorOverride>true</allowColorOverride> -->
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Horn_DragonHornA">Anneli_Gene/Horn/DragonHornA/Horn_Left</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Horn_DragonHornA">Anneli_Gene/Horn/DragonHornA/Horn_Right</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_HeadSkin_DragonScaleA">Anneli_Gene/HeadSkin/DragonScaleA/BodySkin</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_BodySkin_DragonScaleA">Anneli_Gene/BodySkin/DragonScaleA/BodySkin</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Tail_DragonTailA">Anneli_Gene/Tail/DragonTailA/Tail</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
 					</bodyAddons>
 				</alienPartGenerator>
 			</generalSettings>
@@ -285,16 +690,16 @@
 					</extendedGraphics>
 				</body>
 				<head>
-					<path>Anneli_Head/Anneli_Head_A</path>
+					<path>Anneli_Face/Anneli_Head_A</path>
 					<extendedGraphics>
-						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Head/Anneli_Head_G</Hediff>
-						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Head/Anneli_Head_G</Hediff>
-						<HeadType For="Anneli_Head_A">Anneli_Head/Anneli_Head_A</HeadType>
-						<HeadType For="Anneli_Head_B">Anneli_Head/Anneli_Head_B</HeadType>
-						<HeadType For="Anneli_Head_C">Anneli_Head/Anneli_Head_C</HeadType>
-						<HeadType For="Anneli_Head_D">Anneli_Head/Anneli_Head_D</HeadType>
-						<HeadType For="Anneli_Head_E">Anneli_Head/Anneli_Head_E</HeadType>
-						<HeadType For="Anneli_Head_F">Anneli_Head/Anneli_Head_F</HeadType>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Face/Anneli_Head_G</Hediff>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Face/Anneli_Head_G</Hediff>
+						<HeadType For="Anneli_Head_A">Anneli_Face/Anneli_Head_A</HeadType>
+						<HeadType For="Anneli_Head_B">Anneli_Face/Anneli_Head_B</HeadType>
+						<HeadType For="Anneli_Head_C">Anneli_Face/Anneli_Head_C</HeadType>
+						<HeadType For="Anneli_Head_D">Anneli_Face/Anneli_Head_D</HeadType>
+						<HeadType For="Anneli_Head_E">Anneli_Face/Anneli_Head_E</HeadType>
+						<HeadType For="Anneli_Head_F">Anneli_Face/Anneli_Head_F</HeadType>
 					</extendedGraphics>
 				</head>
 				<skeleton>Anneli_Corpse/Dessicated/Dessicated_Female</skeleton>
@@ -752,7 +1157,7 @@
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<fleshType>Anneli_Flesh</fleshType>
 			<body>Anneli_Body</body>
-			<renderTree>Humanlike</renderTree>
+			<renderTree>Annelitrice</renderTree>
 			<baseBodySize>1.0</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
@@ -813,7 +1218,7 @@
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
 				<volume>(0.2, 0.7, 0.15)</volume>
-				<offset>(0,0,-0.75)</offset>
+				<offset>(0,0,-0.77)</offset>
 			</specialShadowData>
 			<ageGenerationCurve>
 				<points>

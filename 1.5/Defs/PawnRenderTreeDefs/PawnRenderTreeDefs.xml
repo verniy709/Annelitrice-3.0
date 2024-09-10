@@ -16,7 +16,7 @@
           <colorType>Skin</colorType>
           <useRottenColor>true</useRottenColor>
           <useSkinShader>true</useSkinShader>
-          <baseLayer>31</baseLayer>
+          <baseLayer>28</baseLayer>
           <children>
             <li Class="PawnRenderNodeProperties_Tattoo" MayRequire="Ludeon.RimWorld.Ideology">
               <debugLabel>Body tattoo</debugLabel>
@@ -24,32 +24,32 @@
               <workerClass>PawnRenderNodeWorker_Body_Tattoo</workerClass>
               <colorType>Skin</colorType>
               <useRottenColor>true</useRottenColor>
-              <baseLayer>32</baseLayer>
+              <baseLayer>28.5</baseLayer>
               <rotDrawMode>Fresh, Rotting</rotDrawMode>
             </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Wounds - pre apparel</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
               <overlayLayer>Body</overlayLayer>
-              <baseLayer>34</baseLayer>
+              <baseLayer>29.5</baseLayer>
             </li>
             <!-- <li Class="PawnRenderNodeProperties_Parent">
               <debugLabel>Apparel root</debugLabel>
               <tagDef>ApparelBody</tagDef>
-              <baseLayer>20</baseLayer>
+              <baseLayer>0</baseLayer>
             </li> -->
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Wounds - post apparel</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
               <overlayOverApparel>true</overlayOverApparel>
               <overlayLayer>Body</overlayLayer>
-              <baseLayer>72</baseLayer>
+              <baseLayer>48.5</baseLayer>
             </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Firefoam</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
               <overlayLayer>Body</overlayLayer>
-              <baseLayer>73</baseLayer>
+              <baseLayer>49</baseLayer>
             </li>
           </children>
         </li>
@@ -59,7 +59,7 @@
           <workerClass>PawnRenderNodeWorker_Head</workerClass>
           <tagDef>Head</tagDef>
           <skipFlag>Head</skipFlag>
-          <baseLayer>77</baseLayer>
+          <baseLayer>50</baseLayer>
           <colorType>Skin</colorType>
           <useRottenColor>true</useRottenColor>
           <useSkinShader>true</useSkinShader>
@@ -70,7 +70,7 @@
               <workerClass>PawnRenderNodeWorker_Tattoo_Head</workerClass>
               <rotDrawMode>Fresh, Rotting</rotDrawMode>
               <colorType>Skin</colorType>
-              <baseLayer>78</baseLayer>
+              <baseLayer>60</baseLayer>
             </li>
             <li>
               <debugLabel>Beard</debugLabel>
@@ -79,38 +79,38 @@
               <rotDrawMode>Fresh, Rotting</rotDrawMode>
               <colorType>Hair</colorType>
               <skipFlag>Beard</skipFlag>
-              <baseLayer>79</baseLayer>
+              <baseLayer>60.5</baseLayer>
             </li>
-            <!-- <li>
+            <li>
               <debugLabel>Hair</debugLabel>
               <nodeClass>PawnRenderNode_Hair</nodeClass>
               <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
               <rotDrawMode>Fresh, Rotting</rotDrawMode>
               <colorType>Hair</colorType>
               <skipFlag>Hair</skipFlag>
-              <baseLayer>62</baseLayer>
-            </li> -->
+              <baseLayer>63.5</baseLayer>
+            </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Head wounds</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
               <overlayLayer>Head</overlayLayer>
-              <baseLayer>82</baseLayer>
+              <baseLayer>62</baseLayer>
             </li>
             <!-- <li Class="PawnRenderNodeProperties_Parent">
               <debugLabel>Apparel root</debugLabel>
               <tagDef>ApparelHead</tagDef>
-              <baseLayer>70</baseLayer>
+              <baseLayer>0</baseLayer>
             </li> -->
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Firefoam</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
               <overlayLayer>Head</overlayLayer>
-              <baseLayer>110</baseLayer>
+              <baseLayer>76</baseLayer>
             </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Status overlay</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayStatus</workerClass>
-              <baseLayer>111</baseLayer>
+              <baseLayer>76.5</baseLayer>
             </li>
           </children>
         </li>

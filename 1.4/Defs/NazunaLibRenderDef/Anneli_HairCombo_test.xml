@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_HairCombo_test</defName>
+		<originalDef>Anneli_HairCombo_test</originalDef>
+		<originalDefClass>HairDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Hair/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>A_test</li>
+				</prefix>
+				<renderLayer>BottomHair</renderLayer>
+				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
+				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, -0.5, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, -0.5, 0)</drawOffsetWest>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737,0.759(head) -->
+			</li>
+			<li>
+				<prefix>
+					<li>Front_Curtain_A</li>
+					<li>Front_Curtain_B</li>
+					<li>Front_Curtain_C</li>
+					<li>Front_Curtain_D</li>
+					<li>Front_MShape_A</li>
+					<li>Front_MShape_B</li>
+					<li>Front_MShape_C</li>
+					<li>Front_MShape_D</li>
+					<li>Front_MShape_E</li>
+					<li>Front_MShape_F</li>
+					<li>Front_MShape_G</li>
+					<li>Front_MShape_H</li>
+					<li>Front_MShape_I</li>
+					<li>Front_MShape_J</li>
+					<li>Front_MShape_K</li>
+					<li>Front_MShape_L</li>
+					<li>Front_MShape_M</li>
+					<li>Front_MShape_N</li>
+					<li>Front_MShape_O</li>
+					<li>Front_SideSwept_A</li>
+					<li>Front_SideSwept_B</li>
+					<li>Front_SideSwept_C</li>
+					<li>Front_SideSwept_D</li>
+					<li>Front_SideSwept_E</li>
+					<li>Front_SideSwept_F</li>
+					<li>Front_SideSwept_G</li>
+					<li>Front_SideSwept_H</li>
+					<li>Front_SideSwept_I</li>
+					<li>Front_SideSwept_J</li>
+					<li>Front_SideSwept_K</li>
+					<li>Front_Straight_A</li>
+					<li>Front_Straight_B</li>
+					<li>Front_Straight_C</li>
+					<li>Front_Straight_D</li>
+					<li>Front_Straight_E</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
+				<drawOffsetSouth>(0, 0.5, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.5, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, -0.5, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.5, 0)</drawOffsetWest>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+</Defs>
