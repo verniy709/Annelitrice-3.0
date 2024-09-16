@@ -11,14 +11,48 @@
 				<prefix>
 					<li>Middle_Braid_A</li>
 				</prefix>
-				<renderLayer>BottomHair</renderLayer>
+				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
-				<drawOffsetSouth>(0, -0.5, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, -0.5, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.5, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, -0.5, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.442, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.442, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.442, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+					<li>Ahoge_Curved</li>
+					<li>Ahoge_Heart</li>
+					<li>Ahoge_Normal</li>
+					<li>Ahoge_Short</li>
+					<li>Ahoge_Thick</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
+				<drawOffsetSouth>(0, 2.519, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.519, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.519, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.519, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+				<weightOfThePrefix>
+					<li>
+						<key>Anneli_Null</key>
+						<value>30</value>
+					</li>
+					<li>
+						<key>Ahoge_Normal</key>
+						<value>5</value>
+					</li>
+					<li>
+						<key>Ahoge_Short</key>
+						<value>3</value>
+					</li>
+				</weightOfThePrefix>
 			</li>
 			<li>
 				<prefix>
@@ -48,10 +82,11 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
-				<drawOffsetSouth>(0, 0.5, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.5, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, -0.5, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.5, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.500, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.231, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.500, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
@@ -61,11 +96,12 @@
 					<li>Back_SideBraid_B</li>
 				</prefix>
 				<renderLayer>Hair</renderLayer>
-				<textureLevelsName>Anneli_BackHair</textureLevelsName>
-				<drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0, 0)</drawOffsetWest>
+				<textureLevelsName>Anneli_BackHair_Braid</textureLevelsName>
+				<drawOffsetSouth>(0, 2.481, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.481, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.481, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.481, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
