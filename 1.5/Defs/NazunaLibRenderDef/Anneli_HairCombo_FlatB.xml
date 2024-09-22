@@ -17,7 +17,9 @@
 				<drawOffsetEast>(0, 2.442, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.442, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.442, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->
 				<shaderType>CutoutComplex</shaderType>
 			</li>
 			<li>
@@ -35,6 +37,7 @@
 				<drawOffsetEast>(0, 2.519, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.519, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.519, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 				<weightOfThePrefix>
@@ -83,6 +86,7 @@
 				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.231, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.500, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
 			</li>
@@ -92,15 +96,16 @@
 					<li>Back_Pigtail_B</li>
 					<li>Back_Pigtail_D</li>
 					<li>Back_Pigtail_E</li>
-					<li>Back_Pigtail_F</li>
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<drawOffsetSouth>(0, 0.231, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.481, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.481, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.481, 0)</drawOffsetWest>
+				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.500, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.500, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->
 				<shaderType>CutoutComplex</shaderType>
 			</li>
 		</levels>
