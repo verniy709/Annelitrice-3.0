@@ -471,7 +471,7 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Gene/Horn/DragonHornA/Horn_Left</path>
+							<path>Anneli_Null/Anneli_Null</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -479,7 +479,6 @@
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
 							<angle>0</angle>
-							<!-- <allowColorOverride>true</allowColorOverride> -->
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
