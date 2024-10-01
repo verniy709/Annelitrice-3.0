@@ -34,7 +34,7 @@
 	<XenotypeDef>
 		<defName>Anneli_Xenotype</defName>
 		<label>Annelitrice</label>
-		<description>Xenotype for annelitrice race.</description>
+		<description>Basic xenotype for the annelitrice race: a near-perfect mimic of Homo sapiens.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>

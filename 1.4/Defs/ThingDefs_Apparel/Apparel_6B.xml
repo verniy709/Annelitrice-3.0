@@ -9,6 +9,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<apparel>
+			<forceRenderUnderHair>true</forceRenderUnderHair><!-- under hair -->
 			<bodyPartGroups>
 				<li>Eyes</li>
 			</bodyPartGroups>
