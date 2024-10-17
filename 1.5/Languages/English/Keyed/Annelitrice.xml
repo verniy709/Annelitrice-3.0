@@ -13,7 +13,7 @@
 	<Anneli.SettingTitle>Annelitrice 3.0</Anneli.SettingTitle>
 	<Anneli.SettingLabel>Require restarting to take effect</Anneli.SettingLabel>
 	<Anneli.CensoredBodytypeCheckbox>Censor NSFW Bodytype</Anneli.CensoredBodytypeCheckbox>
-	<Anneli.RemoveRaceRestrictionCheckbox>Remove Race Apparel Restriction</Anneli.RemoveRaceRestrictionCheckbox>
+	<Anneli.RemoveRaceRestrictionCheckbox>Remove Race Apparel Restriction(NOT recommended. Removing the race restriction may cause bugs)</Anneli.RemoveRaceRestrictionCheckbox>
 
 	
 </LanguageData>

@@ -6,7 +6,6 @@
 			<li>Annelitrice</li>
 		</races>
 		<plans>
-			<!-- <li>Anneli_BodyTypes_Female</li> -->
 			<li>Anneli_Arm_Generic</li>
 			<li>Anneli_HairCombo_BraidA</li>
 			<li>Anneli_HairCombo_FlatA</li>
@@ -27,6 +26,20 @@
 			<li>Anneli_HairCombo_TiedB</li>
 			<li>Anneli_HairCombo_TiedC</li>
 			<li>Anneli_HairCombo_TiedD</li>
+			<li>Anneli_Apparel_ShieldBelt</li>
+			<li>Anneli_Apparel_SmokepopBelt</li>
+			<li>Anneli_Apparel_FirefoampopPack</li>
+			<li>Anneli_Apparel_PsychicShockLance</li>
+			<li>Anneli_Apparel_PsychicInsanityLance</li>
+			<li>Anneli_Transmog_Armor_Vanilla</li>
+			<li>Anneli_Transmog_Armor_Enhanced</li>
+			<li>Anneli_Transmog_Armor_Overpowered</li>
+			<li>Anneli_Transmog_Helmet_Vanilla</li>
+			<li>Anneli_Transmog_Helmet_Enhanced</li>
+			<li>Anneli_Transmog_Helmet_Overpowered</li>
+			<li>Anneli_Transmog_ShieldBelt_Vanilla</li>
+			<li>Anneli_Transmog_ShieldBelt_Enhanced</li>
+			<li>Anneli_Transmog_ShieldBelt_Overpowered</li>
 		</plans>
 	</NareisLib.RenderPlanDef>
 </Defs>

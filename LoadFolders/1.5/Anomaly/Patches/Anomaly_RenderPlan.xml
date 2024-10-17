@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/NareisLib.RenderPlanDef[defName="Anneli_RenderPlanBase"]/plans</xpath>  
+        <value>
+            <li>Anneli_Apparel_ShardPsychicShockLance</li>
+            <li>Anneli_Apparel_ShardPsychicInsanityLance</li>
+            <li>Anneli_Apparel_BiomutationLance</li>
+            <li>Anneli_Apparel_DisruptorFlarePack</li>
+            <li>Anneli_Apparel_DeadlifePack</li>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/NareisLib.RenderPlanDef[defName="Anneli_RenderPlanBase"]/plans</xpath>  
+        <value>
+            <li>Anneli_Apparel_PackJump</li>
+            <li>Anneli_Apparel_PackBroadshield</li>
+        </value>
+    </Operation>
+
+</Patch>

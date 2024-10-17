@@ -13,7 +13,7 @@
   <Anneli.SettingTitle>安妮莉特丝3.0</Anneli.SettingTitle>
   <Anneli.SettingLabel>需要重启来生效</Anneli.SettingLabel>
   <Anneli.CensoredBodytypeCheckbox>和谐裸体</Anneli.CensoredBodytypeCheckbox>
-  <Anneli.RemoveRaceRestrictionCheckbox>去除种族服装限制</Anneli.RemoveRaceRestrictionCheckbox>
+  <Anneli.RemoveRaceRestrictionCheckbox>去除种族服装限制（极其不推荐启用，会导致bug）</Anneli.RemoveRaceRestrictionCheckbox>
 
 
 </LanguageData>

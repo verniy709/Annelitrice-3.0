@@ -335,16 +335,16 @@
 							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>-0.346</layerOffset>
+									<layerOffset>-0.324</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.346</layerOffset>
+									<layerOffset>-0.324</layerOffset>
 								</south>
 								<east>
 									<layerOffset>0.0</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.346</layerOffset>
+									<layerOffset>-0.326</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -373,13 +373,13 @@
 							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>-0.346</layerOffset>
+									<layerOffset>-0.324</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.346</layerOffset>
+									<layerOffset>-0.324</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.346</layerOffset>
+									<layerOffset>-0.326</layerOffset>
 								</east>
 								<west>
 									<layerOffset>0.0</layerOffset>
@@ -666,7 +666,41 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing</Gene> -->
+								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing_Left</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing_Right</Gene> -->
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
@@ -705,26 +739,6 @@
 				<skull>Anneli_Corpse/Skull/Dessicated_Head</skull>
 				<apparel>
 					<individualPaths>
-						<li>
-							<key>Apparel_ShieldBelt</key>
-							<value>Anneli_Null/Anneli_Null</value>
-						</li>
-						<li>
-							<key>Apparel_SmokepopBelt</key>
-							<value>Anneli_Null/Anneli_Null</value>
-						</li>
-						<li>
-							<key>Apparel_FirefoampopPack</key>
-							<value>Anneli_Null/Anneli_Null</value>
-						</li>
-						<li>
-							<key>Apparel_PsychicShockLance</key>
-							<value>Anneli_Null/Anneli_Null</value>
-						</li>
-						<li>
-							<key>Apparel_PsychicInsanityLance</key>
-							<value>Anneli_Null/Anneli_Null</value>
-						</li>
 					</individualPaths>
 				</apparel>	
 			</graphicPaths>
