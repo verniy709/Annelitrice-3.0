@@ -96,6 +96,7 @@
 					<li>Back_Pigtail_B</li>
 					<li>Back_Pigtail_D</li>
 					<li>Back_Pigtail_E</li>
+					<li>Back_TiedUp_E</li>
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>

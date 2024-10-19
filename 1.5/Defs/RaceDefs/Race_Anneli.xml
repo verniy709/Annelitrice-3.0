@@ -25,14 +25,14 @@
 			<li>
 				<compClass>Annelitrice.CompRegeneration</compClass>
 			</li>
-			<!-- <li Class="NareisLib.MultiRenderCompProperties">
+			<li Class="NareisLib.MultiRenderCompProperties">
 				<handDefNameAndWeights>
 					<li>
 						<key>Anneli_Arm_Generic</key>
 						<value>1</value>
 					</li>
 				</handDefNameAndWeights>
-			</li> -->
+			</li>
 			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
 				<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
 				<getsColdContainmentBonus>true</getsColdContainmentBonus>
@@ -376,7 +376,7 @@
 									<layerOffset>-0.324</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.324</layerOffset>
+									<layerOffset>-0.326</layerOffset>
 								</south>
 								<east>
 									<layerOffset>-0.326</layerOffset>

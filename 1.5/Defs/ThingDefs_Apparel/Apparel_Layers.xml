@@ -36,5 +36,11 @@
     <label>Anneli_Misc</label>
     <drawOrder>400</drawOrder>
   </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Transmog</defName>
+    <label>Anneli_Transmog</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
   
 </Defs>

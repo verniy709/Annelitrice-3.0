@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<ThingDef Name="Anneli_Transmog_4" ParentName="Anneli_4" Abstract="True">
+	<ThingDef Name="Anneli_Transmog_4" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Transmog</li>
 		</thingCategories>
@@ -14,6 +31,19 @@
 			<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
 			<drawSize>1.3</drawSize>
 		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_Transmog</li>
+			</layers>
+		</apparel>
 	</ThingDef>
 
 	<!--Anneli_Transmog_Armor_Vanilla-->
