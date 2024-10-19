@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RenderSkipFlagDef>
+    <defName>Anneli_MiddleHair</defName>
+  </RenderSkipFlagDef>
+  
+  <RenderSkipFlagDef>
+    <defName>Anneli_Ahoge</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_FrontHair</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_BackHair</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_BackHair_Braid</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Underwear</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Sock</defName>
+  </RenderSkipFlagDef>
+  
+  <RenderSkipFlagDef>
+    <defName>Anneli_Middle</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Shell</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Armor</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Tactical</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Knee</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Hand_Left</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Hand_Right</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Bag</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Misc</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveA_Left</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveB_Left</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveC_Left</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveD_Left</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveA_Right</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveB_Right</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveC_Right</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_SleeveD_Right</defName>
+  </RenderSkipFlagDef>
+
+</Defs>

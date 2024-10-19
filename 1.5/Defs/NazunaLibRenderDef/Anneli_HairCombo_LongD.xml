@@ -13,6 +13,7 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
+				<skipFlag>Anneli_MiddleHair</skipFlag>
 				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.442, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.442, 0)</drawOffsetNorth>
@@ -33,6 +34,7 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
+				<skipFlag>Anneli_Ahoge</skipFlag>
 				<drawOffsetSouth>(0, 2.519, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.519, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.519, 0)</drawOffsetNorth>
@@ -91,6 +93,7 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
+				<skipFlag>Anneli_FrontHair</skipFlag>
 				<drawOffsetSouth>(0, 2.500, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.231, 0)</drawOffsetNorth>
@@ -114,6 +117,7 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
+				<skipFlag>Anneli_BackHair</skipFlag>
 				<drawOffsetSouth>(0, 0.231, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.462, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.462, 0)</drawOffsetNorth>
