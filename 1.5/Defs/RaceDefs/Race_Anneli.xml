@@ -68,10 +68,10 @@
 					<oldHairAgeRange>70~100</oldHairAgeRange>			
 					<headOffsetDirectional>
 						<north>
-							<offset>(0.0, 0.209)</offset>
+							<offset>(0.0, 0.21)</offset>
 						</north>
 						<south>
-							<offset>(0.0, 0.209)</offset>
+							<offset>(0.0, 0.21)</offset>
 						</south>
 						<east>
 							<offset>(-0.052, 0.21)</offset>
@@ -1117,6 +1117,7 @@
 					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_BiomutationLance</li>
 					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
 					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DeadlifePack</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_PackTurret</li>
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
