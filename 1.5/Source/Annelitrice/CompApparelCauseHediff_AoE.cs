@@ -27,7 +27,7 @@ namespace Annelitrice
 		{
 			//Added a conditional check for pawn faction
 			//Removed the conditional check for PowerTrader
-			if (target.Faction != null && target.Faction == ApparelUser.Faction)
+			if (target.Faction != null && ApparelUser != null && target.Faction == ApparelUser.Faction)
 			{
 				return (!target.Dead && target.health != null && (target != this.parent || this.Props.canTargetSelf) && (!this.Props.ignoreMechs || !target.RaceProps.IsMechanoid) && (!this.Props.onlyTargetMechs || target.RaceProps.IsMechanoid) && target.PositionHeld.DistanceTo(this.parent.PositionHeld) <= this.range);
 			}
@@ -64,6 +64,10 @@ namespace Annelitrice
 			}
 			foreach (Pawn pawn in this.parent.MapHeld.mapPawns.AllPawnsSpawned)
 			{
+				if (this.parent.MapHeld == null)
+				{
+					return;
+				}
 				if (this.IsPawnAffected(pawn))
 				{
 					this.GiveOrUpdateHediff(pawn);

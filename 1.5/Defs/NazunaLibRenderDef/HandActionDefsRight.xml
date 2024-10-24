@@ -3805,9 +3805,8 @@
 						<li>
 							<key>Standing</key>
 							<value>
+								<li>ArmStraightA/</li>
 								<li>ArmStraightD/</li>
-								<li>ArmStraightE/</li>
-								<li>ArmHandLowB/</li>
 							</value>
 						</li>
 					</pathDict>

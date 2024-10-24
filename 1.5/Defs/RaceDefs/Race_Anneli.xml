@@ -358,6 +358,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -396,6 +397,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>

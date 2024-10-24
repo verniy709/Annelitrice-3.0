@@ -21,5 +21,9 @@
   <Anneli_Aura_Nobility.description>增加工作速度.</Anneli_Aura_Nobility.description>
   <Anneli_Aura_Nobility.labelNoun>高贵</Anneli_Aura_Nobility.labelNoun>
 
+  <Anneli_Aura_Honor.label>武士精神</Anneli_Aura_Honor.label>
+  <Anneli_Aura_Honor.description>减少睡眠时间.</Anneli_Aura_Honor.description>
+  <Anneli_Aura_Honor.labelNoun>武士精神</Anneli_Aura_Honor.labelNoun>
+
 
 </LanguageData>
