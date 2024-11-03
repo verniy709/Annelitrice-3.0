@@ -84,7 +84,7 @@
 					<customHeadDrawSize>(0.737, 0.759)</customHeadDrawSize>
 					<customPortraitDrawSize>(1.1, 1.225)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.737, 0.759)</customPortraitHeadDrawSize>
-					<colorChannels>
+					<colorChannels Inherit="False">
 						<li>
 							<name>skin</name>
 							<first Class="ColorGenerator_Options">
@@ -348,8 +348,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Left</Gene> -->
-								<!-- <Gene For="Anneli_Gene_Ear_Halfling">Anneli_Gene/Ear/Halfling/Ear_Left</Gene> -->
+								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/Elf/Ear_Left</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElf/Ear_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
@@ -387,8 +387,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Right</Gene> -->
-								<!-- <Gene For="Anneli_Gene_Ear_Halfling">Anneli_Gene/Ear/Halfling/Ear_Right</Gene> -->
+								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/Elf/Ear_Right</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElf/Ear_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
@@ -580,6 +580,42 @@
 						<li>
 							<path>Anneli_Null/Anneli_Null</path>
 							<layerInvert>false</layerInvert>
+							<colorChannel>base</colorChannel>
+							<allowColorOverride>true</allowColorOverride>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_Halo_Angel">Anneli_Gene/Halo/AngelA/Halo</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
@@ -601,6 +637,40 @@
 							</offsets>
 							<extendedGraphics>
 								<!-- <Gene For="Anneli_Gene_BodySkin_DragonScaleA">Anneli_Gene/BodySkin/DragonScaleA/BodySkin</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<angle>0</angle>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_FurryTail_CatA">Anneli_Gene/FurryTail/CatA/FurryTail</Gene> -->
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
@@ -1075,9 +1145,12 @@
 				</blackEndoCategories>
 				<geneList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_ElfA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElfA</li>
 				</geneList>
 				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Elf</li>
 				</xenotypeList>
 				<blackXenotypeList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>

@@ -101,6 +101,7 @@
 				</prefix>
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair_Braid</textureLevelsName>
+				<skipFlag>Anneli_BackHair_Braid</skipFlag>
 				<drawOffsetSouth>(0, 2.462, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.462, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 2.462, 0)</drawOffsetNorth>
