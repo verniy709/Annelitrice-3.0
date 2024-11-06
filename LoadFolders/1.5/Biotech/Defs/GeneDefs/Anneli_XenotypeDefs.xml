@@ -1,68 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<GeneCategoryDef>
-		<defName>Anneli_Gene</defName>
-		<label>annelitrice gene</label>
-		<displayPriorityInXenotype>-709</displayPriorityInXenotype>
-	</GeneCategoryDef>
-
-	<GeneDef>
-		<defName>Anneli_Ageless</defName>
-		<label>annelitrice ageless</label>
-		<description>Carriers of this gene have archites in the bloodstream which continuously reverse the process of aging. By 20, the aging process stops completely.</description>
-		<iconPath>UI/Icons/Genes/Gene_Ageless</iconPath>
-		<displayCategory>Anneli_Gene</displayCategory>
-		<biologicalAgeTickFactorFromAgeCurve>
-			<points>
-				<li>(13, 1)</li>
-				<li>(20, 0)</li>
-			</points>
-		</biologicalAgeTickFactorFromAgeCurve>
-		<biostatMet>3</biostatMet>
-		<symbolPack>
-			<wholeNameSymbols>
-				<li><symbol>immortal</symbol></li>
-				<li><symbol>methuselah</symbol></li>
-			</wholeNameSymbols>
-			<prefixSymbols>
-				<li><symbol>god</symbol></li>
-				<li><symbol>deo</symbol></li>
-				<li><symbol>deu</symbol></li>
-				<li><symbol>methu</symbol></li>
-			</prefixSymbols>
-			<suffixSymbols>
-				<li><symbol>god</symbol></li>
-				<li><symbol>deus</symbol></li>
-			</suffixSymbols>
-		</symbolPack>
-	</GeneDef>
-
-	<GeneDef Name="Anneli_Gene_Base" Abstract="True">
-		<biostatCpx>0</biostatCpx>
-		<displayCategory>Anneli_Gene</displayCategory>
-		<iconColor>(1.0, 0.75, 0.75)</iconColor>
-	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Ear_Base" Abstract="True">
-		<exclusionTags>
-			<li>Anneli_Ears</li>
-		</exclusionTags>
-	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_Ear_Base">
-		<defName>Anneli_Gene_Ear_ElfA</defName>
-		<label>annelitrice elf ear type A</label>
-		<description>annelitrice elf ear type A.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_Ear_Base">
-		<defName>Anneli_Gene_Ear_HalfElfA</defName>
-		<label>annelitrice half-elf ear type A</label>
-		<description>annelitrice half-elf ear type A.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
-
 	<XenotypeDef>
 		<defName>Anneli_Xenotype</defName>
 		<label>annelitrice</label>
@@ -89,6 +26,48 @@
 		<displayPriority>1000</displayPriority>
 		<genes>
 			<li>Anneli_Gene_Ear_ElfA</li>
+			<li>Anneli_Ageless</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Nekojin</defName>
+		<label>annelitrice nekojin</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Anneli_Gene_Kemonomimi_CatA</li>
+			<li>Anneli_Ageless</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Kitsune</defName>
+		<label>annelitrice kitsune</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Anneli_Gene_Kemonomimi_FoxA</li>
+			<li>Anneli_Ageless</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Usagi</defName>
+		<label>annelitrice usagi</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Anneli_Gene_Kemonomimi_BunnyA</li>
 			<li>Anneli_Ageless</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>

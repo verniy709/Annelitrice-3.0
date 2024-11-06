@@ -338,7 +338,7 @@
 									<layerOffset>-0.324</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.324</layerOffset>
+									<layerOffset>-0.326</layerOffset>
 								</south>
 								<east>
 									<layerOffset>0.0</layerOffset>
@@ -348,8 +348,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/Elf/Ear_Left</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElf/Ear_Left</Gene>
+								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/ElfA/Ear_Left</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/EarA/HalfElf/Ear_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
@@ -387,8 +387,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/Elf/Ear_Right</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElf/Ear_Right</Gene>
+								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/ElfA/Ear_Right</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElfA/Ear_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
@@ -413,26 +413,29 @@
 							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3263</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3267</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.305</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.326957</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Kemonomimi_CatEarA">Anneli_Gene/Kemonomimi/CatEarA/Kemonomimi_Left</Gene> -->
+								<Gene For="Anneli_Gene_Kemonomimi_CatA">Anneli_Gene/Kemonomimi/CatA/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_FoxA">Anneli_Gene/Kemonomimi/FoxA/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_BunnyA">Anneli_Gene/Kemonomimi/BunnyA/Kemonomimi_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipKemonomimi</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -448,26 +451,29 @@
 							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3263</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3267</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.326957</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.305</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Kemonomimi_CatEarA">Anneli_Gene/Kemonomimi/CatEarA/Kemonomimi_Right</Gene> -->
+								<Gene For="Anneli_Gene_Kemonomimi_CatA">Anneli_Gene/Kemonomimi/CatA/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_FoxA">Anneli_Gene/Kemonomimi/FoxA/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_BunnyA">Anneli_Gene/Kemonomimi/BunnyA/Kemonomimi_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipKemonomimi</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -1143,16 +1149,22 @@
 					<li>Headbone</li>
 					<li>Voice</li>
 				</blackEndoCategories>
-				<geneList>
+				<geneList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_ElfA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElfA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_CatA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_FoxA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_BunnyA</li>
 				</geneList>
 				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Elf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Nekojin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Kitsune</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
 				</xenotypeList>
-				<blackXenotypeList>
+				<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>

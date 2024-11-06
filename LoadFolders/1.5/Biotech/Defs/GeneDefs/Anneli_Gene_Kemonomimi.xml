@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Kemonomimi_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Kemonomimi</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
+		<defName>Anneli_Gene_Kemonomimi_CatA</defName>
+		<label>annelitrice cat kemonomimi type A</label>
+		<description>annelitrice cat kemonomimi type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
+		<defName>Anneli_Gene_Kemonomimi_FoxA</defName>
+		<label>annelitrice fox kemonomimi type A</label>
+		<description>annelitrice fox kemonomimi type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
+		<defName>Anneli_Gene_Kemonomimi_BunnyA</defName>
+		<label>annelitrice bunny kemonomimi type A</label>
+		<description>annelitrice bunny kemonomimi type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+</Defs>
