@@ -2,7 +2,7 @@
 <Defs>
 	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Kemonomimi_Base" Abstract="True">
 		<exclusionTags>
-			<li>Anneli_Kemonomimi</li>
+			<li>Anneli_Gene_Overhead</li>
 		</exclusionTags>
 	</GeneDef>
 
@@ -24,6 +24,13 @@
 		<defName>Anneli_Gene_Kemonomimi_BunnyA</defName>
 		<label>annelitrice bunny kemonomimi type A</label>
 		<description>annelitrice bunny kemonomimi type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
+		<defName>Anneli_Gene_Kemonomimi_AngelA</defName>
+		<label>annelitrice angel kemonomimi type A</label>
+		<description>annelitrice angel kemonomimi type A.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 

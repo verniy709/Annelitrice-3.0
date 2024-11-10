@@ -274,50 +274,56 @@
 							<name>tattoo</name>
 							<first Class="ColorGenerator_Options">
 								<options>
+									<!--Prevalent-->
+									<li>
+										<weight>30</weight>
+										<only>RGBA(65,60,60)</only>
+									</li>
+									<li>
+										<weight>30</weight>
+										<only>RGBA(50,45,50)</only>
+									</li>
+									<li>
+										<weight>30</weight>
+										<only>RGBA(160,60,60)</only>
+									</li>
 									<!--Common-->
 									<li>
 										<weight>10</weight>
-										<only>RGBA(253,219,186)</only>
+										<only>RGBA(205,200,205)</only>
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(209,210,211)</only>
+										<only>RGBA(220,210,200)</only>
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(255,195,162)</only>
+										<only>RGBA(120,120,130)</only>
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(87,87,90)</only>
+										<only>RGBA(160,125,100)</only>
+									</li>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,245,245)</only>
 									</li>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(67,65,74)</only>
+										<weight>1</weight>
+										<only>RGBA(180,175,215)</only>
 									</li>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(218,176,133)</only>
+										<weight>1</weight>
+										<only>RGBA(250,220,185)</only>
 									</li>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(144,97,71)</only>
+										<weight>1</weight>
+										<only>RGBA(160,210,175)</only>
 									</li>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(250,240,230)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(229,200,168)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(183,156,123)</only>
-									</li>
-									<li>
-										<weight>10</weight>
-										<only>RGBA(159,154,150)</only>
+										<weight>1</weight>
+										<only>RGBA(175,200,240)</only>
 									</li>
 								</options>
 							</first>
@@ -332,7 +338,6 @@
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>-0.324</layerOffset>
@@ -352,6 +357,7 @@
 								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/EarA/HalfElf/Ear_Left</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 									<bodyPart>Ear</bodyPart>
 									<bodyPartLabel>left ear</bodyPartLabel>
@@ -371,7 +377,6 @@
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>-0.324</layerOffset>
@@ -391,6 +396,7 @@
 								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElfA/Ear_Right</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 									<bodyPart>Ear</bodyPart>
 									<bodyPartLabel>right ear</bodyPartLabel>
@@ -403,14 +409,13 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Kemonomimi_Left</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>hair</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>-0.3263</layerOffset>
@@ -429,26 +434,27 @@
 								<Gene For="Anneli_Gene_Kemonomimi_CatA">Anneli_Gene/Kemonomimi/CatA/Kemonomimi_Left</Gene>
 								<Gene For="Anneli_Gene_Kemonomimi_FoxA">Anneli_Gene/Kemonomimi/FoxA/Kemonomimi_Left</Gene>
 								<Gene For="Anneli_Gene_Kemonomimi_BunnyA">Anneli_Gene/Kemonomimi/BunnyA/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_AngelA">Anneli_Gene/Kemonomimi/AngelA/Kemonomimi_Left</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
-										<li>Anneli_SkipKemonomimi</li>
+										<li>Anneli_SkipOverhead</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Kemonomimi_Right</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>hair</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>-0.3263</layerOffset>
@@ -467,124 +473,136 @@
 								<Gene For="Anneli_Gene_Kemonomimi_CatA">Anneli_Gene/Kemonomimi/CatA/Kemonomimi_Right</Gene>
 								<Gene For="Anneli_Gene_Kemonomimi_FoxA">Anneli_Gene/Kemonomimi/FoxA/Kemonomimi_Right</Gene>
 								<Gene For="Anneli_Gene_Kemonomimi_BunnyA">Anneli_Gene/Kemonomimi/BunnyA/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_AngelA">Anneli_Gene/Kemonomimi/AngelA/Kemonomimi_Right</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
-										<li>Anneli_SkipKemonomimi</li>
+										<li>Anneli_SkipOverhead</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Horn_Left</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3263</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3267</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.305</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.326957</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Horn_DragonHornA">Anneli_Gene/Horn/DragonHornA/Horn_Left</Gene> -->
+								<Gene For="Anneli_Gene_Horn_DragonA">Anneli_Gene/Horn/DragonA/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_DemonA">Anneli_Gene/Horn/DemonA/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_SuccubusA">Anneli_Gene/Horn/SuccubusA/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_OniA">Anneli_Gene/Horn/OniA/Horn_Left</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Horn_Right</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3263</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3267</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.326957</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.305</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Horn_DragonHornA">Anneli_Gene/Horn/DragonHornA/Horn_Right</Gene> -->
+								<Gene For="Anneli_Gene_Horn_DragonA">Anneli_Gene/Horn/DragonA/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_DemonA">Anneli_Gene/Horn/DemonA/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_SuccubusA">Anneli_Gene/Horn/SuccubusA/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_OniA">Anneli_Gene/Horn/OniA/Horn_Right</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/HeadSkin</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
+							<allowColorOverride>true</allowColorOverride>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.321</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.321</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.321</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_HeadSkin_DragonScaleA">Anneli_Gene/HeadSkin/DragonScaleA/BodySkin</Gene> -->
+								<Gene For="Anneli_Gene_HeadSkin_CatA">Anneli_Gene/HeadSkin/CatA/HeadSkin</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Halo</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>base</colorChannel>
 							<allowColorOverride>true</allowColorOverride>
@@ -592,7 +610,6 @@
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
 							<alignWithHead>true</alignWithHead>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
@@ -611,6 +628,7 @@
 								<!-- <Gene For="Anneli_Gene_Halo_Angel">Anneli_Gene/Halo/AngelA/Halo</Gene> -->
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
@@ -620,13 +638,12 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/BodySkin</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
@@ -645,6 +662,7 @@
 								<!-- <Gene For="Anneli_Gene_BodySkin_DragonScaleA">Anneli_Gene/BodySkin/DragonScaleA/BodySkin</Gene> -->
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
@@ -654,47 +672,49 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/FurryTail</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>hair</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
-							<angle>0</angle>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.32</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.303</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.303</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.303</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_FurryTail_CatA">Anneli_Gene/FurryTail/CatA/FurryTail</Gene> -->
+								<Gene For="Anneli_Gene_FurryTail_CatA">Anneli_Gene/FurryTail/CatA/FurryTail</Gene>
+								<Gene For="Anneli_Gene_FurryTail_FoxA">Anneli_Gene/FurryTail/FoxA/FurryTail</Gene>
+								<Gene For="Anneli_Gene_FurryTail_BunnyA">Anneli_Gene/FurryTail/BunnyA/FurryTail</Gene>
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipTail</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Tail</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
@@ -713,6 +733,7 @@
 								<!-- <Gene For="Anneli_Gene_Tail_DragonTailA">Anneli_Gene/Tail/DragonTailA/Tail</Gene> -->
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
@@ -722,13 +743,12 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Wing_Left</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
@@ -747,6 +767,7 @@
 								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing_Left</Gene> -->
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
@@ -756,13 +777,12 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/Anneli_Null</path>
+							<path>Anneli_Null/Wing_Right</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<drawSize>1</drawSize>
 							<shaderType>CutoutComplex</shaderType>
-							<angle>0</angle>
 							<offsets>
 								<north>
 									<layerOffset>0</layerOffset>
@@ -778,9 +798,78 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing_Right</Gene> -->
+								<!-- <Gene For="Anneli_Gene_Wing_AngelA">Anneli_Gene/Wing/AngelA/Wing_Right</Gene> -->
 							</extendedGraphics>
 							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/FeatherWing_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_FeatherWing_AngelA">Anneli_Gene/FeatherWing/AngelA/FeatherWing_Left</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/FeatherWing_Right</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_FeatherWing_DragonWingA">Anneli_Gene/FeatherWing/DragonWingA/FeatherWing_Right</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 								<BodyPart>
 								</BodyPart>
 								<Apparel>
@@ -1153,9 +1242,18 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_ElfA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElfA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_DragonA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_DemonA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_SuccubusA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_OniA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_CatA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_FoxA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_BunnyA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_AngelA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_CatA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_CatA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_FoxA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_BunnyA</li>
 				</geneList>
 				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
@@ -1163,6 +1261,11 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Nekojin</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Kitsune</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Dragonkin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Balrog</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Messenger</li>
 				</xenotypeList>
 				<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
@@ -1316,7 +1419,6 @@
 				<Research>0</Research>
 			</lifeStageWorkSettings>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
 				<volume>(0.2, 0.7, 0.15)</volume>

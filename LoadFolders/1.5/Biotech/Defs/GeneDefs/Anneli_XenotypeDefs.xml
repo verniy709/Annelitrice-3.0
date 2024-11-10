@@ -25,8 +25,13 @@
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>Anneli_Gene_Ear_ElfA</li>
+			<li>PsychicAbility_Enhanced</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>Libido_Low</li>
+			<li>AptitudeStrong_Shooting</li>
+			<li>AptitudeStrong_Animals</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Ear_ElfA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -39,8 +44,15 @@
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>Anneli_Gene_Kemonomimi_CatA</li>
+			<li>MoveSpeed_VeryQuick</li>
+			<li>Sleepy</li>
+			<li>DarkVision</li>
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeTerrible_Intellectual</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_HeadSkin_CatA</li>
+			<li>Anneli_Gene_Kemonomimi_CatA</li>
+			<li>Anneli_Gene_FurryTail_CatA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -53,8 +65,13 @@
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>Anneli_Gene_Kemonomimi_FoxA</li>
+			<li>Aggression_Aggressive</li>
+			<li>Tail_Furry</li>
+			<li>AptitudeRemarkable_Cooking</li>
+			<li>AptitudeStrong_Medicine</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Kemonomimi_FoxA</li>
+			<li>Anneli_Gene_FurryTail_FoxA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -67,8 +84,127 @@
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>Anneli_Gene_Kemonomimi_BunnyA</li>
+			<li>MoveSpeed_Quick</li>
+			<li>Mood_Optimist</li>
+			<li>Nearsighted</li>
+			<li>AptitudeStrong_Plants</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Kemonomimi_BunnyA</li>
+			<li>Anneli_Gene_FurryTail_BunnyA</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Oni</defName>
+		<label>annelitrice oni</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>PsychicAbility_Enhanced</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Aggression_Aggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>StrongStomach</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>ChemicalDependency_Alcohol</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Horn_OniA</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Dragonkin</defName>
+		<label>annelitrice dragonkin</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Immunity_SuperStrong</li>
+			<li>Robust</li>
+			<li>RobustDigestion</li>
+			<li>DarkVision</li>
+			<li>Unstoppable</li>
+			<li>AptitudeStrong_Mining</li>
+			<li>AptitudeTerrible_Cooking</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Horn_DragonA</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Balrog</defName>
+		<label>annelitrice balrog</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>FireSpew</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>FireResistant</li>
+			<li>MeleeDamage_Strong</li>
+			<li>KillThirst</li>
+			<li>Robust</li>
+			<li>Unstoppable</li>
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Social</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Horn_DemonA</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Succubus</defName>
+		<label>annelitrice succubus</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>PsychicAbility_Enhanced</li>
+			<li>PsychicBonding</li>
+			<li>UVSensitivity_Mild</li>
+			<li>Libido_High</li>
+			<li>DarkVision</li>
+			<li>Tail_Smooth</li>
+			<li>AptitudePoor_Mining</li>
+			<li>AptitudeStrong_Artistic</li>
+			<li>AptitudeStrong_Social</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Horn_SuccubusA</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Messenger</defName>
+		<label>annelitrice messenger</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Mood_Sanguine</li>
+			<li>Aggression_DeadCalm</li>
+			<li>LowSleep</li>
+			<li>Learning_Fast</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Mining</li>
+			<li>AptitudePoor_Cooking</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudePoor_Medicine</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Kemonomimi_AngelA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
