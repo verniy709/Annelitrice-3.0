@@ -111,7 +111,23 @@
 			<li>AptitudeRemarkable_Melee</li>
 			<li>ChemicalDependency_Alcohol</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_HeadSkin_OniA</li>
+			<li>Anneli_Gene_Ear_HalfElfA</li>
 			<li>Anneli_Gene_Horn_OniA</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Fairy</defName>
+		<label>annelitrice fairy</label>
+		<description>ToDo.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Anneli_Gene_Ear_ElfA</li>
+			<li>Anneli_Gene_Horn_DragonA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -132,6 +148,8 @@
 			<li>AptitudeStrong_Mining</li>
 			<li>AptitudeTerrible_Cooking</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_HeadSkin_DragonA</li>
+			<li>Anneli_Gene_Ear_ElfA</li>
 			<li>Anneli_Gene_Horn_DragonA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -157,6 +175,8 @@
 			<li>AptitudePoor_Plants</li>
 			<li>AptitudePoor_Social</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_HeadSkin_DemonA</li>
+			<li>Anneli_Gene_Ear_HalfElfA</li>
 			<li>Anneli_Gene_Horn_DemonA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -180,6 +200,7 @@
 			<li>AptitudeStrong_Artistic</li>
 			<li>AptitudeStrong_Social</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Ear_HalfElfA</li>
 			<li>Anneli_Gene_Horn_SuccubusA</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>

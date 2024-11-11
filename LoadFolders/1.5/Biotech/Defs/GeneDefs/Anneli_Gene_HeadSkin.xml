@@ -13,5 +13,25 @@
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_DragonA</defName>
+		<label>annelitrice dragon head skin type A</label>
+		<description>annelitrice dragon head skin type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_DemonA</defName>
+		<label>annelitrice demon head skin type A</label>
+		<description>annelitrice demon head skin type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_OniA</defName>
+		<label>annelitrice oni head skin type A</label>
+		<description>annelitrice oni head skin type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
 
 </Defs>

@@ -354,7 +354,7 @@
 							</offsets>
 							<extendedGraphics>
 								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/ElfA/Ear_Left</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/EarA/HalfElf/Ear_Left</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElfA/Ear_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -589,6 +589,9 @@
 							</offsets>
 							<extendedGraphics>
 								<Gene For="Anneli_Gene_HeadSkin_CatA">Anneli_Gene/HeadSkin/CatA/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_DragonA">Anneli_Gene/HeadSkin/DragonA/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_DemonA">Anneli_Gene/HeadSkin/DemonA/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_OniA">Anneli_Gene/HeadSkin/OniA/HeadSkin</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -633,6 +636,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHalo</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -667,6 +671,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipBodyAddons</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -738,6 +743,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipTail</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -772,6 +778,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -806,6 +813,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -840,6 +848,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -874,6 +883,7 @@
 								</BodyPart>
 								<Apparel>
 									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -1251,6 +1261,9 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_BunnyA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_AngelA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_CatA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_DragonA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_DemonA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_OniA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_CatA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_FoxA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_BunnyA</li>
