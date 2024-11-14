@@ -6,12 +6,18 @@
 		<displayPriorityInXenotype>-709</displayPriorityInXenotype>
 	</GeneCategoryDef>
 
-	<GeneDef>
+	<GeneDef Name="Anneli_Gene_Base" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>Anneli_Gene</displayCategory>
+		<iconColor>(1.0, 0.75, 0.75)</iconColor>
+		<canGenerateInGeneSet>false</canGenerateInGeneSet>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Base">
 		<defName>Anneli_Ageless</defName>
 		<label>annelitrice ageless</label>
 		<description>Carriers of this gene have archites in the bloodstream which continuously reverse the process of aging. By 20, the aging process stops completely.</description>
 		<iconPath>UI/Icons/Genes/Gene_Ageless</iconPath>
-		<displayCategory>Anneli_Gene</displayCategory>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
 				<li>(13, 1)</li>
@@ -35,12 +41,6 @@
 				<li><symbol>deus</symbol></li>
 			</suffixSymbols>
 		</symbolPack>
-	</GeneDef>
-
-	<GeneDef Name="Anneli_Gene_Base" Abstract="True">
-		<biostatCpx>0</biostatCpx>
-		<displayCategory>Anneli_Gene</displayCategory>
-		<iconColor>(1.0, 0.75, 0.75)</iconColor>
 	</GeneDef>
 
 </Defs>

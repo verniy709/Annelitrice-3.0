@@ -592,6 +592,7 @@
 								<Gene For="Anneli_Gene_HeadSkin_DragonA">Anneli_Gene/HeadSkin/DragonA/HeadSkin</Gene>
 								<Gene For="Anneli_Gene_HeadSkin_DemonA">Anneli_Gene/HeadSkin/DemonA/HeadSkin</Gene>
 								<Gene For="Anneli_Gene_HeadSkin_OniA">Anneli_Gene/HeadSkin/OniA/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_GoreA">Anneli_Gene/HeadSkin/GoreA/HeadSkin</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -1264,6 +1265,7 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_DragonA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_DemonA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_OniA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_GoreA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_CatA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_FoxA</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_BunnyA</li>
@@ -1276,7 +1278,7 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Oni</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Dragonkin</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Balrog</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Hellion</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Succubus</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Messenger</li>
 				</xenotypeList>

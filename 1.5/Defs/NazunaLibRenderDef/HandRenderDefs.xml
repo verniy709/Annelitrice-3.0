@@ -86,6 +86,7 @@
 				</prefix>
 				<renderLayer>Hand</renderLayer>
 				<textureLevelsName>Anneli_Props</textureLevelsName>
+				<skipFlag>Anneli_Props</skipFlag>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<drawOffsetSouth>(0, 2.596, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.596, 0)</drawOffsetEast>

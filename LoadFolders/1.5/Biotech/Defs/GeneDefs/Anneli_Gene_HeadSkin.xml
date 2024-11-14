@@ -34,4 +34,11 @@
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_GoreA</defName>
+		<label>annelitrice gore head skin type A</label>
+		<description>annelitrice gore head skin type A.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
 </Defs>

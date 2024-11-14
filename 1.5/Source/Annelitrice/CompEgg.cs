@@ -35,18 +35,34 @@ namespace Annelitrice
                 }
             }
         }
-        public void Hatch()
-        {
-            if(parent.def.defName == "Anneli_Pupa")
-            {
-                Hatch_Pupa();
-            }
-            else
-            {
-                Hatch_Egg();
-            }
-        }
-        private void Hatch_Pupa()
+		public void Hatch()
+		{
+			CompContainPawn owner = parent.GetComp<CompContainPawn>();
+			if (owner == null)
+			{
+				Log.Message("No contained pawn found.");
+				return;
+			}
+
+			Pawn containedPawn = owner.GetDirectlyHeldThings().FirstOrDefault() as Pawn;
+
+			if (containedPawn == null)
+			{
+				Messages.Message("NoContainedPawn_Annelitrice".Translate(), MessageTypeDefOf.NeutralEvent, true);
+				parent.Destroy();
+				return;
+			}
+
+			if (parent.def.defName == "Anneli_Pupa")
+			{
+				Hatch_Pupa();
+			}
+			else
+			{
+				Hatch_Egg();
+			}
+		}
+		private void Hatch_Pupa()
         {
             IntVec3 pos = parent.Position;
             Map map = parent.Map;

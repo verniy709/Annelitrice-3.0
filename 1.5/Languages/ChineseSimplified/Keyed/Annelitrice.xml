@@ -2,6 +2,7 @@
 <LanguageData>
   <TabCharacter_Annelitrice>安妮莉特丝</TabCharacter_Annelitrice>
   <Character_Annelitrice>安妮莉特丝</Character_Annelitrice>
+  <NoContainedPawn_Annelitrice>一个安妮莉蛋，或者安妮莉蛹无法正常孵化，原因是丢失物品中保存的worldPawn（世界人物）。该物品已被移除来避免造成错误。</NoContainedPawn_Annelitrice>
 
   <Anneli.PlaySong>播放</Anneli.PlaySong>
   <Anneli.PlaySongDesc>播放选择的音乐</Anneli.PlaySongDesc>

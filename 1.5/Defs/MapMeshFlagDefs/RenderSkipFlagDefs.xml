@@ -58,6 +58,10 @@
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
+    <defName>Anneli_Props</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
     <defName>Anneli_Bag</defName>
   </RenderSkipFlagDef>
 

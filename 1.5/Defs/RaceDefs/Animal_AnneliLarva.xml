@@ -76,7 +76,7 @@
 				<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 				<lifeExpectancy>100</lifeExpectancy>
 				<gestationPeriodDays>100</gestationPeriodDays>
-				<wildness>0.0</wildness>
+				<wildness>0.5</wildness>
 				<trainability>Advanced</trainability>
 				<isImmuneToInfections>true</isImmuneToInfections>
 				<lifeStageAges>
