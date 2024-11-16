@@ -31,7 +31,7 @@
 			<li>AptitudeStrong_Shooting</li>
 			<li>AptitudeStrong_Animals</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Ear_ElfA</li>
+			<li>Anneli_Gene_Ear_Elf</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -50,9 +50,9 @@
 			<li>AptitudeStrong_Melee</li>
 			<li>AptitudeTerrible_Intellectual</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_HeadSkin_CatA</li>
-			<li>Anneli_Gene_Kemonomimi_CatA</li>
-			<li>Anneli_Gene_FurryTail_CatA</li>
+			<li>Anneli_Gene_HeadSkin_Cat</li>
+			<li>Anneli_Gene_Kemonomimi_Cat</li>
+			<li>Anneli_Gene_FurryTail_Cat</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -70,8 +70,8 @@
 			<li>AptitudeRemarkable_Cooking</li>
 			<li>AptitudeStrong_Medicine</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Kemonomimi_FoxA</li>
-			<li>Anneli_Gene_FurryTail_FoxA</li>
+			<li>Anneli_Gene_Kemonomimi_Fox</li>
+			<li>Anneli_Gene_FurryTail_Fox</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -88,9 +88,10 @@
 			<li>Mood_Optimist</li>
 			<li>Nearsighted</li>
 			<li>AptitudeStrong_Plants</li>
+			<li>Libido_High</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Kemonomimi_BunnyA</li>
-			<li>Anneli_Gene_FurryTail_BunnyA</li>
+			<li>Anneli_Gene_Kemonomimi_Bunny</li>
+			<li>Anneli_Gene_FurryTail_Bunny</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -111,16 +112,16 @@
 			<li>AptitudeRemarkable_Melee</li>
 			<li>ChemicalDependency_Alcohol</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_HeadSkin_OniA</li>
-			<li>Anneli_Gene_Ear_HalfElfA</li>
-			<li>Anneli_Gene_Horn_OniA</li>
+			<li>Anneli_Gene_Ear_HalfElf</li>
+			<li>Anneli_Gene_HeadSkin_Oni</li>
+			<li>Anneli_Gene_Horn_Oni</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>Anneli_Xenotype_Long</defName>
-		<label>annelitrice long</label>
+		<defName>Anneli_Xenotype_Loong</defName>
+		<label>annelitrice loong</label>
 		<description>ToDo.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
@@ -134,6 +135,7 @@
 			<li>AptitudeStrong_Cooking</li>
 			<li>AptitudeStrong_Intellectual</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Tail_Serpent</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -148,14 +150,16 @@
 		<genes>
 			<li>AnimalWarcall</li>
 			<li>PsychicAbility_Extreme</li>
+			<li>Mood_Sanguine</li>
 			<li>FireTerror</li>
 			<li>MeleeDamage_Weak</li>
 			<li>KindInstinct</li>
 			<li>Learning_Slow</li>
 			<li>AptitudePoor_Melee</li>
-			<li>AptitudePoor_Mining</li>
-			<li>Anneli_Gene_Horn_DragonA</li>
-			<li>Anneli_Gene_Ear_ElfA</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Cooking</li>
+			<li>AptitudePoor_Intellectual</li>
+			<li>Anneli_Gene_Ear_Elf</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -178,9 +182,10 @@
 			<li>AptitudePoor_Social</li>
 			<li>AptitudePoor_Intellectual</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_HeadSkin_DragonA</li>
-			<li>Anneli_Gene_Horn_DragonA</li>
-			<li>Anneli_Gene_Ear_ElfA</li>
+			<li>Anneli_Gene_Ear_Elf</li>
+			<li>Anneli_Gene_HeadSkin_Dragon</li>
+			<li>Anneli_Gene_Horn_Dragon</li>
+			<li>Anneli_Gene_Tail_Dragon</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -201,9 +206,9 @@
 			<li>AptitudeStrong_Melee</li>
 			<li>AptitudePoor_Social</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_HeadSkin_DemonA</li>
-			<li>Anneli_Gene_Horn_DemonA</li>
-			<li>Anneli_Gene_Ear_HalfElfA</li>
+			<li>Anneli_Gene_Ear_HalfElf</li>
+			<li>Anneli_Gene_HeadSkin_Demon</li>
+			<li>Anneli_Gene_Horn_Demon</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -226,8 +231,9 @@
 			<li>AptitudeStrong_Artistic</li>
 			<li>AptitudeStrong_Social</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Ear_HalfElfA</li>
-			<li>Anneli_Gene_Horn_SuccubusA</li>
+			<li>Anneli_Gene_Ear_HalfElf</li>
+			<li>Anneli_Gene_Horn_Succubus</li>
+			<li>Anneli_Gene_Tail_Succubus</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -251,7 +257,7 @@
 			<li>AptitudePoor_Animals</li>
 			<li>AptitudePoor_Medicine</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Kemonomimi_AngelA</li>
+			<li>Anneli_Gene_Kemonomimi_Angel</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -274,7 +280,8 @@
 			<li>AptitudeRemarkable_Shooting</li>
 			<li>AptitudeRemarkable_Melee</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_HeadSkin_GoreA</li>
+			<li>Anneli_Gene_HeadSkin_Gore</li>
+			<li>Anneli_Gene_Tail_Gore</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>

@@ -7,37 +7,44 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_CatA</defName>
-		<label>annelitrice cat head skin type A</label>
-		<description>annelitrice cat head skin type A.</description>
+		<defName>Anneli_Gene_HeadSkin_Cat</defName>
+		<label>annelitrice cat head skin</label>
+		<description>annelitrice cat head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_DragonA</defName>
-		<label>annelitrice dragon head skin type A</label>
-		<description>annelitrice dragon head skin type A.</description>
+		<defName>Anneli_Gene_HeadSkin_Dragon</defName>
+		<label>annelitrice dragon head skin</label>
+		<description>annelitrice dragon head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_DemonA</defName>
-		<label>annelitrice demon head skin type A</label>
-		<description>annelitrice demon head skin type A.</description>
+		<defName>Anneli_Gene_HeadSkin_Demon</defName>
+		<label>annelitrice demon head skin</label>
+		<description>annelitrice demon head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_OniA</defName>
-		<label>annelitrice oni head skin type A</label>
-		<description>annelitrice oni head skin type A.</description>
+		<defName>Anneli_Gene_HeadSkin_Oni</defName>
+		<label>annelitrice oni head skin</label>
+		<description>annelitrice oni head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_GoreA</defName>
-		<label>annelitrice gore head skin type A</label>
-		<description>annelitrice gore head skin type A.</description>
+		<defName>Anneli_Gene_HeadSkin_Gore</defName>
+		<label>annelitrice gore head skin</label>
+		<description>annelitrice gore head skin.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Flower</defName>
+		<label>annelitrice flower head skin</label>
+		<description>annelitrice flower head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 

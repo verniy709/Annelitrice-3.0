@@ -353,8 +353,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/ElfA/Ear_Left</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElfA/Ear_Left</Gene>
+								<Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Left</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -392,8 +392,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Ear_ElfA">Anneli_Gene/Ear/ElfA/Ear_Right</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElfA">Anneli_Gene/Ear/HalfElfA/Ear_Right</Gene>
+								<Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Right</Gene>
+								<Gene For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -431,10 +431,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Kemonomimi_CatA">Anneli_Gene/Kemonomimi/CatA/Kemonomimi_Left</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_FoxA">Anneli_Gene/Kemonomimi/FoxA/Kemonomimi_Left</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_BunnyA">Anneli_Gene/Kemonomimi/BunnyA/Kemonomimi_Left</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_AngelA">Anneli_Gene/Kemonomimi/AngelA/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Left</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -470,10 +470,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Kemonomimi_CatA">Anneli_Gene/Kemonomimi/CatA/Kemonomimi_Right</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_FoxA">Anneli_Gene/Kemonomimi/FoxA/Kemonomimi_Right</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_BunnyA">Anneli_Gene/Kemonomimi/BunnyA/Kemonomimi_Right</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_AngelA">Anneli_Gene/Kemonomimi/AngelA/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Right</Gene>
+								<Gene For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -509,10 +509,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Horn_DragonA">Anneli_Gene/Horn/DragonA/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_DemonA">Anneli_Gene/Horn/DemonA/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_SuccubusA">Anneli_Gene/Horn/SuccubusA/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_OniA">Anneli_Gene/Horn/OniA/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -548,10 +548,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Horn_DragonA">Anneli_Gene/Horn/DragonA/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_DemonA">Anneli_Gene/Horn/DemonA/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_SuccubusA">Anneli_Gene/Horn/SuccubusA/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_OniA">Anneli_Gene/Horn/OniA/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -588,11 +588,12 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_HeadSkin_CatA">Anneli_Gene/HeadSkin/CatA/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_DragonA">Anneli_Gene/HeadSkin/DragonA/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_DemonA">Anneli_Gene/HeadSkin/DemonA/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_OniA">Anneli_Gene/HeadSkin/OniA/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_GoreA">Anneli_Gene/HeadSkin/GoreA/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Cat">Anneli_Gene/HeadSkin/Cat/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Dragon">Anneli_Gene/HeadSkin/Dragon/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Demon">Anneli_Gene/HeadSkin/Demon/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Oni">Anneli_Gene/HeadSkin/Oni/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Gore">Anneli_Gene/HeadSkin/Gore/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Flower">Anneli_Gene/HeadSkin/Flower/HeadSkin</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -601,43 +602,6 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipHeadAddons</li>
-									</hiddenUnderApparelTag>
-								</Apparel>
-							</conditions>
-						</li>
-						<li>
-							<path>Anneli_Null/Halo</path>
-							<layerInvert>false</layerInvert>
-							<colorChannel>base</colorChannel>
-							<allowColorOverride>true</allowColorOverride>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawSize>1</drawSize>
-							<shaderType>CutoutComplex</shaderType>
-							<alignWithHead>true</alignWithHead>
-							<offsets>
-								<north>
-									<layerOffset>0</layerOffset>
-								</north>
-								<south>
-									<layerOffset>0</layerOffset>
-								</south>
-								<east>
-									<layerOffset>0</layerOffset>
-								</east>
-								<west>
-									<layerOffset>0</layerOffset>
-								</west>
-							</offsets>
-							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Halo_Angel">Anneli_Gene/Halo/AngelA/Halo</Gene> -->
-							</extendedGraphics>
-							<conditions>
-								<RotStage>Fresh,Rotting</RotStage>
-								<BodyPart>
-								</BodyPart>
-								<Apparel>
-									<hiddenUnderApparelTag>
-										<li>Anneli_SkipHalo</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -678,6 +642,79 @@
 							</conditions>
 						</li>
 						<li>
+							<path>Anneli_Null/BodyHair</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<!-- <Gene For="Anneli_Gene_BodySkin_DragonScaleA">Anneli_Gene/BodySkin/DragonScaleA/BodySkin</Gene> -->
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipBodyAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Tail</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.32</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.303</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.303</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.303</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene For="Anneli_Gene_Tail_Dragon">Anneli_Gene/Tail/Dragon/Tail</Gene>
+								<Gene For="Anneli_Gene_Tail_Succubus">Anneli_Gene/Tail/Succubus/Tail</Gene>
+								<Gene For="Anneli_Gene_Tail_Serpent">Anneli_Gene/Tail/Serpent/Tail</Gene>
+								<Gene For="Anneli_Gene_Tail_Gore">Anneli_Gene/Tail/Gore/Tail</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
 							<path>Anneli_Null/FurryTail</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>hair</colorChannel>
@@ -699,44 +736,9 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_FurryTail_CatA">Anneli_Gene/FurryTail/CatA/FurryTail</Gene>
-								<Gene For="Anneli_Gene_FurryTail_FoxA">Anneli_Gene/FurryTail/FoxA/FurryTail</Gene>
-								<Gene For="Anneli_Gene_FurryTail_BunnyA">Anneli_Gene/FurryTail/BunnyA/FurryTail</Gene>
-							</extendedGraphics>
-							<conditions>
-								<RotStage>Fresh,Rotting</RotStage>
-								<BodyPart>
-								</BodyPart>
-								<Apparel>
-									<hiddenUnderApparelTag>
-										<li>Anneli_SkipTail</li>
-									</hiddenUnderApparelTag>
-								</Apparel>
-							</conditions>
-						</li>
-						<li>
-							<path>Anneli_Null/Tail</path>
-							<layerInvert>false</layerInvert>
-							<colorChannel>tattoo</colorChannel>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawSize>1</drawSize>
-							<shaderType>CutoutComplex</shaderType>
-							<offsets>
-								<north>
-									<layerOffset>0</layerOffset>
-								</north>
-								<south>
-									<layerOffset>0</layerOffset>
-								</south>
-								<east>
-									<layerOffset>0</layerOffset>
-								</east>
-								<west>
-									<layerOffset>0</layerOffset>
-								</west>
-							</offsets>
-							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Tail_DragonTailA">Anneli_Gene/Tail/DragonTailA/Tail</Gene> -->
+								<Gene For="Anneli_Gene_FurryTail_Cat">Anneli_Gene/FurryTail/Cat/FurryTail</Gene>
+								<Gene For="Anneli_Gene_FurryTail_Fox">Anneli_Gene/FurryTail/Fox/FurryTail</Gene>
+								<Gene For="Anneli_Gene_FurryTail_Bunny">Anneli_Gene/FurryTail/Bunny/FurryTail</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -1251,24 +1253,29 @@
 				</blackEndoCategories>
 				<geneList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_ElfA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElfA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_DragonA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_DemonA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_SuccubusA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_OniA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_CatA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_FoxA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_BunnyA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_AngelA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_CatA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_DragonA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_DemonA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_OniA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_GoreA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_CatA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_FoxA</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_BunnyA</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_Elf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Fox</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Bunny</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Angel</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Flower</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Serpent</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Fox</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Bunny</li>
 				</geneList>
 				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>

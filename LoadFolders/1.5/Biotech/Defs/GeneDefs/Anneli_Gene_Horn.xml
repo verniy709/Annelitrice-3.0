@@ -7,30 +7,30 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
-		<defName>Anneli_Gene_Horn_DemonA</defName>
-		<label>annelitrice demon horn type A</label>
-		<description>annelitrice demon horn type A.</description>
+		<defName>Anneli_Gene_Horn_Demon</defName>
+		<label>annelitrice demon horn</label>
+		<description>annelitrice demon horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 	
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
-		<defName>Anneli_Gene_Horn_DragonA</defName>
-		<label>annelitrice dragon horn type A</label>
-		<description>annelitrice dragon horn type A.</description>
+		<defName>Anneli_Gene_Horn_Dragon</defName>
+		<label>annelitrice dragon horn type</label>
+		<description>annelitrice dragon horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
-		<defName>Anneli_Gene_Horn_SuccubusA</defName>
-		<label>annelitrice succubus horn type A</label>
-		<description>annelitrice succubus horn type A.</description>
+		<defName>Anneli_Gene_Horn_Succubus</defName>
+		<label>annelitrice succubus horn</label>
+		<description>annelitrice succubus horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
-		<defName>Anneli_Gene_Horn_OniA</defName>
-		<label>annelitrice oni horn type A</label>
-		<description>annelitrice oni horn type A.</description>
+		<defName>Anneli_Gene_Horn_Oni</defName>
+		<label>annelitrice oni horn</label>
+		<description>annelitrice oni horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 

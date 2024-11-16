@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Tail_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_Tail</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Tail_Base">
+		<defName>Anneli_Gene_Tail_Dragon</defName>
+		<label>annelitrice dragon tail</label>
+		<description>annelitrice dragon tail.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Tail_Base">
+		<defName>Anneli_Gene_Tail_Succubus</defName>
+		<label>annelitrice succubus tail</label>
+		<description>annelitrice succubus tail.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>	
+
+	<GeneDef ParentName="Anneli_Gene_Tail_Base">
+		<defName>Anneli_Gene_Tail_Serpent</defName>
+		<label>annelitrice serpent tail</label>
+		<description>annelitrice serpent tail.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Tail_Base">
+		<defName>Anneli_Gene_Tail_Gore</defName>
+		<label>annelitrice gore tail</label>
+		<description>annelitrice gore tail.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+
+</Defs>
