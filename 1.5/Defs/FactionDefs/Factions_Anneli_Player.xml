@@ -2,10 +2,6 @@
 <Defs>
 	<FactionDef Name="Anneli_FactionBase" Abstract="True">
 		<defName>Anneli_Faction_Base</defName>
-		<startingResearchTags>
-			<li>ClassicStart</li>
-		</startingResearchTags>
-		<!-- Disallowed Precepts -->
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
@@ -40,11 +36,6 @@
 				<li>(4000, 1000)</li>
 			</points>
 		</raidLootValueFromPointsCurve>
-		<xenotypeSet>
-			<xenotypeChances>
-				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1</Anneli_Xenotype>
-			</xenotypeChances>
-		</xenotypeSet>
 	</FactionDef>
 
 	<FactionDef ParentName="Anneli_FactionBase">
@@ -59,6 +50,9 @@
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>Anneli_Player</basicMemberKind>
 		<techLevel>Medieval</techLevel>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
 		<allowedCultures>
 			<li>Anneli_Cultures_Rustican</li>
 		</allowedCultures>

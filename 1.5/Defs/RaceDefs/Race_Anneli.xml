@@ -409,6 +409,48 @@
 							</conditions>
 						</li>
 						<li>
+							<path>Anneli_Null/HeadSkin</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<allowColorOverride>true</allowColorOverride>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.321</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.321</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.321</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene For="Anneli_Gene_HeadSkin_Cat">Anneli_Gene/HeadSkin/Cat/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Dragon">Anneli_Gene/HeadSkin/Dragon/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Demon">Anneli_Gene/HeadSkin/Demon/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Oni">Anneli_Gene/HeadSkin/Oni/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Gore">Anneli_Gene/HeadSkin/Gore/HeadSkin</Gene>
+								<Gene For="Anneli_Gene_HeadSkin_Flower">Anneli_Gene/HeadSkin/Flower/HeadSkin</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
 							<path>Anneli_Null/Kemonomimi_Left</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>hair</colorChannel>
@@ -418,7 +460,7 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.3263</layerOffset>
+									<layerOffset>-0.32628</layerOffset>
 								</north>
 								<south>
 									<layerOffset>-0.3267</layerOffset>
@@ -457,7 +499,7 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.3263</layerOffset>
+									<layerOffset>-0.32628</layerOffset>
 								</north>
 								<south>
 									<layerOffset>-0.3267</layerOffset>
@@ -513,6 +555,7 @@
 								<Gene For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Left</Gene>
 								<Gene For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Left</Gene>
 								<Gene For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Left</Gene>
+								<Gene For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -552,6 +595,7 @@
 								<Gene For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Right</Gene>
 								<Gene For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Right</Gene>
 								<Gene For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Right</Gene>
+								<Gene For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -565,48 +609,6 @@
 							</conditions>
 						</li>
 						<li>
-							<path>Anneli_Null/HeadSkin</path>
-							<layerInvert>false</layerInvert>
-							<colorChannel>tattoo</colorChannel>
-							<allowColorOverride>true</allowColorOverride>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawSize>1</drawSize>
-							<shaderType>CutoutComplex</shaderType>
-							<alignWithHead>true</alignWithHead>
-							<offsets>
-								<north>
-									<layerOffset>0</layerOffset>
-								</north>
-								<south>
-									<layerOffset>-0.321</layerOffset>
-								</south>
-								<east>
-									<layerOffset>-0.321</layerOffset>
-								</east>
-								<west>
-									<layerOffset>-0.321</layerOffset>
-								</west>
-							</offsets>
-							<extendedGraphics>
-								<Gene For="Anneli_Gene_HeadSkin_Cat">Anneli_Gene/HeadSkin/Cat/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Dragon">Anneli_Gene/HeadSkin/Dragon/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Demon">Anneli_Gene/HeadSkin/Demon/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Oni">Anneli_Gene/HeadSkin/Oni/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Gore">Anneli_Gene/HeadSkin/Gore/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Flower">Anneli_Gene/HeadSkin/Flower/HeadSkin</Gene>
-							</extendedGraphics>
-							<conditions>
-								<RotStage>Fresh,Rotting</RotStage>
-								<BodyPart>
-								</BodyPart>
-								<Apparel>
-									<hiddenUnderApparelTag>
-										<li>Anneli_SkipHeadAddons</li>
-									</hiddenUnderApparelTag>
-								</Apparel>
-							</conditions>
-						</li>
-						<li>
 							<path>Anneli_Null/BodySkin</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
@@ -615,20 +617,23 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_BodySkin_DragonScaleA">Anneli_Gene/BodySkin/DragonScaleA/BodySkin</Gene> -->
+								<Gene For="Anneli_Gene_BodySkin_Dragon">Anneli_Gene/BodySkin/Dragon/BodySkin</Gene>
+								<Gene For="Anneli_Gene_BodySkin_Succubus">Anneli_Gene/BodySkin/Succubus/BodySkin</Gene>
+								<Gene For="Anneli_Gene_BodySkin_Demon">Anneli_Gene/BodySkin/Demon/BodySkin</Gene>
+								<Gene For="Anneli_Gene_BodySkin_Gore">Anneli_Gene/BodySkin/Gore/BodySkin</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -650,20 +655,20 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.31235</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_BodySkin_DragonScaleA">Anneli_Gene/BodySkin/DragonScaleA/BodySkin</Gene> -->
+								<Gene For="Anneli_Gene_BodyHair_PubicHair">Anneli_Gene/BodyHair/PubicHair/BodyHair</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -1259,6 +1264,7 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Demon</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Succubus</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Deer</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Cat</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Fox</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Bunny</li>
@@ -1269,6 +1275,11 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Oni</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Gore</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Flower</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodyHair_PubicHair</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Dragon</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Succubus</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Serpent</li>
@@ -1284,10 +1295,13 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Kitsune</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Loong</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Fairy</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Dragonkin</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Hellion</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Succubus</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Messenger</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Abomination</li>
 				</xenotypeList>
 				<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>

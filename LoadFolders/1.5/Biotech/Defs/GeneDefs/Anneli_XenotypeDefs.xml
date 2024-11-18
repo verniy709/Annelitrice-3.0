@@ -52,6 +52,7 @@
 			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_HeadSkin_Cat</li>
 			<li>Anneli_Gene_Kemonomimi_Cat</li>
+			<li>Anneli_Gene_BodyHair_PubicHair</li>
 			<li>Anneli_Gene_FurryTail_Cat</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -71,6 +72,7 @@
 			<li>AptitudeStrong_Medicine</li>
 			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_Kemonomimi_Fox</li>
+			<li>Anneli_Gene_BodyHair_PubicHair</li>
 			<li>Anneli_Gene_FurryTail_Fox</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -91,6 +93,7 @@
 			<li>Libido_High</li>
 			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_Kemonomimi_Bunny</li>
+			<li>Anneli_Gene_BodyHair_PubicHair</li>
 			<li>Anneli_Gene_FurryTail_Bunny</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -135,6 +138,9 @@
 			<li>AptitudeStrong_Cooking</li>
 			<li>AptitudeStrong_Intellectual</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Ear_Elf</li>
+			<li>Anneli_Gene_HeadSkin_Flower</li>
+			<li>Anneli_Gene_Horn_Deer</li>
 			<li>Anneli_Gene_Tail_Serpent</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -172,7 +178,9 @@
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>Immunity_SuperStrong</li>
+			<li>FireSpew</li>
+			<li>FireResistant</li>
+			<li>Aggression_Aggressive</li>
 			<li>Robust</li>
 			<li>RobustDigestion</li>
 			<li>DarkVision</li>
@@ -184,6 +192,7 @@
 			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_Ear_Elf</li>
 			<li>Anneli_Gene_HeadSkin_Dragon</li>
+			<li>Anneli_Gene_BodySkin_Dragon</li>
 			<li>Anneli_Gene_Horn_Dragon</li>
 			<li>Anneli_Gene_Tail_Dragon</li>
 		</genes>
@@ -209,6 +218,7 @@
 			<li>Anneli_Gene_Ear_HalfElf</li>
 			<li>Anneli_Gene_HeadSkin_Demon</li>
 			<li>Anneli_Gene_Horn_Demon</li>
+			<li>Anneli_Gene_BodySkin_Demon</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -233,6 +243,7 @@
 			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_Ear_HalfElf</li>
 			<li>Anneli_Gene_Horn_Succubus</li>
+			<li>Anneli_Gene_BodySkin_Succubus</li>
 			<li>Anneli_Gene_Tail_Succubus</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
@@ -280,7 +291,9 @@
 			<li>AptitudeRemarkable_Shooting</li>
 			<li>AptitudeRemarkable_Melee</li>
 			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Ear_HalfElf</li>
 			<li>Anneli_Gene_HeadSkin_Gore</li>
+			<li>Anneli_Gene_BodySkin_Gore</li>
 			<li>Anneli_Gene_Tail_Gore</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
