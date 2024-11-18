@@ -7,6 +7,13 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
+		<defName>Anneli_Gene_FurryTail_Bunny</defName>
+		<label>annelitrice furry bunny tail</label>
+		<description>annelitrice furry bunny tail.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
 		<defName>Anneli_Gene_FurryTail_Cat</defName>
 		<label>annelitrice furry cat tail</label>
 		<description>annelitrice furry cat tail.</description>
@@ -19,13 +26,5 @@
 		<description>annelitrice furry fox tail.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
-		<defName>Anneli_Gene_FurryTail_Bunny</defName>
-		<label>annelitrice furry bunny tail</label>
-		<description>annelitrice furry bunny tail.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
-
 
 </Defs>

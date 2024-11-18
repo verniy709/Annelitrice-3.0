@@ -14,11 +14,11 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Tail_Base">
-		<defName>Anneli_Gene_Tail_Succubus</defName>
-		<label>annelitrice succubus tail</label>
-		<description>annelitrice succubus tail.</description>
+		<defName>Anneli_Gene_Tail_Gore</defName>
+		<label>annelitrice gore tail</label>
+		<description>annelitrice gore tail.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>	
+	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Tail_Base">
 		<defName>Anneli_Gene_Tail_Serpent</defName>
@@ -28,11 +28,12 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Tail_Base">
-		<defName>Anneli_Gene_Tail_Gore</defName>
-		<label>annelitrice gore tail</label>
-		<description>annelitrice gore tail.</description>
+		<defName>Anneli_Gene_Tail_Succubus</defName>
+		<label>annelitrice succubus tail</label>
+		<description>annelitrice succubus tail.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
+
 
 
 </Defs>

@@ -7,6 +7,20 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
+		<defName>Anneli_Gene_Kemonomimi_Angel</defName>
+		<label>annelitrice angel kemonomimi</label>
+		<description>annelitrice angel kemonomimi.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
+		<defName>Anneli_Gene_Kemonomimi_Bunny</defName>
+		<label>annelitrice bunny kemonomimi</label>
+		<description>annelitrice bunny kemonomimi.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
 		<defName>Anneli_Gene_Kemonomimi_Cat</defName>
 		<label>annelitrice cat kemonomimi</label>
 		<description>annelitrice cat kemonomimi.</description>
@@ -20,18 +34,5 @@
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
-	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
-		<defName>Anneli_Gene_Kemonomimi_Bunny</defName>
-		<label>annelitrice bunny kemonomimi</label>
-		<description>annelitrice bunny kemonomimi.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_Kemonomimi_Base">
-		<defName>Anneli_Gene_Kemonomimi_Angel</defName>
-		<label>annelitrice angel kemonomimi</label>
-		<description>annelitrice angel kemonomimi.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
 
 </Defs>

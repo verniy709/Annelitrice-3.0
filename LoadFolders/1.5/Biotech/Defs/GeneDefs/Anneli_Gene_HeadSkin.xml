@@ -14,13 +14,6 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_Dragon</defName>
-		<label>annelitrice dragon head skin</label>
-		<description>annelitrice dragon head skin.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
 		<defName>Anneli_Gene_HeadSkin_Demon</defName>
 		<label>annelitrice demon head skin</label>
 		<description>annelitrice demon head skin.</description>
@@ -28,9 +21,16 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_Oni</defName>
-		<label>annelitrice oni head skin</label>
-		<description>annelitrice oni head skin.</description>
+		<defName>Anneli_Gene_HeadSkin_Dragon</defName>
+		<label>annelitrice dragon head skin</label>
+		<description>annelitrice dragon head skin.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Flower</defName>
+		<label>annelitrice flower head skin</label>
+		<description>annelitrice flower head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
@@ -42,9 +42,9 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
-		<defName>Anneli_Gene_HeadSkin_Flower</defName>
-		<label>annelitrice flower head skin</label>
-		<description>annelitrice flower head skin.</description>
+		<defName>Anneli_Gene_HeadSkin_Oni</defName>
+		<label>annelitrice oni head skin</label>
+		<description>annelitrice oni head skin.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 

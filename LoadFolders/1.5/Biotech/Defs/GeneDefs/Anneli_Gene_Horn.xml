@@ -7,23 +7,23 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
+		<defName>Anneli_Gene_Horn_Deer</defName>
+		<label>annelitrice deer horn</label>
+		<description>annelitrice deer horn.</description>
+		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Horn_Base">
 		<defName>Anneli_Gene_Horn_Demon</defName>
 		<label>annelitrice demon horn</label>
 		<description>annelitrice demon horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
-	
+
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
 		<defName>Anneli_Gene_Horn_Dragon</defName>
 		<label>annelitrice dragon horn type</label>
 		<description>annelitrice dragon horn.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-	</GeneDef>
-
-	<GeneDef ParentName="Anneli_Gene_Horn_Base">
-		<defName>Anneli_Gene_Horn_Succubus</defName>
-		<label>annelitrice succubus horn</label>
-		<description>annelitrice succubus horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
@@ -35,9 +35,9 @@
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Horn_Base">
-		<defName>Anneli_Gene_Horn_Deer</defName>
-		<label>annelitrice deer horn</label>
-		<description>annelitrice deer horn.</description>
+		<defName>Anneli_Gene_Horn_Succubus</defName>
+		<label>annelitrice succubus horn</label>
+		<description>annelitrice succubus horn.</description>
 		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
 	</GeneDef>
 
