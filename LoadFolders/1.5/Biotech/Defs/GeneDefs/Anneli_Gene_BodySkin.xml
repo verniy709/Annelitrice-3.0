@@ -10,29 +10,28 @@
 		<defName>Anneli_Gene_BodySkin_Demon</defName>
 		<label>annelitrice demon body skin</label>
 		<description>annelitrice demon body skin.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_BodySkin_Demon</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_BodySkin_Base">
 		<defName>Anneli_Gene_BodySkin_Dragon</defName>
 		<label>annelitrice dragon body skin</label>
 		<description>annelitrice dragon body skin.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_BodySkin_Dragon</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_BodySkin_Base">
 		<defName>Anneli_Gene_BodySkin_Gore</defName>
 		<label>annelitrice gore body skin</label>
 		<description>annelitrice gore body skin.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_BodySkin_Gore</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_BodySkin_Base">
 		<defName>Anneli_Gene_BodySkin_Succubus</defName>
 		<label>annelitrice succubus body skin</label>
 		<description>annelitrice succubus body skin.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_BodySkin_Succubus</iconPath>
 	</GeneDef>
-
 
 </Defs>

@@ -10,7 +10,7 @@
 		<defName>Anneli_Gene_BodyHair_PubicHair</defName>
 		<label>annelitrice body hair pubic hair</label>
 		<description>annelitrice body hair pubic hair.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_BodyHair_PubicHair</iconPath>
 	</GeneDef>
 
 </Defs>

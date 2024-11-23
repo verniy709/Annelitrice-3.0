@@ -267,6 +267,10 @@
 										<weight>1</weight>
 										<only>RGBA(191,194,181)</only>
 									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(140,200,145)</only>
+									</li>
 								</options>
 							</first>
 						</li>
@@ -353,8 +357,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Left</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -371,6 +375,7 @@
 						</li>	
 						<li>
 							<path>Anneli_Gene/Ear/Human/Ear_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Ear_Left -->
 							<layerInvert>false</layerInvert>
 							<colorChannel>skin</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -392,8 +397,8 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Right</Gene>
-								<Gene For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -432,12 +437,12 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_HeadSkin_Cat">Anneli_Gene/HeadSkin/Cat/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Dragon">Anneli_Gene/HeadSkin/Dragon/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Demon">Anneli_Gene/HeadSkin/Demon/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Oni">Anneli_Gene/HeadSkin/Oni/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Gore">Anneli_Gene/HeadSkin/Gore/HeadSkin</Gene>
-								<Gene For="Anneli_Gene_HeadSkin_Flower">Anneli_Gene/HeadSkin/Flower/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Cat">Anneli_Gene/HeadSkin/Cat/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Demon">Anneli_Gene/HeadSkin/Demon/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Dragon">Anneli_Gene/HeadSkin/Dragon/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Flower">Anneli_Gene/HeadSkin/Flower/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Gore">Anneli_Gene/HeadSkin/Gore/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Oni">Anneli_Gene/HeadSkin/Oni/HeadSkin</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -473,10 +478,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Left</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Left</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Left</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -512,10 +517,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Right</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Right</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Right</Gene>
-								<Gene For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -551,11 +556,11 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Left</Gene>
-								<Gene For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -570,6 +575,7 @@
 						</li>
 						<li>
 							<path>Anneli_Null/Horn_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Horn_Left -->
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -591,11 +597,11 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Right</Gene>
-								<Gene For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -630,10 +636,10 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_BodySkin_Dragon">Anneli_Gene/BodySkin/Dragon/BodySkin</Gene>
-								<Gene For="Anneli_Gene_BodySkin_Succubus">Anneli_Gene/BodySkin/Succubus/BodySkin</Gene>
-								<Gene For="Anneli_Gene_BodySkin_Demon">Anneli_Gene/BodySkin/Demon/BodySkin</Gene>
-								<Gene For="Anneli_Gene_BodySkin_Gore">Anneli_Gene/BodySkin/Gore/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Demon">Anneli_Gene/BodySkin/Demon/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Dragon">Anneli_Gene/BodySkin/Dragon/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Gore">Anneli_Gene/BodySkin/Gore/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Succubus">Anneli_Gene/BodySkin/Succubus/BodySkin</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -668,7 +674,7 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_BodyHair_PubicHair">Anneli_Gene/BodyHair/PubicHair/BodyHair</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodyHair_PubicHair">Anneli_Gene/BodyHair/PubicHair/BodyHair</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -690,10 +696,10 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.32</layerOffset>
+									<layerOffset>-0.3205</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.303</layerOffset>
+									<layerOffset>0</layerOffset>
 								</south>
 								<east>
 									<layerOffset>-0.303</layerOffset>
@@ -703,10 +709,11 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_Tail_Dragon">Anneli_Gene/Tail/Dragon/Tail</Gene>
-								<Gene For="Anneli_Gene_Tail_Succubus">Anneli_Gene/Tail/Succubus/Tail</Gene>
-								<Gene For="Anneli_Gene_Tail_Serpent">Anneli_Gene/Tail/Serpent/Tail</Gene>
-								<Gene For="Anneli_Gene_Tail_Gore">Anneli_Gene/Tail/Gore/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Demon">Anneli_Gene/Tail/Demon/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Dragon">Anneli_Gene/Tail/Dragon/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Gore">Anneli_Gene/Tail/Gore/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Serpent">Anneli_Gene/Tail/Serpent/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Succubus">Anneli_Gene/Tail/Succubus/Tail</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -728,10 +735,10 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.32</layerOffset>
+									<layerOffset>-0.3205</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.303</layerOffset>
+									<layerOffset>0</layerOffset>
 								</south>
 								<east>
 									<layerOffset>-0.303</layerOffset>
@@ -741,9 +748,9 @@
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<Gene For="Anneli_Gene_FurryTail_Cat">Anneli_Gene/FurryTail/Cat/FurryTail</Gene>
-								<Gene For="Anneli_Gene_FurryTail_Fox">Anneli_Gene/FurryTail/Fox/FurryTail</Gene>
-								<Gene For="Anneli_Gene_FurryTail_Bunny">Anneli_Gene/FurryTail/Bunny/FurryTail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FurryTail_Bunny">Anneli_Gene/FurryTail/Bunny/FurryTail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FurryTail_Cat">Anneli_Gene/FurryTail/Cat/FurryTail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FurryTail_Fox">Anneli_Gene/FurryTail/Fox/FurryTail</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -765,20 +772,26 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(-0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.61,0)</offset>
 								</south>
 								<east>
 									<layerOffset>0</layerOffset>
+									<offset>(0.63,0)</offset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.63,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Wing_DragonWingA">Anneli_Gene/Wing/DragonWingA/Wing_Left</Gene> -->
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Demon">Anneli_Gene/Wing/Demon/Wing_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Dragon">Anneli_Gene/Wing/Dragon/Wing_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Succubus">Anneli_Gene/Wing/Succubus/Wing_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -793,6 +806,7 @@
 						</li>
 						<li>
 							<path>Anneli_Null/Wing_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Wing_Left -->
 							<layerInvert>false</layerInvert>
 							<colorChannel>tattoo</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -800,20 +814,26 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(-0.61,0)</offset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3055</layerOffset>
+									<offset>(0.63,0)</offset>
 								</east>
 								<west>
 									<layerOffset>0</layerOffset>
+									<offset>(0.63,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_Wing_AngelA">Anneli_Gene/Wing/AngelA/Wing_Right</Gene> -->
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Demon">Anneli_Gene/Wing/Demon/Wing_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Dragon">Anneli_Gene/Wing/Dragon/Wing_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Succubus">Anneli_Gene/Wing/Succubus/Wing_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -835,20 +855,25 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(-0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.61,0)</offset>
 								</south>
 								<east>
 									<layerOffset>0</layerOffset>
+									<offset>(0.63,0)</offset>
 								</east>
 								<west>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.63,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_FeatherWing_AngelA">Anneli_Gene/FeatherWing/AngelA/FeatherWing_Left</Gene> -->
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Angel">Anneli_Gene/FeatherWing/Angel/FeatherWing_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Fairy">Anneli_Gene/FeatherWing/Fairy/FeatherWing_Left</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -863,6 +888,7 @@
 						</li>
 						<li>
 							<path>Anneli_Null/FeatherWing_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with FeatherWing_Left -->
 							<layerInvert>false</layerInvert>
 							<colorChannel>hair</colorChannel>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -870,20 +896,25 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(-0.61,0)</offset>
 								</south>
 								<east>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.3055</layerOffset>
+									<offset>(0.63,0)</offset>
 								</east>
 								<west>
 									<layerOffset>0</layerOffset>
+									<offset>(0.63,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
-								<!-- <Gene For="Anneli_Gene_FeatherWing_DragonWingA">Anneli_Gene/FeatherWing/DragonWingA/FeatherWing_Right</Gene> -->
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Angel">Anneli_Gene/FeatherWing/Angel/FeatherWing_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Fairy">Anneli_Gene/FeatherWing/Fairy/FeatherWing_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
@@ -1260,48 +1291,54 @@
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_Elf</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElf</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Dragon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Demon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Succubus</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Flower</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Oni</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Deer</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Angel</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Bunny</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Cat</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Fox</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Bunny</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Angel</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Cat</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Dragon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Demon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Oni</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Gore</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Flower</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Dragon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Succubus</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Demon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Gore</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodyHair_PubicHair</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Dragon</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Succubus</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Serpent</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FeatherWing_Angel</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FeatherWing_Fairy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Bunny</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Cat</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Fox</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Bunny</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Serpent</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Wing_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Wing_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Wing_Succubus</li>
 				</geneList>
 				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Elf</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Nekojin</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Kitsune</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Oni</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Loong</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Fairy</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Dragonkin</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Hellion</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Succubus</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Messenger</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Abomination</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Dragonkin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Elf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Fairy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Hellion</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Kitsune</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Loong</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Messenger</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Nekojin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
 				</xenotypeList>
 				<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
 					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>

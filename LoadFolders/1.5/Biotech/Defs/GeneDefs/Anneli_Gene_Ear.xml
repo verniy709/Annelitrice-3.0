@@ -10,14 +10,14 @@
 		<defName>Anneli_Gene_Ear_Elf</defName>
 		<label>annelitrice elf ear</label>
 		<description>annelitrice elf ear.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_Ear_Elf</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_Ear_Base">
 		<defName>Anneli_Gene_Ear_HalfElf</defName>
 		<label>annelitrice half-elf ear</label>
 		<description>annelitrice half-elf ear.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_Ear_HalfElf</iconPath>
 	</GeneDef>
 
 </Defs>

@@ -17,7 +17,7 @@
 		<defName>Anneli_Ageless</defName>
 		<label>annelitrice ageless</label>
 		<description>Carriers of this gene have archites in the bloodstream which continuously reverse the process of aging. By 20, the aging process stops completely.</description>
-		<iconPath>UI/Icons/Genes/Gene_Ageless</iconPath>
+		<iconPath>Anneli_UI/Anneli_Ageless</iconPath>
 		<biologicalAgeTickFactorFromAgeCurve>
 			<points>
 				<li>(13, 1)</li>

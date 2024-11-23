@@ -10,21 +10,21 @@
 		<defName>Anneli_Gene_FurryTail_Bunny</defName>
 		<label>annelitrice furry bunny tail</label>
 		<description>annelitrice furry bunny tail.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_FurryTail_Bunny</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
 		<defName>Anneli_Gene_FurryTail_Cat</defName>
 		<label>annelitrice furry cat tail</label>
 		<description>annelitrice furry cat tail.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_FurryTail_Cat</iconPath>
 	</GeneDef>
 
 	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
 		<defName>Anneli_Gene_FurryTail_Fox</defName>
 		<label>annelitrice furry fox tail</label>
 		<description>annelitrice furry fox tail.</description>
-		<iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+		<iconPath>Anneli_UI/Anneli_Gene_FurryTail_Fox</iconPath>
 	</GeneDef>
 
 </Defs>

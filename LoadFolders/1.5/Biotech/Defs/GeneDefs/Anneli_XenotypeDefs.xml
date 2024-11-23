@@ -18,6 +18,63 @@
 	</XenotypeDef>
 
 	<XenotypeDef>
+		<defName>Anneli_Xenotype_Abomination</defName>
+		<label>annelitrice abomination</label>
+		<description>The annelitrice abominations were meant to be the perfect battle machine. However, they emerged from the assembly line as defective products, frequently battling skin diseases and cancer. From birth, they knew they were just cannon fodder. As a result, they're always gloomy. But when duty calls, they still don't hesitate to rush to the front.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>Immunity_Weak</li>
+			<li>PsychicAbility_Dull</li>
+			<li>MoveSpeed_Quick</li>
+			<li>Mood_Pessimist</li>
+			<li>Beauty_Ugly</li>
+			<li>StrongStomach</li>
+			<li>Instability_Mild</li>
+			<li>Unstoppable</li>
+			<li>AptitudeRemarkable_Shooting</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Ear_HalfElf</li>
+			<li>Anneli_Gene_HeadSkin_Gore</li>
+			<li>Anneli_Gene_BodySkin_Gore</li>
+			<li>Anneli_Gene_Tail_Gore</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Dragonkin</defName>
+		<label>annelitrice dragonkin</label>
+		<description>The annelitrice dragonkin are half-human, half-dragon. But don't get too excited about the wings and tail—they are just for show. The brass doesn't understand things like that. The so-called "dragon" title is just a self-aggrandizing label, as dragons don't actually exist. In reality, this subspecies was developed using lizard-based templates.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>FireSpew</li>
+			<li>FireResistant</li>
+			<li>Aggression_Aggressive</li>
+			<li>Robust</li>
+			<li>RobustDigestion</li>
+			<li>DarkVision</li>
+			<li>Unstoppable</li>
+			<li>AptitudeStrong_Mining</li>
+			<li>AptitudeTerrible_Cooking</li>
+			<li>AptitudePoor_Social</li>
+			<li>AptitudePoor_Intellectual</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_Ear_Elf</li>
+			<li>Anneli_Gene_HeadSkin_Dragon</li>
+			<li>Anneli_Gene_Horn_Dragon</li>
+			<li>Anneli_Gene_BodySkin_Dragon</li>
+			<li>Anneli_Gene_Wing_Dragon</li>
+			<li>Anneli_Gene_Tail_Dragon</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
 		<defName>Anneli_Xenotype_Elf</defName>
 		<label>annelitrice elf</label>
 		<description>The annelitrice elf is theoretically a rare species. However, with the recent boom in fantasy literature and films, this subspecies has been mass-produced and is now quite commonplace. Their most noticeable feature is their long, elegant ears—a carefully cultivated attribute. As for their seemingly aloof personalities, that's just part of the character design.</description>
@@ -37,23 +94,52 @@
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>Anneli_Xenotype_Nekojin</defName>
-		<label>annelitrice nekojin</label>
-		<description>The annelitrice nekojin, or "cat girls," have soft, obedient ears and tails. They mostly reside in urban areas and feed on stray animals, so "cat girl" initially meant "girls who hunt cats." However, the irony is that over time, through co-evolution, these catgirls have adopted behaviors and even features from their prey, making them more like the animals they once hunted.</description>
+		<defName>Anneli_Xenotype_Fairy</defName>
+		<label>annelitrice fairy</label>
+		<description>The annelitrice fairies have beautiful wings, though they're more likely to be torn apart by the wind or scorched by fire than to be admired for their splendor. These fairies are lighthearted and easily distracted—serious work is not their forte. They excel in less-than-honorable skills, such as fortune-telling, animal tricks, and herbal medicine, which they use to con people with style.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>MoveSpeed_VeryQuick</li>
-			<li>Sleepy</li>
-			<li>DarkVision</li>
+			<li>AnimalWarcall</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>Mood_Sanguine</li>
+			<li>FireTerror</li>
+			<li>MeleeDamage_Weak</li>
+			<li>KindInstinct</li>
+			<li>Learning_Slow</li>
+			<li>AptitudePoor_Melee</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Cooking</li>
+			<li>AptitudePoor_Intellectual</li>
+			<li>Anneli_Gene_Ear_Elf</li>
+			<li>Anneli_Gene_FeatherWing_Fairy</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Hellion</defName>
+		<label>annelitrice hellion</label>
+		<description>The annelitrice hellions' appearance closely mirrors that of demons from ancient legends. On the surface, they're textbook examples of antisocial personalities. But no one can quite figure out if a twisted desire for personal satisfaction drives their behavior or if they're just paying tribute to some forgotten ancient culture. Either way, it doesn't matter much to their victims.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>FireResistant</li>
+			<li>MeleeDamage_Strong</li>
+			<li>KillThirst</li>
+			<li>Robust</li>
 			<li>AptitudeStrong_Melee</li>
-			<li>AptitudeTerrible_Intellectual</li>
+			<li>AptitudePoor_Social</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_HeadSkin_Cat</li>
-			<li>Anneli_Gene_Kemonomimi_Cat</li>
-			<li>Anneli_Gene_BodyHair_PubicHair</li>
-			<li>Anneli_Gene_FurryTail_Cat</li>
+			<li>Anneli_Gene_Ear_HalfElf</li>
+			<li>Anneli_Gene_HeadSkin_Demon</li>
+			<li>Anneli_Gene_Horn_Demon</li>
+			<li>Anneli_Gene_BodySkin_Demon</li>
+			<li>Anneli_Gene_Wing_Demon</li>
+			<li>Anneli_Gene_Tail_Demon</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -74,50 +160,6 @@
 			<li>Anneli_Gene_Kemonomimi_Fox</li>
 			<li>Anneli_Gene_BodyHair_PubicHair</li>
 			<li>Anneli_Gene_FurryTail_Fox</li>
-		</genes>
-		<factionlessGenerationWeight>0</factionlessGenerationWeight>
-	</XenotypeDef>
-
-	<XenotypeDef>
-		<defName>Anneli_Xenotype_Usagi</defName>
-		<label>annelitrice usagi</label>
-		<description>The annelitrice usagi, or "bunny girls," have soft, fluffy, long ears and tail tufts that resemble little pom-poms. They're big fans of vegetables and absolutely hate headphones. They became an overnight sensation due to a viral Tiktok video showing one of them sprinting across the street, only to crash headfirst into a tree. The cringe moment quickly gained popularity online, but many suspect it was just a stunt for attention.</description>
-		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
-		<inheritable>true</inheritable>
-		<displayPriority>1000</displayPriority>
-		<genes>
-			<li>MoveSpeed_Quick</li>
-			<li>Mood_Optimist</li>
-			<li>Nearsighted</li>
-			<li>AptitudeStrong_Plants</li>
-			<li>Libido_High</li>
-			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Kemonomimi_Bunny</li>
-			<li>Anneli_Gene_BodyHair_PubicHair</li>
-			<li>Anneli_Gene_FurryTail_Bunny</li>
-		</genes>
-		<factionlessGenerationWeight>0</factionlessGenerationWeight>
-	</XenotypeDef>
-
-	<XenotypeDef>
-		<defName>Anneli_Xenotype_Oni</defName>
-		<label>annelitrice oni</label>
-		<description>The annelitrice oni are known for their battle instincts and a concerning obsession with alcohol. No one's sure whether they're punching people out of instinct or because they're simply drunk and throwing a tantrum. When it comes to snacks, they are huge fans of hotpots spiced with chili peppers. And "hotpot" means anything: tree bark, moldy canned food, and even recently kidnapped children.</description>
-		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
-		<inheritable>true</inheritable>
-		<displayPriority>1000</displayPriority>
-		<genes>
-			<li>PsychicAbility_Enhanced</li>
-			<li>MaxTemp_SmallIncrease</li>
-			<li>Aggression_Aggressive</li>
-			<li>MeleeDamage_Strong</li>
-			<li>StrongStomach</li>
-			<li>AptitudeRemarkable_Melee</li>
-			<li>ChemicalDependency_Alcohol</li>
-			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Ear_HalfElf</li>
-			<li>Anneli_Gene_HeadSkin_Oni</li>
-			<li>Anneli_Gene_Horn_Oni</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -147,78 +189,71 @@
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>Anneli_Xenotype_Fairy</defName>
-		<label>annelitrice fairy</label>
-		<description>The annelitrice fairies have beautiful wings, though they're more likely to be torn apart by the wind or scorched by fire than to be admired for their splendor. These fairies are lighthearted and easily distracted—serious work is not their forte. They excel in less-than-honorable skills, such as fortune-telling, animal tricks, and herbal medicine, which they use to con people with style.</description>
+		<defName>Anneli_Xenotype_Messenger</defName>
+		<label>annelitrice messenger</label>
+		<description>The annelitrice messengers have stunning, mythically beautiful wings. They were supposed to have radiant halos, but due to HAR's bodyAddon only supporting Cutout and CutoutComplex shaders, they've been downgraded from angels to bird people. Though kind-hearted and eager to learn, they're incredibly clumsy in stressful environments.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>AnimalWarcall</li>
-			<li>PsychicAbility_Extreme</li>
 			<li>Mood_Sanguine</li>
-			<li>FireTerror</li>
-			<li>MeleeDamage_Weak</li>
-			<li>KindInstinct</li>
-			<li>Learning_Slow</li>
-			<li>AptitudePoor_Melee</li>
+			<li>Aggression_DeadCalm</li>
+			<li>LowSleep</li>
+			<li>Learning_Fast</li>
 			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Mining</li>
 			<li>AptitudePoor_Cooking</li>
-			<li>AptitudePoor_Intellectual</li>
-			<li>Anneli_Gene_Ear_Elf</li>
-		</genes>
-		<factionlessGenerationWeight>0</factionlessGenerationWeight>
-	</XenotypeDef>
-
-	<XenotypeDef>
-		<defName>Anneli_Xenotype_Dragonkin</defName>
-		<label>annelitrice dragonkin</label>
-		<description>The annelitrice dragonkin are half-human, half-dragon. But don't get too excited about the wings and tail—they are just for show. The brass doesn't understand things like that. The so-called "dragon" title is just a self-aggrandizing label, as dragons don't actually exist. In reality, this subspecies was developed using lizard-based templates.</description>
-		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
-		<inheritable>true</inheritable>
-		<displayPriority>1000</displayPriority>
-		<genes>
-			<li>FireSpew</li>
-			<li>FireResistant</li>
-			<li>Aggression_Aggressive</li>
-			<li>Robust</li>
-			<li>RobustDigestion</li>
-			<li>DarkVision</li>
-			<li>Unstoppable</li>
-			<li>AptitudeStrong_Mining</li>
-			<li>AptitudeTerrible_Cooking</li>
-			<li>AptitudePoor_Social</li>
-			<li>AptitudePoor_Intellectual</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudePoor_Medicine</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Ear_Elf</li>
-			<li>Anneli_Gene_HeadSkin_Dragon</li>
-			<li>Anneli_Gene_BodySkin_Dragon</li>
-			<li>Anneli_Gene_Horn_Dragon</li>
-			<li>Anneli_Gene_Tail_Dragon</li>
+			<li>Anneli_Gene_Kemonomimi_Angel</li>
+			<li>Anneli_Gene_FeatherWing_Angel</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>Anneli_Xenotype_Hellion</defName>
-		<label>annelitrice hellion</label>
-		<description>The annelitrice hellions' appearance closely mirrors that of demons from ancient legends. On the surface, they're textbook examples of antisocial personalities. But no one can quite figure out if a twisted desire for personal satisfaction drives their behavior or if they're just paying tribute to some forgotten ancient culture. Either way, it doesn't matter much to their victims.</description>
+		<defName>Anneli_Xenotype_Nekojin</defName>
+		<label>annelitrice nekojin</label>
+		<description>The annelitrice nekojin, or "cat girls," have soft, obedient ears and tails. They mostly reside in urban areas and feed on stray animals, so "cat girl" initially meant "girls who hunt cats." However, the irony is that over time, through co-evolution, these catgirls have adopted behaviors and even features from their prey, making them more like the animals they once hunted.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>MaxTemp_LargeIncrease</li>
-			<li>FireResistant</li>
-			<li>MeleeDamage_Strong</li>
-			<li>KillThirst</li>
-			<li>Robust</li>
+			<li>MoveSpeed_VeryQuick</li>
+			<li>Sleepy</li>
+			<li>DarkVision</li>
 			<li>AptitudeStrong_Melee</li>
-			<li>AptitudePoor_Social</li>
+			<li>AptitudeTerrible_Intellectual</li>
+			<li>Anneli_Ageless</li>
+			<li>Anneli_Gene_HeadSkin_Cat</li>
+			<li>Anneli_Gene_Kemonomimi_Cat</li>
+			<li>Anneli_Gene_BodyHair_PubicHair</li>
+			<li>Anneli_Gene_FurryTail_Cat</li>
+		</genes>
+		<factionlessGenerationWeight>0</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Anneli_Xenotype_Oni</defName>
+		<label>annelitrice oni</label>
+		<description>The annelitrice oni are known for their battle instincts and a concerning obsession with alcohol. No one's sure whether they're punching people out of instinct or because they're simply drunk and throwing a tantrum. When it comes to snacks, they are huge fans of hotpots spiced with chili peppers. And "hotpot" means anything: tree bark, moldy canned food, and even recently kidnapped children.</description>
+		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1000</displayPriority>
+		<genes>
+			<li>PsychicAbility_Enhanced</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Aggression_Aggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>StrongStomach</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>ChemicalDependency_Alcohol</li>
 			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_Ear_HalfElf</li>
-			<li>Anneli_Gene_HeadSkin_Demon</li>
-			<li>Anneli_Gene_Horn_Demon</li>
-			<li>Anneli_Gene_BodySkin_Demon</li>
+			<li>Anneli_Gene_HeadSkin_Oni</li>
+			<li>Anneli_Gene_Horn_Oni</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
@@ -242,62 +277,33 @@
 			<li>AptitudePoor_Mining</li>
 			<li>AptitudeStrong_Artistic</li>
 			<li>AptitudeStrong_Social</li>
+			<li>Anneli_Ageless</li>
 			<li>Anneli_Gene_Ear_HalfElf</li>
-			<li>Anneli_Gene_BodySkin_Succubus</li>
 			<li>Anneli_Gene_Horn_Succubus</li>
+			<li>Anneli_Gene_BodySkin_Succubus</li>
+			<li>Anneli_Gene_Wing_Succubus</li>
 			<li>Anneli_Gene_Tail_Succubus</li>
-			<li>Anneli_Ageless</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>
 
 	<XenotypeDef>
-		<defName>Anneli_Xenotype_Messenger</defName>
-		<label>annelitrice messenger</label>
-		<description>The annelitrice messengers have stunning, mythically beautiful wings. They were supposed to have radiant halos, but due to HAR's bodyAddon only supporting Cutout and CutoutComplex shaders, they've been downgraded from angels to bird people. Though kind-hearted and eager to learn, they're incredibly clumsy in stressful environments.</description>
+		<defName>Anneli_Xenotype_Usagi</defName>
+		<label>annelitrice usagi</label>
+		<description>The annelitrice usagi, or "bunny girls," have soft, fluffy, long ears and tail tufts that resemble little pom-poms. They're big fans of vegetables and absolutely hate headphones. They became an overnight sensation due to a viral Tiktok video showing one of them sprinting across the street, only to crash headfirst into a tree. The cringe moment quickly gained popularity online, but many suspect it was just a stunt for attention.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>
 		<genes>
-			<li>Mood_Sanguine</li>
-			<li>Aggression_DeadCalm</li>
-			<li>LowSleep</li>
-			<li>Learning_Fast</li>
-			<li>AptitudePoor_Construction</li>
-			<li>AptitudePoor_Mining</li>
-			<li>AptitudePoor_Cooking</li>
-			<li>AptitudePoor_Plants</li>
-			<li>AptitudePoor_Animals</li>
-			<li>AptitudePoor_Medicine</li>
-			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Kemonomimi_Angel</li>
-		</genes>
-		<factionlessGenerationWeight>0</factionlessGenerationWeight>
-	</XenotypeDef>
-
-	<XenotypeDef>
-		<defName>Anneli_Xenotype_Abomination</defName>
-		<label>annelitrice abomination</label>
-		<description>The annelitrice abominations were meant to be the perfect battle machine. However, they emerged from the assembly line as defective products, frequently battling skin diseases and cancer. From birth, they knew they were just cannon fodder. As a result, they're always gloomy. But when duty calls, they still don't hesitate to rush to the front without a second thought.</description>
-		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
-		<inheritable>true</inheritable>
-		<displayPriority>1000</displayPriority>
-		<genes>
-			<li>Immunity_Weak</li>
-			<li>PsychicAbility_Dull</li>
 			<li>MoveSpeed_Quick</li>
-			<li>Mood_Pessimist</li>
-			<li>Beauty_Ugly</li>
-			<li>StrongStomach</li>
-			<li>Instability_Mild</li>
-			<li>Unstoppable</li>
-			<li>AptitudeRemarkable_Shooting</li>
-			<li>AptitudeRemarkable_Melee</li>
+			<li>Mood_Optimist</li>
+			<li>Nearsighted</li>
+			<li>AptitudeStrong_Plants</li>
+			<li>Libido_High</li>
 			<li>Anneli_Ageless</li>
-			<li>Anneli_Gene_Ear_HalfElf</li>
-			<li>Anneli_Gene_HeadSkin_Gore</li>
-			<li>Anneli_Gene_BodySkin_Gore</li>
-			<li>Anneli_Gene_Tail_Gore</li>
+			<li>Anneli_Gene_Kemonomimi_Bunny</li>
+			<li>Anneli_Gene_BodyHair_PubicHair</li>
+			<li>Anneli_Gene_FurryTail_Bunny</li>
 		</genes>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 	</XenotypeDef>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_FeatherWing_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_Wing</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_FeatherWing_Base">
+		<defName>Anneli_Gene_FeatherWing_Angel</defName>
+		<label>annelitrice angel feather wing</label>
+		<description>annelitrice angel feather wing.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_FeatherWing_Angel</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_FeatherWing_Base">
+		<defName>Anneli_Gene_FeatherWing_Fairy</defName>
+		<label>annelitrice fairy feather wing</label>
+		<description>annelitrice fairy feather wing.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_FeatherWing_Fairy</iconPath>
+	</GeneDef>
+</Defs>
