@@ -781,11 +781,11 @@
 								</south>
 								<east>
 									<layerOffset>0</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</east>
 								<west>
 									<layerOffset>-0.3035</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -823,11 +823,11 @@
 								</south>
 								<east>
 									<layerOffset>-0.3055</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</east>
 								<west>
 									<layerOffset>0</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -864,11 +864,11 @@
 								</south>
 								<east>
 									<layerOffset>0</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</east>
 								<west>
 									<layerOffset>-0.3035</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -905,11 +905,11 @@
 								</south>
 								<east>
 									<layerOffset>-0.3055</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</east>
 								<west>
 									<layerOffset>0</layerOffset>
-									<offset>(0.63,0)</offset>
+									<offset>(0.61,0)</offset>
 								</west>
 							</offsets>
 							<extendedGraphics>
