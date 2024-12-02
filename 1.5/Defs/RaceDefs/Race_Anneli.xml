@@ -1440,7 +1440,8 @@
 			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<canBecomeShambler>true</canBecomeShambler>
-			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Advanced</knowledgeCategory>
+			<hasUnnaturalCorpse>true</hasUnnaturalCorpse>
+			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
 			<anomalyKnowledge>3</anomalyKnowledge>
 			<litterSizeCurve>
 				<points>

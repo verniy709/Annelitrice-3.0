@@ -51,12 +51,8 @@
 			<li>Clothing</li>
 		</tradeTags>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
 			<li>
 				<compClass>CompQuality</compClass>
-			</li>
-			<li>
-				<compClass>CompColorable</compClass>
 			</li>
 		</comps>
 	</ThingDef>
