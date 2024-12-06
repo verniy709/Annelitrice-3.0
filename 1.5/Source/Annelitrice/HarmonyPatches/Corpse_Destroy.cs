@@ -14,7 +14,7 @@ namespace Annelitrice.HarmonyPatches
 		[HarmonyPrefix]
 		public static void Prefix(Corpse __instance)
 		{
-			if (__instance.InnerPawn != null && __instance.InnerPawn.def.defName == "Annelitrice" && __instance.Spawned)
+			if (__instance.InnerPawn != null && __instance.InnerPawn.def.defName == "Annelitrice" && __instance.Spawned && !__instance.InnerPawn.IsShambler)
 			{
 				GenPlace.TryPlaceThing(CompEgg.MakeEgg(__instance.InnerPawn), __instance.PositionHeld, __instance.MapHeld, ThingPlaceMode.Near);
 			}
@@ -30,7 +30,7 @@ namespace Annelitrice.HarmonyPatches
 		[HarmonyPrefix]
 		public static void Prefix(Pawn __instance)
 		{
-			if (__instance.Corpse is null && __instance.def.defName == "Annelitrice" && __instance.Spawned)
+			if (__instance.Corpse is null && __instance.def.defName == "Annelitrice" && __instance.Spawned && !__instance.IsShambler)
 			{
 				GenPlace.TryPlaceThing(CompEgg.MakeEgg(__instance), __instance.PositionHeld, __instance.MapHeld, ThingPlaceMode.Near);
 			}

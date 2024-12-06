@@ -3,10 +3,6 @@
 
 	<ThingDef Name="Anneli_7" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
 		<costStuffCount>20</costStuffCount>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 		<statBases>
 			<WorkToMake>200</WorkToMake>
 			<Mass>0.5</Mass>

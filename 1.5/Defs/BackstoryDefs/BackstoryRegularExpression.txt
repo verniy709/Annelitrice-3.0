@@ -1,2 +1,0 @@
-<li>\s*<key>(.*)</key>\s*<value>(.*)</value>\s*</li>\s*
-<$1>$2</$1>\n

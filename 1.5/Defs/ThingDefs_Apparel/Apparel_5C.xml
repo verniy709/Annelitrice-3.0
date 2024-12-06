@@ -9,7 +9,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+			<GeneralLaborSpeed>0.1</GeneralLaborSpeed>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
