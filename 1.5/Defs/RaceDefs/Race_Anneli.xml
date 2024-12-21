@@ -94,21 +94,21 @@
 					<oldHairAgeRange>70~100</oldHairAgeRange>			
 					<headOffsetDirectional>
 						<north>
-							<offset>(0.0, 0.21)</offset>
+							<offset>(0.0, 0.217)</offset>
 						</north>
 						<south>
-							<offset>(0.0, 0.21)</offset>
+							<offset>(0.0, 0.217)</offset>
 						</south>
 						<east>
-							<offset>(-0.052, 0.21)</offset>
+							<offset>(-0.0526, 0.217)</offset>
 						</east>
 						<west>
-							<offset>(0.052, 0.21)</offset>
+							<offset>(0.0526, 0.217)</offset>
 						</west>
 					</headOffsetDirectional>
-					<customDrawSize>(1.1, 1.225)</customDrawSize>
+					<customDrawSize>(1.11, 1.23)</customDrawSize>
 					<customHeadDrawSize>(0.737, 0.759)</customHeadDrawSize>
-					<customPortraitDrawSize>(1.1, 1.225)</customPortraitDrawSize>
+					<customPortraitDrawSize>(1.11, 1.23)</customPortraitDrawSize>
 					<customPortraitHeadDrawSize>(0.737, 0.759)</customPortraitHeadDrawSize>
 					<colorChannels Inherit="False">
 						<li>
