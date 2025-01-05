@@ -19,5 +19,6 @@
 		<li IfModActive="Ludeon.RimWorld.Anomaly">LoadFolders/1.5/Anomaly</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">LoadFolders/1.5/DubsBadHygiene</li>
 		<li IfModActive="Dubwise.DubsBadHygiene.Lite">LoadFolders/1.5/DubsBadHygieneLite</li>
+		<li IfModActive="MemeGoddess.SearchAndDestroy">LoadFolders/1.5/SearchAndDestroy</li>
 	</v1.5>
 </loadFolders>

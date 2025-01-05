@@ -242,6 +242,10 @@
 									</li>
 									<li>
 										<weight>10</weight>
+										<only>RGBA(98,94,105)</only>
+									</li>
+									<li>
+										<weight>10</weight>
 										<only>RGBA(87,87,90)</only>
 									</li>
 									<li>
@@ -254,7 +258,7 @@
 									</li>
 									<li>
 										<weight>10</weight>
-										<only>RGBA(144,97,71)</only>
+										<only>RGBA(148,109,90)</only>
 									</li>
 									<li>
 										<weight>10</weight>
@@ -271,6 +275,10 @@
 									<li>
 										<weight>10</weight>
 										<only>RGBA(159,154,150)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(204,146,129)</only>
 									</li>
 									<!--Rare-->
 									<li>
