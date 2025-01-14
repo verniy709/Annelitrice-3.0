@@ -4,23 +4,7 @@
         <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Props"]/behaviors</xpath>
         <value>
             <!-- Work (PropsBroom) Job Category -->
-            <li>
-                <key>RemoveSewage</key>
-                <value>
-                    <exPath>Anneli_Arms/Props/</exPath>         
-                    <textures>
-                        <li>Anneli_Props</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>PropsBroom/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>
+
             <li>
                 <key>cleanBedpan</key>
                 <value>
@@ -39,74 +23,10 @@
                 </value>
             </li>
             <!-- Work (PropsShovel) Job Category -->
-            <li>
-                <key>emptySeptictank</key>
-                <value>
-                    <exPath>Anneli_Arms/Props/</exPath>         
-                    <textures>
-                        <li>Anneli_Props</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>PropsShovel/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>
-            <li>
-                <key>LoadComposter</key>
-                <value>
-                    <exPath>Anneli_Arms/Props/</exPath>         
-                    <textures>
-                        <li>Anneli_Props</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>PropsShovel/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>
-            <li>
-                <key>UnloadComposter</key>
-                <value>
-                    <exPath>Anneli_Arms/Props/</exPath>         
-                    <textures>
-                        <li>Anneli_Props</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>PropsShovel/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>
-            <li>
-                <key>PlaceFertilizer</key>
-                <value>
-                    <exPath>Anneli_Arms/Props/</exPath>         
-                    <textures>
-                        <li>Anneli_Props</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>PropsShovel/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>           
+
+
+
+           
         </value>
     </Operation>
 </Patch>

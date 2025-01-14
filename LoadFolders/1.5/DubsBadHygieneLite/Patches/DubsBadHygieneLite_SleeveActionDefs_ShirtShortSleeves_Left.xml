@@ -31,46 +31,10 @@
                 </value>
             </li>
             <!-- Haul Job Category -->
-            <li>
-                <key>LoadWashing</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>UnloadWashing</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>            
+            
+                        
             <!-- Work Job Category -->
-            <li>
-                <key>emptyLatrine</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
+            
             <li>
                 <key>washHands</key>
                 <value>
@@ -85,45 +49,9 @@
                 </value>
             </li>
             <!-- Reach Out Job Category -->
-            <li>
-                <key>TriggerFireSprinkler</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>TipOverSewage</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>DrainWaterTankJob</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
+            
+            
+            
             <li>
                 <key>washPatient</key>
                 <value>
@@ -177,19 +105,7 @@
                 </value>
             </li>
             <!-- Think Job Category -->
-            <li>
-                <key>WatchWashingMachine</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
+            
             <!-- Dress Job Category -->
             <li>
                 <key>useWashBucket</key>
@@ -218,19 +134,7 @@
                 </value>
             </li>
             <!-- Work (PropsBroom) Job Category -->
-            <li>
-                <key>RemoveSewage</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
+            
             <li>
                 <key>cleanBedpan</key>
                 <value>
@@ -245,58 +149,10 @@
                 </value>
             </li>
             <!-- Work (PropsShovel) Job Category -->
-            <li>
-                <key>emptySeptictank</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>LoadComposter</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>UnloadComposter</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
-            <li>
-                <key>PlaceFertilizer</key>
-                <value>
-                    <exPath>Anneli_Arms/ShirtSS/</exPath>
-                    <textures>
-                        <li>Anneli_Arm_ShirtSS</li>
-                    </textures>
-                    <linkedWithAction>true</linkedWithAction>
-                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
-                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
-                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
-                </value>
-            </li>
+            
+            
+            
+            
             <!-- Dress (Bubbles) Job Category -->
             <li>
                 <key>takeShower</key>
