@@ -20,5 +20,6 @@
 		<li IfModActive="Dubwise.DubsBadHygiene">LoadFolders/1.5/DubsBadHygiene</li>
 		<li IfModActive="Dubwise.DubsBadHygiene.Lite">LoadFolders/1.5/DubsBadHygieneLite</li>
 		<li IfModActive="MemeGoddess.SearchAndDestroy">LoadFolders/1.5/SearchAndDestroy</li>
+		<li IfModActive="kentington.saveourship2">LoadFolders/1.5/Saveourship2</li>
 	</v1.5>
 </loadFolders>

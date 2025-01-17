@@ -17,8 +17,8 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
-			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
-			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>10</ComfyTemperatureMax>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Transmog</li>
