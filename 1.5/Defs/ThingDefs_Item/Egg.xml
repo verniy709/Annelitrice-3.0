@@ -69,6 +69,53 @@
  </graphicData>
 </ThingDef>
 
+<RecipeDef>
+  <defName>HatchAnneliEggs</defName>
+  <label>hatch anneli eggs</label>
+  <description>Hatch anneli eggs.</description>
+  <recipeUsers>
+    <li>Anneli_Fountain</li>
+  </recipeUsers>
+  <jobString>Hatching eggs.</jobString>
+  <workerClass>Annelitrice.Recipe_HatchEgg</workerClass>
+  <workAmount>200</workAmount>
+  <workSkill>Crafting</workSkill>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>ButcherFlesh</effectWorking>
+  <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+  <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_OutsiderEgg</li>
+          <li>Anneli_ColonistEgg</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_NutrientSolution</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Anneli_OutsiderEgg</li>
+      <li>Anneli_ColonistEgg</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+    <thingDefs>
+      <li>Anneli_ColonistEgg</li>
+    </thingDefs>
+  </defaultIngredientFilter>
+</RecipeDef>
+
 <!-- Egg Destruction Recipes -->
 
 <RecipeDef>
@@ -158,53 +205,6 @@
 </RecipeDef>
 
 <!-- Egg Recipes -->
-
-<RecipeDef>
-  <defName>HatchAnneliEggs</defName>
-  <label>hatch anneli eggs</label>
-  <description>Hatch anneli eggs.</description>
-  <recipeUsers>
-    <li>Anneli_Fountain</li>
-  </recipeUsers>
-  <jobString>Hatching eggs.</jobString>
-  <workerClass>Annelitrice.Recipe_HatchEgg</workerClass>
-  <workAmount>200</workAmount>
-  <workSkill>Crafting</workSkill>
-  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-  <effectWorking>ButcherFlesh</effectWorking>
-  <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
-  <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
-  <ingredients>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>Anneli_OutsiderEgg</li>
-          <li>Anneli_ColonistEgg</li>
-        </thingDefs>
-      </filter>
-      <count>1</count>
-    </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>Anneli_NutrientSolution</li>
-        </thingDefs>
-      </filter>
-      <count>1</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <thingDefs>
-      <li>Anneli_OutsiderEgg</li>
-      <li>Anneli_ColonistEgg</li>
-    </thingDefs>
-  </fixedIngredientFilter>
-  <defaultIngredientFilter>
-    <thingDefs>
-      <li>Anneli_ColonistEgg</li>
-    </thingDefs>
-  </defaultIngredientFilter>
-</RecipeDef>
 
 <RecipeDef>
   <defName>MechSerumHealerAnneliEggs</defName>
@@ -326,6 +326,47 @@
   </defaultIngredientFilter>
   <products>
     <MedicineIndustrial>1</MedicineIndustrial>
+  </products>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>Anneli_AnthelminticAnneliEggs</defName>
+  <label>annelitrice anthelmintic production</label>
+  <description>annelitrice anthelmintic production.</description>
+  <recipeUsers>
+    <li>Anneli_Fountain</li>
+  </recipeUsers>
+  <jobString>Butchering.</jobString>
+  <workAmount>300</workAmount>
+  <workSkill>Crafting</workSkill>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>ButcherFlesh</effectWorking>
+  <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+  <uiIconThing>Anneli_Anthelmintic</uiIconThing>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_OutsiderEgg</li>
+          <li>Anneli_ColonistEgg</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Anneli_OutsiderEgg</li>
+      <li>Anneli_ColonistEgg</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+    <thingDefs>
+      <li>Anneli_OutsiderEgg</li>
+    </thingDefs>
+  </defaultIngredientFilter>
+  <products>
+    <Anneli_Anthelmintic>1</Anneli_Anthelmintic>
   </products>
 </RecipeDef>
 

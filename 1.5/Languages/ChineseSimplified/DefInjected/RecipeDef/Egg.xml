@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <HatchAnneliEggs.label>孵化安妮莉卵</HatchAnneliEggs.label>
+  <HatchAnneliEggs.description>孵化安妮莉卵.</HatchAnneliEggs.description>
+  <HatchAnneliEggs.jobString>孵化中.</HatchAnneliEggs.jobString>
+  
+
   <!-- Egg Destruction Recipes -->
 
   <ButcherAnneliEggs.label>屠宰安妮莉卵</ButcherAnneliEggs.label>
@@ -14,10 +19,6 @@
 
   <!-- Egg Recipes -->
 
-  <HatchAnneliEggs.label>孵化安妮莉卵</HatchAnneliEggs.label>
-  <HatchAnneliEggs.description>孵化安妮莉卵.</HatchAnneliEggs.description>
-  <HatchAnneliEggs.jobString>孵化中.</HatchAnneliEggs.jobString>
-
   <MechSerumHealerAnneliEggs.label>治愈机械液生产</MechSerumHealerAnneliEggs.label>
   <MechSerumHealerAnneliEggs.description>治愈机械液生产.</MechSerumHealerAnneliEggs.description>
   <MechSerumHealerAnneliEggs.jobString>屠宰中.</MechSerumHealerAnneliEggs.jobString>
@@ -29,6 +30,10 @@
   <MedicineIndustrialAnneliEggs.label>工业药物生产</MedicineIndustrialAnneliEggs.label>
   <MedicineIndustrialAnneliEggs.description>工业药物生产.</MedicineIndustrialAnneliEggs.description>
   <MedicineIndustrialAnneliEggs.jobString>屠宰中.</MedicineIndustrialAnneliEggs.jobString>
+
+  <Anneli_AnthelminticAnneliEggs.label>安妮莉特丝驱虫药生产</Anneli_AnthelminticAnneliEggs.label>
+  <Anneli_AnthelminticAnneliEggs.description>安妮莉特丝驱虫药生产.</Anneli_AnthelminticAnneliEggs.description>
+  <Anneli_AnthelminticAnneliEggs.jobString>屠宰中.</Anneli_AnthelminticAnneliEggs.jobString>
 
 
 </LanguageData>

@@ -73,46 +73,5 @@
       </li>
     </stages>
   </HediffDef>
-
-  <RecipeDef>
-    <defName>Anneli_AnthelminticAnneliEggs</defName>
-    <label>annelitrice anthelmintic production</label>
-    <description>annelitrice anthelmintic production.</description>
-    <recipeUsers>
-      <li>Anneli_Fountain</li>
-    </recipeUsers>
-    <jobString>Butchering.</jobString>
-    <workAmount>300</workAmount>
-    <workSkill>Crafting</workSkill>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>ButcherFlesh</effectWorking>
-    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
-    <uiIconThing>Anneli_Anthelmintic</uiIconThing>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Anneli_OutsiderEgg</li>
-            <li>Anneli_ColonistEgg</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Anneli_OutsiderEgg</li>
-        <li>Anneli_ColonistEgg</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Anneli_OutsiderEgg</li>
-      </thingDefs>
-    </defaultIngredientFilter>
-    <products>
-      <Anneli_Anthelmintic>1</Anneli_Anthelmintic>
-    </products>
-  </RecipeDef>
   
 </Defs>
