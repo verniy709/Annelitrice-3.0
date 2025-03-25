@@ -88,8 +88,8 @@ namespace Annelitrice
             parent.GetComp<CompContainPawn>().GetDirectlyHeldThings().TryTransferAllToContainer(pawn.GetComp<CompContainPawn>().GetDirectlyHeldThings());
             GenSpawn.Spawn(pawn, pos, map, WipeMode.VanishOrMoveAside);
 			parent.Destroy();
-
         }
+
         public override void PostExposeData()
         {
             Scribe_Values.Look(ref eggTime, "eggTime");

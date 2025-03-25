@@ -34,8 +34,8 @@
     </apparel>
     <comps>
       <li Class="CompProperties_Shield">
-        <minDrawSize>1.65</minDrawSize>
-        <maxDrawSize>1.95</maxDrawSize>
+        <minDrawSize>1.70</minDrawSize>
+        <maxDrawSize>2.00</maxDrawSize>
         <blocksRangedWeapons>false</blocksRangedWeapons>
       </li>
     </comps>

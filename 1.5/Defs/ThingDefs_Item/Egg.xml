@@ -9,56 +9,56 @@
 
 	<ThingDef Name="Anneli_Egg" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
-		<category>Item</category>
-		<drawerType>MapMeshOnly</drawerType>
-		<resourceReadoutPriority>Middle</resourceReadoutPriority>
-		<useHitPoints>false</useHitPoints>
-		<selectable>true</selectable>
-		<altitudeLayer>Item</altitudeLayer>
-		<thingCategories>
-			<li>Anneli_Egg</li>
-		</thingCategories>
-		<statBases>
-			<Beauty>-4</Beauty>
-			<Mass>0.03</Mass>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-		<inspectorTabs>
-			<li>Annelitrice.ITab_Pawn_Character</li>
-		</inspectorTabs>
-		<alwaysHaulable>true</alwaysHaulable>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<rotatable>false</rotatable>
-    <stackLimit>1</stackLimit>
-    <tradeability>None</tradeability>
-    <scatterableOnMapGen>false</scatterableOnMapGen>
-    <pathCost>14</pathCost>
-    <soundInteract>Standard_Drop</soundInteract>
-    <soundDrop>Standard_Drop</soundDrop>
-    <tickerType>Normal</tickerType>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>Annelitrice.CompEgg</compClass>
-      </li>
-      <li>
-        <compClass>Annelitrice.CompContainPawn</compClass>
-      </li>
-    </comps>
-  </ThingDef>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>false</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <thingCategories>
+     <li>Anneli_Egg</li>
+   </thingCategories>
+   <statBases>
+     <Beauty>-4</Beauty>
+     <Mass>0.03</Mass>
+     <DeteriorationRate>0</DeteriorationRate>
+   </statBases>
+   <inspectorTabs>
+     <li>Annelitrice.ITab_Pawn_Character</li>
+   </inspectorTabs>
+   <alwaysHaulable>true</alwaysHaulable>
+   <drawGUIOverlay>true</drawGUIOverlay>
+   <rotatable>false</rotatable>
+   <stackLimit>1</stackLimit>
+   <tradeability>None</tradeability>
+   <scatterableOnMapGen>false</scatterableOnMapGen>
+   <pathCost>14</pathCost>
+   <soundInteract>Standard_Drop</soundInteract>
+   <soundDrop>Standard_Drop</soundDrop>
+   <tickerType>Normal</tickerType>
+   <comps>
+    <li Class="CompProperties_Forbiddable"/>
+    <li>
+      <compClass>Annelitrice.CompEgg</compClass>
+    </li>
+    <li>
+      <compClass>Annelitrice.CompContainPawn</compClass>
+    </li>
+  </comps>
+</ThingDef>
 
-  <ThingDef ParentName="Anneli_Egg">
-    <defName>Anneli_ColonistEgg</defName>
-    <label>colonist egg</label>
-    <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
-    <graphicData>
-     <texPath>Anneli_Item/Egg_Colonist</texPath>
-     <graphicClass>Graphic_Random</graphicClass>
-     <drawSize>1.0</drawSize>
-   </graphicData>
- </ThingDef>
+<ThingDef ParentName="Anneli_Egg">
+  <defName>Anneli_ColonistEgg</defName>
+  <label>colonist egg</label>
+  <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
+  <graphicData>
+   <texPath>Anneli_Item/Egg_Colonist</texPath>
+   <graphicClass>Graphic_Random</graphicClass>
+   <drawSize>1.0</drawSize>
+ </graphicData>
+</ThingDef>
 
- <ThingDef ParentName="Anneli_Egg">
+<ThingDef ParentName="Anneli_Egg">
   <defName>Anneli_OutsiderEgg</defName>
   <label>outsider egg</label>
   <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
@@ -158,6 +158,53 @@
 </RecipeDef>
 
 <!-- Egg Recipes -->
+
+<RecipeDef>
+  <defName>HatchAnneliEggs</defName>
+  <label>hatch anneli eggs</label>
+  <description>Hatch anneli eggs.</description>
+  <recipeUsers>
+    <li>Anneli_Fountain</li>
+  </recipeUsers>
+  <jobString>Hatching eggs.</jobString>
+  <workerClass>Annelitrice.Recipe_HatchEgg</workerClass>
+  <workAmount>200</workAmount>
+  <workSkill>Crafting</workSkill>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>ButcherFlesh</effectWorking>
+  <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+  <uiIconThing>Anneli_OutsiderEgg</uiIconThing>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_OutsiderEgg</li>
+          <li>Anneli_ColonistEgg</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_NutrientSolution</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>Anneli_OutsiderEgg</li>
+      <li>Anneli_ColonistEgg</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+    <thingDefs>
+      <li>Anneli_ColonistEgg</li>
+    </thingDefs>
+  </defaultIngredientFilter>
+</RecipeDef>
 
 <RecipeDef>
   <defName>MechSerumHealerAnneliEggs</defName>
