@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 using RimWorld;
+using Mono.Unix.Native;
+using System.ComponentModel;
 
 namespace Annelitrice
 {
@@ -25,10 +27,10 @@ namespace Annelitrice
 			}
 
 			CompContainPawn eggContainer = egg.TryGetComp<CompContainPawn>();
-			if (eggContainer == null)
+			Pawn containedPawn = eggContainer.GetDirectlyHeldThings().FirstOrDefault() as Pawn;
+
+			if (containedPawn == null)
 			{
-				Log.Message("No contained pawn found.");
-				Messages.Message("NoContainedPawn_Annelitrice".Translate(), MessageTypeDefOf.NeutralEvent, true);
 				return;
 			}
 

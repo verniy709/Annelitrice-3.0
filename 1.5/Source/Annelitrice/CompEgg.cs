@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 using RimWorld;
+using RimWorld.Planet;
 
 namespace Annelitrice
 {
@@ -38,6 +39,7 @@ namespace Annelitrice
 		public void Hatch()
 		{
 			CompContainPawn owner = parent.GetComp<CompContainPawn>();
+
 			if (owner == null)
 			{
 				Log.Message("No contained pawn found.");
@@ -66,31 +68,43 @@ namespace Annelitrice
         {
             IntVec3 pos = parent.Position;
             Map map = parent.Map;
-            CompContainPawn onwer = parent.GetComp<CompContainPawn>();
-            Pawn pawn = onwer.GetDirectlyHeldThings().First() as Pawn;
+            CompContainPawn pupa = parent.GetComp<CompContainPawn>();
+            Pawn pawn = pupa.GetDirectlyHeldThings().First() as Pawn;
+
             if (pawn.Dead)
             {
-                ResurrectionUtility.TryResurrectWithSideEffects(pawn);
+                ResurrectionUtility.TryResurrect(pawn);
             }
+
             if (pawn.Faction != Faction.OfPlayer)
             {
                 pawn.SetFaction(Faction.OfPlayer);
             }
-            onwer.GetDirectlyHeldThings().TryDrop(pawn,pos, map, ThingPlaceMode.Near,1,out _);
+
+            pupa.GetDirectlyHeldThings().TryDrop(pawn,pos, map, ThingPlaceMode.Near,1,out _);
 			DefDatabase<EffecterDef>.GetNamed("Anneli_PupationFinish").Spawn(pos, map);
 			parent.Destroy();
         }
-        private void Hatch_Egg()
-        {
-            IntVec3 pos = parent.Position;
-            Map map = parent.Map;
-            Pawn pawn =PawnGenerator.GeneratePawn(PawnKindDef.Named("AnnelitriceLarvaAsAnimal"),Faction.OfPlayer);
-            parent.GetComp<CompContainPawn>().GetDirectlyHeldThings().TryTransferAllToContainer(pawn.GetComp<CompContainPawn>().GetDirectlyHeldThings());
-            GenSpawn.Spawn(pawn, pos, map, WipeMode.VanishOrMoveAside);
-			parent.Destroy();
-        }
 
-        public override void PostExposeData()
+		private void Hatch_Egg()
+		{
+			IntVec3 pos = parent.Position;
+			Map map = parent.Map;
+			CompContainPawn egg = parent.GetComp<CompContainPawn>();
+
+			if (egg.GetDirectlyHeldThings().FirstOrDefault() is Pawn containedPawn)
+			{
+				Pawn larva = PawnGenerator.GeneratePawn(PawnKindDef.Named("AnnelitriceLarvaAsAnimal"), Faction.OfPlayer);
+				CompContainPawn larvaContainer = larva.GetComp<CompContainPawn>();
+
+				egg.GetDirectlyHeldThings().TryTransferAllToContainer(larvaContainer.GetDirectlyHeldThings());
+				GenSpawn.Spawn(larva, pos, map, WipeMode.VanishOrMoveAside);
+			}
+
+			parent.Destroy();
+		}
+
+		public override void PostExposeData()
         {
             Scribe_Values.Look(ref eggTime, "eggTime");
 		}
@@ -100,7 +114,7 @@ namespace Annelitrice
 		public static ThingWithComps MakeEgg(Pawn pawn)
         {
             ThingWithComps egg;
-            
+
             if (pawn.Faction != null && pawn.Faction.IsPlayer)
             {
                 egg = ThingMaker.MakeThing(ThingDef.Named("Anneli_ColonistEgg")) as ThingWithComps;
@@ -109,8 +123,17 @@ namespace Annelitrice
             {
                 egg = ThingMaker.MakeThing(ThingDef.Named("Anneli_OutsiderEgg")) as ThingWithComps;
             }
-            egg.TryGetComp<CompContainPawn>().GetDirectlyHeldThings().TryAddOrTransfer(pawn);
-            return egg;
+
+			egg.TryGetComp<CompContainPawn>().GetDirectlyHeldThings().TryAddOrTransfer(pawn);
+
+			WorldPawns worldPawns = Find.WorldPawns;
+
+			if (worldPawns.Contains(pawn))
+			{
+				worldPawns.RemovePawn(pawn); 
+			}
+
+			return egg;
         }
 		
 		public static ThingWithComps MakeEgg()

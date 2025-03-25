@@ -33,3 +33,8 @@ C:\steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\o
 C:\steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitrice.csproj.CoreCompileInputs.cache
 C:\steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitrice.csproj.CopyComplete
 C:\steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitrice.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Assemblies\Annelitrice.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitrice.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitrice.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitr.058EB3B8.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.5\Source\Annelitrice\obj\Debug\Annelitrice.dll
