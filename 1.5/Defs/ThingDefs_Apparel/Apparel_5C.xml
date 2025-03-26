@@ -15,6 +15,7 @@
 			<bodyPartGroups>
 				<li>Arms</li>
 				<li>Hands</li>
+				<li>Waist</li><!-- Bionic arms removed arms-->
 			</bodyPartGroups>
 			<layers>
 				<li>Anneli_Hand</li>
