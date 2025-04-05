@@ -19,7 +19,7 @@
     <ingestible>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <preferability>MealAwful</preferability>
-      <ateEvent>DrinkNutrientSolution</ateEvent>
+      <tasteThought>OthersDrinkNutrientSolution</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
       <maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
