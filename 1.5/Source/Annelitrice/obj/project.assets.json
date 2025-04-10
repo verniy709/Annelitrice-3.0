@@ -95,14 +95,10 @@
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         },
         "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         }
       }
     },
@@ -200,119 +196,10 @@
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         },
         "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-arm64": {
-      "Krafs.Rimworld.Ref/1.5.4062": {
-        "type": "package",
-        "compile": {
-          "ref/net472/Assembly-CSharp-firstpass.dll": {},
-          "ref/net472/Assembly-CSharp.dll": {},
-          "ref/net472/ISharpZipLib.dll": {},
-          "ref/net472/Mono.Posix.dll": {},
-          "ref/net472/Mono.Security.dll": {},
-          "ref/net472/NAudio.dll": {},
-          "ref/net472/NVorbis.dll": {},
-          "ref/net472/System.ComponentModel.Composition.dll": {},
-          "ref/net472/System.Configuration.dll": {},
-          "ref/net472/System.Core.dll": {},
-          "ref/net472/System.Runtime.Serialization.dll": {},
-          "ref/net472/System.Runtime.dll": {},
-          "ref/net472/System.Security.dll": {},
-          "ref/net472/System.ServiceModel.Internals.dll": {},
-          "ref/net472/System.Xml.Linq.dll": {},
-          "ref/net472/System.Xml.dll": {},
-          "ref/net472/System.dll": {},
-          "ref/net472/Unity.Burst.Unsafe.dll": {},
-          "ref/net472/Unity.Burst.dll": {},
-          "ref/net472/Unity.Mathematics.dll": {},
-          "ref/net472/Unity.MemoryProfiler.dll": {},
-          "ref/net472/Unity.TextMeshPro.dll": {},
-          "ref/net472/UnityEngine.AIModule.dll": {},
-          "ref/net472/UnityEngine.ARModule.dll": {},
-          "ref/net472/UnityEngine.AccessibilityModule.dll": {},
-          "ref/net472/UnityEngine.AndroidJNIModule.dll": {},
-          "ref/net472/UnityEngine.AnimationModule.dll": {},
-          "ref/net472/UnityEngine.AssetBundleModule.dll": {},
-          "ref/net472/UnityEngine.AudioModule.dll": {},
-          "ref/net472/UnityEngine.ClothModule.dll": {},
-          "ref/net472/UnityEngine.ClusterInputModule.dll": {},
-          "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
-          "ref/net472/UnityEngine.CoreModule.dll": {},
-          "ref/net472/UnityEngine.CrashReportingModule.dll": {},
-          "ref/net472/UnityEngine.DSPGraphModule.dll": {},
-          "ref/net472/UnityEngine.DirectorModule.dll": {},
-          "ref/net472/UnityEngine.GameCenterModule.dll": {},
-          "ref/net472/UnityEngine.GridModule.dll": {},
-          "ref/net472/UnityEngine.HotReloadModule.dll": {},
-          "ref/net472/UnityEngine.IMGUIModule.dll": {},
-          "ref/net472/UnityEngine.ImageConversionModule.dll": {},
-          "ref/net472/UnityEngine.InputLegacyModule.dll": {},
-          "ref/net472/UnityEngine.InputModule.dll": {},
-          "ref/net472/UnityEngine.JSONSerializeModule.dll": {},
-          "ref/net472/UnityEngine.LocalizationModule.dll": {},
-          "ref/net472/UnityEngine.ParticleSystemModule.dll": {},
-          "ref/net472/UnityEngine.PerformanceReportingModule.dll": {},
-          "ref/net472/UnityEngine.Physics2DModule.dll": {},
-          "ref/net472/UnityEngine.PhysicsModule.dll": {},
-          "ref/net472/UnityEngine.ProfilerModule.dll": {},
-          "ref/net472/UnityEngine.ScreenCaptureModule.dll": {},
-          "ref/net472/UnityEngine.SharedInternalsModule.dll": {},
-          "ref/net472/UnityEngine.SpriteMaskModule.dll": {},
-          "ref/net472/UnityEngine.SpriteShapeModule.dll": {},
-          "ref/net472/UnityEngine.StreamingModule.dll": {},
-          "ref/net472/UnityEngine.SubstanceModule.dll": {},
-          "ref/net472/UnityEngine.SubsystemsModule.dll": {},
-          "ref/net472/UnityEngine.TLSModule.dll": {},
-          "ref/net472/UnityEngine.TerrainModule.dll": {},
-          "ref/net472/UnityEngine.TerrainPhysicsModule.dll": {},
-          "ref/net472/UnityEngine.TextCoreModule.dll": {},
-          "ref/net472/UnityEngine.TextRenderingModule.dll": {},
-          "ref/net472/UnityEngine.TilemapModule.dll": {},
-          "ref/net472/UnityEngine.UI.dll": {},
-          "ref/net472/UnityEngine.UIElementsModule.dll": {},
-          "ref/net472/UnityEngine.UIModule.dll": {},
-          "ref/net472/UnityEngine.UNETModule.dll": {},
-          "ref/net472/UnityEngine.UmbraModule.dll": {},
-          "ref/net472/UnityEngine.UnityAnalyticsModule.dll": {},
-          "ref/net472/UnityEngine.UnityConnectModule.dll": {},
-          "ref/net472/UnityEngine.UnityTestProtocolModule.dll": {},
-          "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
-          "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll": {},
-          "ref/net472/UnityEngine.UnityWebRequestModule.dll": {},
-          "ref/net472/UnityEngine.UnityWebRequestTextureModule.dll": {},
-          "ref/net472/UnityEngine.UnityWebRequestWWWModule.dll": {},
-          "ref/net472/UnityEngine.VFXModule.dll": {},
-          "ref/net472/UnityEngine.VRModule.dll": {},
-          "ref/net472/UnityEngine.VehiclesModule.dll": {},
-          "ref/net472/UnityEngine.VideoModule.dll": {},
-          "ref/net472/UnityEngine.WindModule.dll": {},
-          "ref/net472/UnityEngine.XRModule.dll": {},
-          "ref/net472/UnityEngine.dll": {},
-          "ref/net472/com.rlabrecque.steamworks.net.dll": {},
-          "ref/net472/mscorlib.dll": {}
-        }
-      },
-      "Lib.Harmony/2.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         }
       }
     },
@@ -410,14 +297,10 @@
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         },
         "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         }
       }
     },
@@ -515,14 +398,10 @@
       "Lib.Harmony/2.2.2": {
         "type": "package",
         "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         },
         "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".xml"
-          }
+          "lib/net48/0Harmony.dll": {}
         }
       }
     }
@@ -669,11 +548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
+      "projectUniqueName": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
       "projectName": "Annelitrice",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
+      "projectPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
       "packagesPath": "C:\\Users\\verni\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\obj\\",
+      "outputPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -691,11 +570,6 @@
         "net48": {
           "projectReferences": {}
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -714,9 +588,6 @@
     },
     "runtimes": {
       "win": {
-        "#import": []
-      },
-      "win-arm64": {
         "#import": []
       },
       "win-x64": {

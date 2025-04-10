@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj": {}
+    "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj": {
+    "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
+        "projectUniqueName": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
         "projectName": "Annelitrice",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
+        "projectPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\Annelitrice.csproj",
         "packagesPath": "C:\\Users\\verni\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\obj\\",
+        "outputPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.5\\Source\\Annelitrice\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -29,11 +29,6 @@
           "net48": {
             "projectReferences": {}
           }
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -52,9 +47,6 @@
       },
       "runtimes": {
         "win": {
-          "#import": []
-        },
-        "win-arm64": {
           "#import": []
         },
         "win-x64": {

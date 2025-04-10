@@ -369,6 +369,41 @@
 					</colorChannels>
 					<bodyAddons>
 						<li>
+							<path>Anneli_Face/Dead/Anneli_Head_Dead</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3245</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.3245</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.3245</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+							</extendedGraphics>
+							<conditions>
+								<Not>
+									<Hediff>Shambler</Hediff>
+								</Not>
+								<Not>
+									<Hediff>Ghoul</Hediff>
+								</Not>
+								<RotStage>Fresh,Rotting</RotStage>
+								<AnnelitriceIsDead>true</AnnelitriceIsDead>
+							</conditions>
+						</li>
+						<li>
 							<path>Anneli_Gene/Ear/Human/Ear_Left</path>
 							<layerInvert>false</layerInvert>
 							<colorChannel>skin</colorChannel>
@@ -461,13 +496,13 @@
 									<layerOffset>0</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.321</layerOffset>
+									<layerOffset>-0.325</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.321</layerOffset>
+									<layerOffset>-0.325</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.321</layerOffset>
+									<layerOffset>-0.325</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>

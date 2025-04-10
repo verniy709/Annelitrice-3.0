@@ -36,7 +36,7 @@
       <HintPath>..\..\Assemblies\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="AlienRace">
-      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\839005762\1.4\Assemblies\AlienRace.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\839005762\1.5\Assemblies\AlienRace.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -55,6 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnnelitriceSettings.cs" />
+    <Compile Include="AnnelitriceConditionIsDead.cs" />
+    <Compile Include="HarmonyPatches\ExtendedGraphicsCondition.cs" />
     <Compile Include="PawnRenderSubWorker_NoDraw .cs" />
     <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
     <Compile Include="CompApparelCauseHediff_AoE.cs" />
