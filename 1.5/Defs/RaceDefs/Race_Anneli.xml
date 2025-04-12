@@ -393,14 +393,39 @@
 							<extendedGraphics>
 							</extendedGraphics>
 							<conditions>
-								<Not>
-									<Hediff>Shambler</Hediff>
-								</Not>
-								<Not>
-									<Hediff>Ghoul</Hediff>
-								</Not>
 								<RotStage>Fresh,Rotting</RotStage>
 								<AnnelitriceIsDead>true</AnnelitriceIsDead>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3245</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.3245</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.3245</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Face/Zombie/Anneli_Head_Zombie</Hediff>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="ShamblerCorpse">Anneli_Face/Zombie/Anneli_Head_Zombie</Hediff>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Face/Zombie/Anneli_Head_Zombie</Hediff>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
 							</conditions>
 						</li>
 						<li>
@@ -1004,14 +1029,13 @@
 					<path>Anneli_Body/Naked_Female</path>
 					<extendedGraphics>
 						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Body/Naked_Shambler</Hediff>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="ShamblerCorpse">Anneli_Body/Naked_Shambler</Hediff>
 						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Hediff>
 					</extendedGraphics>
 				</body>
 				<head>
 					<path>Anneli_Face/Anneli_Head_A</path>
 					<extendedGraphics>
-						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Face/Anneli_Head_G</Hediff>
-						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Face/Anneli_Head_G</Hediff>
 						<HeadType For="Anneli_Head_A">Anneli_Face/Anneli_Head_A</HeadType>
 						<HeadType For="Anneli_Head_B">Anneli_Face/Anneli_Head_B</HeadType>
 						<HeadType For="Anneli_Head_C">Anneli_Face/Anneli_Head_C</HeadType>

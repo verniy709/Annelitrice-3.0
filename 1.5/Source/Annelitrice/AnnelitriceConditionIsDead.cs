@@ -18,6 +18,6 @@ namespace Annelitrice
 		public bool isDead;
 
 		public override bool Satisfied(ExtendedGraphicsPawnWrapper pawn, ref ResolveData data) =>
-			this.isDead == pawn.WrappedPawn.Dead;
+			this.isDead == pawn.WrappedPawn.Dead && !pawn.WrappedPawn.IsShambler && !pawn.WrappedPawn.IsGhoul;
 	}
 }

@@ -12,6 +12,7 @@
               <path>Anneli_BodyCensored/Naked_Female</path>
               <extendedGraphics>
                 <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_BodyCensored/Naked_Shambler</Hediff>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="ShamblerCorpse">Anneli_BodyCensored/Naked_Shambler</Hediff>
                 <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_BodyCensored/Naked_Ghoul</Hediff>
               </extendedGraphics>
             </body>
