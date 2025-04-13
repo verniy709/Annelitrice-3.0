@@ -69,6 +69,10 @@
           <li>SleepingSickness</li>
           <li MayRequire="Ludeon.RimWorld.Anomaly">MetalhorrorImplant</li>
           <li>Anneli_Infection</li>
+          <li>Flu</li>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Plague</li>
         </makeImmuneTo>
       </li>
     </stages>

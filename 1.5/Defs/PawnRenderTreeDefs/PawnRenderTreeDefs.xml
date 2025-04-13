@@ -94,7 +94,7 @@
               <debugLabel>Head wounds</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
               <overlayLayer>Head</overlayLayer>
-              <baseLayer>62</baseLayer>
+              <baseLayer>80</baseLayer>
             </li>
             <li Class="PawnRenderNodeProperties_Parent">
               <debugLabel>Apparel root</debugLabel>
@@ -105,12 +105,12 @@
               <debugLabel>Firefoam</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
               <overlayLayer>Head</overlayLayer>
-              <baseLayer>76</baseLayer>
+              <baseLayer>90</baseLayer>
             </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Status overlay</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayStatus</workerClass>
-              <baseLayer>76.5</baseLayer>
+              <baseLayer>100</baseLayer>
             </li>
           </children>
         </li>
