@@ -22,5 +22,6 @@
 		<li IfModActive="MemeGoddess.SearchAndDestroy">LoadFolders/1.5/SearchAndDestroy</li>
 		<li IfModActive="kentington.saveourship2">LoadFolders/1.5/Saveourship2</li>
 		<li IfModActive="rim.job.world">LoadFolders/1.5/RJW</li>
+		<li IfModActive="safe.job.world">LoadFolders/1.5/SafeJobWorld</li>
 	</v1.5>
 </loadFolders>
