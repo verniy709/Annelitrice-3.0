@@ -70,6 +70,68 @@
 </ThingDef>
 
 <RecipeDef>
+  <defName>ResurrectAnneliCorpse</defName>
+  <label>resurrect anneli corpse</label>
+  <description>This recipe only works on annelitrice.</description>
+  <recipeUsers>
+    <li>Anneli_Fountain</li>
+  </recipeUsers>
+  <jobString>Reanimating bodies.</jobString>
+  <workerClass>Annelitrice.Recipe_ResurrectCorpse</workerClass>
+  <workAmount>200</workAmount>
+  <workSkill>Crafting</workSkill>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>ButcherFlesh</effectWorking>
+  <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+  <uiIconThing>Anneli_Pupa</uiIconThing>
+  <autoStripCorpses>false</autoStripCorpses>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Corpses</li>
+        </categories>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Anneli_NutrientSolution</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Corpses</li>
+    </categories>
+    <disallowedThingDefs>
+      <li>Corpse_Human</li>
+    </disallowedThingDefs>
+    <disallowedCategories>
+      <li>CorpsesAnimal</li>
+      <li>CorpsesMechanoid</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">CorpsesEntity</li>
+    </disallowedCategories>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+    <thingDefs>
+      <li>Corpse_Annelitrice</li>
+    </thingDefs>
+    <!-- only works with the Corpses category for ingredients-->
+    <specialFiltersToDisallow>
+      <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
+      <li>AllowCorpsesStranger</li>
+    </specialFiltersToDisallow>
+    <specialFiltersToAllow>
+      <li>AllowCorpsesColonist</li>
+    </specialFiltersToAllow>
+  </defaultIngredientFilter>
+</RecipeDef>
+
+<RecipeDef>
   <defName>HatchAnneliEggs</defName>
   <label>hatch anneli eggs</label>
   <description>Hatch anneli eggs.</description>

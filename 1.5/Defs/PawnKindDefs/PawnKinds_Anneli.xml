@@ -86,6 +86,20 @@
 				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Usagi>
 			</xenotypeChances>
 		</xenotypeSet>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<stuff>Cloth</stuff>
+			</li>
+			<li>
+				<bodyPartGroup>Legs</bodyPartGroup>
+				<stuff>Cloth</stuff>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<stuff>Cloth</stuff>
+			</li>
+		</specificApparelRequirements>
 	</PawnKindDef>
 
 </Defs>
