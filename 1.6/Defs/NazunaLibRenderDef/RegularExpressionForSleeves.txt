@@ -1,0 +1,55 @@
+<!-- Regular Expression -->
+
+Find 
+
+<exPath>Anneli_Arms/Naked/</exPath>([\s\S]*?)<textures>[\s\S]*?<li>Anneli_Arm</li>([\s\S]*?)</textures>([\s\S]*?<pathDict>[\s\S]*?</pathDict>)([\s\S]*?)
+
+Replace 
+
+<!-- LBS Left -->
+
+<exPath>Anneli_Arms/LBS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LBS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LBS Right -->
+
+<exPath>Anneli_Arms/LBS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LBS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LCS Left -->
+
+<exPath>Anneli_Arms/LCS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LCS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LCS Right -->
+
+<exPath>Anneli_Arms/LCS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LCS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LLS Left -->
+
+<exPath>Anneli_Arms/LLS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LLS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LLS Right -->
+
+<exPath>Anneli_Arms/LLS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LLS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LS Left -->
+
+<exPath>Anneli_Arms/LS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- LS Right -->
+
+<exPath>Anneli_Arms/LS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_LS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- ShirtSS Left -->
+
+<exPath>Anneli_Arms/ShirtSS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_ShirtSS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- ShirtSS Right -->
+
+<exPath>Anneli_Arms/ShirtSS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_ShirtSS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- SS Left -->
+
+<exPath>Anneli_Arms/SS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_SS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+
+<!-- SS Right -->
+
+<exPath>Anneli_Arms/SS/</exPath>\n\t\t<textures>\n\t\t\t\t<li>Anneli_Arm_SS</li>\n\t\t</textures>\n\t\t<linkedWithAction>true</linkedWithAction>\n\t\t<type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>\n\t\t<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>\n\t\t<linkedActionSyncDelta>0.2</linkedActionSyncDelta>

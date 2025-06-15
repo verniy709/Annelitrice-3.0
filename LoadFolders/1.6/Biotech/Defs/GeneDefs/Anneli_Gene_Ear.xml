@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Ear_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_Ear</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Ear_Base">
+		<defName>Anneli_Gene_Ear_Elf</defName>
+		<label>annelitrice elf ear</label>
+		<description>annelitrice elf ear.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Ear_Elf</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Ear_Base">
+		<defName>Anneli_Gene_Ear_HalfElf</defName>
+		<label>annelitrice half-elf ear</label>
+		<description>annelitrice half-elf ear.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Ear_HalfElf</iconPath>
+	</GeneDef>
+
+</Defs>

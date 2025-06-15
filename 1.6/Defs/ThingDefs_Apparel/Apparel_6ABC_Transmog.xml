@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Transmog_6ABC_Metal" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<Mass>1.0</Mass>
+			<EquipDelay>1</EquipDelay>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>10</ComfyTemperatureMax>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Transmog</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Fountain</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_Transmog</li>
+			</layers>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>		
+	</ThingDef>
+
+	<!--Anneli_Transmog_Helmet_Vanilla-->
+	<ThingDef ParentName="Anneli_Transmog_6ABC_Metal">
+		<defName>Anneli_Transmog_Helmet_Vanilla</defName>
+		<description>No worn textures. This helmet is for players who prefer a vanilla combat experience, without any overpowered or game-changing mods.</description>
+		<label>(Anneli)6ABC_Helmet_Vanilla</label>
+		<graphicData>
+			<texPath>Anneli_Transmog/Anneli_Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,200,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Transmog_Helmet_Enhanced-->
+	<ThingDef ParentName="Anneli_Transmog_6ABC_Metal">
+		<defName>Anneli_Transmog_Helmet_Enhanced</defName>
+		<description>No worn textures. This enhanced helmet is for players who use diverse mod items with varying levels of strength.</description>
+		<label>(Anneli)6ABC_Helmet_Enhanced</label>
+		<graphicData>
+			<texPath>Anneli_Transmog/Anneli_Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,255,100,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<statBases>
+			<StuffEffectMultiplierArmor>1.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1.25</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<IncomingDamageFactor>-0.25</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!--Anneli_Transmog_Helmet_Overpowered-->
+	<ThingDef ParentName="Anneli_Transmog_6ABC_Metal">
+		<defName>Anneli_Transmog_Helmet_Overpowered</defName>
+		<description>No worn textures. This overpowered helmet is for players uninterested in game balance.</description>
+		<label>(Anneli)6ABC_Helmet_OP</label>
+		<graphicData>
+			<texPath>Anneli_Transmog/Anneli_Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,35,25,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<statBases>
+			<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>5</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<IncomingDamageFactor>-0.9</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+			
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_FurryTail_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_Tail</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
+		<defName>Anneli_Gene_FurryTail_Bunny</defName>
+		<label>annelitrice furry bunny tail</label>
+		<description>annelitrice furry bunny tail.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_FurryTail_Bunny</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
+		<defName>Anneli_Gene_FurryTail_Cat</defName>
+		<label>annelitrice furry cat tail</label>
+		<description>annelitrice furry cat tail.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_FurryTail_Cat</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_FurryTail_Base">
+		<defName>Anneli_Gene_FurryTail_Fox</defName>
+		<label>annelitrice furry fox tail</label>
+		<description>annelitrice furry fox tail.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_FurryTail_Fox</iconPath>
+	</GeneDef>
+
+</Defs>

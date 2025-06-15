@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<TabCharacter_Annelitrice>Annelitrice</TabCharacter_Annelitrice>
+	<Character_Annelitrice>Annelitrice</Character_Annelitrice>
+	<NoContainedPawn_Annelitrice>An annelitrice egg or pupa failed to hatch due to missing worldPawns. To avoid errors, the item was destroyed.</NoContainedPawn_Annelitrice>
+
+	<Anneli.PlaySong>play</Anneli.PlaySong>
+	<Anneli.PlaySongDesc>play the selected song</Anneli.PlaySongDesc>
+	<Anneli.StopSong>stop</Anneli.StopSong>
+	<Anneli.StopSongDesc>stop the current song</Anneli.StopSongDesc>
+	<Anneli.SelectSong>select</Anneli.SelectSong>
+	<Anneli.SelectSongDesc>select a song in the list</Anneli.SelectSongDesc>
+
+	<Anneli.SettingTitle>Annelitrice 3.0</Anneli.SettingTitle>
+	<Anneli.SettingLabel>Require restarting to take effect</Anneli.SettingLabel>
+	<Anneli.CensoredBodytypeCheckbox>Censor NSFW Bodytype</Anneli.CensoredBodytypeCheckbox>
+	<Anneli.RemoveRaceRestrictionCheckbox>Remove Race Apparel Restriction(NOT recommended. Removing the race restriction may cause bugs)</Anneli.RemoveRaceRestrictionCheckbox>
+
+	
+</LanguageData>

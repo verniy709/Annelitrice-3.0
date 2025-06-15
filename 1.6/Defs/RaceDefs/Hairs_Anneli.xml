@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<HairDef>
+		<defName>Anneli_HairCombo_BraidA</defName>
+		<label>(Anneli)braid A</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_FlatA</defName>
+		<label>(Anneli)flat A</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_FlatB</defName>
+		<label>(Anneli)flat B</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_FlatC</defName>
+		<label>(Anneli)flat C</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_FlatD</defName>
+		<label>(Anneli)flat D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_LongA</defName>
+		<label>(Anneli)long A</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_LongB</defName>
+		<label>(Anneli)long B</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_LongC</defName>
+		<label>(Anneli)long C</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_LongD</defName>
+		<label>(Anneli)long D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_LongE</defName>
+		<label>(Anneli)long E</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_ShortA</defName>
+		<label>(Anneli)short A</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_ShortB</defName>
+		<label>(Anneli)short B</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_ShortC</defName>
+		<label>(Anneli)short C</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_ShortD</defName>
+		<label>(Anneli)short D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_ShortE</defName>
+		<label>(Anneli)short E</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_TiedA</defName>
+		<label>(Anneli)tied A</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_TiedB</defName>
+		<label>(Anneli)tied B</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_TiedC</defName>
+		<label>(Anneli)tied C</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Anneli_HairCombo_TiedD</defName>
+		<label>(Anneli)tied D</label>
+		<styleGender>Any</styleGender>
+		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<styleTags>
+			<li>Anneli</li>
+		</styleTags>
+	</HairDef>
+
+</Defs>

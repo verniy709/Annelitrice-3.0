@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="Anneli_Transmog_4" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Anneli_Category_Transmog</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>Anneli_Fountain</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_Transmog</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+
+	<!--Anneli_Transmog_Armor_Vanilla-->
+	<ThingDef ParentName="Anneli_Transmog_4">
+		<defName>Anneli_Transmog_Armor_Vanilla</defName>
+		<description>No worn textures. This armor is for players who prefer a vanilla combat experience, without any overpowered or game-changing mods.</description>
+		<label>(Anneli)4_Armor_Vanilla</label>
+		<graphicData>
+			<texPath>Anneli_Transmog/Anneli_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(130,200,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Transmog_Armor_Enhanced-->
+	<ThingDef ParentName="Anneli_Transmog_4">
+		<defName>Anneli_Transmog_Armor_Enhanced</defName>
+		<description>No worn textures. This enhanced armor is for players who use diverse mod items with varying levels of strength.</description>
+		<label>(Anneli)4_Armor_Enhanced</label>
+		<graphicData>
+			<texPath>Anneli_Transmog/Anneli_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(60,255,100,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<statBases>
+			<StuffEffectMultiplierArmor>1.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1.25</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<IncomingDamageFactor>-0.25</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!--Anneli_Transmog_Armor_Overpowered-->
+	<ThingDef ParentName="Anneli_Transmog_4">
+		<defName>Anneli_Transmog_Armor_Overpowered</defName>
+		<description>No worn textures. This overpowered armor is for players uninterested in game balance.</description>
+		<label>(Anneli)4_Armor_OP</label>
+		<graphicData>
+			<texPath>Anneli_Transmog/Anneli_Armor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Anneli_Null/Anneli_Null</wornGraphicPath>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,35,25,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<statBases>
+			<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>5</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<IncomingDamageFactor>-0.9</IncomingDamageFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>

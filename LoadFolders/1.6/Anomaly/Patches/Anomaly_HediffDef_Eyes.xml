@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/HediffDef[defName="VoidTouched"]/renderNodeProperties/li[anchorTag="RightEye"]/subworkerClasses</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/HediffDef[defName="VoidTouched"]/renderNodeProperties/li[anchorTag="RightEye"]</xpath>
+      <value>
+        <subworkerClasses></subworkerClasses>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/HediffDef[defName="VoidTouched"]/renderNodeProperties/li[anchorTag="RightEye"]/subworkerClasses</xpath>
+    <value>
+      <li>Annelitrice.PawnRenderSubworker_NoDraw</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/HediffDef[defName="VoidTouched"]/renderNodeProperties/li[anchorTag="LeftEye"]/subworkerClasses</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/HediffDef[defName="VoidTouched"]/renderNodeProperties/li[anchorTag="LeftEye"]</xpath>
+      <value>
+        <subworkerClasses></subworkerClasses>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/HediffDef[defName="VoidTouched"]/renderNodeProperties/li[anchorTag="LeftEye"]/subworkerClasses</xpath>
+    <value>
+      <li>Annelitrice.PawnRenderSubworker_NoDraw</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/TraitDef[defName="BodyMastery"]/degreeDatas/li[1]/renderNodeProperties/li[anchorTag="RightEye"]/subworkerClasses</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/TraitDef[defName="BodyMastery"]/degreeDatas/li[1]/renderNodeProperties/li[anchorTag="RightEye"]</xpath>
+      <value>
+        <subworkerClasses></subworkerClasses>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/TraitDef[defName="BodyMastery"]/degreeDatas/li[1]/renderNodeProperties/li[anchorTag="RightEye"]/subworkerClasses</xpath>
+    <value>
+      <li>Annelitrice.PawnRenderSubworker_NoDraw</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/TraitDef[defName="BodyMastery"]/degreeDatas/li[1]/renderNodeProperties/li[anchorTag="LeftEye"]/subworkerClasses</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/TraitDef[defName="BodyMastery"]/degreeDatas/li[1]/renderNodeProperties/li[anchorTag="LeftEye"]</xpath>
+      <value>
+        <subworkerClasses></subworkerClasses>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/TraitDef[defName="BodyMastery"]/degreeDatas/li[1]/renderNodeProperties/li[anchorTag="LeftEye"]/subworkerClasses</xpath>
+    <value>
+      <li>Annelitrice.PawnRenderSubworker_NoDraw</li>
+    </value>
+  </Operation>
+
+</Patch>

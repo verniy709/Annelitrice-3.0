@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchTabDef>
+		<defName>Anneli_Research</defName>
+		<label>Annelitrice</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef>
+		<defName>Anneli_Fountain</defName>
+		<label>annelitrice fountain</label>
+		<description>The production bench for annelitrice recipes, including transmog apparel, egg-related items, nutrient solution.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Anneli_NutrientSolution</defName>
+		<label>annelitrice nutrient solution</label>
+		<description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, annelitrice have no aversion to it since they are raised in its presence.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Anneli_PuppetTheatre</defName>
+		<label>annelitrice puppet theatre</label>
+		<description>Puppetry is a type of theatrical or performance art that revolves around the manipulation of puppets. It essentially serves as a form of entertainment for medieval societies and provides your colonists with a chance to recreate the stories and costumes of well-known works by unknown artists.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tab>Anneli_Research</tab>
+	</ResearchProjectDef>
+
+</Defs>

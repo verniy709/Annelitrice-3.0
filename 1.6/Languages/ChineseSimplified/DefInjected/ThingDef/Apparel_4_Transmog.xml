@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Transmog_Armor_Vanilla -->
+
+  <Anneli_Transmog_Armor_Vanilla.label>(安妮莉)4_护甲_原版</Anneli_Transmog_Armor_Vanilla.label>
+  <Anneli_Transmog_Armor_Vanilla.description>护甲没有穿戴的贴图。适合那些喜欢原版战斗体验、不使用任何过于强大或改变游戏性质的模组的玩家。</Anneli_Transmog_Armor_Vanilla.description>
+
+
+  <!-- Anneli_Transmog_Armor_Enhanced -->
+
+  <Anneli_Transmog_Armor_Enhanced.label>(安妮莉)4_护甲_增强</Anneli_Transmog_Armor_Enhanced.label>
+  <Anneli_Transmog_Armor_Enhanced.description>护甲没有穿戴的贴图。适合那些使用各种不同强度模组物品的玩家。</Anneli_Transmog_Armor_Enhanced.description>
+
+
+  <!-- Anneli_Transmog_Armor_Overpowered -->
+
+  <Anneli_Transmog_Armor_Overpowered.label>(安妮莉)4_护甲_超强</Anneli_Transmog_Armor_Overpowered.label>
+  <Anneli_Transmog_Armor_Overpowered.description>护甲没有穿戴的贴图。适合对游戏平衡不感兴趣的玩家。</Anneli_Transmog_Armor_Overpowered.description>
+
+
+</LanguageData>

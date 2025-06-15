@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Arm_Generic</defName>
+		<originalDef>Anneli_Arm_Generic</originalDef>
+		<originalDefClass>NareisLib.HandTypeDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Arms/Naked/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Arm</li>
+				</prefix>
+				<hasDessicated>true</hasDessicated>
+				<renderLayer>Hand</renderLayer>
+				<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<drawOffsetSouth>(0, 1.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.154, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.615, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<actionManager>
+					<def>Anneli_Arm_Generic_Left</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Arm</li>
+				</prefix>
+				<hasDessicated>true</hasDessicated>
+				<renderLayer>Hand</renderLayer>
+				<textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<flipped>true</flipped>
+				<switchEastWest>true</switchEastWest>
+				<drawOffsetSouth>(0, 1.615, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.615, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.615, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.154, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<actionManager>
+					<def>Anneli_Arm_Generic_Right</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_BodyProps</li>
+				</prefix>
+				<renderLayer>Body</renderLayer>
+				<textureLevelsName>Anneli_BodyPropsA</textureLevelsName>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<drawOffsetSouth>(0, 1.558, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.558, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.558, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.558, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<actionManager>
+					<def>Anneli_BodyPropsA</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_BodyProps</li>
+				</prefix>
+				<renderLayer>Body</renderLayer>
+				<textureLevelsName>Anneli_BodyPropsB</textureLevelsName>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<drawOffsetSouth>(0, 1.923, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.923, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.923, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.923, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<shaderType>TransparentPostLight</shaderType>
+				<actionManager>
+					<def>Anneli_BodyPropsB</def>
+				</actionManager>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Props</li>
+				</prefix>
+				<renderLayer>Hand</renderLayer>
+				<textureLevelsName>Anneli_Props</textureLevelsName>
+				<skipFlag>Anneli_Props</skipFlag>
+				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
+				<drawOffsetSouth>(0, 2.596, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.596, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.192, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.596, 0)</drawOffsetWest>
+				<meshType>Body</meshType>
+				<useStaticYOffset>true</useStaticYOffset>
+				<actionManager>
+					<def>Anneli_Props</def>
+				</actionManager>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

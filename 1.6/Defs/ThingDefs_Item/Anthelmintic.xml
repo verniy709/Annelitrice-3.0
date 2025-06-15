@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugBase">
+    <defName>Anneli_Anthelmintic</defName>
+    <label>annelitrice anthelmintic</label>
+    <description>An annelitrice egg extract for preventing parasitic infections before they take hold. Blocks gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror, annelitrice infection. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
+    <possessionCount>10</possessionCount>
+    <descriptionHyperlinks><HediffDef>Anneli_AnthelminticHigh</HediffDef></descriptionHyperlinks>
+    <graphicData>
+      <texPath>Anneli_Item/Anthelmintic</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>100</baseIngestTicks>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Anneli_AnthelminticHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>Anneli_AnthelminticHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>annelitrice anthelmintic</label>
+    <description>Anthelmintic-induced immunity to gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror, annelitrice infection. This only blocks new infections; it does nothing for those who are already infected, even if their infection is dormant.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.18</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>GutWorms</li>
+          <li>MuscleParasites</li>
+          <li>FibrousMechanites</li>
+          <li>SensoryMechanites</li>
+          <li>SleepingSickness</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">MetalhorrorImplant</li>
+          <li>Anneli_Infection</li>
+          <li>Flu</li>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Plague</li>
+        </makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+  
+</Defs>

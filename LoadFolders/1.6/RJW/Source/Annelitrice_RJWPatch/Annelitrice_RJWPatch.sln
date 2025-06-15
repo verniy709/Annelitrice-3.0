@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annelitrice_RJWPatch", "Annelitrice_RJWPatch\Annelitrice_RJWPatch.csproj", "{4C269235-71BA-4015-82AA-AAA137595162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C269235-71BA-4015-82AA-AAA137595162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3C4F21C-E644-4D4B-A9F1-0B465C91AA06}
+	EndGlobalSection
+EndGlobal

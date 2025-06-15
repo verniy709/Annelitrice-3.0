@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj": {}
+  },
+  "projects": {
+    "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
+        "projectName": "Annelitrice",
+        "projectPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
+        "packagesPath": "C:\\Users\\Verniy\\.nuget\\packages\\",
+        "outputPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Verniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.6, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

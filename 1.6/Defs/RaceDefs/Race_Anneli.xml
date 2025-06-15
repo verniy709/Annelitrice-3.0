@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LifeStageDef>
+		<defName>AnneliAdult</defName>
+		<label>Adult</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+		<adjective>Adult</adjective>
+		<reproductive>false</reproductive>
+		<foodMaxFactor>3.0</foodMaxFactor>
+		<silhouetteGraphicData>
+			<texPath>Anneli_Silhouettes/Silhouette_AnneliAdult</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</silhouetteGraphicData>
+	</LifeStageDef>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="Anneli_BasePawn" Abstract="True">
+		<comps>
+			<li Class="Annelitrice.CompProperties_ConnaturalAbilities">
+				<abilities>
+					<li>Anneli_Infest</li>
+				</abilities>
+			</li>
+			<li>
+				<compClass>Annelitrice.CompRegeneration</compClass>
+			</li>
+			<li Class="NareisLib.MultiRenderCompProperties">
+				<handDefNameAndWeights>
+					<li>
+						<key>Anneli_Arm_Generic</key>
+						<value>1</value>
+					</li>
+				</handDefNameAndWeights>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+				<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+				<getsColdContainmentBonus>true</getsColdContainmentBonus>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+				<frequencyTicks>120000</frequencyTicks>
+				<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+				<requiresImprisonment>true</requiresImprisonment>
+			</li>
+		</comps>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0</maleGenderProbability>
+				<allowHumanBios>false</allowHumanBios>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<canLayDown>true</canLayDown>
+				<immuneToAge>true</immuneToAge>
+				<maxDamageForSocialfight>2</maxDamageForSocialfight>
+				<additionalTraits>0~2</additionalTraits>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>Bisexual</defName>
+						<chance>99</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				<disallowedTraits>
+					<li>
+						<defName Degree="1">Beauty</defName>
+					</li>
+					<li>
+						<defName Degree="2">Beauty</defName>
+					</li>
+					<li>
+						<defName Degree="-1">Beauty</defName>
+					</li>
+					<li>
+						<defName Degree="-2">Beauty</defName>
+					</li>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+				</disallowedTraits>
+				<alienPartGenerator>
+					<headTypes Inherit="False">
+						<li>Anneli_Head_A</li>
+						<li>Anneli_Head_B</li>
+						<li>Anneli_Head_C</li>
+						<li>Anneli_Head_D</li>
+						<li>Anneli_Head_E</li>
+						<li>Anneli_Head_F</li>
+					</headTypes>
+					<bodyTypes>
+						<li>Female</li>
+					</bodyTypes>
+					<oldHairAgeRange>70~100</oldHairAgeRange>			
+					<headOffsetDirectional>
+						<north>
+							<offset>(0.0, 0.2165)</offset>
+						</north>
+						<south>
+							<offset>(0.0, 0.2165)</offset>
+						</south>
+						<east>
+							<offset>(-0.0526, 0.2165)</offset>
+						</east>
+						<west>
+							<offset>(0.0526, 0.2165)</offset>
+						</west>
+					</headOffsetDirectional>
+					<customDrawSize>(1.11, 1.23)</customDrawSize>
+					<customHeadDrawSize>(0.737, 0.759)</customHeadDrawSize>
+					<customPortraitDrawSize>(1.11, 1.23)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.737, 0.759)</customPortraitHeadDrawSize>
+					<colorChannels Inherit="False">
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.95,0.95,1)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(1,0.97,0.97,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,1,1,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.95,0.92,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(1,0.92,0.95,1)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(0.97,0.87,0.81,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>skin</name>
+							<second Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGB(170,150,140)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,130,140)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,120,80)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(180,120,100)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(200,150,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(225,200,170)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(255,220,190)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(130,175,210)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(160,195,225)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGB(190,225,255)</only>
+									</li>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,160,200)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(180,250,150)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(195,255,215)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(225,100,100)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,125,130)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(220,210,230)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(155,240,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(220,205,255)</only>
+									</li>
+								</options>
+							</second>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(253,219,186)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(209,210,211)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(255,195,162)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(98,94,105)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(87,87,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(67,65,74)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(218,176,133)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(148,109,90)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(250,240,230)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(229,200,168)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(183,156,123)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(159,154,150)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(204,146,129)</only>
+									</li>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(148,136,159)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(170,85,94)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(187,212,238)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(228,150,156)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(191,194,181)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(140,200,145)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>tattoo</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!--Prevalent-->
+									<li>
+										<weight>30</weight>
+										<only>RGBA(65,60,60)</only>
+									</li>
+									<li>
+										<weight>30</weight>
+										<only>RGBA(50,45,50)</only>
+									</li>
+									<li>
+										<weight>30</weight>
+										<only>RGBA(160,60,60)</only>
+									</li>
+									<!--Common-->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(205,200,205)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(220,210,200)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(120,120,130)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(160,125,100)</only>
+									</li>
+									<!--Rare-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,245,245)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(180,175,215)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(250,220,185)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(160,210,175)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(175,200,240)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li>
+							<path>Anneli_Face/Dead/Anneli_Head_Dead</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3245</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.3245</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.3245</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<AnnelitriceIsDead>true</AnnelitriceIsDead>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Anneli_Null</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3245</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.3245</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.3245</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Face/Zombie/Anneli_Head_Zombie</Hediff>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="ShamblerCorpse">Anneli_Face/Zombie/Anneli_Head_Zombie</Hediff>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Face/Zombie/Anneli_Head_Zombie</Hediff>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Gene/Ear/Human/Ear_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.324</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.326</layerOffset>
+								</south>
+								<east>
+									<layerOffset>0.0</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.326</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Left</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>	
+						<li>
+							<path>Anneli_Gene/Ear/Human/Ear_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Ear_Left -->
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.324</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.326</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.326</layerOffset>
+								</east>
+								<west>
+									<layerOffset>0.0</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_Elf">Anneli_Gene/Ear/Elf/Ear_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Ear_HalfElf">Anneli_Gene/Ear/HalfElf/Ear_Right</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/HeadSkin</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<allowColorOverride>true</allowColorOverride>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.325</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.325</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.325</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Cat">Anneli_Gene/HeadSkin/Cat/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Demon">Anneli_Gene/HeadSkin/Demon/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Dragon">Anneli_Gene/HeadSkin/Dragon/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Flower">Anneli_Gene/HeadSkin/Flower/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Gore">Anneli_Gene/HeadSkin/Gore/HeadSkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_HeadSkin_Oni">Anneli_Gene/HeadSkin/Oni/HeadSkin</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipHeadAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Kemonomimi_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.32628</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3267</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.305</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.326957</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Left</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Kemonomimi_Right</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.32628</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3267</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.326957</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.305</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Angel">Anneli_Gene/Kemonomimi/Angel/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Bunny">Anneli_Gene/Kemonomimi/Bunny/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Cat">Anneli_Gene/Kemonomimi/Cat/Kemonomimi_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Kemonomimi_Fox">Anneli_Gene/Kemonomimi/Fox/Kemonomimi_Right</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Horn_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.3263</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3267</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.305</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.326957</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Left</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Horn_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Horn_Left -->
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.3263</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.3267</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.326957</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.305</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Right</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/BodySkin</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.31235</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.31235</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.31235</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.31235</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Demon">Anneli_Gene/BodySkin/Demon/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Dragon">Anneli_Gene/BodySkin/Dragon/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Gore">Anneli_Gene/BodySkin/Gore/BodySkin</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodySkin_Succubus">Anneli_Gene/BodySkin/Succubus/BodySkin</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipBodyAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/BodyHair</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.31235</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.31235</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.31235</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.31235</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_BodyHair_PubicHair">Anneli_Gene/BodyHair/PubicHair/BodyHair</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipBodyAddons</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Tail</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.3205</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.303</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.303</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Demon">Anneli_Gene/Tail/Demon/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Dragon">Anneli_Gene/Tail/Dragon/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Gore">Anneli_Gene/Tail/Gore/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Serpent">Anneli_Gene/Tail/Serpent/Tail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Tail_Succubus">Anneli_Gene/Tail/Succubus/Tail</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/FurryTail</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.3205</layerOffset>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.303</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.303</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FurryTail_Bunny">Anneli_Gene/FurryTail/Bunny/FurryTail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FurryTail_Cat">Anneli_Gene/FurryTail/Cat/FurryTail</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FurryTail_Fox">Anneli_Gene/FurryTail/Fox/FurryTail</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Wing_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(-0.61,0)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.61,0)</offset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+									<offset>(0.61,0)</offset>
+								</east>
+								<west>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.61,0)</offset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Demon">Anneli_Gene/Wing/Demon/Wing_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Dragon">Anneli_Gene/Wing/Dragon/Wing_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Succubus">Anneli_Gene/Wing/Succubus/Wing_Left</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/Wing_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Wing_Left -->
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(0.61,0)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(-0.61,0)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.3055</layerOffset>
+									<offset>(0.61,0)</offset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+									<offset>(0.61,0)</offset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Demon">Anneli_Gene/Wing/Demon/Wing_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Dragon">Anneli_Gene/Wing/Dragon/Wing_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Wing_Succubus">Anneli_Gene/Wing/Succubus/Wing_Right</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/FeatherWing_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(-0.61,0)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.61,0)</offset>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+									<offset>(0.61,0)</offset>
+								</east>
+								<west>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(0.61,0)</offset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Angel">Anneli_Gene/FeatherWing/Angel/FeatherWing_Left</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Fairy">Anneli_Gene/FeatherWing/Fairy/FeatherWing_Left</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/FeatherWing_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with FeatherWing_Left -->
+							<layerInvert>false</layerInvert>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<north>
+									<layerOffset>-0.32</layerOffset>
+									<offset>(0.61,0)</offset>
+								</north>
+								<south>
+									<layerOffset>-0.3035</layerOffset>
+									<offset>(-0.61,0)</offset>
+								</south>
+								<east>
+									<layerOffset>-0.3055</layerOffset>
+									<offset>(0.61,0)</offset>
+								</east>
+								<west>
+									<layerOffset>0</layerOffset>
+									<offset>(0.61,0)</offset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Angel">Anneli_Gene/FeatherWing/Angel/FeatherWing_Right</Gene>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_FeatherWing_Fairy">Anneli_Gene/FeatherWing/Fairy/FeatherWing_Right</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipWing</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+				<body>
+					<path>Anneli_Body/Naked_Female</path>
+					<extendedGraphics>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_Body/Naked_Shambler</Hediff>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="ShamblerCorpse">Anneli_Body/Naked_Shambler</Hediff>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_Body/Naked_Ghoul</Hediff>
+					</extendedGraphics>
+				</body>
+				<head>
+					<path>Anneli_Face/Anneli_Head_A</path>
+					<extendedGraphics>
+						<HeadType For="Anneli_Head_A">Anneli_Face/Anneli_Head_A</HeadType>
+						<HeadType For="Anneli_Head_B">Anneli_Face/Anneli_Head_B</HeadType>
+						<HeadType For="Anneli_Head_C">Anneli_Face/Anneli_Head_C</HeadType>
+						<HeadType For="Anneli_Head_D">Anneli_Face/Anneli_Head_D</HeadType>
+						<HeadType For="Anneli_Head_E">Anneli_Face/Anneli_Head_E</HeadType>
+						<HeadType For="Anneli_Head_F">Anneli_Face/Anneli_Head_F</HeadType>
+					</extendedGraphics>
+				</head>
+				<skeleton>Anneli_Corpse/Dessicated/Dessicated_Female</skeleton>
+				<skull>Anneli_Corpse/Skull/Dessicated_Head</skull>
+				<apparel>
+					<individualPaths>
+					</individualPaths>
+				</apparel>	
+			</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags>
+							<li>NoBeard</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags>
+							<li>NoTattoo</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>Anneli</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+			</styleSettings>
+			<relationSettings>
+				<relationChanceModifierLover>0</relationChanceModifierLover>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierSibling>2</relationChanceModifierSibling>
+			</relationSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>KnowPrisonerDiedInnocent</li>
+					<li>KnowColonistExecuted</li>
+					<li>KnowColonistDied</li>
+					<li>WitnessedDeathAlly</li>
+					<li>WitnessedDeathNonAlly</li>
+					<li>WitnessedDeathFamily</li>
+					<li>DeniedJoining</li>
+					<li>ColonistBanished</li>
+					<li>ColonistBanishedToDie</li>
+					<li>PrisonerBanishedToDie</li>
+					<li>ColonyPrisonerEscaped</li>
+					<li>FailedToRescueRelative</li>
+					<li>AteRottenFood</li>
+					<li>AteInsectMeatAsIngredient</li>
+					<li>AteInsectMeatDirect</li>
+					<li>AteHumanlikeMeatAsIngredientCannibal</li>
+					<li>AteHumanlikeMeatAsIngredient</li>
+					<li>AteHumanlikeMeatDirectCannibal</li>
+					<li>AteHumanlikeMeatDirect</li>
+					<li>AteCorpse</li>
+					<li>AteKibble</li>
+					<li>AteRawFood</li>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>ButcheredHumanlikeCorpseOpinion</li>
+					<li>ObservedLayingCorpse</li>
+					<li>ObservedLayingRottingCorpse</li>
+					<li>ColonistLeftUnburied</li>
+					<li>AteNutrientPasteMeal</li>
+					<li>DeadMansApparel</li>
+					<li>HumanLeatherApparelSad</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelMinQualityNotMet</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">TitleApparelRequirementNotMet</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">KilledChild</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">AteBabyFood</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">IngestedHemogenPack</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">XenogermHarvested_Prisoner</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">AteTwistedMeat</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">WearingDreadLeather</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">DeathRefusalSickness</li>
+				</cannotReceiveThoughts>
+				<replacerList>       		
+					<li>
+						<original>OthersDrinkNutrientSolution</original>
+						<replacer>AnneliDrinkNutrientSolution</replacer>
+					</li>
+					<li>
+						<original>PawnWithGoodOpinionDied</original>
+						<replacer>AnneliPawnWithGoodOpinionDied</replacer>
+					</li>
+					<li>
+						<original>PawnWithBadOpinionDied</original>
+						<replacer>AnneliPawnWithBadOpinionDied</replacer>
+					</li>
+					<li>
+						<original>MySonDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyDaughterDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyHusbandDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyWifeDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyFianceDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyFianceeDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyLoverDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyBrotherDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MySisterDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyGrandchildDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyFatherDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyMotherDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyNieceDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyNephewDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyAuntDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyUncleDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyGrandparentDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyCousinDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyKinDied</original>
+						<replacer>AnneliPawnDied</replacer>
+					</li>
+					<li>
+						<original>MyOrganHarvested</original>
+						<replacer>AnneliMyOrganHarvested</replacer>
+					</li>
+					<li>
+						<original>WasImprisoned</original>
+						<replacer>AnneliWasImprisoned</replacer>
+					</li>
+					<li>
+						<original>RebuffedMyRomanceAttemptMood</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>FailedRomanceAttemptOnMeLowOpinionMood</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>BrokeUpWithMe</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>CheatedOnMe</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>DivorcedMe</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>RejectedMyProposal</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>IRejectedTheirProposal</original>
+						<replacer>AnneliQuestioning</replacer>
+					</li>
+					<li>
+						<original>MySonLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyDaughterLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyHusbandLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyWifeLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyFianceLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyFianceeLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyLoverLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyBrotherLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MySisterLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyGrandchildLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyFatherLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyMotherLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyNieceLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyNephewLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyHalfSiblingLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyAuntLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyUncleLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyGrandparentLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyCousinLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li>
+						<original>MyKinLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<original>MyBirthMotherDied</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<original>KilledMyBirthMother</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<original>MyBirthMotherLost</original>
+						<replacer>AnneliPawnLost</replacer>
+					</li>
+				</replacerList>
+			</thoughtSettings>
+			<raceRestriction>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+				</blackGeneList>
+				<blackGeneTags>
+					<li>HairStyle</li>
+					<li>Fur</li>
+					<li>BeardStyle</li>
+					<li>EyeColor</li>
+					<li>Tail</li>
+					<li>SkinColorOverride</li>
+					<li>Beauty</li>
+				</blackGeneTags>
+				<blackEndoCategories>
+					<li>HairColor</li>
+					<li>BodyType</li>
+					<li>Melanin</li>
+					<li>Head</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Hands</li>
+					<li>Headbone</li>
+					<li>Voice</li>
+				</blackEndoCategories>
+				<geneList MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Ageless</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_Elf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Ear_HalfElf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Flower</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_HeadSkin_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Deer</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Horn_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Angel</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Bunny</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Kemonomimi_Fox</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodyHair_PubicHair</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_BodySkin_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FeatherWing_Angel</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FeatherWing_Fairy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Bunny</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_FurryTail_Fox</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Gore</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Serpent</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Tail_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Wing_Demon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Wing_Dragon</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Gene_Wing_Succubus</li>
+				</geneList>
+				<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Abomination</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Dragonkin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Elf</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Fairy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Hellion</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Kitsune</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Loong</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Messenger</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Nekojin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Oni</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Succubus</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Anneli_Xenotype_Usagi</li>
+				</xenotypeList>
+				<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+				</blackXenotypeList>
+				<apparelList>	
+					<li>Anneli_Transmog_Armor_Vanilla</li>
+					<li>Anneli_Transmog_Armor_Enhanced</li>
+					<li>Anneli_Transmog_Armor_Overpowered</li>
+					<li>Anneli_Transmog_Helmet_Vanilla</li>
+					<li>Anneli_Transmog_Helmet_Enhanced</li>
+					<li>Anneli_Transmog_Helmet_Overpowered</li>
+					<li>Anneli_Transmog_ShieldBelt_Vanilla</li>
+					<li>Anneli_Transmog_ShieldBelt_Enhanced</li>
+					<li>Anneli_Transmog_ShieldBelt_Overpowered</li>
+				</apparelList>
+				<whiteApparelList>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_FirefoampopPack</li>
+					<li>Apparel_PsychicShockLance</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicShockLance</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicInsanityLance</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_BiomutationLance</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DeadlifePack</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_PackTurret</li>
+				</whiteApparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+			</raceRestriction>
+		</alienRace>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Anneli_Humanlike</thinkTreeMain>
+			<thinkTreeConstant>Anneli_HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<nameCategory>HumanStandard</nameCategory>
+			<lifeExpectancy>100</lifeExpectancy>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<fleshType>Anneli_Flesh</fleshType>
+			<body>Anneli_Body</body>
+			<renderTree>Annelitrice</renderTree>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<canBecomeShambler>true</canBecomeShambler>
+			<hasUnnaturalCorpse>true</hasUnnaturalCorpse>
+			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+			<anomalyKnowledge>3</anomalyKnowledge>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 0.70)</li>
+					<li>(2, 0.30)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<!-- Cause errors if no HumanlikeChild or HumanlikeAdult is given-->
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>0.01</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>0.02</minAge>
+				</li>
+				<li>
+					<def>AnneliAdult</def>
+					<minAge>0.03</minAge>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>0</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>0</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>0</BasicWorker>
+				<Warden>0</Warden>
+				<Handling>0</Handling>
+				<Cooking>0</Cooking>
+				<Hunting>0</Hunting>
+				<Construction>0</Construction>
+				<Growing>0</Growing>
+				<Mining>0</Mining>
+				<PlantCutting>0</PlantCutting>
+				<Smithing>0</Smithing>
+				<Tailoring>0</Tailoring>
+				<Art>0</Art>
+				<Crafting>0</Crafting>
+				<Hauling>0</Hauling>
+				<Cleaning>0</Cleaning>
+				<Research>0</Research>
+			</lifeStageWorkSettings>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.2, 0.7, 0.15)</volume>
+				<offset>(0,0,-0.77)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(12,1)</li>
+					<li>(18,300)</li>
+					<li>(24,300)</li>
+					<li>(30,10)</li>
+					<li>(100,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>Human</li>
+			</hediffGiverSets>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="Anneli_BasePawn">
+		<defName>Annelitrice</defName>
+		<label>annelitrice</label>
+		<description>Annelitrice are a highly pathogenic parasitic species found on numerous planets.Based on multiple reports, it has been noted that annelitrice do not possess a fixed physical form. Instead, their shape tends to vary depending on the observer. These creatures are typically observed as bilaterally symmetrical animals or even human-like figures. Its life cycle is more complex than most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.\n\nTo annelitrice, the reality that other creatures live and believe in appears to be nothing more than an illusory and meaningless playground. They are fully aware that their presence exists solely to please the beings of a higher dimension.</description>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<MentalBreakThreshold>0.25</MentalBreakThreshold>
+			<MoveSpeed>5.0</MoveSpeed>
+			<Mass>45</Mass>
+			<MeatAmount>100</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+			<Flammability>1.2</Flammability>
+			<ComfyTemperatureMin>5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>25</ComfyTemperatureMax>
+			<CarryingCapacity>80</CarryingCapacity>
+			<GlobalLearningFactor>1.1</GlobalLearningFactor>
+			<PsychicSensitivity>1.0</PsychicSensitivity>
+			<MedicalSurgerySuccessChance>1.2</MedicalSurgerySuccessChance>
+			<MeleeDodgeChance>2</MeleeDodgeChance>
+			<PainShockThreshold>0.95</PainShockThreshold>
+			<EatingSpeed>1.6</EatingSpeed>
+			<PawnBeauty>2</PawnBeauty>
+		</statBases>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

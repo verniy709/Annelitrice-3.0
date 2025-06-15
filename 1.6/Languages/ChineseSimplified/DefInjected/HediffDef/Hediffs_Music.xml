@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Music_Intense.label>激烈的旋律</Anneli_Music_Intense.label>
+  <Anneli_Music_Intense.description>增加战斗效率.</Anneli_Music_Intense.description>
+  <Anneli_Music_Intense.labelNoun>激烈的旋律</Anneli_Music_Intense.labelNoun>
+
+  <Anneli_Music_Melancholic.label>忧郁的旋律</Anneli_Music_Melancholic.label>
+  <Anneli_Music_Melancholic.description>增加伤口恢复速度.</Anneli_Music_Melancholic.description>
+  <Anneli_Music_Melancholic.labelNoun>忧郁的旋律</Anneli_Music_Melancholic.labelNoun>
+
+  <Anneli_Music_Amateurish.label>不成熟的旋律</Anneli_Music_Amateurish.label>
+  <Anneli_Music_Amateurish.description>增加学习速度.</Anneli_Music_Amateurish.description>
+  <Anneli_Music_Amateurish.labelNoun>不成熟的旋律</Anneli_Music_Amateurish.labelNoun>
+
+  <Anneli_Music_Uplifting.label>令人振奋的旋律</Anneli_Music_Uplifting.label>
+  <Anneli_Music_Uplifting.description>增加心情.</Anneli_Music_Uplifting.description>
+  <Anneli_Music_Uplifting.labelNoun>令人振奋的旋律</Anneli_Music_Uplifting.labelNoun>
+
+  <Anneli_Music_Serene.label>宁静的旋律</Anneli_Music_Serene.label>
+  <Anneli_Music_Serene.description>增加工作效率.</Anneli_Music_Serene.description>
+  <Anneli_Music_Serene.labelNoun>宁静的旋律</Anneli_Music_Serene.labelNoun>
+
+  <Anneli_Music_Aggressive.label>侵略性的旋律</Anneli_Music_Aggressive.label>
+  <Anneli_Music_Aggressive.description>增加战斗效率.</Anneli_Music_Aggressive.description>
+  <Anneli_Music_Aggressive.labelNoun>侵略性的旋律</Anneli_Music_Aggressive.labelNoun>
+
+
+</LanguageData>

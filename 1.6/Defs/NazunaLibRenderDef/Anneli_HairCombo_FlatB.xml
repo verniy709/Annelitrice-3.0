@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_HairCombo_FlatB</defName>
+		<originalDef>Anneli_HairCombo_FlatB</originalDef>
+		<originalDefClass>HairDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Hair/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Middle_Flat_B</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
+				<skipFlag>Anneli_MiddleHair</skipFlag>
+				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.442, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.442, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.442, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<meshType>Hair</meshType>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+					<li>Ahoge_Curved</li>
+					<li>Ahoge_Heart</li>
+					<li>Ahoge_Normal</li>
+					<li>Ahoge_Short</li>
+					<li>Ahoge_Thick</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
+				<skipFlag>Anneli_Ahoge</skipFlag>
+				<drawOffsetSouth>(0, 2.519, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.519, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.519, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.519, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+				<weightOfThePrefix>
+					<li>
+						<key>Anneli_Null</key>
+						<value>30</value>
+					</li>
+					<li>
+						<key>Ahoge_Normal</key>
+						<value>5</value>
+					</li>
+					<li>
+						<key>Ahoge_Short</key>
+						<value>3</value>
+					</li>
+				</weightOfThePrefix>
+			</li>
+			<li>
+				<prefix>
+					<li>Front_Curtain_A</li>
+					<li>Front_MShape_B</li>
+					<li>Front_MShape_C</li>
+					<li>Front_MShape_E</li>
+					<li>Front_MShape_F</li>
+					<li>Front_MShape_I</li>
+					<li>Front_MShape_J</li>
+					<li>Front_MShape_K</li>
+					<li>Front_MShape_M</li>
+					<li>Front_MShape_N</li>
+					<li>Front_MShape_O</li>
+					<li>Front_SideSwept_C</li>
+					<li>Front_SideSwept_D</li>
+					<li>Front_SideSwept_E</li>
+					<li>Front_SideSwept_F</li>
+					<li>Front_SideSwept_H</li>
+					<li>Front_SideSwept_I</li>
+					<li>Front_SideSwept_K</li>
+					<li>Front_Straight_A</li>
+					<li>Front_Straight_B</li>
+					<li>Front_Straight_C</li>
+					<li>Front_Straight_D</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
+				<skipFlag>Anneli_FrontHair</skipFlag>
+				<drawOffsetSouth>(0, 2.500, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.231, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.500, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<meshType>Hair</meshType>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+			<li>
+				<prefix>
+					<li>Back_Pigtail_A</li>
+					<li>Back_Pigtail_B</li>
+					<li>Back_Pigtail_D</li>
+					<li>Back_Pigtail_E</li>
+					<li>Back_TiedUp_E</li>
+				</prefix>
+				<renderLayer>Hair</renderLayer>
+				<textureLevelsName>Anneli_BackHair</textureLevelsName>
+				<skipFlag>Anneli_BackHair</skipFlag>
+				<drawOffsetSouth>(0, 0.231, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.500, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.500, 0)</drawOffsetWest>
+				<useStaticYOffset>true</useStaticYOffset>
+				<meshType>Hair</meshType>
+				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+</Defs>

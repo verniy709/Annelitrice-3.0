@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zxxfRGsStTE=",
+  "success": true,
+  "projectFilePath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Verniy\\.nuget\\packages\\lib.harmony\\2.3.6\\lib.harmony.2.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}

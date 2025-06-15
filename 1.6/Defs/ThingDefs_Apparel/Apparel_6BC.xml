@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_6BC" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>20</costStuffCount>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+			</layers>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_6BC_NonMetal" ParentName="Anneli_6BC"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_6BC_Metal" ParentName="Anneli_6BC"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+		
+</Defs>

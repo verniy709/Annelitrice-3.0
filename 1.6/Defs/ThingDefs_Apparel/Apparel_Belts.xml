@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="Anneli_ShieldBelt" ParentName="Anneli_ApparelCommonBase" Abstract="True">
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>1000</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <EnergyShieldRechargeRate>0.13</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.1</EnergyShieldEnergyMax>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+    </recipeMaker>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Shield">
+        <minDrawSize>1.70</minDrawSize>
+        <maxDrawSize>2.00</maxDrawSize>
+        <blocksRangedWeapons>false</blocksRangedWeapons>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="Anneli_Transmog_ShieldBelt" ParentName="Anneli_ShieldBelt" Abstract="True">
+    <thingCategories>
+      <li>Anneli_Category_Transmog</li>
+    </thingCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>Anneli_Fountain</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <!--Anneli_Transmog_ShieldBelt_Vanilla-->
+  <ThingDef ParentName="Anneli_Transmog_ShieldBelt">
+    <defName>Anneli_Transmog_ShieldBelt_Vanilla</defName>
+    <description>Can be used with ranged weapons. This shield belt is for players who prefer a vanilla combat experience, without any overpowered or game-changing mods.</description>
+    <label>(Anneli)ShieldBelt_Vanilla</label>
+    <graphicData>
+      <texPath>Anneli_Transmog/Anneli_ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <tags>
+        <li>Anneli_ShieldBelt</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(130,200,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--Anneli_Transmog_ShieldBelt_Enhanced-->
+  <ThingDef ParentName="Anneli_Transmog_ShieldBelt">
+    <defName>Anneli_Transmog_ShieldBelt_Enhanced</defName>
+    <description>Can be used with ranged weapons. This enhanced shield belt is for players who use diverse mod items with varying levels of strength.</description>
+    <label>(Anneli)ShieldBelt_Enhanced</label>
+    <graphicData>
+      <texPath>Anneli_Transmog/Anneli_ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(60,255,100,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <statBases>
+      <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
+    </statBases>
+  </ThingDef>
+
+  <!--Anneli_Transmog_ShieldBelt_Overpowered-->
+  <ThingDef ParentName="Anneli_Transmog_ShieldBelt">
+    <defName>Anneli_Transmog_ShieldBelt_Overpowered</defName>
+    <description>Can be used with ranged weapons. This overpowered shield belt is for players uninterested in game balance.</description>
+    <label>(Anneli)ShieldBelt_OP</label>
+    <graphicData>
+      <texPath>Anneli_Transmog/Anneli_ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,35,25,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <statBases>
+      <EnergyShieldRechargeRate>1.5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>10.0</EnergyShieldEnergyMax>
+    </statBases>
+  </ThingDef>
+
+</Defs>

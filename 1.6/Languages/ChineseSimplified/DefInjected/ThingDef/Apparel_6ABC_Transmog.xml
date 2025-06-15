@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Transmog_Helmet_Vanilla -->
+
+  <Anneli_Transmog_Helmet_Vanilla.label>(安妮莉)6ABC_头盔_原版</Anneli_Transmog_Helmet_Vanilla.label>
+  <Anneli_Transmog_Helmet_Vanilla.description>头盔没有穿戴的贴图。适合那些喜欢原版战斗体验、不使用任何过于强大或改变游戏性质的模组的玩家。</Anneli_Transmog_Helmet_Vanilla.description>
+
+
+  <!-- Anneli_Transmog_Helmet_Enhanced -->
+
+  <Anneli_Transmog_Helmet_Enhanced.label>(安妮莉)6ABC_头盔_增强</Anneli_Transmog_Helmet_Enhanced.label>
+  <Anneli_Transmog_Helmet_Enhanced.description>头盔没有穿戴的贴图。适合那些使用各种不同强度模组物品的玩家。</Anneli_Transmog_Helmet_Enhanced.description>
+
+
+  <!-- Anneli_Transmog_Helmet_Overpowered -->
+
+  <Anneli_Transmog_Helmet_Overpowered.label>(安妮莉)6ABC_头盔_超强</Anneli_Transmog_Helmet_Overpowered.label>
+  <Anneli_Transmog_Helmet_Overpowered.description>头盔没有穿戴的贴图。适合对游戏平衡不感兴趣的玩家。</Anneli_Transmog_Helmet_Overpowered.description>
+
+
+</LanguageData>

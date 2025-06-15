@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_A</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_A</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_B</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_B</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_C</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_C</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_D</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_D</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_E</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_E</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Anneli_Head_F</defName>
+		<graphicPath>Anneli_Face/Anneli_Head_F</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+</Defs>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+  <Operation Class="Annelitrice.PatchOperationSettingA">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+          @Name="Anneli_BasePawn"
+          ]/alienRace/graphicPaths/body</xpath>
+          <value>
+            <body>
+              <path>Anneli_BodyCensored/Naked_Female</path>
+              <extendedGraphics>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Shambler">Anneli_BodyCensored/Naked_Shambler</Hediff>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="ShamblerCorpse">Anneli_BodyCensored/Naked_Shambler</Hediff>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Anneli_BodyCensored/Naked_Ghoul</Hediff>
+              </extendedGraphics>
+            </body>
+          </value>
+        </li>
+      </operations>
+    </Operation>
+
+    <Operation Class="Annelitrice.PatchOperationSettingB">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+          @Name="Anneli_BasePawn"
+          ]/alienRace/raceRestriction/onlyUseRaceRestrictedApparel</xpath>
+          <value>
+            <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+          </value>
+        </li>
+      </operations>
+    </Operation>
+
+  </Patch>

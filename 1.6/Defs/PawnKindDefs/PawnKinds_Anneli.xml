@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="Anneli_KindBase" Abstract="True">
+		<race>Annelitrice</race>
+		<fixedGender>Female</fixedGender>
+		<combatPower>80</combatPower>
+		<chemicalAddictionChance>0.0</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<nakedChance>0</nakedChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<invNutrition>4.5</invNutrition>
+		<initialWillRange>1~5</initialWillRange>
+		<initialResistanceRange>10~25</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_KindBase">
+		<defName>Anneli_Player</defName>
+		<label>Annelitrice Colonist</label>
+		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
+		<apparelMoney>100~150</apparelMoney>
+		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags>
+			<li>Anneli_Underwear</li>
+		</apparelTags>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1.5</Anneli_Xenotype>
+				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Abomination>
+				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Dragonkin>
+				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Elf>
+				<Anneli_Xenotype_Fairy MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Fairy>
+				<Anneli_Xenotype_Hellion MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Hellion>
+				<Anneli_Xenotype_Kitsune MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Kitsune>
+				<Anneli_Xenotype_Loong MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Loong>
+				<Anneli_Xenotype_Messenger MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Messenger>
+				<Anneli_Xenotype_Nekojin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Nekojin>
+				<Anneli_Xenotype_Oni MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Oni>
+				<Anneli_Xenotype_Succubus MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Succubus>
+				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Usagi>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_KindBase">
+		<defName>Anneli_Wild</defName>
+		<label>Annelitrice Wild</label>
+		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
+		<apparelMoney>100~150</apparelMoney>
+		<isFighter>false</isFighter>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Anneli_Childhood</li>
+					<li>Anneli_Story</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags>
+			<li>Anneli_Underwear</li>
+		</apparelTags>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1.5</Anneli_Xenotype>
+				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Abomination>
+				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Dragonkin>
+				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Elf>
+				<Anneli_Xenotype_Fairy MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Fairy>
+				<Anneli_Xenotype_Hellion MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Hellion>
+				<Anneli_Xenotype_Kitsune MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Kitsune>
+				<Anneli_Xenotype_Loong MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Loong>
+				<Anneli_Xenotype_Messenger MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Messenger>
+				<Anneli_Xenotype_Nekojin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Nekojin>
+				<Anneli_Xenotype_Oni MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Oni>
+				<Anneli_Xenotype_Succubus MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Succubus>
+				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Usagi>
+			</xenotypeChances>
+		</xenotypeSet>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<stuff>Cloth</stuff>
+			</li>
+			<li>
+				<bodyPartGroup>Legs</bodyPartGroup>
+				<stuff>Cloth</stuff>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<stuff>Cloth</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+</Defs>
