@@ -14,10 +14,10 @@
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_MiddleHair</textureLevelsName>
 				<skipFlag>Anneli_MiddleHair</skipFlag>
-				<drawOffsetSouth>(0, 0.250, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.442, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.442, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.442, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.346, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.423, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.423, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.423, 0)</drawOffsetWest>
 				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->
@@ -92,7 +92,7 @@
 				<skipFlag>Anneli_FrontHair</skipFlag>
 				<drawOffsetSouth>(0, 2.500, 0)</drawOffsetSouth>
 				<drawOffsetEast>(0, 2.500, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.231, 0)</drawOffsetNorth>
+				<drawOffsetNorth>(0, 0.308, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 2.500, 0)</drawOffsetWest>
 				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
@@ -114,10 +114,10 @@
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<skipFlag>Anneli_BackHair</skipFlag>
-				<drawOffsetSouth>(0, 0.231, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.462, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.462, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.462, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 0.327, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.442, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.442, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.442, 0)</drawOffsetWest>
 				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->

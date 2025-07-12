@@ -14,6 +14,9 @@
     <costList>
       <Steel>100</Steel>
     </costList>
+    <equippedStatOffsets>
+      <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
+    </equippedStatOffsets>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

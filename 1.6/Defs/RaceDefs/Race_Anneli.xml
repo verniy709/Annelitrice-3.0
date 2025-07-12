@@ -51,6 +51,7 @@
 				<immuneToXenophobia>false</immuneToXenophobia>
 				<canLayDown>true</canLayDown>
 				<immuneToAge>true</immuneToAge>
+				<minAgeForAdulthood>15</minAgeForAdulthood>
 				<maxDamageForSocialfight>2</maxDamageForSocialfight>
 				<additionalTraits>0~2</additionalTraits>
 				<forcedRaceTraitEntries>
@@ -463,6 +464,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipHeadAddons</li>
+										<li>Anneli_SkipLeftEar</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -503,6 +505,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipHeadAddons</li>
+										<li>Anneli_SkipRightEar</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -568,7 +571,7 @@
 									<layerOffset>-0.305</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.326957</layerOffset>
+									<layerOffset>-0.3268</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -584,6 +587,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipOverhead</li>
+										<li>Anneli_SkipLeftKemonomimi</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -604,7 +608,7 @@
 									<layerOffset>-0.3267</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.326957</layerOffset>
+									<layerOffset>-0.3268</layerOffset>
 								</east>
 								<west>
 									<layerOffset>-0.305</layerOffset>
@@ -623,6 +627,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipOverhead</li>
+										<li>Anneli_SkipRightKemonomimi</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -646,7 +651,7 @@
 									<layerOffset>-0.305</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.326957</layerOffset>
+									<layerOffset>-0.3268</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -663,6 +668,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipOverhead</li>
+										<li>Anneli_SkipLeftHorn</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -684,7 +690,7 @@
 									<layerOffset>-0.3267</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.326957</layerOffset>
+									<layerOffset>-0.3268</layerOffset>
 								</east>
 								<west>
 									<layerOffset>-0.305</layerOffset>
@@ -704,6 +710,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipOverhead</li>
+										<li>Anneli_SkipRightHorn</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -894,6 +901,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipWing</li>
+										<li>Anneli_SkipLeftWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -936,6 +944,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipWing</li>
+										<li>Anneli_SkipRightWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -976,6 +985,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipWing</li>
+										<li>Anneli_SkipLeftWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -1017,6 +1027,7 @@
 								<Apparel>
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipWing</li>
+										<li>Anneli_SkipRightWing</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>

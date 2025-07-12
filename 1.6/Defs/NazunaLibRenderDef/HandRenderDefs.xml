@@ -15,10 +15,10 @@
 				<renderLayer>Hand</renderLayer>
 				<textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
-				<drawOffsetSouth>(0, 1.615, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 0.154, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.615, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.615, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.596, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 0.423, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.596, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.596, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
@@ -35,10 +35,10 @@
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
 				<flipped>true</flipped>
 				<switchEastWest>true</switchEastWest>
-				<drawOffsetSouth>(0, 1.615, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.615, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.615, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 0.154, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.596, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.596, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.596, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 0.423, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
@@ -52,10 +52,10 @@
 				<renderLayer>Body</renderLayer>
 				<textureLevelsName>Anneli_BodyPropsA</textureLevelsName>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
-				<drawOffsetSouth>(0, 1.558, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.558, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.558, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.558, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.154, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.154, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.154, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.154, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>
@@ -69,10 +69,10 @@
 				<renderLayer>Body</renderLayer>
 				<textureLevelsName>Anneli_BodyPropsB</textureLevelsName>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
-				<drawOffsetSouth>(0, 1.923, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 1.923, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 1.923, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 1.923, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 1.904, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 1.904, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 1.904, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 1.904, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<shaderType>TransparentPostLight</shaderType>
@@ -88,10 +88,10 @@
 				<textureLevelsName>Anneli_Props</textureLevelsName>
 				<skipFlag>Anneli_Props</skipFlag>
 				<renderParentNodeTagDef>Body</renderParentNodeTagDef>
-				<drawOffsetSouth>(0, 2.596, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.596, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 0.192, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.596, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.635, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.635, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 0.231, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.635, 0)</drawOffsetWest>
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<actionManager>

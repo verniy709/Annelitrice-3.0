@@ -18,6 +18,7 @@
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
 			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">20</MechBandwidth>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Transmog</li>

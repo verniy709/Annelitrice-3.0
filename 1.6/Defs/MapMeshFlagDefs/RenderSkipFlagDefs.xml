@@ -26,11 +26,19 @@
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
+    <defName>Anneli_Underwear_Low</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
     <defName>Anneli_Sock</defName>
   </RenderSkipFlagDef>
   
   <RenderSkipFlagDef>
     <defName>Anneli_Middle</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Middle_Low</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
@@ -70,35 +78,35 @@
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveA_Left</defName>
+    <defName>Anneli_Sleeve1_Left</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveB_Left</defName>
+    <defName>Anneli_Sleeve2_Left</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveC_Left</defName>
+    <defName>Anneli_Sleeve3_Left</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveD_Left</defName>
+    <defName>Anneli_Sleeve4_Left</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveA_Right</defName>
+    <defName>Anneli_Sleeve1_Right</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveB_Right</defName>
+    <defName>Anneli_Sleeve2_Right</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveC_Right</defName>
+    <defName>Anneli_Sleeve3_Right</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_SleeveD_Right</defName>
+    <defName>Anneli_Sleeve4_Right</defName>
   </RenderSkipFlagDef>
 
 </Defs>

@@ -19,6 +19,7 @@
 			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>10</ComfyTemperatureMax>
+			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Transmog</li>

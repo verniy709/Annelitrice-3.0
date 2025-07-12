@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\corpse_destroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\jobdriver_usenutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.6\\source\\annelitrice\\jobdriver_usenutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:jobdriver_usenutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -202,7 +202,8 @@
               "RelativeToolTip": "JobDriver_UseNutrientSolution.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAUwEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:48:11.934Z"
+              "WhenOpened": "2025-03-25T20:48:11.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -214,7 +215,8 @@
               "RelativeToolTip": "HarmonyPatches\\Corpse_Destroy.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwCUAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:36:57.491Z"
+              "WhenOpened": "2025-05-06T00:36:57.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
