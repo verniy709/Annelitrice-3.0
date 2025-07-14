@@ -1641,6 +1641,7 @@
 			<PainShockThreshold>0.95</PainShockThreshold>
 			<EatingSpeed>1.6</EatingSpeed>
 			<PawnBeauty>2</PawnBeauty>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</statBases>
 	</AlienRace.ThingDef_AlienRace>
 
