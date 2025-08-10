@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <ResurrectAnneliCorpse.label>复活安妮莉尸体</ResurrectAnneliCorpse.label>
+  <ResurrectAnneliCorpse.description>复活安妮莉尸体.</ResurrectAnneliCorpse.description>
+  <ResurrectAnneliCorpse.jobString>活化中.</ResurrectAnneliCorpse.jobString>
+
   <HatchAnneliEggs.label>孵化安妮莉卵</HatchAnneliEggs.label>
   <HatchAnneliEggs.description>孵化安妮莉卵.</HatchAnneliEggs.description>
   <HatchAnneliEggs.jobString>孵化中.</HatchAnneliEggs.jobString>
