@@ -57,6 +57,7 @@
     <Compile Include="AnnelitriceSettings.cs" />
     <Compile Include="AnnelitriceConditionIsDead.cs" />
     <Compile Include="HarmonyPatches\ExtendedGraphicsCondition.cs" />
+    <Compile Include="HarmonyPatches\JobDriver_Fish.cs" />
     <Compile Include="PawnRenderSubWorker_NoDraw .cs" />
     <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
     <Compile Include="CompApparelCauseHediff_AoE.cs" />
@@ -81,11 +82,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recipe_ResurrectCorpse.cs" />
     <Compile Include="Recipe_HatchEgg.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Lib.Harmony">
-      <Version>2.3.6</Version>
-    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

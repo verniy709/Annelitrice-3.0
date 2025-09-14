@@ -17,7 +17,7 @@ namespace Annelitrice.HarmonyPatches
     public class IngestFood
     {
         [HarmonyPatch(typeof(Thing), "Ingested")]
-        static class Ingested_Post
+        static class Ingested_Patch
         {
             [HarmonyPostfix]
             static void PostFix(Pawn ingester, float __result)

@@ -1,158 +1,31 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8": {
-      "Lib.Harmony/2.3.6": {
-        "type": "package",
-        "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win": {
-      "Lib.Harmony/2.3.6": {
-        "type": "package",
-        "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-arm64": {
-      "Lib.Harmony/2.3.6": {
-        "type": "package",
-        "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-x64": {
-      "Lib.Harmony/2.3.6": {
-        "type": "package",
-        "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-x86": {
-      "Lib.Harmony/2.3.6": {
-        "type": "package",
-        "compile": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net48/0Harmony.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      }
-    }
+    ".NETFramework,Version=v4.8": {},
+    ".NETFramework,Version=v4.8/win": {},
+    ".NETFramework,Version=v4.8/win-arm64": {},
+    ".NETFramework,Version=v4.8/win-x64": {},
+    ".NETFramework,Version=v4.8/win-x86": {}
   },
-  "libraries": {
-    "Lib.Harmony/2.3.6": {
-      "sha512": "HqXPz33Z+R8ZDCLS5pJZthg33AMdF1bQXUbz2V7Neb9E+sMQOf4S1wquhM4pLIZFX7BZcOQubclbVreiM1+qmw==",
-      "type": "package",
-      "path": "lib.harmony/2.3.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "HarmonyLogo.png",
-        "LICENSE",
-        "README.md",
-        "lib.harmony.2.3.6.nupkg.sha512",
-        "lib.harmony.nuspec",
-        "lib/net35/0Harmony.dll",
-        "lib/net35/0Harmony.pdb",
-        "lib/net35/0Harmony.xml",
-        "lib/net452/0Harmony.dll",
-        "lib/net452/0Harmony.pdb",
-        "lib/net452/0Harmony.xml",
-        "lib/net472/0Harmony.dll",
-        "lib/net472/0Harmony.pdb",
-        "lib/net472/0Harmony.xml",
-        "lib/net48/0Harmony.dll",
-        "lib/net48/0Harmony.pdb",
-        "lib/net48/0Harmony.xml",
-        "lib/net5.0/0Harmony.dll",
-        "lib/net5.0/0Harmony.pdb",
-        "lib/net5.0/0Harmony.xml",
-        "lib/net6.0/0Harmony.dll",
-        "lib/net6.0/0Harmony.pdb",
-        "lib/net6.0/0Harmony.xml",
-        "lib/net7.0/0Harmony.dll",
-        "lib/net7.0/0Harmony.pdb",
-        "lib/net7.0/0Harmony.xml",
-        "lib/net8.0/0Harmony.dll",
-        "lib/net8.0/0Harmony.pdb",
-        "lib/net8.0/0Harmony.xml",
-        "lib/net9.0/0Harmony.dll",
-        "lib/net9.0/0Harmony.pdb",
-        "lib/net9.0/0Harmony.xml",
-        "lib/netcoreapp3.0/0Harmony.dll",
-        "lib/netcoreapp3.0/0Harmony.pdb",
-        "lib/netcoreapp3.0/0Harmony.xml",
-        "lib/netcoreapp3.1/0Harmony.dll",
-        "lib/netcoreapp3.1/0Harmony.pdb",
-        "lib/netcoreapp3.1/0Harmony.xml",
-        "lib/netstandard2.0/_._"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8": [
-      "Lib.Harmony >= 2.3.6"
-    ]
+    ".NETFramework,Version=v4.8": []
   },
   "packageFolders": {
-    "C:\\Users\\Verniy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\verni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
       "projectName": "Annelitrice",
-      "projectPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
-      "packagesPath": "C:\\Users\\Verniy\\.nuget\\packages\\",
-      "outputPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\obj\\",
+      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\Annelitrice.csproj",
+      "packagesPath": "C:\\Users\\verni\\.nuget\\packages\\",
+      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "UsingMicrosoftNETSdk": false,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Verniy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\verni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -174,14 +47,7 @@
       }
     },
     "frameworks": {
-      "net48": {
-        "dependencies": {
-          "Lib.Harmony": {
-            "target": "Package",
-            "version": "[2.3.6, )"
-          }
-        }
-      }
+      "net48": {}
     },
     "runtimes": {
       "win": {
