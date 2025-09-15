@@ -131,7 +131,7 @@
               "RelativeDocumentMoniker": "HarmonyPatches\\JobDriver_Fish.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\HarmonyPatches\\JobDriver_Fish.cs",
               "RelativeToolTip": "HarmonyPatches\\JobDriver_Fish.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA7AAAA",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAkwIgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T06:10:40.696Z",
               "EditorCaption": ""
@@ -158,8 +158,7 @@
               "RelativeToolTip": "HarmonyPatches\\ExtendedGraphicsCondition.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T03:16:30.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T03:16:30.677Z"
             },
             {
               "$type": "Document",

@@ -1,110 +1,144 @@
 ﻿using HarmonyLib;
 using RimWorld;
 using System;
+using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using Verse;
 
 namespace Annelitrice.HarmonyPatches
 {
-	[StaticConstructorOnStartup]
-	public static class Patch_Init
+	internal static class CleanupGuard
 	{
-		static Patch_Init()
-		{
-			var h = new Harmony("Annelitrice.DisableFishingEffecter");
-
-			var miTI = AccessTools.Method(typeof(Effecter), "EffectTick",
-				new Type[] { typeof(TargetInfo), typeof(TargetInfo) });
-
-			if (miTI != null)
-			{
-				h.Patch(miTI,
-					prefix: new HarmonyMethod(typeof(Patch_Effecter_EffectTick), nameof(Patch_Effecter_EffectTick.PrefixTI)));
-			}
-			else
-			{
-				Log.Warning("[Annelitrice] Effecter.EffectTick(TargetInfo, TargetInfo) not found.");
-			}
-
-			var miLTI = AccessTools.Method(typeof(Effecter), "EffectTick",
-				new Type[] { typeof(LocalTargetInfo), typeof(LocalTargetInfo) });
-
-			if (miLTI != null)
-			{
-				h.Patch(miLTI,
-					prefix: new HarmonyMethod(typeof(Patch_Effecter_EffectTick), nameof(Patch_Effecter_EffectTick.PrefixLTI)));
-			}
-			else
-			{
-				Log.Message("[Annelitrice] Effecter.EffectTick(LocalTargetInfo, LocalTargetInfo) not found.");
-			}
-		}
-	}
-
-	public static class Patch_Effecter_EffectTick
-	{
-		private static readonly ConditionalWeakTable<Effecter, ByteBox> Cleaned =
-			new ConditionalWeakTable<Effecter, ByteBox>();
-		private sealed class ByteBox
+		public sealed class ByteBox
 		{
 			public byte b;
 		}
 
-		public static bool PrefixTI(Effecter __instance, TargetInfo A, TargetInfo B)
+		public static readonly ConditionalWeakTable<Effecter, ByteBox> Cleaned = new ConditionalWeakTable<Effecter, ByteBox>();
+
+		[ThreadStatic] public static bool AllowNextCleanup;
+	}
+
+	[HarmonyPatch(typeof(Effecter), nameof(Effecter.Cleanup))]
+	internal static class Patch_Effecter_Cleanup_Idempotent
+	{
+		static bool Prefix(Effecter __instance)
 		{
-			return AllowEffect(__instance, A, B);
+			if (CleanupGuard.AllowNextCleanup) return true; 
+
+			CleanupGuard.ByteBox _;
+			if (CleanupGuard.Cleaned.TryGetValue(__instance, out _))
+				return false;
+
+			return true;
 		}
 
-		public static bool PrefixLTI(Effecter __instance, LocalTargetInfo A, LocalTargetInfo B)
+		static void Postfix(Effecter __instance)
 		{
-			return AllowEffect(__instance, A, B);
+			CleanupGuard.Cleaned.GetValue(__instance, _ => new CleanupGuard.ByteBox { b = 1 });
+		}
+	}
+
+	[HarmonyPatch(typeof(Effecter))]
+	internal static class Patch_Effecter_EffectTick_FishingForRace
+	{
+		private static readonly FieldInfo fiDef = AccessTools.Field(typeof(Effecter), "def");
+		private static readonly FieldInfo fiMaintainer = AccessTools.Field(typeof(Effecter), "maintainer");
+
+		static IEnumerable<MethodBase> TargetMethods()
+		{
+			foreach (var m in typeof(Effecter).GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+			{
+				if (m.Name != "EffectTick") continue;
+				var p = m.GetParameters();
+				if (p.Length != 2) continue;
+
+				if ((p[0].ParameterType == typeof(TargetInfo) && p[1].ParameterType == typeof(TargetInfo)) ||
+					(p[0].ParameterType == typeof(LocalTargetInfo) && p[1].ParameterType == typeof(LocalTargetInfo)))
+				{
+					yield return m;
+				}
+			}
 		}
 
-		private static bool AllowEffect(Effecter effecter, TargetInfo A, TargetInfo B)
+		static bool Prefix(Effecter __instance, object __0, object __1)
 		{
-			if (!ShouldSuppress(effecter, TryGetPawn(A) ?? TryGetPawn(B)))
+			var def = fiDef?.GetValue(__instance) as EffecterDef;
+			if (def == null) return true;
+
+			bool isFishing = (def == EffecterDefOf.Fishing);
+			if (!isFishing) return true;
+
+			var pawn = TryExtractPawnFromTargets(__0, __1) ?? TryExtractPawnFromMaintainer(__instance);
+			if (pawn == null) return true;
+
+			if (pawn.def == null || AnnelitriceDefOf.Annelitrice == null) return true;
+			if (!ReferenceEquals(pawn.def, AnnelitriceDefOf.Annelitrice) &&
+				!string.Equals(pawn.def.defName, AnnelitriceDefOf.Annelitrice.defName, StringComparison.Ordinal))
 				return true;
 
-			CleanupOnce(effecter);
-			return false;
+			if (!AlreadyCleaned(__instance))
+			{
+				CleanupOnceGuarded(__instance);
+			}
+
+			return false; 
 		}
 
-		private static bool AllowEffect(Effecter effecter, LocalTargetInfo A, LocalTargetInfo B)
-		{
-			if (!ShouldSuppress(effecter, TryGetPawn(A) ?? TryGetPawn(B)))
-				return true;
 
-			CleanupOnce(effecter);
-			return false;
+		private static Pawn TryExtractPawnFromTargets(object a, object b)
+		{
+			Pawn pawn = ExtractPawnFromTargetLike(a);
+			if (pawn != null) return pawn;
+			return ExtractPawnFromTargetLike(b);
 		}
 
-		private static bool ShouldSuppress(Effecter effecter, Pawn pawn)
+		private static Pawn ExtractPawnFromTargetLike(object maybeTarget)
 		{
-			if (effecter == null || effecter.def != EffecterDefOf.Fishing) return false;
-			if (pawn == null) return false;
-			return pawn.def != null && pawn.def.defName == AnnelitriceDefOf.Annelitrice.defName;
+			if (maybeTarget == null) return null;
+
+			if (maybeTarget is TargetInfo ti) return ti.Thing as Pawn;
+
+			if (maybeTarget is LocalTargetInfo lti) return lti.Thing as Pawn;
+
+			return null;
 		}
 
-		private static void CleanupOnce(Effecter effecter)
+		private static Pawn TryExtractPawnFromMaintainer(Effecter eff)
 		{
-			if (effecter == null) return;
+			var maintainer = fiMaintainer?.GetValue(eff);
+			if (maintainer == null) return null;
 
-			ByteBox _;
-			if (Cleaned.TryGetValue(effecter, out _))
-				return;
+			var mt = maintainer.GetType();
+			var fThing = AccessTools.Field(mt, "thing");
+			if (fThing?.GetValue(maintainer) is Pawn p1) return p1;
 
-			effecter.Cleanup();
-			Cleaned.GetValue(effecter, k => new ByteBox { b = 1 }); 
+			var fMaintainer = AccessTools.Field(mt, "maintainer");
+			if (fMaintainer?.GetValue(maintainer) is Pawn p2) return p2;
+
+			return null;
 		}
 
-		private static Pawn TryGetPawn(TargetInfo target)
+		private static bool AlreadyCleaned(Effecter eff)
 		{
-			return target.HasThing && target.Thing is Pawn ? (Pawn)target.Thing : null;
+			CleanupGuard.ByteBox _;
+			return CleanupGuard.Cleaned.TryGetValue(eff, out _);
 		}
 
-		private static Pawn TryGetPawn(LocalTargetInfo localTarget)
+		private static void CleanupOnceGuarded(Effecter eff)
 		{
-			return localTarget.HasThing && localTarget.Thing is Pawn ? (Pawn)localTarget.Thing : null;
+			CleanupGuard.AllowNextCleanup = true;
+			try
+			{
+				eff.Cleanup();
+			}
+			finally
+			{
+				CleanupGuard.AllowNextCleanup = false;
+			}
+
+			CleanupGuard.Cleaned.GetValue(eff, _ => new CleanupGuard.ByteBox { b = 1 });
 		}
 	}
 }
