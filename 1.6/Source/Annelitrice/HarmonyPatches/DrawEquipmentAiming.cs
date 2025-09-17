@@ -37,10 +37,8 @@ namespace Annelitrice.HarmonyPatches
 		{
 			Pawn pawn = eq.GetPawnAsEquipmentUser();
 
-			// Check if the pawn is annelitrice
 			if (pawn.def != null && pawn.def.defName == AnnelitriceDefOf.Annelitrice.defName)
 			{
-				// Check if the pawn's current job is null or neverShowWeapon
 				if (pawn.CurJob == null || pawn.CurJob.def.neverShowWeapon)
 					return;
 

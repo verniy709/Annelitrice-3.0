@@ -34,4 +34,11 @@
     <content>Annelitrice 3.0 now supports 1.5. We remade our pawn rendering system. Please check the mod description in Steam workshop if you encounter problems.\n\nAnnelitrice 3.0 现在支持1.5中更新。我们完全重做了人物渲染。如果遇到问题，请前往 Steam 创意工坊的mod介绍。\n\nAnnelitrice 3.0 3.0は現在1.5に対応しています。ポーンのレンダリングシステムを再構築しました。問題が発生した場合は、Steamワークショップのモッド説明をご確認ください。\n\nAnnelitrice 3.0 теперь поддерживает версию 1.5. Мы полностью переделали систему рендеринга пешек. Если у вас возникнут проблемы, пожалуйста, ознакомьтесь с описанием мода в мастерской Steam.</content>
   </HugsLib.UpdateFeatureDef>
 
+  <HugsLib.UpdateFeatureDef ParentName="Anneli_UpdateFeatureBase">
+    <defName>Annelitrice_3_0_7</defName>
+    <assemblyVersion>0.0.7</assemblyVersion>
+    <targetAudience>ReturningPlayers</targetAudience>
+    <content>Annelitrice 3.0 is now updated in Rimworld 1.6. Please go to Steam Workshop change notes for details. \n\nAnnelitrice 3.0 现已在Rimworld 1.6中更新。请前往 Steam 创意工坊的更新说明了解详情。\n\nAnnelitrice 3.0 は現在、Rimworld 1.6 で利用可能です。詳細についてはSteam Workshopの変更履歴をご覧ください。\n\nAnnelitrice 3.0 теперь доступна в Rimworld 1.6. Пожалуйста, перейдите в заметки об изменениях в Steam Workshop, чтобы узнать подробности.</content>
+  </HugsLib.UpdateFeatureDef>
+
 </Defs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Statue"]/modExtensions</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Statue"]</xpath>
+      <value>
+        <modExtensions />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Statue"]/modExtensions</xpath>
+    <value>
+      <li Class="Annelitrice.StatueZOffsetExtension">
+        <pawnZOffset>0.36</pawnZOffset>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

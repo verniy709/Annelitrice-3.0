@@ -4035,29 +4035,6 @@
                     </pathDict>
                 </value>
             </li>
-
-            <li>
-                <key>Fish</key>
-                <value>
-                    <exPath>Anneli_Arms/Naked/</exPath>
-                    <randomChange>true</randomChange>          
-                    <useRandomTimeDelta>true</useRandomTimeDelta>
-                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
-                    <textures>
-                        <li>Anneli_Arm</li>
-                    </textures>
-                    <pathDict>
-                        <li>
-                            <key>Standing</key>
-                            <value>
-                                <li>ArmHandMidF/</li>
-                            </value>
-                        </li>
-                    </pathDict>
-                </value>
-            </li>
-
 		</behaviors>
 	</NareisLib.ActionDef>
-
 </Defs>
