@@ -44,6 +44,7 @@
 				<LeatherAmount>0</LeatherAmount>
 				<FilthRate>0.1</FilthRate>
 				<Wildness>0.5</Wildness>
+				<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			</statBases>
 			<uiIconScale>1.2</uiIconScale>
 			<tools>

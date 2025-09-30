@@ -17,8 +17,8 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<ComfyTemperatureMax>10</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
 			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
 		</equippedStatOffsets>
 		<thingCategories>

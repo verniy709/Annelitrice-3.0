@@ -15,8 +15,8 @@
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
-			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
 			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">20</MechBandwidth>
 		</equippedStatOffsets>

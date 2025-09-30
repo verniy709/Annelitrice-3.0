@@ -22,6 +22,7 @@
 		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
+		<maxGenerationAge>30</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -58,6 +59,7 @@
 		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
 		<apparelMoney>100~150</apparelMoney>
 		<isFighter>false</isFighter>
+		<maxGenerationAge>30</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
