@@ -24,7 +24,6 @@
 		<li IfModActive="Ludeon.RimWorld.Odyssey">LoadFolders/1.6/Odyssey</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">LoadFolders/1.6/DubsBadHygiene</li>
 		<li IfModActive="Dubwise.DubsBadHygiene.Lite">LoadFolders/1.6/DubsBadHygieneLite</li>
-		<li IfModActive="MemeGoddess.SearchAndDestroy">LoadFolders/1.6/SearchAndDestroy</li>
 		<li IfModActive="kentington.saveourship2">LoadFolders/1.6/Saveourship2</li>
 		<li IfModActive="rim.job.world">LoadFolders/1.6/RJW</li>
 		<li IfModActive="safe.job.world">LoadFolders/1.6/SafeJobWorld</li>

@@ -1528,8 +1528,8 @@
 			</li>
 		</tools>
 		<race>
-			<thinkTreeMain>Anneli_Humanlike</thinkTreeMain>
-			<thinkTreeConstant>Anneli_HumanlikeConstant</thinkTreeConstant>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>
