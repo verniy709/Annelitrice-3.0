@@ -21,6 +21,7 @@ namespace Annelitrice
 		public SavedPawnRace()
 		{
 		}
+
 		public SavedPawnRace(string defName)
 		{
 			this.defName = defName;
@@ -28,8 +29,14 @@ namespace Annelitrice
 
 		public void ExposeData()
 		{
-			Scribe_Values.Look(ref defName, "defName", null, false);
+			Scribe_Values.Look(ref defName, "defName", null);
 		}
+	}
+
+	internal static class StatueSavedDataKeys
+	{
+		public const string RaceKey = "SourcePawnRaceExposable";
+		public const string LegacyKey = "SourcePawnDefName";
 	}
 
 	[HarmonyPatch(typeof(CompStatue), "CreateSnapshotOfPawn_HookForMods")]
@@ -37,9 +44,10 @@ namespace Annelitrice
 	{
 		public static void Postfix(Pawn p, Dictionary<string, object> dictToStoreDataIn)
 		{
-			if (p == null || p.def == null || dictToStoreDataIn == null) return;
+			if (p == null || p.def == null || dictToStoreDataIn == null)
+				return;
 
-			dictToStoreDataIn["SourcePawnRaceExposable"] = new SavedPawnRace(p.def.defName);
+			dictToStoreDataIn[StatueSavedDataKeys.RaceKey] = new SavedPawnRace(p.def.defName);
 		}
 	}
 
@@ -51,24 +59,40 @@ namespace Annelitrice
 
 		public static void Prefix(CompStatue __instance)
 		{
-			var dict = (Dictionary<string, object>)FI_AdditionalSaved?.GetValue(__instance);
-			if (dict == null) return;
+			if (FI_AdditionalSaved == null || __instance == null)
+				return;
 
-			if (dict.TryGetValue("SourcePawnDefName", out var legacy) && legacy is string s && !string.IsNullOrEmpty(s))
+			var dict = FI_AdditionalSaved.GetValue(__instance) as Dictionary<string, object>;
+			if (dict == null || dict.Count == 0)
+				return;
+
+			object legacy;
+			string legacyStr;
+			if (dict.TryGetValue(StatueSavedDataKeys.LegacyKey, out legacy)
+				&& (legacyStr = legacy as string) != null
+				&& !string.IsNullOrEmpty(legacyStr))
 			{
-				dict["SourcePawnRaceExposable"] = new SavedPawnRace(s);
-				dict.Remove("SourcePawnDefName");
+				dict[StatueSavedDataKeys.RaceKey] = new SavedPawnRace(legacyStr);
+				dict.Remove(StatueSavedDataKeys.LegacyKey);
 			}
 
-			var badKeys = new List<string>();
-			foreach (var kv in dict)
+			List<string> keysToRemove = null;
+			foreach (KeyValuePair<string, object> kv in dict)
 			{
-				var v = kv.Value;
-				if (v != null && !(v is IExposable))
-					badKeys.Add(kv.Key);
+				object value = kv.Value;
+				if (value != null && !(value is IExposable))
+				{
+					if (keysToRemove == null)
+						keysToRemove = new List<string>();
+					keysToRemove.Add(kv.Key);
+				}
 			}
-			for (int i = 0; i < badKeys.Count; i++)
-				dict.Remove(badKeys[i]);
+
+			if (keysToRemove != null)
+			{
+				for (int i = 0; i < keysToRemove.Count; i++)
+					dict.Remove(keysToRemove[i]);
+			}
 		}
 	}
 
@@ -81,73 +105,91 @@ namespace Annelitrice
 		private static readonly FieldInfo FI_AltIncVect =
 			AccessTools.Field(typeof(Altitudes), "AltIncVect");
 
-		public static void ApplyZOffset(ref Vector3 drawPos, CompStatue __instance)
+		private static readonly MethodInfo MI_ApplyZOffset =
+			AccessTools.Method(typeof(Patch_CompStatue_DrawAt_Transpiler), nameof(ApplyZOffset));
+
+		public static void ApplyZOffset(ref Vector3 drawPos, CompStatue compStatue)
 		{
-			try
-			{
-				var ext = __instance?.parent?.def?.GetModExtension<StatueZOffsetExtension>();
-				if (ext == null || Math.Abs(ext.pawnZOffset) < 0.0001f) return;
+			if (compStatue == null)
+				return;
 
-				var dict = FI_AdditionalSaved != null
-					? (Dictionary<string, object>)FI_AdditionalSaved.GetValue(__instance)
-					: null;
-				if (dict == null) return;
+			Thing parent = compStatue.parent;
+			if (parent == null)
+				return;
 
-				string sourceDefName = null;
-				if (dict.TryGetValue("SourcePawnRaceExposable", out var boxed) && boxed is SavedPawnRace spr && !string.IsNullOrEmpty(spr.defName))
-				{
-					sourceDefName = spr.defName;
-				}
-				else
-				{
-					return;
-				}
+			ThingDef def = parent.def;
+			if (def == null)
+				return;
 
-				if (sourceDefName == AnnelitriceDefOf.Annelitrice.defName)
-				{
-					drawPos += Vector3.forward * ext.pawnZOffset;
-				}
-			}
-			catch
-			{
-			}
+			StatueZOffsetExtension ext = def.GetModExtension<StatueZOffsetExtension>();
+			if (ext == null)
+				return;
+
+			float offset = ext.pawnZOffset;
+			if (Math.Abs(offset) < 0.0001f)
+				return;
+
+			if (FI_AdditionalSaved == null)
+				return;
+
+			var dict = FI_AdditionalSaved.GetValue(compStatue) as Dictionary<string, object>;
+			if (dict == null)
+				return;
+
+			object boxed;
+			if (!dict.TryGetValue(StatueSavedDataKeys.RaceKey, out boxed))
+				return;
+
+			var savedRace = boxed as SavedPawnRace;
+			if (savedRace == null || string.IsNullOrEmpty(savedRace.defName))
+				return;
+
+			ThingDef annDef = AnnelitriceDefOf.Annelitrice;
+			if (annDef == null)
+				return;
+
+			if (!string.Equals(savedRace.defName, annDef.defName, StringComparison.Ordinal))
+				return;
+
+			drawPos.z += offset;
 		}
+
 		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator il)
 		{
 			var codes = new List<CodeInstruction>(instructions);
-			var miApply = AccessTools.Method(typeof(Patch_CompStatue_DrawAt_Transpiler), nameof(ApplyZOffset));
-
 			bool injected = false;
 
 			for (int i = 0; i < codes.Count; i++)
 			{
-				var ins = codes[i];
+				CodeInstruction ins = codes[i];
 				yield return ins;
 
-				if (!injected)
+				if (injected)
+					continue;
+
+				if (ins.opcode == OpCodes.Starg || ins.opcode == OpCodes.Starg_S)
 				{
-					if (ins.opcode == OpCodes.Starg || ins.opcode == OpCodes.Starg_S)
+					const int window = 8;
+					bool justDidAltIncSub = false;
+
+					for (int j = Math.Max(0, i - window); j < i; j++)
 					{
-						const int window = 8;
-						bool justDidAltIncSub = false;
-						for (int j = Math.Max(0, i - window); j < i; j++)
+						CodeInstruction prev = codes[j];
+						FieldInfo fi = prev.operand as FieldInfo;
+						if (prev.opcode == OpCodes.Ldsfld && fi == FI_AltIncVect)
 						{
-							var prev = codes[j];
-							if (prev.opcode == OpCodes.Ldsfld && prev.operand is FieldInfo fi && fi == FI_AltIncVect)
-							{
-								justDidAltIncSub = true;
-								break;
-							}
+							justDidAltIncSub = true;
+							break;
 						}
+					}
 
-						if (justDidAltIncSub)
-						{
-							yield return new CodeInstruction(OpCodes.Ldarga_S, (byte)1); 
-							yield return new CodeInstruction(OpCodes.Ldarg_0);          
-							yield return new CodeInstruction(OpCodes.Call, miApply);
+					if (justDidAltIncSub && MI_ApplyZOffset != null)
+					{
+						yield return new CodeInstruction(OpCodes.Ldarga_S, (byte)1); // ref Vector3 drawLoc
+						yield return new CodeInstruction(OpCodes.Ldarg_0);          // this (CompStatue)
+						yield return new CodeInstruction(OpCodes.Call, MI_ApplyZOffset);
 
-							injected = true;
-						}
+						injected = true;
 					}
 				}
 			}

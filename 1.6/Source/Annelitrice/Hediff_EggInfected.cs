@@ -9,12 +9,20 @@ namespace Annelitrice
 {
     public class Hediff_EggInfected : HediffWithComps
     {
-        public override void PostAdd(DamageInfo? dinfo)
-        {
-            base.PostAdd(dinfo);
-            infectedTime = Find.TickManager.TicksGame -1;
-        }
-        public override void PostTick()
+		public override void PostAdd(DamageInfo? dinfo)
+		{
+			base.PostAdd(dinfo);
+
+			// If pawn is annelitrice, remove this hediff
+			if (pawn != null && pawn.def == AnnelitriceDefOf.Annelitrice)
+			{
+				pawn.health.RemoveHediff(this);
+				return;
+			}
+
+			infectedTime = Find.TickManager.TicksGame - 1;
+		}
+		public override void PostTick()
         {
             base.PostTick();
             if((Find.TickManager.TicksGame - infectedTime) % 60000 == 0 && pawn.Spawned)

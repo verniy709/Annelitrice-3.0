@@ -16,7 +16,7 @@ namespace Annelitrice.HarmonyPatches
 {
 	[HarmonyPatch(typeof(AlienRace.ExtendedGraphics.Condition))]
 	[HarmonyPatch(MethodType.StaticConstructor)]
-	static class ExtendedGraphicsCondition_Patch
+	static class Patch_ExtendedGraphicsCondition
 	{
 		static void Postfix()
 		{

@@ -14,7 +14,7 @@ using Verse.Sound;
 namespace Annelitrice.HarmonyPatches
 {
 	[HarmonyPatch(typeof(Corpse), "Destroy")]
-	public static class Corpse_Destroy_Patch
+	public static class Patch_Corpse_Destroy
 	{
 		[HarmonyPrefix]
 		public static void Prefix(Corpse __instance)
