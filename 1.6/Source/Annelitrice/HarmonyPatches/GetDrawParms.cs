@@ -6,7 +6,7 @@ using Verse;
 namespace Annelitrice.HarmonyPatches
 {
 	[HarmonyPatch(typeof(PawnRenderer), "GetDrawParms")]
-	public static class Patch_GetDrawParms
+	public static class Patch_PawnRenderer_GetDrawParms
 	{
 		public static void Postfix(ref PawnDrawParms __result, Pawn ___pawn)
 		{

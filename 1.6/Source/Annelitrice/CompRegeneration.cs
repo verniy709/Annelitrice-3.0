@@ -48,7 +48,6 @@ namespace Annelitrice
 			}
 		}
 
-		//Regeneration rate
 		private int nextHealTick;
 		private int GetNextHealTick
 		{
@@ -59,7 +58,39 @@ namespace Annelitrice
 			}
 		}
 
-		//Regeneration 
+		private const float MinFoodToHeal = 0.1f;
+		private const float FoodCostPerHeal = 0.05f;
+		private const float FoodCostPerMissingPart = 0.5f;
+
+		private bool TryConsumeFood(float cost)
+		{
+			var food = pawn.needs.food;
+			if (pawn == null || pawn.needs.food == null)
+			{
+				return false;
+			}
+
+			if (food.CurLevelPercentage < MinFoodToHeal)
+			{
+				return false;
+			}
+
+			float newFoodLevel = Mathf.Max(food.CurLevelPercentage - cost, 0f);
+			food.CurLevelPercentage = newFoodLevel;
+
+			return true;
+		}
+
+		private bool TryConsumeFoodForHealInjury()
+		{
+			return TryConsumeFood(FoodCostPerHeal);
+		}
+
+		private bool TryConsumeFoodForMissingPart()
+		{
+			return TryConsumeFood(FoodCostPerMissingPart);
+		}
+
 		public override void CompTick()
 		{
 			base.CompTick();
@@ -79,10 +110,17 @@ namespace Annelitrice
 			if (Find.TickManager.TicksGame >= nextHealTick)
 			{
 				nextHealTick = Find.TickManager.TicksGame + GetNextHealTick;
+
+				// Try restoring missing parts
 				foreach (var missingPart in missingParts.InRandomOrder().ToList())
 				{
 					if (Find.TickManager.TicksGame >= missingPart.Value)
 					{
+						if (!TryConsumeFoodForMissingPart())
+						{
+							return;
+						}
+
 						var part = missingPart.Key.Part;
 						pawn.health.RestorePart(part);
 						var injury = HediffMaker.MakeHediff(AnnelitriceDefOf.Anneli_Regeneration, pawn, part);
@@ -93,13 +131,18 @@ namespace Annelitrice
 					}
 				}
 
-
+				// Try heal injuries
 				foreach (var part in pawn.health.hediffSet.GetInjuredParts().InRandomOrder())
 				{
 					var curHP = pawn.health.hediffSet.GetPartHealth(part);
 					var maxHP = part.def.GetMaxHealth(pawn);
 					if (maxHP > curHP)
 					{
+						if (!TryConsumeFoodForHealInjury())
+						{
+							return;
+						}
+
 						var diff = (int)Mathf.Clamp(maxHP - curHP, 1, int.MaxValue);
 						var injuries = pawn.health.hediffSet.hediffs.Where(x => x is Hediff_Injury && x.Part == part);
 						for (var i = 0; i < diff; i++)
@@ -119,6 +162,7 @@ namespace Annelitrice
 				}
 			}
 		}
+
 		private List<Hediff_MissingPart> missingPartsKeys;
 		private List<int> intValues;
 	}

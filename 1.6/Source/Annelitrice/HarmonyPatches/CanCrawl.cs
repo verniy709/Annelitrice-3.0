@@ -14,7 +14,7 @@ using Verse.Sound;
 namespace Annelitrice.HarmonyPatches
 {
 	[HarmonyPatch(typeof(Pawn_HealthTracker), "get_CanCrawl")]
-	public static class Patch_CanCrawl
+	public static class Patch_Pawn_HealthTracker_CanCrawl
 	{
 		public static void Postfix(Pawn_HealthTracker __instance, ref bool __result)
 		{

@@ -16,7 +16,7 @@ namespace Annelitrice.HarmonyPatches
 
 	[HarmonyPatch(typeof(PawnRenderUtility), "DrawEquipmentAiming")]
 	[HarmonyBefore("com.yayo.yayoAni")]
-	public static class Patch_DrawEquipmentAiming
+	public static class Patch_PawnRenderUtility_DrawEquipmentAiming
 	{
 		public static float northZOffset = 0.23f;
 		public static float eastZOffset = 0.23f;

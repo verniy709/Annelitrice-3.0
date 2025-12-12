@@ -41,6 +41,12 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="BadHygiene">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\836308268\1.6\Assemblies\BadHygiene.dll</HintPath>
+    </Reference>
+    <Reference Include="NareisLib">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2999614450\1.6\Assemblies\NareisLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -61,6 +67,7 @@
     <Compile Include="HarmonyPatches\ExtendedGraphicsCondition.cs" />
     <Compile Include="HarmonyPatches\JobDriver_Fish.cs" />
     <Compile Include="HarmonyPatches\GetDrawParms.cs" />
+    <Compile Include="HarmonyPatches\.cs" />
     <Compile Include="PawnRenderSubWorker_NoDraw .cs" />
     <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
     <Compile Include="CompApparelCauseHediff_AoE.cs" />

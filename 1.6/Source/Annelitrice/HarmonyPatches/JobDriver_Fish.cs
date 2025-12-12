@@ -7,7 +7,7 @@ using Verse;
 namespace Annelitrice.HarmonyPatches
 {
 	[HarmonyPatch(typeof(Effecter))]
-	internal static class Patch_Effecter_Fishing_Annelitrice
+	internal static class Patch_Effecter_Fishing
 	{
 		private static readonly FieldInfo fiDef =
 			AccessTools.Field(typeof(Effecter), "def");
