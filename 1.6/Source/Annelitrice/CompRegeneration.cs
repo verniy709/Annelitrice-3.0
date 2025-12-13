@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using RimWorld;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -59,24 +60,20 @@ namespace Annelitrice
 		}
 
 		private const float MinFoodToHeal = 0.1f;
-		private const float FoodCostPerHeal = 0.05f;
-		private const float FoodCostPerMissingPart = 0.5f;
+		private const float FoodCostPerHeal = 0.02f;
+		private const float FoodCostPerMissingPart = 0.4f;
 
 		private bool TryConsumeFood(float cost)
 		{
-			var food = pawn.needs.food;
-			if (pawn == null || pawn.needs.food == null)
-			{
+			if (pawn?.needs?.food == null)
 				return false;
-			}
 
-			if (food.CurLevelPercentage < MinFoodToHeal)
-			{
+			Need_Food food = pawn.needs.food;
+			if (food.CurLevel < MinFoodToHeal)
 				return false;
-			}
 
-			float newFoodLevel = Mathf.Max(food.CurLevelPercentage - cost, 0f);
-			food.CurLevelPercentage = newFoodLevel;
+			float newFoodLevel = Mathf.Max(food.CurLevel - cost, 0f);
+			food.CurLevel = newFoodLevel;
 
 			return true;
 		}

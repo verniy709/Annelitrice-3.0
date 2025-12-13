@@ -16,7 +16,8 @@ namespace Annelitrice.HarmonyPatches
 			if (___pawn.def != AnnelitriceDefOf.Annelitrice)
 				return;
 
-			if (___pawn.CurrentBed() == null)
+			Building_Bed bed = ___pawn.CurrentBed();
+			if (bed == null)
 				return;
 
 			if (__result.posture == PawnPosture.Standing)
@@ -24,10 +25,30 @@ namespace Annelitrice.HarmonyPatches
 
 			__result.bed = null;
 
-			/*Move the pawn up a bit*/
-			const float zOffset = 0.12f;
-			var drawLoc = Matrix4x4.Translate(new Vector3(0f, 0f, zOffset));
-			__result.matrix = drawLoc * __result.matrix;
+			float x = 0f;
+			float z = 0f;
+
+			if (bed.Rotation == Rot4.North)
+			{
+				z += 0.06f;
+			}
+			else if (bed.Rotation == Rot4.South)
+			{
+				z += 0.08f;
+			}
+			else if (bed.Rotation == Rot4.East)
+			{
+				x -= 0.04f;
+				//z += 0.12f;
+			}
+			else if (bed.Rotation == Rot4.West)
+			{
+				x += 0.04f;
+				//z += 0.12f;
+			}
+
+			Matrix4x4 translate = Matrix4x4.Translate(new Vector3(x, 0f, z));
+			__result.matrix = translate * __result.matrix;
 		}
 	}
 }
