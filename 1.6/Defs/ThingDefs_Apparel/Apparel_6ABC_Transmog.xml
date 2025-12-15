@@ -20,6 +20,9 @@
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
 			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">10</MechBandwidth>
+			<PsychicSensitivityOffset>0.25</PsychicSensitivityOffset>
+			<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+			<MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.1</MeditationFocusGain>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Transmog</li>
@@ -126,5 +129,5 @@
 			<IncomingDamageFactor>-0.9</IncomingDamageFactor>
 		</equippedStatOffsets>
 	</ThingDef>
-			
+
 </Defs>

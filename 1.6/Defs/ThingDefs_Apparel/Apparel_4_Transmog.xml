@@ -19,6 +19,9 @@
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
 			<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">20</MechBandwidth>
+			<PsychicSensitivityOffset>0.5</PsychicSensitivityOffset>
+			<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+			<MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.2</MeditationFocusGain>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>Anneli_Category_Transmog</li>

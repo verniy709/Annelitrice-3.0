@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\harmonypatches\\getdrawparms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.6\\source\\annelitrice\\harmonypatches\\getdrawparms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\getdrawparms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.6\\source\\annelitrice\\compregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\compregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -147,7 +147,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -187,19 +187,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompRegeneration.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\CompRegeneration.cs",
-              "RelativeDocumentMoniker": "CompRegeneration.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\CompRegeneration.cs",
-              "RelativeToolTip": "CompRegeneration.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAIwEIAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T23:09:30.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 34,
               "Title": "HarmonyPatches.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\HarmonyPatches.cs",
@@ -218,7 +205,7 @@
               "RelativeDocumentMoniker": "HarmonyPatches\\GetDrawParms.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\HarmonyPatches\\GetDrawParms.cs",
               "RelativeToolTip": "HarmonyPatches\\GetDrawParms.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAAAEAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T08:10:55.803Z",
               "EditorCaption": ""
@@ -258,6 +245,18 @@
               "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T08:49:10.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompRegeneration.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\CompRegeneration.cs",
+              "RelativeDocumentMoniker": "CompRegeneration.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice\\CompRegeneration.cs",
+              "RelativeToolTip": "CompRegeneration.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwEIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:09:30.171Z"
             },
             {
               "$type": "Document",
