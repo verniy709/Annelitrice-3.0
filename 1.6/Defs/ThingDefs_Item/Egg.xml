@@ -114,6 +114,7 @@
       <li>CorpsesAnimal</li>
       <li>CorpsesMechanoid</li>
       <li MayRequire="Ludeon.RimWorld.Anomaly">CorpsesEntity</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">CorpsesDrone</li>
     </disallowedCategories>
   </fixedIngredientFilter>
   <defaultIngredientFilter>
