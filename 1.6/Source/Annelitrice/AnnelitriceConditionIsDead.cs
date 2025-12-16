@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Verse;
-using RimWorld;
-using RimWorld.Planet;
-using AlienRace;
-using AlienRace.ExtendedGraphics;
+﻿using AlienRace.ExtendedGraphics;
 
 namespace Annelitrice
 {

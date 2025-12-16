@@ -3,6 +3,7 @@
 	<TabCharacter_Annelitrice>Annelitrice</TabCharacter_Annelitrice>
 	<Character_Annelitrice>Annelitrice</Character_Annelitrice>
 	<NoContainedPawn_Annelitrice>An annelitrice egg or pupa failed to hatch due to missing worldPawns. To avoid errors, the item was destroyed.</NoContainedPawn_Annelitrice>
+	<NotResurrectingPawn_Annelitrice>This resurrection can only be used on annelitrice.</NotResurrectingPawn_Annelitrice>
 
 	<Anneli.PlaySong>play</Anneli.PlaySong>
 	<Anneli.PlaySongDesc>play the selected song</Anneli.PlaySongDesc>

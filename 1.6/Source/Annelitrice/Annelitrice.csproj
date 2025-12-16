@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="AnnelitriceSettings.cs" />
     <Compile Include="AnnelitriceConditionIsDead.cs" />
+    <Compile Include="Verb_CastTargetEffectLances_AoE.cs" />
     <Compile Include="HarmonyPatches\CanCrawl.cs" />
     <Compile Include="HarmonyPatches\CompStatue.cs" />
     <Compile Include="HarmonyPatches\ExtendedGraphicsCondition.cs" />
