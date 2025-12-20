@@ -21,7 +21,7 @@ namespace Annelitrice.HarmonyPatches
 		}
 	}
 	[HarmonyPatch(typeof(Pawn), "Destroy")]
-	public static class Pawn_Destroy_Patch
+	public static class Patch_Pawn_Destroy
 	{
 		[HarmonyPrefix]
 		public static void Prefix(Pawn __instance)

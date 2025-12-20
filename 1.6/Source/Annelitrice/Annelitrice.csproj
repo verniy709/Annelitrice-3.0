@@ -68,7 +68,7 @@
     <Compile Include="HarmonyPatches\ExtendedGraphicsCondition.cs" />
     <Compile Include="HarmonyPatches\JobDriver_Fish.cs" />
     <Compile Include="HarmonyPatches\GetDrawParms.cs" />
-    <Compile Include="HarmonyPatches\.cs" />
+    <Compile Include="HarmonyPatches\GetGizmos.cs" />
     <Compile Include="PawnRenderSubWorker_NoDraw .cs" />
     <Compile Include="CompProperties_ApparelCauseHediff_AoE.cs" />
     <Compile Include="CompApparelCauseHediff_AoE.cs" />
