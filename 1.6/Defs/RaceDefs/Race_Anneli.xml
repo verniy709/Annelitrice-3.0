@@ -79,6 +79,9 @@
 					<li>
 						<defName>CreepyBreathing</defName>
 					</li>
+					<li>
+						<defName>Nudist</defName>
+					</li>
 				</disallowedTraits>
 				<alienPartGenerator>
 					<headTypes Inherit="False">

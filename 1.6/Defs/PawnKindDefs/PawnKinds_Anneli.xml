@@ -31,9 +31,6 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<apparelTags>
-			<li>Anneli_Underwear</li>
-		</apparelTags>
 		<xenotypeSet>
 			<xenotypeChances>
 				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">2.5</Anneli_Xenotype>
@@ -68,9 +65,6 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<apparelTags>
-			<li>Anneli_Underwear</li>
-		</apparelTags>
 		<xenotypeSet>
 			<xenotypeChances>
 				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1.5</Anneli_Xenotype>
