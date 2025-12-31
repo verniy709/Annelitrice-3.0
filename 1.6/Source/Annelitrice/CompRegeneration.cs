@@ -59,8 +59,8 @@ namespace Annelitrice
 		}
 
 		private const float MinFoodToHeal = 0.1f;
-		private const float FoodCostPerHeal = 0.02f;
-		private const float FoodCostPerMissingPart = 0.4f;
+		private const float FoodCostPerHeal = 0.01f;
+		private const float FoodCostPerMissingPart = 0.3f;
 
 		private bool TryConsumeFood(float cost)
 		{
@@ -130,29 +130,33 @@ namespace Annelitrice
 				// Try heal injuries
 				foreach (var part in pawn.health.hediffSet.GetInjuredParts().InRandomOrder())
 				{
-					var curHP = pawn.health.hediffSet.GetPartHealth(part);
-					var maxHP = part.def.GetMaxHealth(pawn);
-					if (maxHP > curHP)
+					var injuries = pawn.health.hediffSet.hediffs
+						.Where(x => x is Hediff_Injury && x.Part == part)
+						.Cast<Hediff_Injury>();
+
+					if (injuries.Any())
 					{
 						if (!TryConsumeFoodForHealInjury())
 						{
 							return;
 						}
 
-						var diff = (int)Mathf.Clamp(maxHP - curHP, 1, int.MaxValue);
-						var injuries = pawn.health.hediffSet.hediffs.Where(x => x is Hediff_Injury && x.Part == part);
-						for (var i = 0; i < diff; i++)
+						if (injuries.TryRandomElement(out var hediff))
 						{
-							var hediffs = injuries.Where(x => x.Severity > 0);
-							if (hediffs.TryRandomElement(out var hediff))
+							if (hediff.IsPermanent())
 							{
-								hediff.Heal(1);
-								if (hediff.Severity <= 0.02f && hediff is Hediff_Injury injury)
-								{
-									pawn.health.RemoveHediff(hediff);
-								}
-								return;
+								hediff.Severity -= 0.1f;
 							}
+							else
+							{
+								hediff.Heal(2.0f);
+							}
+
+							if (hediff.Severity <= 0.1f)
+							{
+								pawn.health.RemoveHediff(hediff);
+							}
+							return;
 						}
 					}
 				}

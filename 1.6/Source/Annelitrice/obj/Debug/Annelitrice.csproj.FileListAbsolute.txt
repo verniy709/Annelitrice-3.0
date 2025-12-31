@@ -1,0 +1,5 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Assemblies\Annelitrice.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice\obj\Debug\Annelitrice.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice\obj\Debug\Annelitrice.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice\obj\Debug\Annelitr.058EB3B8.Up2Date
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice\obj\Debug\Annelitrice.dll

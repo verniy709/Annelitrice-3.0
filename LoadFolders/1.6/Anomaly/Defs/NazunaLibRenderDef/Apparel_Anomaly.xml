@@ -97,7 +97,7 @@
 
 	<NareisLib.MultiTexDef>
 		<defName>Anneli_Apparel_PackTurret</defName>
-		<originalDef>Apparel_DeadlifePack</originalDef>
+		<originalDef>Apparel_PackTurret</originalDef>
 		<originalDefClass>ThingDef</originalDefClass>
 		<renderOriginTex>false</renderOriginTex>
 		<path>Anneli_Null/</path>

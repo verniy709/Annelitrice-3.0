@@ -20,7 +20,7 @@
 		<defName>Anneli_Player</defName>
 		<label>Annelitrice Colonist</label>
 		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
-		<apparelMoney>100~150</apparelMoney>
+		<apparelMoney>0</apparelMoney>
 		<isFighter>false</isFighter>
 		<maxGenerationAge>30</maxGenerationAge>
 		<backstoryFiltersOverride>
@@ -54,7 +54,7 @@
 		<defName>Anneli_Wild</defName>
 		<label>Annelitrice Wild</label>
 		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
-		<apparelMoney>100~150</apparelMoney>
+		<apparelMoney>0</apparelMoney>
 		<isFighter>false</isFighter>
 		<maxGenerationAge>30</maxGenerationAge>
 		<backstoryFiltersOverride>
@@ -82,20 +82,6 @@
 				<Anneli_Xenotype_Usagi MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Usagi>
 			</xenotypeChances>
 		</xenotypeSet>
-		<specificApparelRequirements>
-			<li>
-				<bodyPartGroup>Torso</bodyPartGroup>
-				<stuff>Cloth</stuff>
-			</li>
-			<li>
-				<bodyPartGroup>Legs</bodyPartGroup>
-				<stuff>Cloth</stuff>
-			</li>
-			<li>
-				<bodyPartGroup>Feet</bodyPartGroup>
-				<stuff>Cloth</stuff>
-			</li>
-		</specificApparelRequirements>
 	</PawnKindDef>
 
 </Defs>

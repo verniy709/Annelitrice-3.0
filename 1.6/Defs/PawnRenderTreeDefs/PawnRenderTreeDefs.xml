@@ -14,7 +14,7 @@
           <tagDef>Body</tagDef>
           <skipFlag>Body</skipFlag>
           <colorType>Skin</colorType>
-          <useRottenColor>false</useRottenColor>
+          <useRottenColor>true</useRottenColor>
           <useSkinShader>true</useSkinShader>
           <baseLayer>27.5</baseLayer>
           <children>
@@ -61,7 +61,7 @@
           <skipFlag>Head</skipFlag>
           <baseLayer>50</baseLayer>
           <colorType>Skin</colorType>
-          <useRottenColor>false</useRottenColor>
+          <useRottenColor>true</useRottenColor>
           <useSkinShader>true</useSkinShader>
           <children>
             <li Class="PawnRenderNodeProperties_Tattoo" MayRequire="Ludeon.RimWorld.Ideology">

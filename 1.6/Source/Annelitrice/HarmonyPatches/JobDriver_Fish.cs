@@ -1,76 +1,55 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
+using System.Linq;
 using HarmonyLib;
 using RimWorld;
 using Verse;
 
 namespace Annelitrice.HarmonyPatches
 {
-	[HarmonyPatch(typeof(Effecter))]
-	internal static class Patch_Effecter_Fishing
+	[HarmonyPatch]
+	internal static class Patch_Effecter_FishingForceHide
 	{
-		private static readonly FieldInfo fiDef =
-			AccessTools.Field(typeof(Effecter), "def");
-
-		// Only guard this patch, not the vanilla Cleanup
-		private static readonly HashSet<Effecter> cleanupGuard = new HashSet<Effecter>();
+		private static readonly FieldInfo fiChildren = AccessTools.Field(typeof(Effecter), "children");
 
 		[HarmonyTargetMethods]
-		private static IEnumerable<MethodBase> TargetMethods()
+		static IEnumerable<MethodBase> TargetMethods()
 		{
-			foreach (var m in typeof(Effecter).GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic))
+			var methods = new List<MethodBase>
 			{
-				if (m.Name != "EffectTick")
-					continue;
+				AccessTools.Method(typeof(Effecter), nameof(Effecter.Trigger), new[] { typeof(TargetInfo), typeof(TargetInfo) }),
+				AccessTools.Method(typeof(Effecter), nameof(Effecter.Trigger), new[] { typeof(LocalTargetInfo), typeof(LocalTargetInfo) }),
+				AccessTools.Method(typeof(Effecter), nameof(Effecter.EffectTick), new[] { typeof(TargetInfo), typeof(TargetInfo) }),
+				AccessTools.Method(typeof(Effecter), nameof(Effecter.EffectTick), new[] { typeof(LocalTargetInfo), typeof(LocalTargetInfo) })
+			};
 
-				var p = m.GetParameters();
-				if (p.Length != 2)
-					continue;
-
-				bool bothTargetInfo =
-					p[0].ParameterType == typeof(TargetInfo) &&
-					p[1].ParameterType == typeof(TargetInfo);
-
-				bool bothLocalTargetInfo =
-					p[0].ParameterType == typeof(LocalTargetInfo) &&
-					p[1].ParameterType == typeof(LocalTargetInfo);
-
-				if (bothTargetInfo || bothLocalTargetInfo)
-					yield return m;
-			}
+			return methods.Where(m => m != null);
 		}
 
+		[HarmonyPrefix]
 		private static bool Prefix(Effecter __instance, object __0, object __1)
 		{
-			if (cleanupGuard.Contains(__instance))
-				return false;
-
-			if (!(fiDef?.GetValue(__instance) is EffecterDef def) || def != EffecterDefOf.Fishing)
+			if (__instance.def == null || !__instance.def.defName.Contains("Fishing"))
 				return true;
 
-			Pawn pawn = ExtractPawnFromTargetLike(__0) ?? ExtractPawnFromTargetLike(__1);
-			if (pawn == null)
+			Pawn pawn = ExtractPawn(__0) ?? ExtractPawn(__1);
+			if (pawn?.def == null || pawn.def.defName != "Annelitrice")
 				return true;
 
-			if (pawn.def == null || pawn.def != AnnelitriceDefOf.Annelitrice)
-				return true;
-
-			cleanupGuard.Add(__instance);
 			__instance.Cleanup();
+
+			if (fiChildren?.GetValue(__instance) is List<SubEffecter> children)
+			{
+				children.Clear();
+			}
 
 			return false;
 		}
 
-		private static Pawn ExtractPawnFromTargetLike(object maybeTarget)
+		private static Pawn ExtractPawn(object target)
 		{
-			if (maybeTarget == null) return null;
-
-			if (maybeTarget is TargetInfo ti)
-				return ti.Thing as Pawn;
-
-			if (maybeTarget is LocalTargetInfo lti)
-				return lti.Thing as Pawn;
-
+			if (target is TargetInfo ti) return ti.Thing as Pawn;
+			if (target is LocalTargetInfo lti) return lti.Thing as Pawn;
 			return null;
 		}
 	}
