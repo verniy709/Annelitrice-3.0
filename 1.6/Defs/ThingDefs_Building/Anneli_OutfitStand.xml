@@ -3,12 +3,12 @@
   <ThingDef ParentName="OutfitStandBase">
     <defName>Anneli_OutfitStand</defName>
     <label>annelitrice outfit stand</label>
-    <description>ToDo.</description>
+    <description>Annelitrice outfit stand.Powered by NareisLib, it supports multilayer rendering and features an interaction logic different from the vanilla outfit stand: Exchange All Apparel.</description>
     <thingClass>NareisLib.Building_NewOutfitStand</thingClass>
     <costStuffCount>35</costStuffCount>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
-      <texPath>Things/Building/OutfitStand/OutfitStand_MenuIcon</texPath>
+      <texPath>Anneli_Building/OutfitStand_BuildingIcon</texPath>
       <drawSize>(1.3, 1.3)</drawSize>
     </graphicData>
     <building>
@@ -38,17 +38,19 @@
     <modExtensions>
       <li Class="NareisLib.OutfitStandRenderPlanExtension">
         <renderPlanDef>Annelitrice</renderPlanDef>
+        <defaultGender>Female</defaultGender>
         <standOffset>(0,0,0.05)</standOffset>
+        <swapAllApparelButtonIconPath>Anneli_Building/OutfitStand_SwapApparelGizmoIcon</swapAllApparelButtonIconPath>
         <raceOffsets>
           <li>
             <raceDefName>Annelitrice</raceDefName>
             <offset>(0,0,0.47)</offset>
-            <bodyTexPath>Anneli_Building/Body</bodyTexPath>
-            <bodyTexPathMale>Anneli_Building/Body</bodyTexPathMale>
-            <bodyTexPathFemale>Anneli_Building/Body</bodyTexPathFemale>
-            <headTexPath>Anneli_Building/Head</headTexPath>
-            <headTexPathMale>Anneli_Building/Head</headTexPathMale>
-            <headTexPathFemale>Anneli_Building/Head</headTexPathFemale>
+            <bodyTexPath>Anneli_Building/OutfitStand_Body</bodyTexPath>
+            <bodyTexPathMale>Anneli_Building/OutfitStand_Body</bodyTexPathMale>
+            <bodyTexPathFemale>Anneli_Building/OutfitStand_Body</bodyTexPathFemale>
+            <headTexPath>Anneli_Building/OutfitStand_Head</headTexPath>
+            <headTexPathMale>Anneli_Building/OutfitStand_Head</headTexPathMale>
+            <headTexPathFemale>Anneli_Building/OutfitStand_Head</headTexPathFemale>
           </li>
         </raceOffsets>
       </li>
