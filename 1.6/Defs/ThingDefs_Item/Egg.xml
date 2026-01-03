@@ -71,7 +71,7 @@
 
 <RecipeDef>
   <defName>ResurrectAnneliCorpse</defName>
-  <label>resurrect anneli corpse</label>
+  <label>resurrect annelitrice corpse</label>
   <description>This recipe only works on annelitrice.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>
@@ -134,7 +134,7 @@
 
 <RecipeDef>
   <defName>HatchAnneliEggs</defName>
-  <label>hatch anneli eggs</label>
+  <label>hatch annelitrice eggs</label>
   <description>Hatch anneli eggs.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>

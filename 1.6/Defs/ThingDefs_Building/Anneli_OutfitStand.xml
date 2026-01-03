@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OutfitStandBase">
+    <defName>Anneli_OutfitStand</defName>
+    <label>annelitrice outfit stand</label>
+    <description>ToDo.</description>
+    <thingClass>NareisLib.Building_NewOutfitStand</thingClass>
+    <costStuffCount>35</costStuffCount>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/OutfitStand/OutfitStand_MenuIcon</texPath>
+      <drawSize>(1.3, 1.3)</drawSize>
+    </graphicData>
+    <building>
+      <storageGroupTag>OutfitStand</storageGroupTag>
+      <defaultStorageSettings Inherit="False">
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Anneli_Category_Transmog</li>
+            <li MayRequire="Verniy709.Annelitrice3.0.Ahmislan">Anneli_Category_Ahmislan</li>
+            <li MayRequire="Verniy709.Annelitrice3.0.Gakuen">Anneli_Category_Gakuen</li>
+            <li MayRequire="Verniy709.Annelitrice3.0.Jurnizia">Anneli_Category_Jurnizia</li>
+            <li MayRequire="Verniy709.Annelitrice3.0.NeoYokohama">Anneli_Category_NeoYokohama</li>
+            <li MayRequire="Verniy709.Annelitrice3.0.YoRHa">Anneli_Category_YoRHa</li>
+          </categories>
+          <disallowedCategories>
+            <li>ApparelUtility</li>
+            <li>Weapons</li>
+          </disallowedCategories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs Inherit="False">
+      <li>ITab_Storage</li>
+      <li>NareisLib.ITab_ContentsNewOutfitStand</li>
+    </inspectorTabs>
+    <modExtensions>
+      <li Class="NareisLib.OutfitStandRenderPlanExtension">
+        <renderPlanDef>Annelitrice</renderPlanDef>
+        <standOffset>(0,0,0.05)</standOffset>
+        <raceOffsets>
+          <li>
+            <raceDefName>Annelitrice</raceDefName>
+            <offset>(0,0,0.47)</offset>
+            <bodyTexPath>Anneli_Building/Body</bodyTexPath>
+            <bodyTexPathMale>Anneli_Building/Body</bodyTexPathMale>
+            <bodyTexPathFemale>Anneli_Building/Body</bodyTexPathFemale>
+            <headTexPath>Anneli_Building/Head</headTexPath>
+            <headTexPathMale>Anneli_Building/Head</headTexPathMale>
+            <headTexPathFemale>Anneli_Building/Head</headTexPathFemale>
+          </li>
+        </raceOffsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+</Defs>

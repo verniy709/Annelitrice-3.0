@@ -29,11 +29,12 @@ namespace Annelitrice.HarmonyPatches
 		[HarmonyPrefix]
 		private static bool Prefix(Effecter __instance, object __0, object __1)
 		{
-			if (__instance.def == null || !__instance.def.defName.Contains("Fishing"))
+			if (__instance.def == null ||
+				!(__instance.def.defName.Contains("Fishing") ||__instance.def.defName.Contains("Clean")))
 				return true;
 
 			Pawn pawn = ExtractPawn(__0) ?? ExtractPawn(__1);
-			if (pawn?.def == null || pawn.def.defName != "Annelitrice")
+			if (pawn?.def == null || pawn.def.defName != AnnelitriceDefOf.Annelitrice.defName)
 				return true;
 
 			__instance.Cleanup();
