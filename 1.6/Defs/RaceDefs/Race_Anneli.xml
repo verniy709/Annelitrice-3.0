@@ -1488,6 +1488,8 @@
 					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
 					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DeadlifePack</li>
 					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_PackTurret</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_PackHunter</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_CerebrexNode</li>
 				</whiteApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
