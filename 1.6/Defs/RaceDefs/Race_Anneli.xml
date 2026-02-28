@@ -1491,6 +1491,10 @@
 					<li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_PackHunter</li>
 					<li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_CerebrexNode</li>
 				</whiteApparelList>
+				<blackApparelList>
+					<li MayRequire="Ereko.FoldingTable">FT_FoldingTableSet</li>
+					<li MayRequire="Ereko.FoldingTable">FT_WoodenFoldingTableSet</li>
+				</blackApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
 				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
