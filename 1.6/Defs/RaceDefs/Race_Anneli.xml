@@ -1472,28 +1472,8 @@
 					<li>Anneli_Transmog_ShieldBelt_Overpowered</li>
 				</apparelList>
 				<whiteApparelList>
-					<li>Apparel_ShieldBelt</li>
-					<li>Apparel_SmokepopBelt</li>
-					<li>Apparel_FirefoampopPack</li>
-					<li>Apparel_PsychicShockLance</li>
-					<li>Apparel_PsychicInsanityLance</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
-					<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicShockLance</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicInsanityLance</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_BiomutationLance</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DeadlifePack</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_PackTurret</li>
-					<li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_PackHunter</li>
-					<li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_CerebrexNode</li>
 				</whiteApparelList>
 				<blackApparelList>
-					<li MayRequire="Ereko.FoldingTable">FT_FoldingTableSet</li>
-					<li MayRequire="Ereko.FoldingTable">FT_WoodenFoldingTableSet</li>
 				</blackApparelList>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
