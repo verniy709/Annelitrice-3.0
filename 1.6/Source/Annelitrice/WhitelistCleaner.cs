@@ -15,7 +15,7 @@ namespace Annelitrice
 			if (race != null && race.alienRace?.raceRestriction != null)
 			{
 				var list = race.alienRace.raceRestriction;
-				list.whiteApparelList = new List<ThingDef>();
+				list.whiteApparelList = new List<ThingDef>(list.apparelList ?? new List<ThingDef>());
 
 				AddIfFound(list.whiteApparelList, "Apparel_ShieldBelt");
 				AddIfFound(list.whiteApparelList, "Apparel_SmokepopBelt");
