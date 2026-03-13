@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs> 
 
+	<StyleItemCategoryDef>
+		<defName>Annelitrice</defName>
+		<label>annelitrice</label>
+	</StyleItemCategoryDef>
+
 	<HairDef>
 		<defName>Anneli_HairCombo_BraidA</defName>
 		<label>(Anneli)braid A</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -16,6 +22,7 @@
 		<label>(Anneli)flat A</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -26,6 +33,7 @@
 		<label>(Anneli)flat B</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -36,6 +44,7 @@
 		<label>(Anneli)flat C</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -46,6 +55,7 @@
 		<label>(Anneli)flat D</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -56,6 +66,7 @@
 		<label>(Anneli)long A</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -66,6 +77,7 @@
 		<label>(Anneli)long B</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -76,6 +88,7 @@
 		<label>(Anneli)long C</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -86,6 +99,7 @@
 		<label>(Anneli)long D</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -96,6 +110,7 @@
 		<label>(Anneli)long E</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -106,6 +121,7 @@
 		<label>(Anneli)short A</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -116,6 +132,7 @@
 		<label>(Anneli)short B</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -126,6 +143,7 @@
 		<label>(Anneli)short C</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -136,6 +154,7 @@
 		<label>(Anneli)short D</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -146,6 +165,7 @@
 		<label>(Anneli)short E</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -156,6 +176,7 @@
 		<label>(Anneli)tied A</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -166,6 +187,7 @@
 		<label>(Anneli)tied B</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -176,6 +198,7 @@
 		<label>(Anneli)tied C</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
@@ -186,6 +209,7 @@
 		<label>(Anneli)tied D</label>
 		<styleGender>Any</styleGender>
 		<texPath>Anneli_Hair/Anneli_Null</texPath>
+		<category>Annelitrice</category>
 		<styleTags>
 			<li>Anneli</li>
 		</styleTags>
