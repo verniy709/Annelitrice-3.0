@@ -104,10 +104,10 @@
 							<offset>(0.0, 0.2165)</offset>
 						</south>
 						<east>
-							<offset>(-0.0526, 0.2165)</offset>
+							<offset>(-0.0525, 0.217)</offset>
 						</east>
 						<west>
-							<offset>(0.0526, 0.2165)</offset>
+							<offset>(0.0525, 0.217)</offset>
 						</west>
 					</headOffsetDirectional>
 					<customDrawSize>(1.11, 1.23)</customDrawSize>
