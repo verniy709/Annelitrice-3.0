@@ -45,6 +45,9 @@
 				<FilthRate>0.1</FilthRate>
 				<Wildness>0.5</Wildness>
 				<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+				<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+				<DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
+				<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 			</statBases>
 			<uiIconScale>1.2</uiIconScale>
 			<tools>

@@ -1631,6 +1631,9 @@
 			<EatingSpeed>1.6</EatingSpeed>
 			<PawnBeauty>2</PawnBeauty>
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
+			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</statBases>
 	</AlienRace.ThingDef_AlienRace>
 
