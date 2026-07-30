@@ -1636,5 +1636,4 @@
 			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</statBases>
 	</AlienRace.ThingDef_AlienRace>
-
 </Defs>
