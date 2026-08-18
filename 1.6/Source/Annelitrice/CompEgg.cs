@@ -8,7 +8,11 @@ namespace Annelitrice
 {
     public class CompEgg : ThingComp
     {
-        public override IEnumerable<Gizmo> CompGetGizmosExtra()
+		public override bool AllowStackWith(Thing other)
+		{
+			return false;
+		}
+		public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
             if (DebugSettings.ShowDevGizmos)
             {
