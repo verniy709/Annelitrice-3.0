@@ -727,16 +727,16 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -765,16 +765,16 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.31215</layerOffset>
+									<layerOffset>-0.3118</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
