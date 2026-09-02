@@ -9,7 +9,9 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.05</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

@@ -16,6 +16,9 @@
 			<EquipDelay>1</EquipDelay>
 			<Flammability>0.5</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>

@@ -17,6 +17,9 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
+			<NegotiationAbility>0.2</NegotiationAbility>
+			<TradePriceImprovement>0.05</TradePriceImprovement>
+			<SocialImpact>0.2</SocialImpact>
 			<MoveSpeed>0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<apparel>

@@ -8,6 +8,9 @@
 			<Mass>0.2</Mass>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Eyes</li>

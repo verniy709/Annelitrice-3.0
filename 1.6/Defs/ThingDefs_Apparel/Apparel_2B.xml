@@ -16,6 +16,10 @@
 			<EquipDelay>1</EquipDelay>
 			<Flammability>0.5</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>5</MeleeHitChance>
+			<MeleeDodgeChance>5</MeleeDodgeChance>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Legs</li>

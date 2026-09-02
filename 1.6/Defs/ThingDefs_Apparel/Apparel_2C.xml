@@ -21,7 +21,7 @@
 			<drawSize>1.0</drawSize>
 		</graphicData>
 		<equippedStatOffsets>
-			<MoveSpeed>0.2</MoveSpeed>
+			<MoveSpeed>0.3</MoveSpeed>
 		</equippedStatOffsets>
 	</ThingDef>
 

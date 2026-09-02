@@ -16,6 +16,7 @@
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>10</ComfyTemperatureMax>
 			<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>

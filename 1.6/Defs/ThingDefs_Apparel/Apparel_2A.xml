@@ -16,6 +16,10 @@
 			<EquipDelay>1</EquipDelay>
 			<Flammability>0.5</Flammability>
 		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>

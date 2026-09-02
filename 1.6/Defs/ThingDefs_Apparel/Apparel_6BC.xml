@@ -9,6 +9,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
+			<GlobalLearningFactor>0.2</GlobalLearningFactor>
 			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>5</ComfyTemperatureMax>

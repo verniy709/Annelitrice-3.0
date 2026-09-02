@@ -14,8 +14,6 @@
     <costList>
       <Steel>100</Steel>
     </costList>
-    <equippedStatOffsets>
-    </equippedStatOffsets>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

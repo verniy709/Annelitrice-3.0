@@ -61,7 +61,7 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useStaticColor>true</useStaticColor>
-				<color>RGBA(0.999,0.999,0.999,1)</color>
+				<color>RGBA(255,255,254,255)</color>
 				<actionManager>
 					<def>Anneli_BodyPropsA</def>
 				</actionManager>
@@ -81,7 +81,7 @@
 				<useStaticYOffset>true</useStaticYOffset>
 				<shaderType>TransparentPostLight</shaderType>
 				<useStaticColor>true</useStaticColor>
-				<color>RGBA(0.999,0.999,0.999,1)</color>
+				<color>RGBA(255,255,254,255)</color>
 				<actionManager>
 					<def>Anneli_BodyPropsB</def>
 				</actionManager>
@@ -101,7 +101,7 @@
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<useStaticColor>true</useStaticColor>
-				<color>RGBA(0.999,0.999,0.999,1)</color>
+				<color>RGBA(255,255,254,255)</color>
 				<actionManager>
 					<def>Anneli_Props</def>
 				</actionManager>

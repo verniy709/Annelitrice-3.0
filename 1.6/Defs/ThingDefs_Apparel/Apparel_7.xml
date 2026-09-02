@@ -9,7 +9,8 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<CarryingCapacity>60</CarryingCapacity>
+			<CarryingCapacity>30</CarryingCapacity>
+			<VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">15</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
