@@ -24,7 +24,7 @@
 				<actionManager>
 					<def>Anneli_Arm_Generic_Left</def>
 				</actionManager>
-				<bodyPartLabel>left arm</bodyPartLabel>
+				<bodyPartLabel>left shoulder</bodyPartLabel>
 			</li>
 			<li>
 				<prefix>
@@ -45,7 +45,7 @@
 				<actionManager>
 					<def>Anneli_Arm_Generic_Right</def>
 				</actionManager>
-				<bodyPartLabel>right arm</bodyPartLabel>
+				<bodyPartLabel>right shoulder</bodyPartLabel>
 			</li>
 			<li>
 				<prefix>

@@ -32,6 +32,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<itemQuality>Masterwork</itemQuality>
 		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
 		<weaponMoney>3000</weaponMoney>
 		<apparelMoney>2000~4000</apparelMoney>
