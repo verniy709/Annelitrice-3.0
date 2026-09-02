@@ -9,7 +9,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<RestFallRateFactor>-0.2</RestFallRateFactor>
+			<RestFallRateFactor>-0.1</RestFallRateFactor>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
