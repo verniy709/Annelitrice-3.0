@@ -20,8 +20,9 @@
 		<defName>Anneli_Player</defName>
 		<label>Annelitrice Colonist</label>
 		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
-		<apparelMoney>0</apparelMoney>
-		<isFighter>false</isFighter>
+		<isFighter>true</isFighter>
+		<combatPower>100</combatPower>
+		<canBeSapper>false</canBeSapper>
 		<maxGenerationAge>30</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
@@ -31,9 +32,29 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<weaponMoney>3000</weaponMoney>
+		<apparelMoney>2000~4000</apparelMoney>
+		<gearHealthRange>
+			<min>1.0</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<inventoryOptions>
+			<skipChance>0.1</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>300</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 		<xenotypeSet>
 			<xenotypeChances>
-				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">2.5</Anneli_Xenotype>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">5.0</Anneli_Xenotype>
 				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Abomination>
 				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Dragonkin>
 				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Elf>
@@ -67,7 +88,7 @@
 		</backstoryFiltersOverride>
 		<xenotypeSet>
 			<xenotypeChances>
-				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">1.5</Anneli_Xenotype>
+				<Anneli_Xenotype MayRequire="Ludeon.RimWorld.Biotech">5.0</Anneli_Xenotype>
 				<Anneli_Xenotype_Abomination MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Abomination>
 				<Anneli_Xenotype_Dragonkin MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Dragonkin>
 				<Anneli_Xenotype_Elf MayRequire="Ludeon.RimWorld.Biotech">0.05</Anneli_Xenotype_Elf>
