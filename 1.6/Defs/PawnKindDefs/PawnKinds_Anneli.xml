@@ -34,6 +34,8 @@
 		</backstoryFiltersOverride>
 		<itemQuality>Masterwork</itemQuality>
 		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<!-- if you start with a vanilla player faction, stuff filter breaks apparel generation -->
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
 		<weaponMoney>3000</weaponMoney>
 		<apparelMoney>2000~4000</apparelMoney>
 		<gearHealthRange>
