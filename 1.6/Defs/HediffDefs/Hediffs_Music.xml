@@ -6,7 +6,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by intense music</label>
     <labelNoun>intense music</labelNoun>
-    <description>Increase overall performance.</description>
+    <description>Aim...Fire!</description>
     <defaultLabelColor>(244,67,54)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -23,7 +23,7 @@
       <li>
         <statOffsets>
           <MoveSpeed>0.2</MoveSpeed>
-          <ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+          <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
           <AimingDelayFactor>-0.05</AimingDelayFactor>
         </statOffsets>
       </li>
@@ -35,7 +35,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by melancholic music</label>
     <labelNoun>melancholic music</labelNoun>
-    <description>Increase speed of wound healing.</description>
+    <description>Tears are the best medicine.</description>
     <defaultLabelColor>(70,120,170)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -50,11 +50,10 @@
     </comps>
     <stages>
       <li>
-        <painFactor>0.9</painFactor>
         <statOffsets>
-          <MentalBreakThreshold>0.05</MentalBreakThreshold>
-          <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
-          <InjuryHealingFactor>0.05</InjuryHealingFactor>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+          <InjuryHealingFactor>0.2</InjuryHealingFactor>
         </statOffsets>
       </li>
     </stages>
@@ -65,7 +64,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by amateurish music</label>
     <labelNoun>amateurish music</labelNoun>
-    <description>Increase speed of learning.</description>
+    <description>I can do better.</description>
     <defaultLabelColor>(238,238,238)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -81,7 +80,7 @@
     <stages>
       <li>
         <statOffsets>
-          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+          <GlobalLearningFactor>0.2</GlobalLearningFactor>
         </statOffsets>
       </li>
     </stages>
@@ -107,7 +106,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by uplifting music</label>
     <labelNoun>uplifting music</labelNoun>
-    <description>Increase happiness.</description>
+    <description>We can fly.</description>
     <defaultLabelColor>(255,217,102)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -130,7 +129,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by serene music</label>
     <labelNoun>serene music</labelNoun>
-    <description>Increase work efficiency.</description>
+    <description>Work brings us peace.</description>
     <defaultLabelColor>(147,196,125)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -146,7 +145,7 @@
     <stages>
       <li>
         <statOffsets>
-          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
         </statOffsets>
       </li>
     </stages>
@@ -157,7 +156,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by aggressive music</label>
     <labelNoun>aggressive music</labelNoun>
-    <description>Increase combat efficiency.</description>
+    <description>Kill...Kill! Blood for the blood god!</description>
     <defaultLabelColor>(255,20,40)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -173,9 +172,8 @@
     <stages>
       <li>
         <statOffsets>
-          <MoveSpeed>0.2</MoveSpeed>
-          <MeleeHitChance>0.1</MeleeHitChance>
-          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+          <MeleeDamageFactor>0.10</MeleeDamageFactor>
+          <MeleeCooldownFactor>-0.10</MeleeCooldownFactor>
         </statOffsets>
       </li>
     </stages>

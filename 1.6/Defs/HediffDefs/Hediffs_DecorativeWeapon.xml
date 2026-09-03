@@ -6,7 +6,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by brave presence</label>
     <labelNoun>brave presence</labelNoun>
-    <description>Increase pain endurance.</description>
+    <description>Just a flesh wound.</description>
     <defaultLabelColor>(206,126,0)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -34,7 +34,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by reckless presence</label>
     <labelNoun>reckless presence</labelNoun>
-    <description>Increase melee performance.</description>
+    <description>Forward! No turning back.</description>
     <defaultLabelColor>(204,0,0)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -51,8 +51,8 @@
       <li>
         <statOffsets>
           <MoveSpeed>0.2</MoveSpeed>
-          <MeleeHitChance>0.1</MeleeHitChance>
-          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
         </statOffsets>
       </li>
     </stages>
@@ -63,7 +63,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by trustworthy presence</label>
     <labelNoun>trustworthy presence</labelNoun>
-    <description>Increase defense.</description>
+    <description>I have your back.</description>
     <defaultLabelColor>(30,120,210)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -90,7 +90,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by zealous presence</label>
     <labelNoun>zealous presence</labelNoun>
-    <description>Increase movement speed and decrase mental break threshold.</description>
+    <description>Listen to me. Listen to me!</description>
     <defaultLabelColor>(240,220,160)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -107,7 +107,8 @@
       <li>
         <statOffsets>
           <MoveSpeed>0.2</MoveSpeed>
-          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+          <SocialImpact>0.2</SocialImpact>
+          <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.25</ConversionPower>
         </statOffsets>
       </li>
     </stages>
@@ -118,7 +119,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by noble presence</label>
     <labelNoun>noble presence</labelNoun>
-    <description>Increase general labor and construction speed.</description>
+    <description>I feel superior.</description>
     <defaultLabelColor>(175,105,240)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -134,8 +135,9 @@
     <stages>
       <li>
         <statOffsets>
-          <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
-          <ConstructionSpeed>0.1</ConstructionSpeed>
+          <SocialImpact>0.2</SocialImpact>
+          <NegotiationAbility>0.2</NegotiationAbility>
+          <TradePriceImprovement>0.05</TradePriceImprovement>
         </statOffsets>
       </li>
     </stages>
@@ -146,7 +148,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <label>inspired by honorable presence</label>
     <labelNoun>honorable presence</labelNoun>
-    <description>Reduce the need for sleep.</description>
+    <description>Duty does not sleep.</description>
     <defaultLabelColor>(206,126,0)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <makesSickThought>false</makesSickThought>
@@ -161,7 +163,6 @@
     </comps>
     <stages>
       <li>
-        <painFactor>0.9</painFactor>
         <statOffsets>
           <RestFallRateFactor>-0.1</RestFallRateFactor>
         </statOffsets>

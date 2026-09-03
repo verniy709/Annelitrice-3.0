@@ -44,10 +44,11 @@
 				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
 				<fleckDef>Anneli_Fleck_Note1</fleckDef>
 				<ticksBetweenMotes>30</ticksBetweenMotes>
-				<scale>0.30~0.50</scale>
+				<scale>0.50~0.65</scale>
 				<absoluteAngle>true</absoluteAngle>
 				<angle>0~360</angle>
 				<speed>0.15~0.3</speed>
+				<positionRadius>0.3</positionRadius>
 			</li>
 		</children>
 	</EffecterDef>
@@ -59,10 +60,11 @@
 				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
 				<fleckDef>Anneli_Fleck_Note2</fleckDef>
 				<ticksBetweenMotes>30</ticksBetweenMotes>
-				<scale>0.30~0.50</scale>
+				<scale>0.50~0.65</scale>
 				<absoluteAngle>true</absoluteAngle>
 				<angle>0~360</angle>
 				<speed>0.15~0.3</speed>
+				<positionRadius>0.3</positionRadius>
 			</li>
 		</children>
 	</EffecterDef>
@@ -74,10 +76,11 @@
 				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
 				<fleckDef>Anneli_Fleck_Note3</fleckDef>
 				<ticksBetweenMotes>30</ticksBetweenMotes>
-				<scale>0.30~0.50</scale>
+				<scale>0.50~0.65</scale>
 				<absoluteAngle>true</absoluteAngle>
 				<angle>0~360</angle>
 				<speed>0.15~0.3</speed>
+				<positionRadius>0.3</positionRadius>
 			</li>
 		</children>
 	</EffecterDef>
