@@ -16,7 +16,7 @@
           <colorType>Skin</colorType>
           <useRottenColor>true</useRottenColor>
           <useSkinShader>true</useSkinShader>
-          <baseLayer>27.5</baseLayer>
+          <baseLayer>26.5</baseLayer>
           <children>
             <li Class="PawnRenderNodeProperties_Tattoo" MayRequire="Ludeon.RimWorld.Ideology">
               <debugLabel>Body tattoo</debugLabel>
@@ -24,19 +24,19 @@
               <workerClass>PawnRenderNodeWorker_Body_Tattoo</workerClass>
               <colorType>Skin</colorType>
               <useRottenColor>false</useRottenColor>
-              <baseLayer>28.0</baseLayer>
+              <baseLayer>27.0</baseLayer>
               <rotDrawMode>Fresh, Rotting</rotDrawMode>
             </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Wounds - pre apparel</debugLabel>
               <workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
               <overlayLayer>Body</overlayLayer>
-              <baseLayer>29.5</baseLayer>
+              <baseLayer>28.5</baseLayer>
             </li>
             <li Class="PawnRenderNodeProperties_Parent">
               <debugLabel>Apparel root</debugLabel>
               <tagDef>ApparelBody</tagDef>
-              <baseLayer>30</baseLayer>
+              <baseLayer>29</baseLayer>
             </li>
             <li Class="PawnRenderNodeProperties_Overlay">
               <debugLabel>Wounds - post apparel</debugLabel>
