@@ -95,7 +95,7 @@ namespace Annelitrice
 
 			if (egg.GetDirectlyHeldThings().FirstOrDefault() is Pawn containedPawn)
 			{
-				Pawn larva = PawnGenerator.GeneratePawn(PawnKindDef.Named("AnnelitriceLarvaAsAnimal"), Faction.OfPlayer);
+				Pawn larva = PawnGenerator.GeneratePawn(AnnelitriceDefOf.Anneli_Larva, Faction.OfPlayer);
 				CompContainPawn larvaContainer = larva.GetComp<CompContainPawn>();
 
 				egg.GetDirectlyHeldThings().TryTransferAllToContainer(larvaContainer.GetDirectlyHeldThings());
@@ -141,7 +141,7 @@ namespace Annelitrice
         {
 			Faction AnneliWildFaction = Find.FactionManager.FirstFactionOfDef(DefDatabase<FactionDef>.GetNamed("Anneli_Faction_Wild"));
 			ThingWithComps egg = ThingMaker.MakeThing(ThingDef.Named("Anneli_OutsiderEgg")) as ThingWithComps;
-			Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(PawnKindDef.Named("Anneli_Wild"), AnneliWildFaction, PawnGenerationContext.PlayerStarter, tile: -1, forceGenerateNewPawn: true, allowDead: false, allowDowned: false, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, colonistRelationChanceFactor: 0f, forceAddFreeWarmLayerIfNeeded: false));
+			Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(AnnelitriceDefOf.Anneli_Wild, AnneliWildFaction, PawnGenerationContext.PlayerStarter, tile: -1, forceGenerateNewPawn: true, allowDead: false, allowDowned: false, canGeneratePawnRelations: false, mustBeCapableOfViolence: false, colonistRelationChanceFactor: 0f, forceAddFreeWarmLayerIfNeeded: false));
 			pawn.ideo.SetIdeo(Faction.OfPlayer.ideos.PrimaryIdeo);
 			egg.TryGetComp<CompContainPawn>().GetDirectlyHeldThings().TryAdd(pawn);
             return egg;

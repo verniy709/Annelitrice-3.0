@@ -34,7 +34,7 @@ namespace Annelitrice.HarmonyPatches
 				return true;
 
 			Pawn pawn = ExtractPawn(__0) ?? ExtractPawn(__1);
-			if (pawn?.def == null || pawn.def.defName != AnnelitriceDefOf.Annelitrice.defName)
+			if (pawn?.def == AnnelitriceDefOf.Annelitrice)
 				return true;
 
 			__instance.Cleanup();

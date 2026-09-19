@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.357
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annelitrice", "Annelitrice.csproj", "{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annelitrice_GiddyUp2Patch", "..\Annelitrice_GiddyUp2Patch\Annelitrice_GiddyUp2Patch.csproj", "{B7DBFD02-4C0D-4E49-B3C6-E3DAEC26AC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annelitrice_RJWPatch", "..\Annelitrice_RJWPatch\Annelitrice_RJWPatch\Annelitrice_RJWPatch.csproj", "{4C269235-71BA-4015-82AA-AAA137595162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annelitrice_DBHPatch", "..\Annelitrice_DBHPatch\Annelitrice_DBHPatch.csproj", "{BA927F30-290D-400D-B66C-F0826AA9E8CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DBFD02-4C0D-4E49-B3C6-E3DAEC26AC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DBFD02-4C0D-4E49-B3C6-E3DAEC26AC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DBFD02-4C0D-4E49-B3C6-E3DAEC26AC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DBFD02-4C0D-4E49-B3C6-E3DAEC26AC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C269235-71BA-4015-82AA-AAA137595162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA927F30-290D-400D-B66C-F0826AA9E8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA927F30-290D-400D-B66C-F0826AA9E8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA927F30-290D-400D-B66C-F0826AA9E8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA927F30-290D-400D-B66C-F0826AA9E8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

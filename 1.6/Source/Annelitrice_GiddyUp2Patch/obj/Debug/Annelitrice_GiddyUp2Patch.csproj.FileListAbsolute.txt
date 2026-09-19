@@ -1,0 +1,4 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\LoadFolders\1.6\GiddyUp2\Assemblies\Annelitrice_GiddyUp2Patch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice_GiddyUp2Patch\obj\Debug\Annelitrice_GiddyUp2Patch.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice_GiddyUp2Patch\obj\Debug\Annelitrice_GiddyUp2Patch.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.6\Source\Annelitrice_GiddyUp2Patch\obj\Debug\Annelitrice_GiddyUp2Patch.dll

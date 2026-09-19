@@ -108,7 +108,7 @@
 		</ThingDef>
 
 		<PawnKindDef ParentName="AnimalKindBase">
-			<defName>AnnelitriceLarvaAsAnimal</defName>
+			<defName>Anneli_Larva</defName>
 			<label>annelitrice larva</label>
 			<race>AnnelitriceLarvaAsAnimal</race>
 			<combatPower>40</combatPower>

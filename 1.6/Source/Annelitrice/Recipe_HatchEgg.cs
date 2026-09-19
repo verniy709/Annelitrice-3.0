@@ -31,7 +31,7 @@ namespace Annelitrice
 
 			IntVec3 pos = pawn.Position;
 			Map map = pawn.Map;
-			Pawn larva = PawnGenerator.GeneratePawn(PawnKindDef.Named("AnnelitriceLarvaAsAnimal"), Faction.OfPlayer);
+			Pawn larva = PawnGenerator.GeneratePawn(AnnelitriceDefOf.Anneli_Larva, Faction.OfPlayer);
 			CompContainPawn larvaContainer = larva.GetComp<CompContainPawn>();
 			eggContainer.GetDirectlyHeldThings().TryTransferAllToContainer(larvaContainer.GetDirectlyHeldThings());
 			GenSpawn.Spawn(larva, pos, map, WipeMode.VanishOrMoveAside);
