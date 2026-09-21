@@ -19,7 +19,7 @@
           <categories>
             <li>Anneli_Category_Transmog</li>
             <li MayRequire="Verniy709.Annelitrice3.0.Ahmislan">Anneli_Category_Ahmislan</li>
-            <li MayRequire="Verniy709.Annelitrice3.0.Gakuen">Anneli_Category_Gakuen</li>
+            <li MayRequire="Verniy709.Annelitrice3.0.Gakuen">Anneli_Category_Tokiwano</li>
             <li MayRequire="Verniy709.Annelitrice3.0.Jurnizia">Anneli_Category_Jurnizia</li>
             <li MayRequire="Verniy709.Annelitrice3.0.NeoYokohama">Anneli_Category_NeoYokohama</li>
             <li MayRequire="Verniy709.Annelitrice3.0.YoRHa">Anneli_Category_YoRHa</li>
