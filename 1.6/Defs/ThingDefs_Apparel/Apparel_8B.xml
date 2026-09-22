@@ -2,6 +2,10 @@
 <Defs>
 
 	<ThingDef Name="Anneli_8B" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<graphicData>
+			<drawSize>1.0</drawSize>
+			<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+		</graphicData>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>

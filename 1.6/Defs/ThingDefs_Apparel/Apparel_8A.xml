@@ -2,6 +2,9 @@
 <Defs>
 
 	<ThingDef Name="Anneli_8A" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<graphicData>
+			<drawSize>1.0</drawSize>
+		</graphicData>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>

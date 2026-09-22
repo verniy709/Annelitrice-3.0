@@ -33,7 +33,7 @@
 		</recipeMaker>
 		<graphicData>
 			<onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
-			<drawSize>1.3</drawSize>
+			<drawSize>1.15</drawSize>
 		</graphicData>
 		<apparel>
 			<bodyPartGroups>

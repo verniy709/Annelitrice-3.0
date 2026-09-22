@@ -2,6 +2,9 @@
 <Defs>
 
 	<ThingDef Name="Anneli_2A" ParentName="Anneli_ApparelCommonBase"  Abstract="True">
+		<graphicData>
+			<drawSize>1.3</drawSize>
+		</graphicData>
 		<costStuffCount>30</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
