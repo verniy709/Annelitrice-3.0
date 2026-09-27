@@ -30,7 +30,7 @@
 	<ResearchProjectDef>
 		<defName>Anneli_PuppetTheatre</defName>
 		<label>annelitrice puppet theatre</label>
-		<description>Societies without electricity still need television, so they invented puppetry. With a few wooden dolls and suspiciously elaborate costumes, colonists can reenact famous works whose creators have long since been forgotten. So historic accuracy is optional.</description>
+		<description>Societies without electricity still need television, so they invented puppetry. With a few wooden dolls and suspiciously elaborate costumes, colonists can reenact famous works whose creators have long since been forgotten. Historical accuracy is optional.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>

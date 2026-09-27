@@ -118,7 +118,7 @@
   <HediffDef>
     <defName>Anneli_Pupation</defName>
     <label>annelitrice pupation</label>
-    <description>Feed the larvae, then they will turn into pupae.</description>
+    <description>Well-fed larvae will eventually pupate.</description>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <makesSickThought>false</makesSickThought>
     <scenarioCanAdd>false</scenarioCanAdd>
