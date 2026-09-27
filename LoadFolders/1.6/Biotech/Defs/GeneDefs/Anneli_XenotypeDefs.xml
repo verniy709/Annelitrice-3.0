@@ -147,7 +147,7 @@
 	<XenotypeDef>
 		<defName>Anneli_Xenotype_Kitsune</defName>
 		<label>annelitrice kitsune</label>
-		<description>The annelitrice kitsune, or “fox girl,” are known for their sharp ears and fluffy tails. From Earth's classic tales, they've come to understand that the most effective way to blend into human society is through a well-placed meal—after all, the way to a man's heart is through his stomach. While they often present themselves as submissive, gentle companions—the perfect loving wife or mother, they can quickly transform from sweet to deadly when emotions run wild. In short, love into a bloodbath.</description>
+		<description>The annelitrice kitsune, or “fox girl,” are known for their sharp ears and fluffy tails. From Earth's classic tales, they've come to understand that the most effective way to blend into human society is through a well-placed meal—after all, the way to a man's heart is through his stomach. Although they often present themselves as submissive, gentle companions—the perfect loving wife or mother—they can quickly turn from sweet to deadly when emotions run wild. In short, love can become a bloodbath.</description>
 		<iconPath>Anneli_UI/Anneli_Infect</iconPath>
 		<inheritable>true</inheritable>
 		<displayPriority>1000</displayPriority>

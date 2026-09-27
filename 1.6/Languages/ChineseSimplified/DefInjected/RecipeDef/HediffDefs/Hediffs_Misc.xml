@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: This medical operation cures annelitrice infection. -->
+  <Cure_Anneli_Infection.description>治疗安妮莉特丝感染.</Cure_Anneli_Infection.description>
+  <!-- EN: Curing annelitrice infection. -->
+  <Cure_Anneli_Infection.jobString>治疗安妮莉特丝感染中.</Cure_Anneli_Infection.jobString>
+  <!-- EN: cure annelitrice infection -->
+  <Cure_Anneli_Infection.label>治疗安妮莉特丝感染</Cure_Anneli_Infection.label>
+  <!-- EN: {0} has successfully cured {1}'s annelitrice infection. -->
+  <Cure_Anneli_Infection.successfullyRemovedHediffMessage>{0} 成功治疗 {1} 的安妮莉特丝感染.</Cure_Anneli_Infection.successfullyRemovedHediffMessage>
+</LanguageData>

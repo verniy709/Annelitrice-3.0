@@ -292,7 +292,7 @@
 		<defName>Anneli_HoardingWorm</defName>
 		<title>Hoarding Worm</title>
 		<titleShort>Hoarding Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] has hoarding disorder.</baseDesc>
+		<baseDesc>[PAWN_nameDef] had a hoarding disorder.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -318,7 +318,7 @@
 		<defName>Anneli_CatWorm</defName>
 		<title>Cat Worm</title>
 		<titleShort>Cat Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] dreams of turning into an actual cat, or least infecting one.</baseDesc>
+		<baseDesc>[PAWN_nameDef] dreamed of becoming into an actual cat, or at least infecting one.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -396,7 +396,7 @@
 		<defName>Anneli_MedicalWorm</defName>
 		<title>Medical Worm</title>
 		<titleShort>Medical Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] is employed at a massage therapy establishment that specializes in providing leech therapy.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was employed at a massage therapy establishment that specializes in providing leech therapy.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -422,7 +422,7 @@
 		<defName>Anneli_CheesyWorm</defName>
 		<title>Cheesy Worm</title>
 		<titleShort>Cheesy Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] lives in soft and creamy Sardinian cheese.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived in soft and creamy Sardinian cheese.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -448,7 +448,7 @@
 		<defName>Anneli_BookWorm</defName>
 		<title>Book Worm</title>
 		<titleShort>Book Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] cannot read, but finds great joy in admiring illustrations.</baseDesc>
+		<baseDesc>[PAWN_nameDef] could not read, but finds great joy in admiring illustrations.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>

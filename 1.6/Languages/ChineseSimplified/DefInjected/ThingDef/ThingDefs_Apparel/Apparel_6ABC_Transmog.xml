@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: No worn textures. This enhanced helmet is for players who use diverse mod items with varying levels of strength. -->
+  <Anneli_Transmog_Helmet_Enhanced.description>头盔没有穿戴的贴图。适合那些使用各种不同强度模组物品的玩家。</Anneli_Transmog_Helmet_Enhanced.description>
+  <!-- EN: (Anneli)6ABC_Helmet_Enhanced -->
+  <Anneli_Transmog_Helmet_Enhanced.label>(安妮莉)6ABC_头盔_增强</Anneli_Transmog_Helmet_Enhanced.label>
+  <!-- EN: No worn textures. This overpowered helmet is for players uninterested in game balance. -->
+  <Anneli_Transmog_Helmet_Overpowered.description>头盔没有穿戴的贴图。适合对游戏平衡不感兴趣的玩家。</Anneli_Transmog_Helmet_Overpowered.description>
+  <!-- EN: (Anneli)6ABC_Helmet_OP -->
+  <Anneli_Transmog_Helmet_Overpowered.label>(安妮莉)6ABC_头盔_超强</Anneli_Transmog_Helmet_Overpowered.label>
+  <!-- EN: No worn textures. This helmet is for players who prefer a vanilla combat experience, without any overpowered or game-changing mods. -->
+  <Anneli_Transmog_Helmet_Vanilla.description>头盔没有穿戴的贴图。适合那些喜欢原版战斗体验、不使用任何过于强大或改变游戏性质的模组的玩家。</Anneli_Transmog_Helmet_Vanilla.description>
+  <!-- EN: (Anneli)6ABC_Helmet_Vanilla -->
+  <Anneli_Transmog_Helmet_Vanilla.label>(安妮莉)6ABC_头盔_原版</Anneli_Transmog_Helmet_Vanilla.label>
+</LanguageData>

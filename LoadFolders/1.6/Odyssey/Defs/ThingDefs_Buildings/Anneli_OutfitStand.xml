@@ -3,7 +3,7 @@
   <ThingDef ParentName="OutfitStandBase">
     <defName>Anneli_OutfitStand</defName>
     <label>annelitrice outfit stand</label>
-    <description>Annelitrice outfit stand.Powered by NareisLib, it supports multilayer rendering and features an interaction logic different from the vanilla outfit stand: Exchange All Apparel.</description>
+    <description>Annelitrice outfit stand. Powered by NareisLib, it supports multilayer rendering and features an interaction logic different from the vanilla outfit stand: Exchange All Apparel.</description>
     <thingClass>NareisLib.Building_NewOutfitStand</thingClass>
     <costStuffCount>35</costStuffCount>
     <graphicData>

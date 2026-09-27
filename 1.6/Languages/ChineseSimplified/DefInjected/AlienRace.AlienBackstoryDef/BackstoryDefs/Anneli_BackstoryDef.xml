@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: [PAWN_nameDef] was a little too energetic. -->
+  <Anneli_ActiveWorm.description>[PAWN_nameDef]有些过于精力旺盛。</Anneli_ActiveWorm.description>
+  <!-- EN: Active Worm -->
+  <Anneli_ActiveWorm.title>精神蠕虫</Anneli_ActiveWorm.title>
+  <!-- EN: Active Worm -->
+  <Anneli_ActiveWorm.titleShort>精神蠕虫</Anneli_ActiveWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] would avoid people if possible. -->
+  <Anneli_AutisticWorm.description>[PAWN_nameDef]不喜欢和人面对面交流.</Anneli_AutisticWorm.description>
+  <!-- EN: Autistic Worm -->
+  <Anneli_AutisticWorm.title>自闭蠕虫</Anneli_AutisticWorm.title>
+  <!-- EN: Autistic Worm -->
+  <Anneli_AutisticWorm.titleShort>自闭蠕虫</Anneli_AutisticWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] loved to start a fight. -->
+  <Anneli_BellicoseWorm.description>[PAWN_nameDef]总是挑事儿。</Anneli_BellicoseWorm.description>
+  <!-- EN: Bellicose Worm -->
+  <Anneli_BellicoseWorm.title>好斗蠕虫</Anneli_BellicoseWorm.title>
+  <!-- EN: Bellicose Worm -->
+  <Anneli_BellicoseWorm.titleShort>好斗蠕虫</Anneli_BellicoseWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] was always in a deep meditation. -->
+  <Anneli_BizarreWorm.description>[PAWN_nameDef]总是陷入沉思。</Anneli_BizarreWorm.description>
+  <!-- EN: Bizarre Worm -->
+  <Anneli_BizarreWorm.title>奇异蠕虫</Anneli_BizarreWorm.title>
+  <!-- EN: Bizarre Worm -->
+  <Anneli_BizarreWorm.titleShort>奇异蠕虫</Anneli_BizarreWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] could not read, but finds great joy in admiring illustrations. -->
+  <Anneli_BookWorm.description>[PAWN_nameDef]不识字，但是看插图也挺有趣.</Anneli_BookWorm.description>
+  <!-- EN: Book Worm -->
+  <Anneli_BookWorm.title>书蠕虫</Anneli_BookWorm.title>
+  <!-- EN: Book Worm -->
+  <Anneli_BookWorm.titleShort>书蠕虫</Anneli_BookWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] dreamed of becoming into an actual cat, or at least infecting one. -->
+  <Anneli_CatWorm.description>[PAWN_nameDef]想变成一只真正的猫, 或者至少感染一只.</Anneli_CatWorm.description>
+  <!-- EN: Cat Worm -->
+  <Anneli_CatWorm.title>猫蠕虫</Anneli_CatWorm.title>
+  <!-- EN: Cat Worm -->
+  <Anneli_CatWorm.titleShort>猫蠕虫</Anneli_CatWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] lived in soft and creamy Sardinian cheese. -->
+  <Anneli_CheesyWorm.description>[PAWN_nameDef]喜欢居住在又软又滑的萨丁尼亚奶酪.</Anneli_CheesyWorm.description>
+  <!-- EN: Cheesy Worm -->
+  <Anneli_CheesyWorm.title>奶酪蠕虫</Anneli_CheesyWorm.title>
+  <!-- EN: Cheesy Worm -->
+  <Anneli_CheesyWorm.titleShort>奶酪蠕虫</Anneli_CheesyWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] could draw Mona Lisa with digestive juices. -->
+  <Anneli_CreativeWorm.description>[PAWN_nameDef]可以用消化液来创作蒙娜丽莎。</Anneli_CreativeWorm.description>
+  <!-- EN: Creative Worm -->
+  <Anneli_CreativeWorm.title>脑洞大开蠕虫</Anneli_CreativeWorm.title>
+  <!-- EN: Creative Worm -->
+  <Anneli_CreativeWorm.titleShort>脑洞大开蠕虫</Anneli_CreativeWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] was enlisted in the monumental conflict known as DOS Worm in 1995. -->
+  <Anneli_DOSWorm.description>[PAWN_nameDef]参加了那场1995年的DOS Worms大战.</Anneli_DOSWorm.description>
+  <!-- EN: DOS Worm -->
+  <Anneli_DOSWorm.title>DOS蠕虫</Anneli_DOSWorm.title>
+  <!-- EN: DOS Worm -->
+  <Anneli_DOSWorm.titleShort>DOS蠕虫</Anneli_DOSWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] drilled well-organized holes on solid media. -->
+  <Anneli_DiggingWorm.description>[PAWN_nameDef]喜欢在固态培养基上打洞。</Anneli_DiggingWorm.description>
+  <!-- EN: Digging Worm -->
+  <Anneli_DiggingWorm.title>活体盾构机蠕虫</Anneli_DiggingWorm.title>
+  <!-- EN: Digging Worm -->
+  <Anneli_DiggingWorm.titleShort>活体盾构机蠕虫</Anneli_DiggingWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] had an insatiable appetite. -->
+  <Anneli_FastGrowingWorm.description>[PAWN_nameDef]总是填不饱肚子。</Anneli_FastGrowingWorm.description>
+  <!-- EN: Fast-Growing Worm -->
+  <Anneli_FastGrowingWorm.title>好胃口蠕虫</Anneli_FastGrowingWorm.title>
+  <!-- EN: Fast-Growing Worm -->
+  <Anneli_FastGrowingWorm.titleShort>好胃口蠕虫</Anneli_FastGrowingWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] liked to make friends with the foods. -->
+  <Anneli_FriendlyWorm.description>[PAWN_nameDef]善于和她的食物交朋友。</Anneli_FriendlyWorm.description>
+  <!-- EN: Friendly Worm -->
+  <Anneli_FriendlyWorm.title>圣母蠕虫</Anneli_FriendlyWorm.title>
+  <!-- EN: Friendly Worm -->
+  <Anneli_FriendlyWorm.titleShort>圣母蠕虫</Anneli_FriendlyWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] had a hoarding disorder. -->
+  <Anneli_HoardingWorm.description>[PAWN_nameDef]有轻微囤积症.</Anneli_HoardingWorm.description>
+  <!-- EN: Hoarding Worm -->
+  <Anneli_HoardingWorm.title>囤积癖蠕虫</Anneli_HoardingWorm.title>
+  <!-- EN: Hoarding Worm -->
+  <Anneli_HoardingWorm.titleShort>囤积癖蠕虫</Anneli_HoardingWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] loved to simulate humans. -->
+  <Anneli_ImitatingWorm.description>[PAWN_nameDef]比同类更善于模仿人类。</Anneli_ImitatingWorm.description>
+  <!-- EN: Imitating Worm -->
+  <Anneli_ImitatingWorm.title>拟态蠕虫</Anneli_ImitatingWorm.title>
+  <!-- EN: Imitating Worm -->
+  <Anneli_ImitatingWorm.titleShort>拟态蠕虫</Anneli_ImitatingWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] was employed at a massage therapy establishment that specializes in providing leech therapy. -->
+  <Anneli_MedicalWorm.description>[PAWN_nameDef]在一家提供吸血疗法的按摩店上班.</Anneli_MedicalWorm.description>
+  <!-- EN: Medical Worm -->
+  <Anneli_MedicalWorm.title>医用蠕虫</Anneli_MedicalWorm.title>
+  <!-- EN: Medical Worm -->
+  <Anneli_MedicalWorm.titleShort>医用蠕虫</Anneli_MedicalWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] was fascinated with the history of agriculture. -->
+  <Anneli_NerdyWorm.description>[PAWN_nameDef]喜欢研究人类的农业史。</Anneli_NerdyWorm.description>
+  <!-- EN: Nerdy Worm -->
+  <Anneli_NerdyWorm.title>呆子蠕虫</Anneli_NerdyWorm.title>
+  <!-- EN: Nerdy Worm -->
+  <Anneli_NerdyWorm.titleShort>呆子蠕虫</Anneli_NerdyWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] was not a special one in the culture chamber. -->
+  <Anneli_NormalWorm.description>[PAWN_nameDef]和培养仓中的同类比起来没什么特色。</Anneli_NormalWorm.description>
+  <!-- EN: Normal Worm -->
+  <Anneli_NormalWorm.title>平凡蠕虫</Anneli_NormalWorm.title>
+  <!-- EN: Normal Worm -->
+  <Anneli_NormalWorm.titleShort>平凡蠕虫</Anneli_NormalWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] knew how to arm itself at any time. -->
+  <Anneli_ShrewdWorm.description>[PAWN_nameDef]总是能就地取材。</Anneli_ShrewdWorm.description>
+  <!-- EN: Shrewd Worm -->
+  <Anneli_ShrewdWorm.title>精明蠕虫</Anneli_ShrewdWorm.title>
+  <!-- EN: Shrewd Worm -->
+  <Anneli_ShrewdWorm.titleShort>精明蠕虫</Anneli_ShrewdWorm.titleShort>
+  <!-- EN: [PAWN_nameDef] believed herself to be a reincarnation of a cult leader. -->
+  <Anneli_ZealousWorm.description>[PAWN_nameDef]大概是某个邪教领袖的转生.</Anneli_ZealousWorm.description>
+  <!-- EN: Zealous Worm -->
+  <Anneli_ZealousWorm.title>狂热蠕虫</Anneli_ZealousWorm.title>
+  <!-- EN: Zealous Worm -->
+  <Anneli_ZealousWorm.titleShort>狂热蠕虫</Anneli_ZealousWorm.titleShort>
+</LanguageData>

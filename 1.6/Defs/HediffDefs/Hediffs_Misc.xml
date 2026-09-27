@@ -26,7 +26,7 @@
     <label>annelitrice infestation</label>
     <labelNoun>annelitrice infestation</labelNoun>
     <hediffClass>Annelitrice.Hediff_EggInfected</hediffClass>
-    <description>The hediff would induce the target to produce 2-4 Anneli_OutsiderEgg every in-game day. These eggs would then hatch into new pawns that belong to the player's faction.</description>
+    <description>This hediff causes the target to produce 2–4 outsider eggs per in-game day. The eggs hatch into new pawns belonging to the player's faction.</description>
     <makesSickThought>true</makesSickThought>
     <tendable>false</tendable>
     <minSeverity>0.001</minSeverity>
@@ -118,7 +118,7 @@
   <HediffDef>
     <defName>Anneli_Pupation</defName>
     <label>annelitrice pupation</label>
-    <description>Ecdysone is a special hormone that helps insects grow and change. It's made by a special gland in response to different signals from its surroundings. Basically, if you give the larvae food, they'll turn into pupae.</description>
+    <description>Feed the larvae, then they will turn into pupae.</description>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
     <makesSickThought>false</makesSickThought>
     <scenarioCanAdd>false</scenarioCanAdd>

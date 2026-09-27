@@ -26,19 +26,11 @@
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_Underwear_Low</defName>
-  </RenderSkipFlagDef>
-
-  <RenderSkipFlagDef>
     <defName>Anneli_Sock</defName>
   </RenderSkipFlagDef>
-  
-  <RenderSkipFlagDef>
-    <defName>Anneli_Middle</defName>
-  </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_Middle_Low</defName>
+    <defName>Anneli_Middle</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
@@ -54,7 +46,23 @@
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
-    <defName>Anneli_Knee</defName>
+    <defName>Anneli_Knee_Kneepad</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Knee_Puttee</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Overhead</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Bag</defName>
+  </RenderSkipFlagDef>
+
+  <RenderSkipFlagDef>
+    <defName>Anneli_Misc</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>
@@ -67,14 +75,6 @@
 
   <RenderSkipFlagDef>
     <defName>Anneli_Props</defName>
-  </RenderSkipFlagDef>
-
-  <RenderSkipFlagDef>
-    <defName>Anneli_Bag</defName>
-  </RenderSkipFlagDef>
-
-  <RenderSkipFlagDef>
-    <defName>Anneli_Misc</defName>
   </RenderSkipFlagDef>
 
   <RenderSkipFlagDef>

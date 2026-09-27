@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Can be used with ranged weapons. This enhanced shield belt is for players who use diverse mod items with varying levels of strength. -->
+  <Anneli_Transmog_ShieldBelt_Enhanced.description>这个护盾腰带可以与远程武器一起使用。适合那些使用各种不同强度模组物品的玩家。</Anneli_Transmog_ShieldBelt_Enhanced.description>
+  <!-- EN: (Anneli)ShieldBelt_Enhanced -->
+  <Anneli_Transmog_ShieldBelt_Enhanced.label>(安妮莉)护盾腰带_增强</Anneli_Transmog_ShieldBelt_Enhanced.label>
+  <!-- EN: Can be used with ranged weapons. This overpowered shield belt is for players uninterested in game balance. -->
+  <Anneli_Transmog_ShieldBelt_Overpowered.description>这个护盾腰带可以与远程武器一起使用。 适合对游戏平衡不感兴趣的玩家。</Anneli_Transmog_ShieldBelt_Overpowered.description>
+  <!-- EN: (Anneli)ShieldBelt_OP -->
+  <Anneli_Transmog_ShieldBelt_Overpowered.label>(安妮莉)护盾腰带_超强</Anneli_Transmog_ShieldBelt_Overpowered.label>
+  <!-- EN: Can be used with ranged weapons. This shield belt is for players who prefer a vanilla combat experience, without any overpowered or game-changing mods. -->
+  <Anneli_Transmog_ShieldBelt_Vanilla.description>这个护盾腰带可以与远程武器一起使用。适合那些喜欢原版战斗体验、不使用任何过于强大或改变游戏性质的模组的玩家。</Anneli_Transmog_ShieldBelt_Vanilla.description>
+  <!-- EN: (Anneli)ShieldBelt_Vanilla -->
+  <Anneli_Transmog_ShieldBelt_Vanilla.label>(安妮莉)护盾腰带_原版</Anneli_Transmog_ShieldBelt_Vanilla.label>
+</LanguageData>

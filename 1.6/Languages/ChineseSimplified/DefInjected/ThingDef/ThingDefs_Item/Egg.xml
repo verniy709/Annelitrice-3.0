@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected. -->
+  <Anneli_ColonistEgg.description>如果你成功捕捉了一枚安妮莉特丝卵，很有可能其他的已经溜走了。</Anneli_ColonistEgg.description>
+  <!-- EN: colonist egg -->
+  <Anneli_ColonistEgg.label>殖民者的卵</Anneli_ColonistEgg.label>
+  <!-- EN: If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected. -->
+  <Anneli_OutsiderEgg.description>如果你成功捕捉了一枚安妮莉特丝卵，很有可能其他的已经溜走了。</Anneli_OutsiderEgg.description>
+  <!-- EN: outsider egg -->
+  <Anneli_OutsiderEgg.label>外来者的卵</Anneli_OutsiderEgg.label>
+</LanguageData>

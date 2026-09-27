@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Taste of home. -->
+  <AnneliDrinkNutrientSolution.stages.0.description>有家常菜的味道.</AnneliDrinkNutrientSolution.stages.0.description>
+  <!-- EN: drink nutrient solution -->
+  <AnneliDrinkNutrientSolution.stages.0.label>喝了营养液</AnneliDrinkNutrientSolution.stages.0.label>
+  <!-- EN: That hurts! -->
+  <AnneliMyOrganHarvested.stages.0.description>有点疼!</AnneliMyOrganHarvested.stages.0.description>
+  <!-- EN: my organ harvested -->
+  <AnneliMyOrganHarvested.stages.0.label>我的器官被割取了</AnneliMyOrganHarvested.stages.0.label>
+  <!-- EN: We shall reunite soon. -->
+  <AnneliPawnDied.stages.0.description>我们很快就会再相见.</AnneliPawnDied.stages.0.description>
+  <!-- EN: my relative {0} died -->
+  <AnneliPawnDied.stages.0.label>我的亲属 {0} 死了</AnneliPawnDied.stages.0.label>
+  <!-- EN: They will be back soon. -->
+  <AnneliPawnLost.stages.0.description>她们很快就会归来.</AnneliPawnLost.stages.0.description>
+  <!-- EN: member {0} lost -->
+  <AnneliPawnLost.stages.0.label>同伴 {0} 迷失</AnneliPawnLost.stages.0.label>
+  <!-- EN: They would stay silent for a few days at least. -->
+  <AnneliPawnWithBadOpinionDied.stages.0.description>至少能过几天清净日子.</AnneliPawnWithBadOpinionDied.stages.0.description>
+  <!-- EN: my rival {0} died -->
+  <AnneliPawnWithBadOpinionDied.stages.0.label>我的仇敌 {0} 死了</AnneliPawnWithBadOpinionDied.stages.0.label>
+  <!-- EN: Such loneliness. -->
+  <AnneliPawnWithGoodOpinionDied.stages.0.description>这几天会有点孤单.</AnneliPawnWithGoodOpinionDied.stages.0.description>
+  <!-- EN: my friend {0} died -->
+  <AnneliPawnWithGoodOpinionDied.stages.0.label>我的朋友 {0} 死了</AnneliPawnWithGoodOpinionDied.stages.0.label>
+  <!-- EN: Is this part of the plot? -->
+  <AnneliQuestioning.stages.0.description>这似乎和剧本对不上?</AnneliQuestioning.stages.0.description>
+  <!-- EN: confused by {0} -->
+  <AnneliQuestioning.stages.0.label>被 {0} 搞糊涂了</AnneliQuestioning.stages.0.label>
+  <!-- EN: What is the safeword? -->
+  <AnneliWasImprisoned.stages.0.description>还没有告诉我安全词吗?</AnneliWasImprisoned.stages.0.description>
+  <!-- EN: was imprisoned -->
+  <AnneliWasImprisoned.stages.0.label>被监禁了</AnneliWasImprisoned.stages.0.label>
+  <!-- EN: This is terrible. I would rather starve to death. -->
+  <OthersDrinkNutrientSolution.stages.0.description>这太折磨了，请给我来个痛快的.</OthersDrinkNutrientSolution.stages.0.description>
+  <!-- EN: drink nutrient solution -->
+  <OthersDrinkNutrientSolution.stages.0.label>喝了营养液</OthersDrinkNutrientSolution.stages.0.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: This hediff causes the target to produce 2–4 outsider eggs per in-game day. The eggs hatch into new pawns belonging to the player's faction. -->
+  <Anneli_Infest.description>这个异常状态会让目标每个游戏日产生2-4个安妮莉蛋。这些蛋会孵化成新的人物，归属于玩家的阵营。</Anneli_Infest.description>
+  <!-- EN: annelitrice infest -->
+  <Anneli_Infest.label>安妮莉特丝感染</Anneli_Infest.label>
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: This hediff causes the target to produce 2–4 outsider eggs per in-game day. The eggs hatch into new pawns belonging to the player's faction. -->
+  <Anneli_Infection.description>这个异常状态会让目标每个游戏日产生2-4个安妮莉蛋。这些蛋会孵化成新的人物，归属于玩家的阵营。</Anneli_Infection.description>
+  <!-- EN: annelitrice infestation -->
+  <Anneli_Infection.label>安妮莉特丝寄生</Anneli_Infection.label>
+  <!-- EN: annelitrice infestation -->
+  <Anneli_Infection.labelNoun>安妮莉特丝寄生</Anneli_Infection.labelNoun>
+  <!-- EN: Early-stage -->
+  <Anneli_Infection.stages.0.label>早期</Anneli_Infection.stages.0.label>
+  <!-- EN: Middle-stage -->
+  <Anneli_Infection.stages.1.label>中期</Anneli_Infection.stages.1.label>
+  <!-- EN: Late-stage -->
+  <Anneli_Infection.stages.2.label>晚期</Anneli_Infection.stages.2.label>
+  <!-- EN: Final-stage -->
+  <Anneli_Infection.stages.3.label>最终阶段</Anneli_Infection.stages.3.label>
+  <!-- EN: annelitrice pupation -->
+  <Anneli_Pupation.label>安妮莉特丝蛹化</Anneli_Pupation.label>
+  <!-- EN: minor -->
+  <Anneli_Pupation.stages.0.label>正常状态</Anneli_Pupation.stages.0.label>
+  <!-- EN: set -->
+  <Anneli_Regeneration.comps.0.labelSolidTendedWell>已简单处理</Anneli_Regeneration.comps.0.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Anneli_Regeneration.comps.0.labelTendedWell>已包扎</Anneli_Regeneration.comps.0.labelTendedWell>
+  <!-- EN: sutured -->
+  <Anneli_Regeneration.comps.0.labelTendedWellInner>已缝合</Anneli_Regeneration.comps.0.labelTendedWellInner>
+  <!-- EN: Annelitrice regeneration of lost bodyparts. -->
+  <Anneli_Regeneration.description>安妮莉特丝重生.</Anneli_Regeneration.description>
+  <!-- EN: Destroyed -->
+  <Anneli_Regeneration.injuryProps.destroyedLabel>已被毁</Anneli_Regeneration.injuryProps.destroyedLabel>
+  <!-- EN: annelitrice regeneration -->
+  <Anneli_Regeneration.label>安妮莉特丝重生</Anneli_Regeneration.label>
+  <!-- EN: annelitrice regeneration -->
+  <Anneli_Regeneration.labelNoun>安妮莉特丝重生</Anneli_Regeneration.labelNoun>
+</LanguageData>

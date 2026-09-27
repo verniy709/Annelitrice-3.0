@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: An annelitrice egg extract for preventing parasitic infections before they take hold. Blocks gut worms, muscle parasites, fibrous mechanites, sensory mechanites, sleeping sickness, metal horror, annelitrice infection. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered. -->
+  <Anneli_Anthelmintic.description>驱虫药使得人物对肠道蠕虫、肌肉寄生虫、纤维纳米机械感染、感官纳米机械感染、昏睡病、金属寄生和安妮莉特丝寄生的免疫。这只阻止新的感染；对已经感染的人没有任何作用，即使他们的感染处于隐藏状态。</Anneli_Anthelmintic.description>
+  <!-- EN: Take {0} -->
+  <Anneli_Anthelmintic.ingestible.ingestCommandString>服用 {0}</Anneli_Anthelmintic.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <Anneli_Anthelmintic.ingestible.ingestReportString>服用 {0} 中.</Anneli_Anthelmintic.ingestible.ingestReportString>
+  <!-- EN: annelitrice anthelmintic -->
+  <Anneli_Anthelmintic.label>安妮莉特丝驱虫药</Anneli_Anthelmintic.label>
+</LanguageData>

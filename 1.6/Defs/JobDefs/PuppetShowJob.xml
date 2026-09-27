@@ -25,7 +25,7 @@
   <JobDef>
     <defName>WatchPuppetShow</defName>
     <driverClass>Annelitrice.JobDriver_WatchPuppetShow</driverClass>
-    <reportString>watching puppetshow.</reportString>
+    <reportString>watching a puppet show.</reportString>
     <joyDuration>4000</joyDuration>
     <joyMaxParticipants>12</joyMaxParticipants>
     <joyKind>Anneli_Spectate</joyKind>

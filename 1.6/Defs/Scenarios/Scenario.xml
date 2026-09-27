@@ -5,7 +5,7 @@
 	<label>The Lone Annelitrice</label>
 	<description>Against the odds, you survived the clumsy plunder of your long-sleep tomb. They damaged much, yet fled without taking everything. Now, the silence echoes a harsher theft: three hundred years gone.</description>
 	<scenario>
-		<summary>You woke up from a cryptosleep sarcophagus and found some resources in a hiddle storage room.</summary>
+		<summary>You woke up from a cryptosleep sarcophagus and found some resources in a hidden storage room.</summary>
 		<playerFaction>
 		<def>PlayerFaction</def>
 		<factionDef>Anneli_Faction_Player</factionDef>

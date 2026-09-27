@@ -23,7 +23,7 @@
 
 	<LifeStageDef>
 		<defName>Anneli_Larva</defName>
-		<label></label>
+		<label>larva</label>
 		<bodySizeFactor>1.0</bodySizeFactor>
 		<foodMaxFactor>12</foodMaxFactor>
 		<healthScaleFactor>1.0</healthScaleFactor>
@@ -33,8 +33,7 @@
 	<ThingDef ParentName="BaseInsect">
 		<defName>AnnelitriceLarvaAsAnimal</defName>
 		<label>annelitrice larva</label>
-		<description>Annelitrice are a highly pathogenic parasitic species that can be found on numerous planets.
-			Its life cycle is more complex than that of most identified species, involving both a free-living and a parasitic phase.\n\nThe free-living phase of the life cycle involves the development of larvae. The larvae have a long cylindrical tube-like body, which some researchers believe to be intermediate hosts, given that their morphology resembles that of distantly related bilateral animals. If enough feeding triggers an up-regulation of ecdysone secretion, the larval stage is followed by the pupal stage. Eventually, adult annelitrice emerge from the pupae and form or join communities.\n\nAt the start of their parasitic phase, the adult annelitrice can penetrate the skin and deliver eggs to the bloodstream. From there, they migrate to the small intestine where they develop into infective larvae. The infective larvae lay eggs, which are passed out of the host in the feces.\n\nAnnelitrice have a remarkable ability to regenerate from any non-lethal wound. However, this comes at the cost of having relatively fragile body parts compared to baseline humanoids. Furthermore, they exhibit unique perspectives on the value of life and societal norms.</description>
+		<description>Annelitrice are highly pathogenic parasites found across numerous worlds. They possess no fixed shape, usually appearing as familiar lifeforms, presumably because screaming hosts are inconvenient. Their life cycle begins when an adult implants eggs in an unwilling host. Inside the host, the eggs enter a parasitic proliferative phase and produce more eggs. Once expelled, these eggs hatch into free-living larvae, which feed, pupate, and eventually emerge as adults.\n\nTheir bodies are fragile, but they can regenerate from almost any injury by consuming nutrients.\n\nAnnelitrice know they exist only to entertain beings from a higher dimension. This does not disturb them at all.\n\nEvery Annelitrice pawn possesses the Infest ability, which causes a humanoid victim to lay eggs once per day.\n\nRight-click Nutrient Solution to activate eggs or revive dead Annelitrice. The recipes of Annelitrice Fountain can automate both processes.</description>
 			<statBases>
 				<MoveSpeed>3.5</MoveSpeed>
 				<ArmorRating_Blunt>0.18</ArmorRating_Blunt>

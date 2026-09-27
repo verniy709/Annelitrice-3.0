@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Kill...Kill! Blood for the blood god! -->
+  <Anneli_Music_Aggressive.description>杀……杀！血祭血神！</Anneli_Music_Aggressive.description>
+  <!-- EN: inspired by aggressive music -->
+  <Anneli_Music_Aggressive.label>侵略性的旋律</Anneli_Music_Aggressive.label>
+  <!-- EN: aggressive music -->
+  <Anneli_Music_Aggressive.labelNoun>侵略性的旋律</Anneli_Music_Aggressive.labelNoun>
+  <!-- EN: I can do better. -->
+  <Anneli_Music_Amateurish.description>我觉得我比这个要强。</Anneli_Music_Amateurish.description>
+  <!-- EN: inspired by amateurish music -->
+  <Anneli_Music_Amateurish.label>不成熟的旋律</Anneli_Music_Amateurish.label>
+  <!-- EN: amateurish music -->
+  <Anneli_Music_Amateurish.labelNoun>不成熟的旋律</Anneli_Music_Amateurish.labelNoun>
+  <!-- EN: Aim...Fire! -->
+  <Anneli_Music_Intense.description>瞄准……开火！</Anneli_Music_Intense.description>
+  <!-- EN: inspired by intense music -->
+  <Anneli_Music_Intense.label>激烈的旋律</Anneli_Music_Intense.label>
+  <!-- EN: intense music -->
+  <Anneli_Music_Intense.labelNoun>激烈的旋律</Anneli_Music_Intense.labelNoun>
+  <!-- EN: Tears are the best medicine. -->
+  <Anneli_Music_Melancholic.description>眼泪是最好的疗愈。</Anneli_Music_Melancholic.description>
+  <!-- EN: inspired by melancholic music -->
+  <Anneli_Music_Melancholic.label>忧郁的旋律</Anneli_Music_Melancholic.label>
+  <!-- EN: melancholic music -->
+  <Anneli_Music_Melancholic.labelNoun>忧郁的旋律</Anneli_Music_Melancholic.labelNoun>
+  <!-- EN: Work brings us peace. -->
+  <Anneli_Music_Serene.description>劳动带来安宁。</Anneli_Music_Serene.description>
+  <!-- EN: inspired by serene music -->
+  <Anneli_Music_Serene.label>宁静的旋律</Anneli_Music_Serene.label>
+  <!-- EN: serene music -->
+  <Anneli_Music_Serene.labelNoun>宁静的旋律</Anneli_Music_Serene.labelNoun>
+  <!-- EN: We can fly. -->
+  <Anneli_Music_Uplifting.description>都能飞！</Anneli_Music_Uplifting.description>
+  <!-- EN: inspired by uplifting music -->
+  <Anneli_Music_Uplifting.label>令人振奋的旋律</Anneli_Music_Uplifting.label>
+  <!-- EN: uplifting music -->
+  <Anneli_Music_Uplifting.labelNoun>令人振奋的旋律</Anneli_Music_Uplifting.labelNoun>
+</LanguageData>

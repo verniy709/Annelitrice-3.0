@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: left eye -->
+  <Anneli_Body.corePart.parts.11.parts.0.parts.1.customLabel>左眼</Anneli_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <!-- EN: right eye -->
+  <Anneli_Body.corePart.parts.11.parts.0.parts.2.customLabel>右眼</Anneli_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <!-- EN: left ear -->
+  <Anneli_Body.corePart.parts.11.parts.0.parts.3.customLabel>左耳</Anneli_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <!-- EN: right ear -->
+  <Anneli_Body.corePart.parts.11.parts.0.parts.4.customLabel>右耳</Anneli_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <!-- EN: left shoulder -->
+  <Anneli_Body.corePart.parts.12.customLabel>左肩</Anneli_Body.corePart.parts.12.customLabel>
+  <!-- EN: left clavicle -->
+  <Anneli_Body.corePart.parts.12.parts.0.customLabel>左锁骨</Anneli_Body.corePart.parts.12.parts.0.customLabel>
+  <!-- EN: left arm -->
+  <Anneli_Body.corePart.parts.12.parts.1.customLabel>左臂</Anneli_Body.corePart.parts.12.parts.1.customLabel>
+  <!-- EN: left humerus -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.0.customLabel>左肱骨</Anneli_Body.corePart.parts.12.parts.1.parts.0.customLabel>
+  <!-- EN: left radius -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.1.customLabel>左桡骨</Anneli_Body.corePart.parts.12.parts.1.parts.1.customLabel>
+  <!-- EN: left hand -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.customLabel>左手</Anneli_Body.corePart.parts.12.parts.1.parts.2.customLabel>
+  <!-- EN: left pinky -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>左小指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+  <!-- EN: left ring finger -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>左无名指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+  <!-- EN: left middle finger -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>左中指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+  <!-- EN: left index finger -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>左食指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+  <!-- EN: left thumb -->
+  <Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>左拇指</Anneli_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+  <!-- EN: right shoulder -->
+  <Anneli_Body.corePart.parts.13.customLabel>右肩</Anneli_Body.corePart.parts.13.customLabel>
+  <!-- EN: right clavicle -->
+  <Anneli_Body.corePart.parts.13.parts.0.customLabel>右锁骨</Anneli_Body.corePart.parts.13.parts.0.customLabel>
+  <!-- EN: right arm -->
+  <Anneli_Body.corePart.parts.13.parts.1.customLabel>右臂</Anneli_Body.corePart.parts.13.parts.1.customLabel>
+  <!-- EN: right humerus -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.0.customLabel>右肱骨</Anneli_Body.corePart.parts.13.parts.1.parts.0.customLabel>
+  <!-- EN: right radius -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.1.customLabel>右桡骨</Anneli_Body.corePart.parts.13.parts.1.parts.1.customLabel>
+  <!-- EN: right hand -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.customLabel>右手</Anneli_Body.corePart.parts.13.parts.1.parts.2.customLabel>
+  <!-- EN: right pinky -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>右小指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <!-- EN: right ring finger -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>右无名指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <!-- EN: right middle finger -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>右中指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <!-- EN: right index finger -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>右食指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <!-- EN: right thumb -->
+  <Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>右拇指</Anneli_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <!-- EN: left leg -->
+  <Anneli_Body.corePart.parts.15.customLabel>左腿</Anneli_Body.corePart.parts.15.customLabel>
+  <!-- EN: left femur -->
+  <Anneli_Body.corePart.parts.15.parts.0.customLabel>左股骨</Anneli_Body.corePart.parts.15.parts.0.customLabel>
+  <!-- EN: left tibia -->
+  <Anneli_Body.corePart.parts.15.parts.1.customLabel>左胫骨</Anneli_Body.corePart.parts.15.parts.1.customLabel>
+  <!-- EN: left foot -->
+  <Anneli_Body.corePart.parts.15.parts.2.customLabel>左脚</Anneli_Body.corePart.parts.15.parts.2.customLabel>
+  <!-- EN: left little toe -->
+  <Anneli_Body.corePart.parts.15.parts.2.parts.0.customLabel>左小趾</Anneli_Body.corePart.parts.15.parts.2.parts.0.customLabel>
+  <!-- EN: left fourth toe -->
+  <Anneli_Body.corePart.parts.15.parts.2.parts.1.customLabel>左次小趾</Anneli_Body.corePart.parts.15.parts.2.parts.1.customLabel>
+  <!-- EN: left middle toe -->
+  <Anneli_Body.corePart.parts.15.parts.2.parts.2.customLabel>左中趾</Anneli_Body.corePart.parts.15.parts.2.parts.2.customLabel>
+  <!-- EN: left second toe -->
+  <Anneli_Body.corePart.parts.15.parts.2.parts.3.customLabel>左第二趾</Anneli_Body.corePart.parts.15.parts.2.parts.3.customLabel>
+  <!-- EN: left big toe -->
+  <Anneli_Body.corePart.parts.15.parts.2.parts.4.customLabel>左大脚趾</Anneli_Body.corePart.parts.15.parts.2.parts.4.customLabel>
+  <!-- EN: right leg -->
+  <Anneli_Body.corePart.parts.16.customLabel>右腿</Anneli_Body.corePart.parts.16.customLabel>
+  <!-- EN: right femur -->
+  <Anneli_Body.corePart.parts.16.parts.0.customLabel>右股骨</Anneli_Body.corePart.parts.16.parts.0.customLabel>
+  <!-- EN: right tibia -->
+  <Anneli_Body.corePart.parts.16.parts.1.customLabel>右胫骨</Anneli_Body.corePart.parts.16.parts.1.customLabel>
+  <!-- EN: right foot -->
+  <Anneli_Body.corePart.parts.16.parts.2.customLabel>右脚</Anneli_Body.corePart.parts.16.parts.2.customLabel>
+  <!-- EN: right little toe -->
+  <Anneli_Body.corePart.parts.16.parts.2.parts.0.customLabel>右小趾</Anneli_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <!-- EN: right fourth toe -->
+  <Anneli_Body.corePart.parts.16.parts.2.parts.1.customLabel>右次小趾</Anneli_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <!-- EN: right middle toe -->
+  <Anneli_Body.corePart.parts.16.parts.2.parts.2.customLabel>右中趾</Anneli_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <!-- EN: right second toe -->
+  <Anneli_Body.corePart.parts.16.parts.2.parts.3.customLabel>右第二趾</Anneli_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <!-- EN: right big toe -->
+  <Anneli_Body.corePart.parts.16.parts.2.parts.4.customLabel>右大脚趾</Anneli_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+  <!-- EN: left lung -->
+  <Anneli_Body.corePart.parts.6.customLabel>左肺</Anneli_Body.corePart.parts.6.customLabel>
+  <!-- EN: right lung -->
+  <Anneli_Body.corePart.parts.7.customLabel>右肺</Anneli_Body.corePart.parts.7.customLabel>
+  <!-- EN: left kidney -->
+  <Anneli_Body.corePart.parts.8.customLabel>左肾</Anneli_Body.corePart.parts.8.customLabel>
+  <!-- EN: right kidney -->
+  <Anneli_Body.corePart.parts.9.customLabel>右肾</Anneli_Body.corePart.parts.9.customLabel>
+  <!-- EN: Annelitrice Body -->
+  <Anneli_Body.label>安妮莉特丝</Anneli_Body.label>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Leader -->
+  <Anneli_Faction_Base.leaderTitle>领袖</Anneli_Faction_Base.leaderTitle>
+  <!-- EN: A colony founded by annelitrice survivors. -->
+  <Anneli_Faction_Player.description>由幸存的安妮莉特丝所建立的殖民地.</Anneli_Faction_Player.description>
+  <!-- EN: Annelitrice Colony -->
+  <Anneli_Faction_Player.label>安妮莉特丝殖民地</Anneli_Faction_Player.label>
+  <!-- EN: Annelitrice -->
+  <Anneli_Faction_Player.pawnSingular>安妮莉特丝</Anneli_Faction_Player.pawnSingular>
+  <!-- EN: Annelitrice -->
+  <Anneli_Faction_Player.pawnsPlural>安妮莉特丝</Anneli_Faction_Player.pawnsPlural>
+  <!-- EN: Annelitrice Wild -->
+  <Anneli_Faction_Wild.fixedName>野生安妮莉特丝</Anneli_Faction_Wild.fixedName>
+  <!-- EN: Annelitrice -->
+  <Anneli_Faction_Wild.pawnSingular>安妮莉特丝</Anneli_Faction_Wild.pawnSingular>
+  <!-- EN: Annelitrice -->
+  <Anneli_Faction_Wild.pawnsPlural>安妮莉特丝</Anneli_Faction_Wild.pawnsPlural>
+</LanguageData>

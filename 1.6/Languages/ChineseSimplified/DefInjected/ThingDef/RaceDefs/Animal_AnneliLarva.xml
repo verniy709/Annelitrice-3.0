@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Annelitrice are highly pathogenic parasites found across numerous worlds. They possess no fixed shape, usually appearing as familiar lifeforms, presumably because screaming hosts are inconvenient. Their life cycle begins when an adult implants eggs in an unwilling host. Inside the host, the eggs enter a parasitic proliferative phase and produce more eggs. Once expelled, these eggs hatch into free-living larvae, which feed, pupate, and eventually emerge as adults.\n\nTheir bodies are fragile, but they can regenerate from almost any injury by consuming nutrients.\n\nAnnelitrice know they exist only to entertain beings from a higher dimension. This does not disturb them at all.\n\nEvery Annelitrice pawn possesses the Infest ability, which causes a humanoid victim to lay eggs once per day.\n\nRight-click Nutrient Solution to activate eggs or revive dead Annelitrice. The recipes of Annelitrice Fountain can automate both processes. -->
+  <AnnelitriceLarvaAsAnimal.description>安妮莉特丝是一种散布于众多星球的高致病性寄生生物。她们没有固定的外形，通常会模仿当地常见的生命——大概是因为宿主不停尖叫会很麻烦。\n\n成体会将卵植入一名宿主体内。进入宿主后，虫卵会转入寄生增殖阶段，在其体内大量繁殖，并迫使宿主不断排出新的虫卵。离开宿主后，虫卵会孵化成能够独立生活的幼虫，幼虫摄取足够的营养后化蛹，最终发育为成体。\n\n她们的身体十分脆弱，但只要营养充足，几乎任何损伤都能再生。\n\n安妮莉特丝很清楚，自己存在的唯一意义就是供更高维度的生物取乐。不过，她们对此毫不介意。\n\n每个安妮莉特丝人物都拥有感染能力。对人形目标使用后，受害者每天会产下虫卵。\n\n右键点击营养液可以激活虫卵或复活死亡的安妮莉特丝。安妮莉特丝喷泉的工作清单可以自动完成这两项操作。</AnnelitriceLarvaAsAnimal.description>
+  <!-- EN: annelitrice larva -->
+  <AnnelitriceLarvaAsAnimal.label>安妮莉特丝幼虫</AnnelitriceLarvaAsAnimal.label>
+  <!-- EN: mandibles -->
+  <AnnelitriceLarvaAsAnimal.tools.0.label>下颌</AnnelitriceLarvaAsAnimal.tools.0.label>
+  <!-- EN: head -->
+  <AnnelitriceLarvaAsAnimal.tools.1.label>头部</AnnelitriceLarvaAsAnimal.tools.1.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Not bad. -->
+  <AnnelitriceAudiencesHeardMusic.stages.0.description>还行.</AnnelitriceAudiencesHeardMusic.stages.0.description>
+  <!-- EN: heard music -->
+  <AnnelitriceAudiencesHeardMusic.stages.0.label>听到音乐</AnnelitriceAudiencesHeardMusic.stages.0.label>
+  <!-- EN: Playing music is really relaxing. -->
+  <AnnelitricePlayerPlayedMusic.stages.0.description>放松一下.</AnnelitricePlayerPlayedMusic.stages.0.description>
+  <!-- EN: played music -->
+  <AnnelitricePlayerPlayedMusic.stages.0.label>演奏音乐</AnnelitricePlayerPlayedMusic.stages.0.label>
+</LanguageData>

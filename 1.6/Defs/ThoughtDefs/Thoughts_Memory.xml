@@ -12,7 +12,7 @@
     <stages>
       <li>
         <label>drink nutrient solution</label>
-        <description>This is terrible. I would rather starve to die.</description>
+        <description>This is terrible. I would rather starve to death.</description>
         <baseMoodEffect>-15</baseMoodEffect>
       </li>
     </stages>
@@ -111,7 +111,7 @@
     <stages>
       <li>
         <label>confused by {0}</label>
-        <description>Is this part of the plots?</description>
+        <description>Is this part of the plot?</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
     </stages>

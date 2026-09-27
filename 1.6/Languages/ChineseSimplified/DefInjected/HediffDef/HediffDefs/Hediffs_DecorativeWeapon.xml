@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Just a flesh wound. -->
+  <Anneli_Aura_Bravery.description>不过是皮肉伤。</Anneli_Aura_Bravery.description>
+  <!-- EN: inspired by brave presence -->
+  <Anneli_Aura_Bravery.label>充满勇气</Anneli_Aura_Bravery.label>
+  <!-- EN: brave presence -->
+  <Anneli_Aura_Bravery.labelNoun>充满勇气</Anneli_Aura_Bravery.labelNoun>
+  <!-- EN: Duty does not sleep. -->
+  <Anneli_Aura_Honor.description>职责不眠。</Anneli_Aura_Honor.description>
+  <!-- EN: inspired by honorable presence -->
+  <Anneli_Aura_Honor.label>武士精神</Anneli_Aura_Honor.label>
+  <!-- EN: honorable presence -->
+  <Anneli_Aura_Honor.labelNoun>武士精神</Anneli_Aura_Honor.labelNoun>
+  <!-- EN: I feel superior. -->
+  <Anneli_Aura_Nobility.description>我觉得高人一等。</Anneli_Aura_Nobility.description>
+  <!-- EN: inspired by noble presence -->
+  <Anneli_Aura_Nobility.label>贵族监督</Anneli_Aura_Nobility.label>
+  <!-- EN: noble presence -->
+  <Anneli_Aura_Nobility.labelNoun>贵族监督</Anneli_Aura_Nobility.labelNoun>
+  <!-- EN: Forward! No turning back. -->
+  <Anneli_Aura_Recklessness.description>向前！绝不回头</Anneli_Aura_Recklessness.description>
+  <!-- EN: inspired by reckless presence -->
+  <Anneli_Aura_Recklessness.label>极度鲁莽</Anneli_Aura_Recklessness.label>
+  <!-- EN: reckless presence -->
+  <Anneli_Aura_Recklessness.labelNoun>极度鲁莽</Anneli_Aura_Recklessness.labelNoun>
+  <!-- EN: I have your back. -->
+  <Anneli_Aura_Trustworthiness.description>背后交给我。</Anneli_Aura_Trustworthiness.description>
+  <!-- EN: inspired by trustworthy presence -->
+  <Anneli_Aura_Trustworthiness.label>值得信赖</Anneli_Aura_Trustworthiness.label>
+  <!-- EN: trustworthy presence -->
+  <Anneli_Aura_Trustworthiness.labelNoun>值得信赖</Anneli_Aura_Trustworthiness.labelNoun>
+  <!-- EN: Listen to me. Listen to me! -->
+  <Anneli_Aura_Zeal.description>听我说。听我说！</Anneli_Aura_Zeal.description>
+  <!-- EN: inspired by zealous presence -->
+  <Anneli_Aura_Zeal.label>狂热无比</Anneli_Aura_Zeal.label>
+  <!-- EN: zealous presence -->
+  <Anneli_Aura_Zeal.labelNoun>狂热无比</Anneli_Aura_Zeal.labelNoun>
+</LanguageData>
