@@ -1595,9 +1595,9 @@
 				<points>
 					<li>(0,0)</li>
 					<li>(12,1)</li>
-					<li>(18,300)</li>
+					<li>(18,100)</li>
 					<li>(24,300)</li>
-					<li>(30,10)</li>
+					<li>(30,100)</li>
 					<li>(100,0)</li>
 				</points>
 			</ageGenerationCurve>

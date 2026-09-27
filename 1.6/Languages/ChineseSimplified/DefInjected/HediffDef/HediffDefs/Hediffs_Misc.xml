@@ -14,6 +14,8 @@
   <Anneli_Infection.stages.2.label>晚期</Anneli_Infection.stages.2.label>
   <!-- EN: Final-stage -->
   <Anneli_Infection.stages.3.label>最终阶段</Anneli_Infection.stages.3.label>
+  <!-- EN: Well-fed larvae will eventually pupate. -->
+  <Anneli_Pupation.description>吃饱喝足的幼虫会逐渐化蛹。</Anneli_Pupation.description>
   <!-- EN: annelitrice pupation -->
   <Anneli_Pupation.label>安妮莉特丝蛹化</Anneli_Pupation.label>
   <!-- EN: minor -->
