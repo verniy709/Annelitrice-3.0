@@ -35,10 +35,10 @@
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_Ahoge</textureLevelsName>
 				<skipFlag>Anneli_Ahoge</skipFlag>
-				<drawOffsetSouth>(0, 2.396, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.396, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.396, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.396, 0)</drawOffsetWest>
+				<drawOffsetSouth>(0, 2.378, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.378, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.378, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.378, 0)</drawOffsetWest>
 				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
@@ -84,10 +84,10 @@
 				<renderLayer>Hair</renderLayer>
 				<textureLevelsName>Anneli_FrontHair</textureLevelsName>
 				<skipFlag>Anneli_FrontHair</skipFlag>
-				<drawOffsetSouth>(0, 2.378, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.378, 0)</drawOffsetEast>
+				<drawOffsetSouth>(0, 2.360, 0)</drawOffsetSouth>
+				<drawOffsetEast>(0, 2.360, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 0.293, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.378, 0)</drawOffsetWest>
+				<drawOffsetWest>(0, 2.360, 0)</drawOffsetWest>
 				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<shaderType>CutoutComplex</shaderType>
@@ -100,9 +100,9 @@
 				<textureLevelsName>Anneli_BackHair</textureLevelsName>
 				<skipFlag>Anneli_BackHair</skipFlag>
 				<drawOffsetSouth>(0, 0.274, 0)</drawOffsetSouth>
-				<drawOffsetEast>(0, 2.378, 0)</drawOffsetEast>
-				<drawOffsetNorth>(0, 2.378, 0)</drawOffsetNorth>
-				<drawOffsetWest>(0, 2.378, 0)</drawOffsetWest>
+				<drawOffsetEast>(0, 2.360, 0)</drawOffsetEast>
+				<drawOffsetNorth>(0, 2.360, 0)</drawOffsetNorth>
+				<drawOffsetWest>(0, 2.360, 0)</drawOffsetWest>
 				<useStaticYOffset>true</useStaticYOffset>
 				<meshType>Hair</meshType>
 				<meshSize>(2.211,2.277)</meshSize><!-- mesh size 1.5*2(canvas size)*0.737, 0.759(head) -->
