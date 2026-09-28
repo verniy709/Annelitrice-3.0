@@ -385,13 +385,13 @@
 									<layerOffset>0</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3245</layerOffset>
+									<layerOffset>-0.32308</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.3245</layerOffset>
+									<layerOffset>-0.32308</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.3245</layerOffset>
+									<layerOffset>-0.32308</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -414,13 +414,13 @@
 									<layerOffset>0</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3245</layerOffset>
+									<layerOffset>-0.32327</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.3253</layerOffset>
+									<layerOffset>-0.32327</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.3253</layerOffset>
+									<layerOffset>-0.32327</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -442,16 +442,16 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.324</layerOffset>
+									<layerOffset>-0.32404</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.326</layerOffset>
+									<layerOffset>-0.32462</layerOffset>
 								</south>
 								<east>
 									<layerOffset>0.0</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.326</layerOffset>
+									<layerOffset>-0.32462</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -483,13 +483,13 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.324</layerOffset>
+									<layerOffset>-0.32404</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.326</layerOffset>
+									<layerOffset>-0.32462</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.326</layerOffset>
+									<layerOffset>-0.32462</layerOffset>
 								</east>
 								<west>
 									<layerOffset>0.0</layerOffset>
@@ -524,16 +524,16 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.32346</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.325</layerOffset>
+									<layerOffset>-0.32346</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.325</layerOffset>
+									<layerOffset>-0.32346</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.325</layerOffset>
+									<layerOffset>-0.32346</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -565,16 +565,16 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.32628</layerOffset>
+									<layerOffset>-0.32404</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3267</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.305</layerOffset>
+									<layerOffset>-0.31904</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.3268</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -605,16 +605,16 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.32628</layerOffset>
+									<layerOffset>-0.32404</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3267</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.3268</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.305</layerOffset>
+									<layerOffset>-0.31904</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -645,16 +645,16 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.3263</layerOffset>
+									<layerOffset>-0.32404</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3267</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.305</layerOffset>
+									<layerOffset>-0.31904</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.3268</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -687,16 +687,16 @@
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
-									<layerOffset>-0.3263</layerOffset>
+									<layerOffset>-0.32404</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3267</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.3268</layerOffset>
+									<layerOffset>-0.32596</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.305</layerOffset>
+									<layerOffset>-0.31904</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -727,16 +727,16 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -765,16 +765,16 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</north>
 								<south>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.3118</layerOffset>
+									<layerOffset>-0.31058</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -800,16 +800,16 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.3205</layerOffset>
+									<layerOffset>-0.32712</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.30173</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.303</layerOffset>
+									<layerOffset>-0.30173</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.303</layerOffset>
+									<layerOffset>-0.30173</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -839,16 +839,16 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.3205</layerOffset>
+									<layerOffset>-0.32712</layerOffset>
 								</north>
 								<south>
-									<layerOffset>0</layerOffset>
+									<layerOffset>-0.30173</layerOffset>
 								</south>
 								<east>
-									<layerOffset>-0.303</layerOffset>
+									<layerOffset>-0.30173</layerOffset>
 								</east>
 								<west>
-									<layerOffset>-0.303</layerOffset>
+									<layerOffset>-0.30173</layerOffset>
 								</west>
 							</offsets>
 							<extendedGraphics>
@@ -876,11 +876,11 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.32</layerOffset>
+									<layerOffset>-0.32731</layerOffset>
 									<offset>(-0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>-0.3035</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(0.61,0)</offset>
 								</south>
 								<east>
@@ -888,7 +888,7 @@
 									<offset>(0.61,0)</offset>
 								</east>
 								<west>
-									<layerOffset>-0.3035</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(0.61,0)</offset>
 								</west>
 							</offsets>
@@ -919,15 +919,15 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.32</layerOffset>
+									<layerOffset>-0.32731</layerOffset>
 									<offset>(0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>-0.3035</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(-0.61,0)</offset>
 								</south>
 								<east>
-									<layerOffset>-0.3055</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(0.61,0)</offset>
 								</east>
 								<west>
@@ -961,11 +961,11 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.32</layerOffset>
+									<layerOffset>-0.32731</layerOffset>
 									<offset>(-0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>-0.3035</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(0.61,0)</offset>
 								</south>
 								<east>
@@ -973,7 +973,7 @@
 									<offset>(0.61,0)</offset>
 								</east>
 								<west>
-									<layerOffset>-0.3035</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(0.61,0)</offset>
 								</west>
 							</offsets>
@@ -1003,15 +1003,15 @@
 							<shaderType>CutoutComplex</shaderType>
 							<offsets>
 								<north>
-									<layerOffset>-0.32</layerOffset>
+									<layerOffset>-0.32731</layerOffset>
 									<offset>(0.61,0)</offset>
 								</north>
 								<south>
-									<layerOffset>-0.3035</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(-0.61,0)</offset>
 								</south>
 								<east>
-									<layerOffset>-0.3055</layerOffset>
+									<layerOffset>-0.30154</layerOffset>
 									<offset>(0.61,0)</offset>
 								</east>
 								<west>
