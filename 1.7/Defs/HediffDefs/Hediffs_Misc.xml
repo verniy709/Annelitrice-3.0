@@ -114,20 +114,4 @@
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
-
-  <HediffDef>
-    <defName>Anneli_Pupation</defName>
-    <label>annelitrice pupation</label>
-    <description>Well-fed larvae will eventually pupate.</description>
-    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
-    <makesSickThought>false</makesSickThought>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <stages>
-      <li>
-        <label>minor</label>
-        <becomeVisible>true</becomeVisible>
-      </li>
-    </stages>
-  </HediffDef>
-
 </Defs>
