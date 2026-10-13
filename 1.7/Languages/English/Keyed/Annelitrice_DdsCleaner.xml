@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <Anneli.Dds.Title>Annelitrice Obsolete DDS Texture Cleanup</Anneli.Dds.Title>
+    <Anneli.Dds.Settings>Check every annelitrice mods, including disabled mods, for loose DDS files in their Textures folders. You can review the affected copies before deleting anything.</Anneli.Dds.Settings>
+    <Anneli.Dds.Scan>Check for obsolete DDS files</Anneli.Dds.Scan>
+    <Anneli.Dds.MainMenuOnly>Return to the main menu before cleaning textures.</Anneli.Dds.MainMenuOnly>
+    <Anneli.Dds.Scanning>Checking annelitrice textures</Anneli.Dds.Scanning>
+    <Anneli.Dds.Cleaning>Removing obsolete DDS files</Anneli.Dds.Cleaning>
+    <Anneli.Dds.NoFiles>No removable DDS files were found in the supported mods' physical Textures folders. No files were changed.</Anneli.Dds.NoFiles>
+    <Anneli.Dds.ScanFailed>The texture check could not finish. No files were deleted. See the game log for details. You can try again from the annelitrice texture cleanup mod settings.</Anneli.Dds.ScanFailed>
+    <Anneli.Dds.ScanWarnings>{0} scan warnings. Some folders could not be checked or contain links that were skipped:</Anneli.Dds.ScanWarnings>
+    <Anneli.Dds.Introduction>Found {0} obsolete DDS texture files in the annelitrice mods listed below.</Anneli.Dds.Introduction>
+    <Anneli.Dds.Scope>This check includes all annelitrice mods, and Textures folders in their version and DLC folders. Only files ending in .dds will be deleted.</Anneli.Dds.Scope>
+    <Anneli.Dds.ModCount>{0}: {1} DDS files</Anneli.Dds.ModCount>
+    <Anneli.Dds.Consent>Delete these DDS files? This permanently removes the listed obsolete files. Nothing has been deleted yet. After cleanup, you will be asked to restart RimWorld to reload its textures. Choose Not now to keep the files, but the check will appear again next launch.</Anneli.Dds.Consent>
+    <Anneli.Dds.NotNow>Not now</Anneli.Dds.NotNow>
+    <Anneli.Dds.Delete>Delete DDS files</Anneli.Dds.Delete>
+    <Anneli.Dds.ShowFiles>Show file paths</Anneli.Dds.ShowFiles>
+    <Anneli.Dds.HideFiles>Hide file paths</Anneli.Dds.HideFiles>
+    <Anneli.Dds.FilePreview>File path preview:</Anneli.Dds.FilePreview>
+    <Anneli.Dds.MorePaths>... and {0} more paths.</Anneli.Dds.MorePaths>
+    <Anneli.Dds.Result>Texture cleanup finished.
+
+Deleted: {0}
+Already absent: {1}
+Skipped after rechecking: {2}
+Could not delete: {3}</Anneli.Dds.Result>
+    <Anneli.Dds.RestartExplanation>Restart RimWorld now to reload textures from new bundled assets.</Anneli.Dds.RestartExplanation>
+    <Anneli.Dds.PartialFailure>Some files remain. They may have changed since the preview, be read-only, or be in use. Check the details below and the game log. You can try again from the annelitrice texture cleanup mod settings.</Anneli.Dds.PartialFailure>
+    <Anneli.Dds.DetailsInLog>File operation details (the full list is also in the game log):</Anneli.Dds.DetailsInLog>
+    <Anneli.Dds.CleanupFailed>Texture cleanup was interrupted. Some files may already have been deleted. See the game log for details. Restart RimWorld to reload textures, then check again from the annelitrice mod settings.</Anneli.Dds.CleanupFailed>
+    <Anneli.Dds.Close>Close</Anneli.Dds.Close>
+    <Anneli.Dds.Later>Restart later</Anneli.Dds.Later>
+    <Anneli.Dds.Restart>Restart RimWorld now</Anneli.Dds.Restart>
+</LanguageData>

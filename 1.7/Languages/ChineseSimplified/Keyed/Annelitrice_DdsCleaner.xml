@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <Anneli.Dds.Title>安妮莉特丝过时 DDS 贴图清理</Anneli.Dds.Title>
+    <Anneli.Dds.Settings>检查安妮莉特丝的所有 Mod，包括未启用的模组，查找其 Textures 文件夹中过时的 DDS 文件。删除前可以查看受影响的文件。</Anneli.Dds.Settings>
+    <Anneli.Dds.Scan>检查 DDS 文件</Anneli.Dds.Scan>
+    <Anneli.Dds.MainMenuOnly>请先返回主菜单再清理贴图。</Anneli.Dds.MainMenuOnly>
+    <Anneli.Dds.Scanning>正在检查安妮莉特丝 Mod 贴图</Anneli.Dds.Scanning>
+    <Anneli.Dds.Cleaning>正在删除已确认的 DDS 文件</Anneli.Dds.Cleaning>
+    <Anneli.Dds.NoFiles>安妮莉特丝 Mod Textures 文件夹中没有找到可清理的过时 DDS 文件。没有修改任何文件。</Anneli.Dds.NoFiles>
+    <Anneli.Dds.ScanFailed>贴图检查未能完成。没有删除任何文件。详情请查看游戏日志；可以在安妮莉 DDS 清理模组设置中重试。</Anneli.Dds.ScanFailed>
+    <Anneli.Dds.ScanWarnings>检查产生了 {0} 条提示。部分文件夹无法读取，或因属于链接而被跳过：</Anneli.Dds.ScanWarnings>
+    <Anneli.Dds.Introduction>在以下安妮莉特丝 Mod 中找到了 {0} 个过时 DDS 贴图文件。</Anneli.Dds.Introduction>
+    <Anneli.Dds.Scope>本次检查包括所有安妮莉特丝 Mod，以及它们的版本和 DLC 目录中的 Textures 文件夹。仅删除扩展名为 .dds 的文件。</Anneli.Dds.Scope>
+    <Anneli.Dds.ModCount>{0}：{1} 个 DDS 文件</Anneli.Dds.ModCount>
+    <Anneli.Dds.Consent>是否删除这些 DDS 文件？这会永久移除上述文件。目前尚未删除任何文件。清理后将提示重启 RimWorld，以重新加载贴图。选择“暂不清理”会保留文件，下次启动时会再次检查。</Anneli.Dds.Consent>
+    <Anneli.Dds.NotNow>暂不清理</Anneli.Dds.NotNow>
+    <Anneli.Dds.Delete>删除 DDS 文件</Anneli.Dds.Delete>
+    <Anneli.Dds.ShowFiles>查看文件路径</Anneli.Dds.ShowFiles>
+    <Anneli.Dds.HideFiles>收起文件路径</Anneli.Dds.HideFiles>
+    <Anneli.Dds.FilePreview>文件路径预览：</Anneli.Dds.FilePreview>
+    <Anneli.Dds.MorePaths>……另有 {0} 个路径。</Anneli.Dds.MorePaths>
+    <Anneli.Dds.Result>贴图清理完成。
+
+已删除：{0}
+文件已不存在：{1}
+重新检查后跳过：{2}
+无法删除：{3}</Anneli.Dds.Result>
+    <Anneli.Dds.RestartExplanation>请立即重启 RimWorld，从新的资源包重新加载贴图。</Anneli.Dds.RestartExplanation>
+    <Anneli.Dds.PartialFailure>部分文件仍然保留。它们可能在预览后被修改、设为只读，或正被占用。请查看下方详情及游戏日志，解决问题后可在模组设置中重新检查。</Anneli.Dds.PartialFailure>
+    <Anneli.Dds.DetailsInLog>文件处理详情（完整列表也会记录在游戏日志中）：</Anneli.Dds.DetailsInLog>
+    <Anneli.Dds.CleanupFailed>贴图清理意外中断。部分文件可能已被删除。详情请查看游戏日志。请重启 RimWorld 以重新加载贴图，然后在模组设置中再次检查。</Anneli.Dds.CleanupFailed>
+    <Anneli.Dds.Close>关闭</Anneli.Dds.Close>
+    <Anneli.Dds.Later>稍后重启</Anneli.Dds.Later>
+    <Anneli.Dds.Restart>立即重启 RimWorld</Anneli.Dds.Restart>
+</LanguageData>

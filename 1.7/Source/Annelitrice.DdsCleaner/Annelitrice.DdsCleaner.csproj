@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Annelitrice.DdsCleaner</AssemblyName>
+    <RootNamespace>Annelitrice.DdsCleaner</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <NoStdLib>true</NoStdLib>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RimWorldDirectory Condition="'$(RimWorldDirectory)' == ''">$(MSBuildThisFileDirectory)..\..\..\..\..</RimWorldDirectory>
+    <HarmonyAssembly Condition="'$(HarmonyAssembly)' == ''">$(RimWorldDirectory)\..\..\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HarmonyAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="DdsCleanup.cs" />
+    <Compile Include="DdsDiscovery.cs" />
+    <Compile Include="DdsCleanerMod.cs" />
+    <Reference Include="Assembly-CSharp"><HintPath>$(RimWorldDirectory)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityStubs"><HintPath>$(RimWorldDirectory)\UnityStubs.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Waylith.UnityCompat"><HintPath>$(RimWorldDirectory)\Waylith.UnityCompat.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Private.CoreLib"><HintPath>$(RimWorldDirectory)\System.Private.CoreLib.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Runtime"><HintPath>$(RimWorldDirectory)\System.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Collections"><HintPath>$(RimWorldDirectory)\System.Collections.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Linq"><HintPath>$(RimWorldDirectory)\System.Linq.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.IO.FileSystem"><HintPath>$(RimWorldDirectory)\System.IO.FileSystem.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.IO.FileSystem.Primitives"><HintPath>$(RimWorldDirectory)\System.IO.FileSystem.Primitives.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Xml.ReaderWriter"><HintPath>$(RimWorldDirectory)\System.Xml.ReaderWriter.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Xml.XmlDocument"><HintPath>$(RimWorldDirectory)\System.Xml.XmlDocument.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System.Private.Xml"><HintPath>$(RimWorldDirectory)\System.Private.Xml.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(HarmonyAssembly)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

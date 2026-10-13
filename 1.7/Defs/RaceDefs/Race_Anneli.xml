@@ -661,7 +661,6 @@
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Left</Gene>
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Left</Gene>
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Left</Gene>
-								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Left</Gene>
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Left</Gene>
 							</extendedGraphics>
 							<conditions>
@@ -703,8 +702,82 @@
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Deer">Anneli_Gene/Horn/Deer/Horn_Right</Gene>
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Demon">Anneli_Gene/Horn/Demon/Horn_Right</Gene>
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Dragon">Anneli_Gene/Horn/Dragon/Horn_Right</Gene>
-								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/Horn/Oni/Horn_Right</Gene>
 								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Succubus">Anneli_Gene/Horn/Succubus/Horn_Right</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
+										<li>Anneli_SkipRightHorn</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/ForeheadHorn_Left</path>
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.32404</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.32615</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.31904</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.32615</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/ForeheadHorn/Oni/ForeheadHorn_Left</Gene>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Anneli_SkipOverhead</li>
+										<li>Anneli_SkipLeftHorn</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+						</li>
+						<li>
+							<path>Anneli_Null/ForeheadHorn_Right</path>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious><!-- Linked with Horn_Left -->
+							<layerInvert>false</layerInvert>
+							<colorChannel>tattoo</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+							<alignWithHead>true</alignWithHead>
+							<offsets>
+								<north>
+									<layerOffset>-0.32404</layerOffset>
+								</north>
+								<south>
+									<layerOffset>-0.32615</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.32615</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.31904</layerOffset>
+								</west>
+							</offsets>
+							<extendedGraphics>
+								<Gene MayRequire="Ludeon.RimWorld.Biotech" For="Anneli_Gene_Horn_Oni">Anneli_Gene/ForeheadHorn/Oni/ForeheadHorn_Right</Gene>
 							</extendedGraphics>
 							<conditions>
 								<RotStage>Fresh,Rotting</RotStage>
