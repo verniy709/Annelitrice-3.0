@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Job lists, shared behavior fields, then pose paths. Exact job selectors keep existing behaviors unchanged. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>ActivateArchonexusCore</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrisonerEnslave</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SlaveSuppress</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Dance</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoAndBeSociallyActive</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrepareSkylantern</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>InduceSlaveToRebel</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrisonerConvert</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SlaveEmancipation</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EatAtCannibalPlatter</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DeliverToAltar</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryToBiosculpterPod</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>MeditatePray</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GiveToPawn</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>OpenStylingStationDialog</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseStylingStation</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseStylingStationAutomatic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ExtractRelic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>InstallRelic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ExtractToInventory</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GetNeuralSupercharge</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DyeHair</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ChangeTreeMode</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>AcceptRole</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EnterBiosculpterPod</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Blind</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RecolorApparel</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Hack</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Sacrifice</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Scarify</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SlaveExecution</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PruneGauranlenTree</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>Sacrifice</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Scarify</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SlaveExecution</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PruneGauranlenTree</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="ActivateArchonexusCore" or key="PrisonerEnslave" or key="SlaveSuppress" or key="Dance" or key="GotoAndBeSociallyActive" or key="PrepareSkylantern" or key="InduceSlaveToRebel" or key="PrisonerConvert" or key="SlaveEmancipation" or key="EatAtCannibalPlatter" or key="DeliverToAltar" or key="CarryToBiosculpterPod" or key="MeditatePray" or key="GiveToPawn" or key="OpenStylingStationDialog" or key="UseStylingStation" or key="UseStylingStationAutomatic" or key="ExtractRelic" or key="InstallRelic" or key="ExtractToInventory" or key="GetNeuralSupercharge" or key="DyeHair" or key="ChangeTreeMode" or key="AcceptRole" or key="EnterBiosculpterPod" or key="Blind" or key="RecolorApparel" or key="Hack" or key="Sacrifice" or key="Scarify" or key="SlaveExecution" or key="PruneGauranlenTree")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="Sacrifice" or key="Scarify" or key="SlaveExecution" or key="PruneGauranlenTree")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Props/</exPath>
+                    <textures>
+                        <li>Anneli_Props</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Dance" or key="GotoAndBeSociallyActive" or key="PrepareSkylantern" or key="InduceSlaveToRebel" or key="PrisonerConvert" or key="SlaveEmancipation")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighA/</li>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmStraightB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="AcceptRole")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="MeditatePray")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighD/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="EatAtCannibalPlatter")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Dance" or key="GotoAndBeSociallyActive" or key="PrepareSkylantern" or key="InduceSlaveToRebel" or key="PrisonerConvert" or key="SlaveEmancipation")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Sacrifice" or key="Scarify" or key="SlaveExecution" or key="PruneGauranlenTree")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidD/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="DeliverToAltar" or key="CarryToBiosculpterPod")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="DeliverToAltar" or key="CarryToBiosculpterPod")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidE/</li>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Blind" or key="RecolorApparel" or key="Hack")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Blind" or key="RecolorApparel" or key="Hack")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="GiveToPawn" or key="OpenStylingStationDialog" or key="UseStylingStation" or key="UseStylingStationAutomatic" or key="ExtractRelic" or key="InstallRelic" or key="ExtractToInventory" or key="GetNeuralSupercharge" or key="DyeHair" or key="ChangeTreeMode")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="AcceptRole")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="EnterBiosculpterPod")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighA/</li>
+                                <li>ArmHandHighB/</li>
+                                <li>ArmHandHighC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="EatAtCannibalPlatter")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Sacrifice" or key="Scarify" or key="SlaveExecution" or key="PruneGauranlenTree")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandLowB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="GiveToPawn" or key="OpenStylingStationDialog" or key="UseStylingStation" or key="UseStylingStationAutomatic" or key="ExtractRelic" or key="InstallRelic" or key="ExtractToInventory" or key="GetNeuralSupercharge" or key="DyeHair" or key="ChangeTreeMode")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="EnterBiosculpterPod")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="ActivateArchonexusCore" or key="PrisonerEnslave" or key="SlaveSuppress")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandHighA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="ActivateArchonexusCore" or key="PrisonerEnslave" or key="SlaveSuppress")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="Sacrifice" or key="Scarify" or key="SlaveExecution")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsCleaver/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="PruneGauranlenTree")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsSickle/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

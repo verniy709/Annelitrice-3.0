@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Keep this file in its conditional load folder. The sequence completes each new behavior before defs are loaded. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- Job list: add new empty values to all listed sleeves and gloves. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>UseToilet</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>haveWildPoo</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LoadWashing</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UnloadWashing</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>emptyLatrine</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>washHands</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TriggerFireSprinkler</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TipOverSewage</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DrainWaterTankJob</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>washPatient</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RefillTub</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RefillWater</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>clearBlockage</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>WatchWashingMachine</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>useWashBucket</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>washAtCell</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemoveSewage</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>cleanBedpan</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>emptySeptictank</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LoadComposter</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UnloadComposter</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PlaceFertilizer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>takeShower</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>takeBath</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseHotTub</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DBHGoSwimming</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DBHUseSauna</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <!-- Common link settings: only the new empty values. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(*)]</xpath>
+                <value>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_Back_FurisodeA, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_BS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/BS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_BS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_FurisodeA, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_FurisodeA</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LBS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LBS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LBS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LCS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LCS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LCS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LLS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LLTS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LLTS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLTS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_PS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/PS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_PS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_ShirtSS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/ShirtSS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_ShirtSS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_SS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/SS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_SS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Arm link: Left. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_SS_Left"]/behaviors/li/value[not(textureLevelsName)]</xpath>
+                <value>
+                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+                </value>
+            </li>
+            <!-- Arm link: Right. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(textureLevelsName)]</xpath>
+                <value>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

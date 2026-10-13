@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Job lists, shared behavior fields, then pose paths. Exact job selectors keep existing behaviors unchanged. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>Fish</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>SelfDetonate</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>InspectGravEngine</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Fish</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PilotConsole</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Seal</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoOxygenatedArea</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoPatrolDest</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoShip</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LeaveShip</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseOutfitStand</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PutApparelOnOutfitStand</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="SelfDetonate" or key="InspectGravEngine" or key="Fish" or key="PilotConsole" or key="Seal" or key="GotoOxygenatedArea" or key="GotoPatrolDest" or key="GotoShip" or key="LeaveShip" or key="UseOutfitStand" or key="PutApparelOnOutfitStand")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="Fish")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Props/</exPath>
+                    <textures>
+                        <li>Anneli_Props</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="UseOutfitStand" or key="PutApparelOnOutfitStand")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighA/</li>
+                                <li>ArmHandHighB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="SelfDetonate")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="InspectGravEngine")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Fish")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Fish")]/value[not(pathDict)] | Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="PilotConsole" or key="Seal")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="PilotConsole" or key="Seal")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="GotoShip" or key="LeaveShip")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="SelfDetonate" or key="GotoOxygenatedArea" or key="GotoPatrolDest")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="InspectGravEngine")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="GotoShip" or key="LeaveShip")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="GotoOxygenatedArea" or key="GotoPatrolDest")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="UseOutfitStand" or key="PutApparelOnOutfitStand")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="Fish")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsFishingRod/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

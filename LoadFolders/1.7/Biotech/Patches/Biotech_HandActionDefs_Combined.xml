@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Job lists, shared behavior fields, then pose paths. Exact job selectors keep existing behaviors unchanged. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>BottleFeedBaby</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Breastfeed</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>AbsorbXenogerm</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GetReimplanted</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BreastfeedCarryToMom</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BringBabyToSafety</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BringBabyToSafetyUnforced</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryToMomAfterBirth</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HaulMechToCharger</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryToBuilding</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryGenepackToContainer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HaulToAtomizer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>FertilizeOvum</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>InstallMechlink</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemoveMechlink</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CreateXenogerm</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BabySuckle</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BabyPlay</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Floordrawing</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrisonerBloodfeed</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ReleaseMechs</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PlayStatic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PlayToys</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EmptyWasteContainer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Skydreaming</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Lessontaking</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ReadDatacore</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>NatureRunning</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PlayWalking</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Radiotalking</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Workwatching</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Lessongiving</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TryRomance</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RepairMechRemote</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ControlMech</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityOnThingWithoutWeapon</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityOnThingWithoutWeaponInterruptible</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityGoToThing</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Deathrest</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait_WithSleeping</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RepairMech</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DisassembleMech</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ClearPollution</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>RepairMech</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DisassembleMech</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ClearPollution</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="BottleFeedBaby" or key="Breastfeed" or key="AbsorbXenogerm" or key="GetReimplanted" or key="BreastfeedCarryToMom" or key="BringBabyToSafety" or key="BringBabyToSafetyUnforced" or key="CarryToMomAfterBirth" or key="HaulMechToCharger" or key="CarryToBuilding" or key="CarryGenepackToContainer" or key="HaulToAtomizer" or key="FertilizeOvum" or key="InstallMechlink" or key="RemoveMechlink" or key="CreateXenogerm" or key="BabySuckle" or key="BabyPlay" or key="Floordrawing" or key="PrisonerBloodfeed" or key="ReleaseMechs" or key="PlayStatic" or key="PlayToys" or key="EmptyWasteContainer" or key="Skydreaming" or key="Lessontaking" or key="ReadDatacore" or key="NatureRunning" or key="PlayWalking" or key="Radiotalking" or key="Workwatching" or key="Lessongiving" or key="TryRomance" or key="RepairMechRemote" or key="ControlMech" or key="CastAbilityOnThingWithoutWeapon" or key="CastAbilityOnThingWithoutWeaponInterruptible" or key="CastAbilityGoToThing" or key="Deathrest" or key="Wait_WithSleeping" or key="RepairMech" or key="DisassembleMech" or key="ClearPollution")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="RepairMech" or key="DisassembleMech" or key="ClearPollution")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Props/</exPath>
+                    <textures>
+                        <li>Anneli_Props</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Radiotalking" or key="Workwatching" or key="Lessongiving" or key="TryRomance")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighA/</li>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmStraightB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Skydreaming" or key="Lessontaking" or key="ReadDatacore")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="ClearPollution")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandLowG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="ClearPollution")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandLowH/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Radiotalking" or key="Workwatching" or key="Lessongiving" or key="TryRomance")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="RepairMech" or key="DisassembleMech")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidD/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="BreastfeedCarryToMom" or key="BringBabyToSafety" or key="BringBabyToSafetyUnforced" or key="CarryToMomAfterBirth" or key="HaulMechToCharger" or key="CarryToBuilding" or key="CarryGenepackToContainer" or key="HaulToAtomizer")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="BreastfeedCarryToMom" or key="BringBabyToSafety" or key="BringBabyToSafetyUnforced" or key="CarryToMomAfterBirth" or key="HaulMechToCharger" or key="CarryToBuilding" or key="CarryGenepackToContainer" or key="HaulToAtomizer")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidE/</li>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="FertilizeOvum" or key="InstallMechlink" or key="RemoveMechlink" or key="CreateXenogerm")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="FertilizeOvum" or key="InstallMechlink" or key="RemoveMechlink" or key="CreateXenogerm")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="BabySuckle" or key="BabyPlay" or key="Floordrawing" or key="PrisonerBloodfeed" or key="ReleaseMechs" or key="PlayStatic" or key="PlayToys" or key="EmptyWasteContainer")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="NatureRunning" or key="PlayWalking")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Deathrest" or key="Wait_WithSleeping")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingOnGroundNormal</key>
+                            <value>
+                                <li>ArmStraightF/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighF/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingOnGroundFaceUp</key>
+                            <value>
+                                <li>ArmStraightF/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighF/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingInBed</key>
+                            <value>
+                                <li>ArmStraightF/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighF/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingInBedFaceUp</key>
+                            <value>
+                                <li>ArmStraightF/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighF/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>InBedMask</key>
+                            <value>
+                                <li>ArmStraightF/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighF/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>FaceUpMask</key>
+                            <value>
+                                <li>ArmStraightF/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Skydreaming" or key="Lessontaking" or key="ReadDatacore")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="BottleFeedBaby" or key="Breastfeed" or key="AbsorbXenogerm" or key="GetReimplanted")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmHandMidB/</li>
+                                <li>ArmHandHighA/</li>
+                                <li>ArmHandHighB/</li>
+                                <li>ArmHandHighC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="RepairMech" or key="DisassembleMech")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandLowB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="BabySuckle" or key="BabyPlay" or key="Floordrawing" or key="PrisonerBloodfeed" or key="ReleaseMechs" or key="PlayStatic" or key="PlayToys" or key="EmptyWasteContainer")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="BottleFeedBaby" or key="Breastfeed" or key="AbsorbXenogerm" or key="GetReimplanted")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="RepairMechRemote" or key="ControlMech" or key="CastAbilityOnThingWithoutWeapon" or key="CastAbilityOnThingWithoutWeaponInterruptible" or key="CastAbilityGoToThing")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowA/</li>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandHighA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="NatureRunning" or key="PlayWalking")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowF/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Deathrest" or key="Wait_WithSleeping")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightB/</li>
+                                <li>ArmHandLowF/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingOnGroundNormal</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingOnGroundFaceUp</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingInBed</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>LayingInBedFaceUp</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>InBedMask</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                        <li>
+                            <key>FaceUpMask</key>
+                            <value>
+                                <li>ArmStraightC/</li>
+                                <li>ArmHandMidB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="RepairMechRemote" or key="ControlMech" or key="CastAbilityOnThingWithoutWeapon" or key="CastAbilityOnThingWithoutWeaponInterruptible" or key="CastAbilityGoToThing")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="ClearPollution")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsBroom/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Props")]/behaviors/li[(key="RepairMech" or key="DisassembleMech")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsHammer/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

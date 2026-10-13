@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Job lists, shared behavior fields, then pose paths. Exact job selectors keep existing behaviors unchanged. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors</xpath>
+                <value>
+                    <li>
+                        <key>Reign</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LinkPsylinkable</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BestowingCeremony</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left" or defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Reign" or key="LinkPsylinkable" or key="BestowingCeremony")]/value[not(*)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Naked/</exPath>
+                    <randomChange>true</randomChange>
+                    <useRandomTimeDelta>true</useRandomTimeDelta>
+                    <actionRandomChangeSeconds>(3,7)</actionRandomChangeSeconds>
+                    <textures>
+                        <li>Anneli_Arm</li>
+                    </textures>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="BestowingCeremony")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighB/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="Reign")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandHighC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="LinkPsylinkable")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmHandMidG/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="BestowingCeremony")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Right")]/behaviors/li[(key="Reign")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandLowA/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[(defName="Anneli_Arm_Generic_Left")]/behaviors/li[(key="LinkPsylinkable")]/value[not(pathDict)]</xpath>
+                <value>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>ArmStraightA/</li>
+                                <li>ArmHandMidF/</li>
+                                <li>ArmHandMidE/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
