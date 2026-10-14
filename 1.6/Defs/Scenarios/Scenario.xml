@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ScenarioDef ParentName="ScenarioBase">
+	<defName>Annelitrice_Loner</defName>
+	<label>The Lone Annelitrice</label>
+	<description>Against the odds, you survived the clumsy plunder of your long-sleep tomb. They damaged much, yet fled without taking everything. Now, the silence echoes a harsher theft: three hundred years gone.</description>
+	<scenario>
+		<summary>You woke up from a cryptosleep sarcophagus and found some resources in a hiddle storage room.</summary>
+		<playerFaction>
+		<def>PlayerFaction</def>
+		<factionDef>Anneli_Faction_Player</factionDef>
+		</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>1</pawnCount>
+					<pawnChoiceCount>6</pawnChoiceCount>
+				</li>
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>1000</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>40</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_ChargeRifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Schematic</thingDef>
+          <count>2</count>
+          <quality>Normal</quality>
+        </li>
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>500</count>
+				</li>
+					<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>150</count>
+				</li>      
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+	<ScenarioDef ParentName="ScenarioBase">
+	<defName>Annelitrice_Drifters</defName>
+	<label>Wandering Theatre</label>
+	<description>This stellar troupe had danced their way to fame, enchanting planets with their art. Yet unwittingly, they stirred the wrath of powers high above. The blow was swift and total: equipment seized, costumes taken, possessions gone. Adrift in the endless dark, they drifted until a silent, barren planet swallowed them – and their songs fell silent.</description>
+	<scenario>
+		<summary>On this wretched rock, artists are less than dirt: they soiled our honors with contempt.</summary>
+		<playerFaction>
+		<def>PlayerFaction</def>
+		<factionDef>Anneli_Faction_Player</factionDef>
+		</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>4</pawnCount>
+					<pawnChoiceCount>10</pawnChoiceCount>
+				</li>
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>12</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Novel</thingDef>
+          <count>3</count>
+          <quality>Normal</quality>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>TextBook</thingDef>
+          <count>1</count>
+          <quality>Normal</quality>
+        </li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Apparel_PackControl</defName>
+		<originalDef>Apparel_PackControl</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Vanilla</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Apparel_PackBandwidth</defName>
+		<originalDef>Apparel_PackBandwidth</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Vanilla</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Apparel_PackTox</defName>
+		<originalDef>Apparel_PackTox</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Vanilla</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

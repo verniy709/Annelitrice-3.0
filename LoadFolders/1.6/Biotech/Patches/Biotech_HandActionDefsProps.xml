@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Props"]/behaviors</xpath>
+        <value>
+            <!-- Work (PropsHammer) Job Category -->
+            <li>
+                <key>RepairMech</key>
+                <value>
+                    <exPath>Anneli_Arms/Props/</exPath>         
+                    <textures>
+                        <li>Anneli_Props</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsHammer/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <li>
+                <key>DisassembleMech</key>
+                <value>
+                    <exPath>Anneli_Arms/Props/</exPath>         
+                    <textures>
+                        <li>Anneli_Props</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsHammer/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            <!-- Work (PropsBroom) Job Category -->
+            <li>
+                <key>ClearPollution</key>
+                <value>
+                    <exPath>Anneli_Arms/Props/</exPath>         
+                    <textures>
+                        <li>Anneli_Props</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>PropsBroom/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>
+            
+        </value>
+    </Operation>
+</Patch>

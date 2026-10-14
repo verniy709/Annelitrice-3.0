@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Transmog_ShieldBelt_Vanilla -->
+
+  <Anneli_Transmog_ShieldBelt_Vanilla.label>(安妮莉)护盾腰带_原版</Anneli_Transmog_ShieldBelt_Vanilla.label>
+  <Anneli_Transmog_ShieldBelt_Vanilla.description>这个护盾腰带可以与远程武器一起使用。适合那些喜欢原版战斗体验、不使用任何过于强大或改变游戏性质的模组的玩家。</Anneli_Transmog_ShieldBelt_Vanilla.description>
+
+
+  <!-- Anneli_Transmog_ShieldBelt_Enhanced -->
+
+  <Anneli_Transmog_ShieldBelt_Enhanced.label>(安妮莉)护盾腰带_增强</Anneli_Transmog_ShieldBelt_Enhanced.label>
+  <Anneli_Transmog_ShieldBelt_Enhanced.description>这个护盾腰带可以与远程武器一起使用。适合那些使用各种不同强度模组物品的玩家。</Anneli_Transmog_ShieldBelt_Enhanced.description>
+
+
+  <!-- Anneli_Transmog_ShieldBelt_Overpowered -->
+
+  <Anneli_Transmog_ShieldBelt_Overpowered.label>(安妮莉)护盾腰带_超强</Anneli_Transmog_ShieldBelt_Overpowered.label>
+  <Anneli_Transmog_ShieldBelt_Overpowered.description>这个护盾腰带可以与远程武器一起使用。 适合对游戏平衡不感兴趣的玩家。</Anneli_Transmog_ShieldBelt_Overpowered.description>
+
+
+</LanguageData>

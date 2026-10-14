@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/NareisLib.ActionDef[defName="Anneli_BodyPropsB"]/behaviors</xpath>
+        <value>
+            <!-- Dress (Bubbles) Job Category -->
+            <li>
+                <key>takeShower</key>
+                <value>
+                    <exPath>Anneli_Arms/BodyProps/</exPath>         
+                    <textures>
+                        <li>Anneli_BodyProps</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>Standing</key>
+                            <value>
+                                <li>BodyPropsBubblesA/</li>
+                                <li>BodyPropsBubblesB/</li>
+                                <li>BodyPropsBubblesC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>   
+            <!-- Idle (Bubbles) Job Category -->
+            <li>
+                <key>takeBath</key>
+                <value>
+                    <exPath>Anneli_Arms/BodyProps/</exPath>         
+                    <textures>
+                        <li>Anneli_BodyProps</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>LayingOnGroundFaceUp</key>
+                            <value>
+                                <li>BodyPropsBubblesA/</li>
+                                <li>BodyPropsBubblesB/</li>
+                                <li>BodyPropsBubblesC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li> 
+            <li>
+                <key>UseHotTub</key>
+                <value>
+                    <exPath>Anneli_Arms/BodyProps/</exPath>         
+                    <textures>
+                        <li>Anneli_BodyProps</li>
+                    </textures>
+                    <pathDict>
+                        <li>
+                            <key>LayingOnGroundFaceUp</key>
+                            <value>
+                                <li>BodyPropsBubblesA/</li>
+                                <li>BodyPropsBubblesB/</li>
+                                <li>BodyPropsBubblesC/</li>
+                            </value>
+                        </li>
+                    </pathDict>
+                </value>
+            </li>        
+        </value>
+    </Operation>
+</Patch>

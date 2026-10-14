@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef Name="Anneli_Backstory_Base" Abstract="True">
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<forcedHediffs>
+		</forcedHediffs>  
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+	</AlienRace.BackstoryDef>
+
+</Defs>

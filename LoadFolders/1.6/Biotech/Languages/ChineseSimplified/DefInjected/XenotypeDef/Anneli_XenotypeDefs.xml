@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Anneli_Xenotype.label>安妮莉特丝</Anneli_Xenotype.label>
+  <Anneli_Xenotype.description>基础形态的安妮莉特丝：几乎完美模仿智人。</Anneli_Xenotype.description>
+
+  <Anneli_Xenotype_Abomination.label>安妮莉特丝憎恶</Anneli_Xenotype_Abomination.label>
+  <Anneli_Xenotype_Abomination.description>安妮莉特丝的憎恶亚种，本应是完美的战斗机器。她们从速成生产线中诞生，由于基因缺陷，时常受到皮肤病和癌症的困扰。她们从出生时就很清楚自己的定位——炮灰，因此，她们总是郁郁寡欢。然而，当真正需要她们冲锋陷阵时，她们依旧会毫不迟疑地站在最前线。</Anneli_Xenotype_Abomination.description>
+
+  <Anneli_Xenotype_Dragonkin.label>安妮莉特丝半龙</Anneli_Xenotype_Dragonkin.label>
+  <Anneli_Xenotype_Dragonkin.description>安妮莉特丝的半人半龙亚种，但翅膀和尾巴都只是装饰，可惜上面的大人物是不会明白的。所谓“龙”的身份不过是一种自我拔高的称谓，毕竟这种传奇生物并不存在。实际上，这一亚种的发育模板是以蜥蜴为基础。</Anneli_Xenotype_Dragonkin.description>
+
+  <Anneli_Xenotype_Elf.label>安妮莉特丝精灵</Anneli_Xenotype_Elf.label>
+  <Anneli_Xenotype_Elf.description>安妮莉特丝的精灵亚种，理论上应是极为稀有的存在。然而，随着奇幻文学与影视的再度兴盛，这一亚种被大量培育，反而变得颇为常见。她们最显著的特征是那对修长的耳朵——这一性状经过了刻意的选择与培养。至于她们看似冷淡的性格，其实只是人设的一部分。</Anneli_Xenotype_Elf.description>
+
+  <Anneli_Xenotype_Fairy.label>安妮莉特丝妖精</Anneli_Xenotype_Fairy.label>
+  <Anneli_Xenotype_Fairy.description>安妮莉特丝的妖精亚种，有着美丽的翅膀，但这美丽的翅膀既难抵大风的摧折，也禁不起火焰的炙烤。她们性情轻浮，注意力散漫，严肃的工作向来不是她们的强项。她们最擅长的是靠占卜，驯兽杂耍，草药学等华而不实的小技俩招摇撞骗。</Anneli_Xenotype_Fairy.description>
+
+  <Anneli_Xenotype_Hellion.label>安妮莉特丝恶徒</Anneli_Xenotype_Hellion.label>
+  <Anneli_Xenotype_Hellion.description>安妮莉特丝的恶徒亚种，其外貌与古老传说中魔鬼的形象十分相似。表面上看，她们就是教科书式的反社会人格，然而，她们的行为究竟是单纯为了满足自己扭曲的趣味，还是出于对某种早已消逝的远古文化的献祭，至今没人能说得清。但对于她们周围的受害者而言，她们的真实动机并不重要。</Anneli_Xenotype_Hellion.description>
+
+  <Anneli_Xenotype_Kitsune.label>安妮莉特丝狐娘</Anneli_Xenotype_Kitsune.label>
+  <Anneli_Xenotype_Kitsune.description>安妮莉特丝的狐娘亚种，有着机警的耳朵和蓬松的尾巴。她们从地球古典故事中汲取智慧，深知渗透人类社会的最佳途径便是“掌握男人的胃”。平日里，她们展现出温婉顺从的伴侣形象，似乎是无所不容的贤妻良母。然而，一旦因某些原因情绪失控，曾经的柔情蜜意便瞬间转变为血光之灾。</Anneli_Xenotype_Kitsune.description>
+
+  <Anneli_Xenotype_Loong.label>安妮莉特丝游龙</Anneli_Xenotype_Loong.label>
+  <Anneli_Xenotype_Loong.description>安妮莉特丝的游龙亚种，标志性的枝杈状角与优雅流线的尾巴赋予她们一种自然之美。为了与传闻中那些性情暴戾的邪恶亲戚划清界限，她们以情绪稳定著称。她们智商很高，尤其擅长颠勺和算数。但和刻板印象不同的是，并不是每个个体都是运动健将或功夫大师。</Anneli_Xenotype_Loong.description>
+
+  <Anneli_Xenotype_Messenger.label>安妮莉特丝神使</Anneli_Xenotype_Messenger.label>
+  <Anneli_Xenotype_Messenger.description>安妮莉特丝的神使亚种，拥有华丽、宛如神话般的翅膀。原本应该配有闪闪发光的光环，但由于HAR的bodyAddon不支持除了Cutout和CutoutComplex之外的着色器， 因此从天使降格为了鸟人。她们的本意善良，且勤奋好学，但在有压力的环境中表现十分笨拙。</Anneli_Xenotype_Messenger.description>
+
+  <Anneli_Xenotype_Nekojin.label>安妮莉特丝猫娘</Anneli_Xenotype_Nekojin.label>
+  <Anneli_Xenotype_Nekojin.description>安妮莉特丝的猫娘亚种，拥有柔顺的耳朵和尾巴。她们主要生活在城市地区，以流浪动物为食，所以猫娘本意为“猎杀流浪猫的女孩”。然而，颇具讽刺意味的是，在长期的捕猎过程中，猫娘与她们的猎物发生了协同演化，使得她们在外貌上，甚至在行为上也逐渐趋近于她们的猎物。</Anneli_Xenotype_Nekojin.description>
+
+  <Anneli_Xenotype_Oni.label>安妮莉特丝魍魉</Anneli_Xenotype_Oni.label>
+  <Anneli_Xenotype_Oni.description>安妮莉特丝的魍魉亚种，以其天生的战斗欲望和对酒精的痴迷而闻名，而没人能确定她们揍人到底是因为天性驱使，还是单纯喝醉了发酒疯。魍魉们对下酒菜也颇为讲究，其中最受欢迎的就是小米辣火锅。火锅的配料则毫无底线，只要能丢进锅里，统统可以被煮来佐酒：树皮、发霉的罐头、甚至是刚刚拐来的小孩。</Anneli_Xenotype_Oni.description>
+
+  <Anneli_Xenotype_Succubus.label>安妮莉特丝魅魔</Anneli_Xenotype_Succubus.label>
+  <Anneli_Xenotype_Succubus.description>安妮莉特丝的魅魔亚种，顾名思义，她们有蝙蝠一般的翅膀，光滑的尾巴，以及强大的精神操控能力。她们通常只在黑夜行动，一方面是因为白天紫外线对皮肤不好，另一方面是因为白天的诱惑不叫魅力，叫职场性骚扰。她们对粗活也嗤之以鼻，因为这会折断她们精心保养的指甲。</Anneli_Xenotype_Succubus.description>
+
+  <Anneli_Xenotype_Usagi.label>安妮莉特丝兔娘</Anneli_Xenotype_Usagi.label>
+  <Anneli_Xenotype_Usagi.description>安妮莉特丝的兔娘亚种，拥有一对毛茸茸的长耳朵和绒球般的尾巴。最喜欢的东西是蔬菜，最讨厌的东西是耳机。她们曾因一则短视频而一夜爆红：一名兔娘在道路上奋力狂奔，结果因视力不佳，直接一头创死在路边的一棵树上。这尴尬的一幕迅速走红网络，成为人们热议的焦点。但也有不少人认为这场事故不过是纯纯的炒作。</Anneli_Xenotype_Usagi.description>
+
+
+</LanguageData>

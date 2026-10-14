@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Transmog_ShieldBelt_Vanilla</defName>
+		<originalDef>Anneli_Transmog_ShieldBelt_Vanilla</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Transmog_Body</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Transmog_ShieldBelt_Enhanced</defName>
+		<originalDef>Anneli_Transmog_ShieldBelt_Enhanced</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Transmog_Body</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Transmog_ShieldBelt_Overpowered</defName>
+		<originalDef>Anneli_Transmog_ShieldBelt_Overpowered</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Transmog_Body</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

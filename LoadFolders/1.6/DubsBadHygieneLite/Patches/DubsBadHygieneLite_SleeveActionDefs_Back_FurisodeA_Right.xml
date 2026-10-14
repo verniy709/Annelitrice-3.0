@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Right"]/behaviors</xpath>
+        <value>
+            <!-- Idle Job Category -->
+            <li>
+                <key>UseToilet</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>haveWildPoo</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Haul Job Category -->
+            
+            
+            <!-- Work Job Category -->
+            
+            <li>
+                <key>washHands</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Reach Out Job Category -->
+            
+               
+            
+            <li>
+                <key>washPatient</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>RefillTub</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>RefillWater</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>clearBlockage</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li> 
+            <!-- Think Job Category -->
+            
+            <!-- Dress Job Category -->
+            <li>
+                <key>useWashBucket</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>washAtCell</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Work (PropsBroom) Job Category -->
+            
+            <li>
+                <key>cleanBedpan</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Work (PropsShovel) Job Category -->
+            
+            
+            
+            
+            <!-- Dress (Bubbles) Job Category -->
+            <li>
+                <key>takeShower</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Idle (Bubbles) Job Category -->
+            <li>
+                <key>takeBath</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <li>
+                <key>UseHotTub</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+            <!-- Idle (Swimsuit) Job Category -->
+            <li>
+                <key>DBHGoSwimming</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>  
+            <!-- Idle (Towel) Job Category -->
+            <li>
+                <key>DBHUseSauna</key>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+        </value>
+    </Operation>
+</Patch>

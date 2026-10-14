@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Anneli_UseNutrientSolution</defName>
+    <driverClass>Annelitrice.JobDriver_UseNutrientSolution</driverClass>
+    <reportString>resurrecting TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

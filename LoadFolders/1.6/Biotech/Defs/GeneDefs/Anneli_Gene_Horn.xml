@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Horn_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_Overhead</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Horn_Base">
+		<defName>Anneli_Gene_Horn_Deer</defName>
+		<label>annelitrice deer horn</label>
+		<description>annelitrice deer horn.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Horn_Deer</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Horn_Base">
+		<defName>Anneli_Gene_Horn_Demon</defName>
+		<label>annelitrice demon horn</label>
+		<description>annelitrice demon horn.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Horn_Demon</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Horn_Base">
+		<defName>Anneli_Gene_Horn_Dragon</defName>
+		<label>annelitrice dragon horn</label>
+		<description>annelitrice dragon horn.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Horn_Dragon</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Horn_Base">
+		<defName>Anneli_Gene_Horn_Oni</defName>
+		<label>annelitrice oni horn</label>
+		<description>annelitrice oni horn.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Horn_Oni</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Horn_Base">
+		<defName>Anneli_Gene_Horn_Succubus</defName>
+		<label>annelitrice succubus horn</label>
+		<description>annelitrice succubus horn.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Horn_Succubus</iconPath>
+	</GeneDef>
+
+</Defs>

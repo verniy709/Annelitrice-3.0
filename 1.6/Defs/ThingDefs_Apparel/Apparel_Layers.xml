@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Knee</defName>
+    <label>Anneli_Knee</label>
+    <drawOrder>100</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Hand</defName>
+    <label>Anneli_Hand</label>
+    <drawOrder>100</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Armor</defName>
+    <label>Anneli_Armor</label>
+    <drawOrder>200</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Tactical</defName>
+    <label>Anneli_Tactical</label>
+    <drawOrder>200</drawOrder>
+  </ApparelLayerDef>
+
+<ApparelLayerDef>
+    <defName>Anneli_Bag</defName>
+    <label>Anneli_Bag</label>
+    <drawOrder>300</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Misc</defName>
+    <label>Anneli_Misc</label>
+    <drawOrder>400</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Anneli_Transmog</defName>
+    <label>Anneli_Transmog</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
+  
+</Defs>

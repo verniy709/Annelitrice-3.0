@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_Wing_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_Wing</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Wing_Base">
+		<defName>Anneli_Gene_Wing_Demon</defName>
+		<label>annelitrice demon wing</label>
+		<description>annelitrice demon wing.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Wing_Demon</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Wing_Base">
+		<defName>Anneli_Gene_Wing_Dragon</defName>
+		<label>annelitrice dragon wing</label>
+		<description>annelitrice dragon wing.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Wing_Dragon</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_Wing_Base">
+		<defName>Anneli_Gene_Wing_Succubus</defName>
+		<label>annelitrice succubus wing</label>
+		<description>annelitrice succubus wing.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_Wing_Succubus</iconPath>
+	</GeneDef>
+
+</Defs>

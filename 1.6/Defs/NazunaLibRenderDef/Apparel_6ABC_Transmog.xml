@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Transmog_Helmet_Vanilla</defName>
+		<originalDef>Anneli_Transmog_Helmet_Vanilla</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Transmog_Head</textureLevelsName>
+				<meshType>Head</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Transmog_Helmet_Enhanced</defName>
+		<originalDef>Anneli_Transmog_Helmet_Enhanced</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Transmog_Head</textureLevelsName>
+				<meshType>Head</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Transmog_Helmet_Overpowered</defName>
+		<originalDef>Anneli_Transmog_Helmet_Overpowered</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Hat</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Transmog_Head</textureLevelsName>
+				<meshType>Head</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Apparel_PackJump</defName>
+		<originalDef>Apparel_PackJump</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Vanilla</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+	<NareisLib.MultiTexDef>
+		<defName>Anneli_Apparel_PackBroadshield</defName>
+		<originalDef>Apparel_PackBroadshield</originalDef>
+		<originalDefClass>ThingDef</originalDefClass>
+		<renderOriginTex>false</renderOriginTex>
+		<path>Anneli_Null/</path>
+		<levels>
+			<li>
+				<prefix>
+					<li>Anneli_Null</li>
+				</prefix>
+				<renderLayer>Apparel</renderLayer>
+				<textureLevelsName>Anneli_Apparel_Vanilla</textureLevelsName>
+				<meshType>Body</meshType>
+				<useBodyType>true</useBodyType>
+			</li>
+		</levels>
+	</NareisLib.MultiTexDef>
+
+</Defs>

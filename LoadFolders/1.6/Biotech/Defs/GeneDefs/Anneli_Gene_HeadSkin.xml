@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="Anneli_Gene_Base" Name="Anneli_Gene_HeadSkin_Base" Abstract="True">
+		<exclusionTags>
+			<li>Anneli_Gene_HeadSkin</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Cat</defName>
+		<label>annelitrice cat head skin</label>
+		<description>annelitrice cat head skin.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_HeadSkin_Cat</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Demon</defName>
+		<label>annelitrice demon head skin</label>
+		<description>annelitrice demon head skin.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_HeadSkin_Demon</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Dragon</defName>
+		<label>annelitrice dragon head skin</label>
+		<description>annelitrice dragon head skin.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_HeadSkin_Dragon</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Flower</defName>
+		<label>annelitrice flower head skin</label>
+		<description>annelitrice flower head skin.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_HeadSkin_Flower</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Gore</defName>
+		<label>annelitrice gore head skin</label>
+		<description>annelitrice gore head skin.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_HeadSkin_Gore</iconPath>
+	</GeneDef>
+
+	<GeneDef ParentName="Anneli_Gene_HeadSkin_Base">
+		<defName>Anneli_Gene_HeadSkin_Oni</defName>
+		<label>annelitrice oni head skin</label>
+		<description>annelitrice oni head skin.</description>
+		<iconPath>Anneli_UI/Anneli_Gene_HeadSkin_Oni</iconPath>
+	</GeneDef>
+
+</Defs>
