@@ -749,7 +749,7 @@
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipOverhead</li>
 										<li>Anneli_SkipForehead</li>
-										<li>Anneli_SkipLeftHorn</li>
+										<li>Anneli_SkipLeftForehead</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
@@ -788,7 +788,7 @@
 									<hiddenUnderApparelTag>
 										<li>Anneli_SkipOverhead</li>
 										<li>Anneli_SkipForehead</li>
-										<li>Anneli_SkipRightHorn</li>
+										<li>Anneli_SkipRightForehead</li>
 									</hiddenUnderApparelTag>
 								</Apparel>
 							</conditions>
