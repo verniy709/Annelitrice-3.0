@@ -15,11 +15,11 @@
   <!-- EN: Final-stage -->
   <Anneli_Infection.stages.3.label>最终阶段</Anneli_Infection.stages.3.label>
   <!-- EN: set -->
-  <Anneli_Regeneration.comps.0.labelSolidTendedWell>已简单处理</Anneli_Regeneration.comps.0.labelSolidTendedWell>
+  <Anneli_Regeneration.comps.HediffComp_TendDuration.labelSolidTendedWell>已简单处理</Anneli_Regeneration.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
-  <Anneli_Regeneration.comps.0.labelTendedWell>已包扎</Anneli_Regeneration.comps.0.labelTendedWell>
+  <Anneli_Regeneration.comps.HediffComp_TendDuration.labelTendedWell>已包扎</Anneli_Regeneration.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
-  <Anneli_Regeneration.comps.0.labelTendedWellInner>已缝合</Anneli_Regeneration.comps.0.labelTendedWellInner>
+  <Anneli_Regeneration.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</Anneli_Regeneration.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Annelitrice regeneration of lost bodyparts. -->
   <Anneli_Regeneration.description>安妮莉特丝重生.</Anneli_Regeneration.description>
   <!-- EN: Destroyed -->

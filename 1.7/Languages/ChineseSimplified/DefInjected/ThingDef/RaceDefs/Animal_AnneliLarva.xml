@@ -5,7 +5,7 @@
   <!-- EN: annelitrice larva -->
   <AnnelitriceLarvaAsAnimal.label>安妮莉特丝幼虫</AnnelitriceLarvaAsAnimal.label>
   <!-- EN: mandibles -->
-  <AnnelitriceLarvaAsAnimal.tools.0.label>下颌</AnnelitriceLarvaAsAnimal.tools.0.label>
+  <AnnelitriceLarvaAsAnimal.tools.mandibles.label>下颌</AnnelitriceLarvaAsAnimal.tools.mandibles.label>
   <!-- EN: head -->
-  <AnnelitriceLarvaAsAnimal.tools.1.label>头部</AnnelitriceLarvaAsAnimal.tools.1.label>
+  <AnnelitriceLarvaAsAnimal.tools.head.label>头部</AnnelitriceLarvaAsAnimal.tools.head.label>
 </LanguageData>
