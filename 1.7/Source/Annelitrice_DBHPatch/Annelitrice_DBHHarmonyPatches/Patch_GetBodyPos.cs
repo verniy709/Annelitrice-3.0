@@ -20,7 +20,7 @@ namespace Annelitrice.DBHHarmonyPatches
         {
 
             Pawn pawn = ___pawn;
-            if (pawn == null || pawn?.def == AnnelitriceDefOf.Annelitrice)
+            if (pawn?.def != AnnelitriceDefOf.Annelitrice)
                 return;
 
             Job curJob = pawn.CurJob;

@@ -77,6 +77,7 @@
 				<drawOffsetEast>(0, 1.811, 0)</drawOffsetEast>
 				<drawOffsetNorth>(0, 1.811, 0)</drawOffsetNorth>
 				<drawOffsetWest>(0, 1.811, 0)</drawOffsetWest>
+				<meshSize>(1.8,1.8)</meshSize><!-- mesh size 1.5*1.2(body) -->
 				<meshType>Body</meshType>
 				<useStaticYOffset>true</useStaticYOffset>
 				<shaderType>TransparentPostLight</shaderType>
@@ -108,5 +109,4 @@
 			</li>
 		</levels>
 	</NareisLib.MultiTexDef>
-
 </Defs>

@@ -15,7 +15,7 @@ namespace Annelitrice.DBHHarmonyPatches
         public static bool Prefix(PawnRenderNode node, PawnDrawParms parms, ref bool __result)
         {
             Pawn pawn = parms.pawn;
-            if (pawn?.def == AnnelitriceDefOf.Annelitrice)
+            if (pawn?.def != AnnelitriceDefOf.Annelitrice)
                 return true;
 
             Job curJob = pawn.CurJob;
