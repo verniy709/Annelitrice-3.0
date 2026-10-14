@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Base 1.7 sleeve jobs, texture settings, shared link settings, then arm links. The sequence completes each behavior before defs are loaded. -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <!-- Job list: add base-game jobs with empty values to all listed sleeves and gloves. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors</xpath>
+                <value>
+                    <!-- Command Job Category -->
+                    <li>
+                        <key>UseVerbOnThing</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseVerbOnThingStatic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityOnThing</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityTouch</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityOnThingUninterruptible</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityOnThingMelee</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastAbilityOnWorldTile</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Tame</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Train</key>
+                        <value />
+                    </li>
+                    <!-- Communicate Job Category -->
+                    <li>
+                        <key>MarryAdjacentPawn</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>StandAndBeSociallyActive</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SocialRelax</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>VisitSickPawn</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Play_Billiards</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Play_Poker</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>WatchTelevision</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TradeWithPawn</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Insult</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>InducePrisonerToEscape</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>OfferHelp</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ReleasePrisoner</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TendPatient</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseCommsConsole</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrisonerAttemptRecruit</key>
+                        <value />
+                    </li>
+                    <!-- Eat Job Category -->
+                    <li>
+                        <key>Ingest</key>
+                        <value />
+                    </li>
+                    <!-- Haul Job Category -->
+                    <li>
+                        <key>PrepareCaravan_GatherItems</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrepareCaravan_GatherAnimals</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrepareCaravan_GatherDownedPawns</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HaulToTransporter</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HaulCorpseToPublicPlace</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DeliverToCell</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DeliverToBed</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HaulToCell</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HaulToContainer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Steal</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Kidnap</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryDownedPawnToExit</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryToCryptosleepCasket</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EscortPrisonerToBed</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeWoundedPrisonerToBed</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeToBedToOperate</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeDownedPawnToBedDrafted</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryDownedPawnDrafted</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryToCryptosleepCasketDrafted</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CarryToPrisonerBedDrafted</key>
+                        <value />
+                    </li>
+                    <!-- Pray Job Category -->
+                    <li>
+                        <key>Meditate</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Pray</key>
+                        <value />
+                    </li>
+                    <!-- Reach Out Job Category -->
+                    <li>
+                        <key>PrepareCaravan_CollectAnimals</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ReturnedCaravan_PenAnimals</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Play_Horseshoes</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Play_Hoopstone</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Play_MusicalInstrument</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PickupToHold</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Equip</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeInventory</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GiveToPackAnimal</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Strip</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Open</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeBeerOutOfFermentingBarrel</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ApplyTechprint</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseNeurotrainer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseArtifact</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseItem</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TriggerObject</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Flick</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Resurrect</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EmptyThingContainer</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeCountToInventory</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>TakeFromOtherInventory</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Ignite</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BeatFire</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Rescue</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Capture</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Arrest</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RopeToPen</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RopeRoamerToUnenclosedPen</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RopeRoamerToHitchingPost</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Unrope</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ReleaseAnimalToWild</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PlaceNoCostFrame</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>FeedPatient</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DeliverFood</key>
+                        <value />
+                    </li>
+                    <!-- Salute Job Category -->
+                    <li>
+                        <key>SpectateCeremony</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GiveSpeech</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>VisitGrave</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Vomit</key>
+                        <value />
+                    </li>
+                    <!-- Idle Job Category -->
+                    <li>
+                        <key>ViewArt</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>IdleWhileDespawned</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait_MaintainPosture</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait_SafeTemperature</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait_Wander</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DropEquipment</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UnloadInventory</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UnloadYourInventory</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EnterCryptosleepCasket</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>FleeAndCower</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EnterTransporter</key>
+                        <value />
+                    </li>
+                    <!-- Move Job Category -->
+                    <li>
+                        <key>GoForWalk</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Goto</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Follow</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>FollowClose</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoSafeTemperature</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoWander</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CastJump</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Flee</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GotoMindControlled</key>
+                        <value />
+                    </li>
+                    <!-- Think Job Category -->
+                    <li>
+                        <key>Play_GameOfUr</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Play_Chess</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Research</key>
+                        <value />
+                    </li>
+                    <!-- Work Job Category -->
+                    <li>
+                        <key>BuildSnowman</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>UseTelescope</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RearmTurret</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RearmTurretAtomic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Refuel</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RefuelAtomic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Reload</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>FillFermentingBarrel</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ManTurret</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Milk</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Shear</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Uninstall</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>DoBill</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>OperateDeepDrill</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>OperateScanner</key>
+                        <value />
+                    </li>
+                    <!-- Dress Job Category -->
+                    <li>
+                        <key>Wear</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemoveApparel</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ExtinguishSelf</key>
+                        <value />
+                    </li>
+                    <!-- Hurt Job Category -->
+                    <li>
+                        <key>Wait_Downed</key>
+                        <value />
+                    </li>
+                    <!-- Sleep Job Category -->
+                    <li>
+                        <key>Skygaze</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait_Asleep</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LayDown</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LayDownAwake</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>LayDownResting</key>
+                        <value />
+                    </li>
+                    <!-- Fist Job Category -->
+                    <li>
+                        <key>SocialFight</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsCleaver) Job Category -->
+                    <li>
+                        <key>Slaughter</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PrisonerExecution</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>GuiltyColonistExecution</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsHammer) Job Category -->
+                    <li>
+                        <key>FinishFrame</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Deconstruct</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Repair</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>FixBrokenDownBuilding</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>BuildRoof</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemoveRoof</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SmoothFloor</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemoveFloor</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsBrush) Job Category -->
+                    <li>
+                        <key>PaintBuilding</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PaintFloor</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemovePaintBuilding</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>RemovePaintFloor</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsSickle) Job Category -->
+                    <li>
+                        <key>Harvest</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>HarvestDesignated</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsBroom) Job Category -->
+                    <li>
+                        <key>ClearSnow</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Clean</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsPickaxe) Job Category -->
+                    <li>
+                        <key>Mine</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>SmoothWall</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsShovel) Job Category -->
+                    <li>
+                        <key>Replant</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>ExtractTree</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsHoe) Job Category -->
+                    <li>
+                        <key>Sow</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>PlantSeed</key>
+                        <value />
+                    </li>
+                    <!-- Work (PropsAxe) Job Category -->
+                    <li>
+                        <key>CutPlant</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>CutPlantDesignated</key>
+                        <value />
+                    </li>
+                    <!-- HoldWeapon Job Category -->
+                    <li>
+                        <key>AttackStatic</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Hunt</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Wait_Combat</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>AttackMelee</key>
+                        <value />
+                    </li>
+                    <!-- Added in 1.5 -->
+                    <li>
+                        <key>ExtractSkull</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>EnterPortal</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>Reading</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>StudyItem</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>StudyInteract</key>
+                        <value />
+                    </li>
+                    <li>
+                        <key>AnalyzeItem</key>
+                        <value />
+                    </li>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_Back_FurisodeA, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/Back_FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_Back_FurisodeA</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_BS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/BS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_BS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_FurisodeA, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/FurisodeA/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_FurisodeA</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LBS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LBS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LBS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LCS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LCS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LCS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LLS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LLS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LLTS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LLTS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LLTS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_LS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/LS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_LS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_PS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/PS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_PS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_ShirtSS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/ShirtSS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_ShirtSS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Texture settings: Anneli_Arm_SS, both arms. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(exPath)]</xpath>
+                <value>
+                    <exPath>Anneli_Arms/SS/</exPath>
+                    <textures>
+                        <li>Anneli_Arm_SS</li>
+                    </textures>
+                </value>
+            </li>
+            <!-- Common link settings: only values missing the shared fields. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(linkedWithAction)]</xpath>
+                <value>
+                    <linkedWithAction>true</linkedWithAction>
+                    <type_originalDefName>NareisLib.HandTypeDef_Anneli_Arm_Generic</type_originalDefName>
+                </value>
+            </li>
+            <!-- Arm link: Left. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_SS_Left"]/behaviors/li/value[not(textureLevelsName)]</xpath>
+                <value>
+                    <textureLevelsName>Anneli_Arm_Generic_Left</textureLevelsName>
+                </value>
+            </li>
+            <!-- Arm link: Right. Existing complete values are excluded. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(textureLevelsName)]</xpath>
+                <value>
+                    <textureLevelsName>Anneli_Arm_Generic_Right</textureLevelsName>
+                </value>
+            </li>
+            <!-- Sync timing: only values missing the shared delta. -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/NareisLib.ActionDef[defName="Anneli_Arm_Back_FurisodeA_Left" or defName="Anneli_Arm_Back_FurisodeA_Right" or defName="Anneli_Arm_BS_Left" or defName="Anneli_Arm_BS_Right" or defName="Anneli_Arm_FurisodeA_Left" or defName="Anneli_Arm_FurisodeA_Right" or defName="Anneli_Arm_LBS_Left" or defName="Anneli_Arm_LBS_Right" or defName="Anneli_Arm_LCS_Left" or defName="Anneli_Arm_LCS_Right" or defName="Anneli_Arm_LLS_Left" or defName="Anneli_Arm_LLS_Right" or defName="Anneli_Arm_LLTS_Left" or defName="Anneli_Arm_LLTS_Right" or defName="Anneli_Arm_LS_Left" or defName="Anneli_Arm_LS_Right" or defName="Anneli_Arm_PS_Left" or defName="Anneli_Arm_PS_Right" or defName="Anneli_Arm_ShirtSS_Left" or defName="Anneli_Arm_ShirtSS_Right" or defName="Anneli_Arm_SS_Left" or defName="Anneli_Arm_SS_Right"]/behaviors/li/value[not(linkedActionSyncDelta)]</xpath>
+                <value>
+                    <linkedActionSyncDelta>0.2</linkedActionSyncDelta>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
