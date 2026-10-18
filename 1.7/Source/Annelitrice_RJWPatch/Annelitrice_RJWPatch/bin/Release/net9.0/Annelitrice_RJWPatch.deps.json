@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {},
+    ".NETCoreApp,Version=v9.0/": {
+      "Annelitrice_RJWPatch/1.0.0": {
+        "runtime": {
+          "Annelitrice_RJWPatch.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Annelitrice_RJWPatch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

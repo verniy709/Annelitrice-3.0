@@ -1,0 +1,11 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\Annelitrice.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\Annelitrice.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\bin\Release\Annelitrice.deps.json
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\bin\Release\Annelitrice.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\bin\Release\Annelitrice.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\Annelitrice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\Annelitrice.sourcelink.json
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\Annelitrice.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\refint\Annelitrice.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\Annelitrice.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice\obj\Release\ref\Annelitrice.dll

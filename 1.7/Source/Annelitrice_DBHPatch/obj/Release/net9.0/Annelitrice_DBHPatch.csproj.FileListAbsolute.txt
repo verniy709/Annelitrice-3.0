@@ -1,0 +1,11 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\bin\Release\net9.0\Annelitrice_DBHPatch.deps.json
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\bin\Release\net9.0\Annelitrice_DBHPatch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\bin\Release\net9.0\Annelitrice_DBHPatch.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\Annelitrice_DBHPatch.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\Annelitrice_DBHPatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\Annelitrice_DBHPatch.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\Annelitrice_DBHPatch.sourcelink.json
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\Annelitrice_DBHPatch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\refint\Annelitrice_DBHPatch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\Annelitrice_DBHPatch.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_DBHPatch\obj\Release\net9.0\ref\Annelitrice_DBHPatch.dll

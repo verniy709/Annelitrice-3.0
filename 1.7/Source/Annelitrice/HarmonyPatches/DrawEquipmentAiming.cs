@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
-using UnityEngine;
 using Verse;
+using UnityEngine;
 
 namespace Annelitrice.HarmonyPatches
 {
@@ -15,6 +15,7 @@ namespace Annelitrice.HarmonyPatches
 		public static float westZOffset = 0.23f;
 		public static float northXOffset = 0.0f;
 		public static float eastXOffset = -0.1f;
+
 		public static float southXOffset = 0.0f;
 		public static float westXOffset = 0.1f;
 

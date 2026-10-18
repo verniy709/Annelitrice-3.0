@@ -9,6 +9,11 @@
     <SteamAppsRoot Condition="'$(SteamAppsRoot)' == ''">$(RimWorldRoot)\..\..</SteamAppsRoot>
     <WorkshopContentRoot Condition="'$(WorkshopContentRoot)' == ''">$(SteamAppsRoot)\workshop\content\294100</WorkshopContentRoot>
   </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Reference>
+      <Private>false</Private>
+    </Reference>
+  </ItemDefinitionGroup>
   <ItemGroup>
     <Reference Include="$(RimWorldRoot)\System*.dll" Exclude="$(RimWorldRoot)\System.IO.Compression.Native.dll" />
     <Reference Include="$(RimWorldRoot)\mscorlib.dll" />
@@ -16,8 +21,12 @@
     <Reference Include="$(RimWorldRoot)\UnityStubs.dll" />
     <Reference Include="$(RimWorldRoot)\Assembly-CSharp.dll" />
     <Reference Include="$(WorkshopContentRoot)\2009463077\1.7\Assemblies\0Harmony.dll" />
-    <Reference Include="$(WorkshopContentRoot)\836308268\1.6\Assemblies\BadHygiene.dll" />
-    <Reference Include="$(WorkshopContentRoot)\2999614450\1.6\Assemblies\NareisLib.dll" />
+    <Reference Include="$(WorkshopContentRoot)\836308268\1.7\Assemblies\BadHygiene.dll" />
+    <Reference Include="$(WorkshopContentRoot)\2999614450\1.7\Assemblies\NareisLib.dll" />
     <Reference Include="$(ModRoot)\1.7\Assemblies\Annelitrice.dll" />
   </ItemGroup>
+  <Target Name="DeployToMod" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModRoot)\LoadFolders\1.7\DubsBadHygiene\Assemblies\" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModRoot)\LoadFolders\1.7\DubsBadHygieneLite\Assemblies\" />
+  </Target>
 </Project>

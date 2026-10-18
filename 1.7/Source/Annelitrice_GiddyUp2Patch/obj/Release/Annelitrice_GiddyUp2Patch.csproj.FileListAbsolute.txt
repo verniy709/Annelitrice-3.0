@@ -1,0 +1,11 @@
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\bin\Release\Annelitrice_GiddyUp2Patch.deps.json
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\bin\Release\Annelitrice_GiddyUp2Patch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\bin\Release\Annelitrice_GiddyUp2Patch.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\Annelitrice_GiddyUp2Patch.csproj.AssemblyReference.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\Annelitrice_GiddyUp2Patch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\Annelitrice_GiddyUp2Patch.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\Annelitrice_GiddyUp2Patch.sourcelink.json
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\Annelitrice_GiddyUp2Patch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\refint\Annelitrice_GiddyUp2Patch.dll
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\Annelitrice_GiddyUp2Patch.pdb
+D:\Steam\steamapps\common\RimWorld\Mods\Annelitrice-3.0\1.7\Source\Annelitrice_GiddyUp2Patch\obj\Release\ref\Annelitrice_GiddyUp2Patch.dll

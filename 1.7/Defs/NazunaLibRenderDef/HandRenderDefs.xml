@@ -25,6 +25,9 @@
 					<def>Anneli_Arm_Generic_Left</def>
 				</actionManager>
 				<bodyPartLabel>left shoulder</bodyPartLabel>
+				<subworkerClasses>
+					<li>Annelitrice.PawnRenderSubWorker_RottingArmColor</li>
+				</subworkerClasses>
 			</li>
 			<li>
 				<prefix>
@@ -46,6 +49,9 @@
 					<def>Anneli_Arm_Generic_Right</def>
 				</actionManager>
 				<bodyPartLabel>right shoulder</bodyPartLabel>
+				<subworkerClasses>
+					<li>Annelitrice.PawnRenderSubWorker_RottingArmColor</li>
+				</subworkerClasses>
 			</li>
 			<li>
 				<prefix>

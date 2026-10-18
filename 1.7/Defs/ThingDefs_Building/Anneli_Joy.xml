@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <ThingDef ParentName="BuildingBase">
     <defName>Anneli_PuppetTheatre</defName>
     <thingClass>Building</thingClass>
@@ -10,7 +9,8 @@
       <texPath>Anneli_Building/PuppetTheatre</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(1.4,1.4)</drawSize>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawOffset>(0,0,0.12)</drawOffset>
       <shadowData>
         <volume>(0.5, 1.0, 1.0)</volume>
       </shadowData>
@@ -37,8 +37,11 @@
     </statBases>
     <costList>
       <Cloth>50</Cloth>
-      <WoodLog>50</WoodLog>
     </costList>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <size>(1,1)</size>
     <thingCategories>
       <li>BuildingsJoy</li>
@@ -62,5 +65,4 @@
     </tradeTags>
     <designationCategory>Joy</designationCategory>
   </ThingDef>
-  
 </Defs>

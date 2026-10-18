@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <AssemblyName>Annelitrice.DdsCleaner</AssemblyName>
     <RootNamespace>Annelitrice.DdsCleaner</RootNamespace>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -32,4 +32,7 @@
     <Reference Include="System.Private.Xml"><HintPath>$(RimWorldDirectory)\System.Private.Xml.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="0Harmony"><HintPath>$(HarmonyAssembly)</HintPath><Private>false</Private></Reference>
   </ItemGroup>
+  <Target Name="DeployToMod" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MSBuildProjectDirectory)\..\..\Assemblies" />
+  </Target>
 </Project>
