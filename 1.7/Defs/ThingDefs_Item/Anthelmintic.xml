@@ -9,7 +9,7 @@
     <descriptionHyperlinks><HediffDef>Anneli_AnthelminticHigh</HediffDef></descriptionHyperlinks>
     <graphicData>
       <texPath>Anneli_Item/Anthelmintic</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Annelitrice.Graphic_AnthelminticStackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>false</socialPropernessMatters>
     <rotatable>false</rotatable>

@@ -6,7 +6,7 @@
     <description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, annelitrice have no aversion to it since they are raised in its presence.</description>
     <graphicData>
       <texPath>Anneli_Item/NutrientSolution</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Annelitrice.Graphic_NutrientSolutionStackCount</graphicClass>
     </graphicData>
     <thingClass>ThingWithComps</thingClass>
     <techLevel>Medieval</techLevel>

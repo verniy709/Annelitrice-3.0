@@ -20,6 +20,8 @@
   <Anneli.StopSong>停止</Anneli.StopSong>
   <!-- EN: stop the current song -->
   <Anneli.StopSongDesc>停止播放当前音乐</Anneli.StopSongDesc>
+  <Anneli.LarvaAllowPupation>允许化蛹</Anneli.LarvaAllowPupation>
+  <Anneli.LarvaAllowPupationDesc>关闭后，这只幼虫的饥饿值保持不变，进食也不会推进化蛹。重新开启后恢复正常。</Anneli.LarvaAllowPupationDesc>
   <!-- EN: Annelitrice -->
   <Character_Annelitrice>安妮莉特丝</Character_Annelitrice>
   <!-- EN: An annelitrice egg or pupa failed to hatch due to missing worldPawns. To avoid errors, the item was destroyed. -->

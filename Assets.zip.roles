@@ -3089,8 +3089,11 @@ Textures/Anneli_Building/OutfitStand_Head_north.png.dds image:Default
 Textures/Anneli_Building/OutfitStand_Head_south.png.dds image:Default
 Textures/Anneli_Building/OutfitStand_SwapApparelGizmoIcon.png.dds image:Default
 Textures/Anneli_Building/PuppetTheatre_east.png.dds image:Default
+Textures/Anneli_Building/PuppetTheatre_eastm.png.dds image:Default
 Textures/Anneli_Building/PuppetTheatre_north.png.dds image:Default
+Textures/Anneli_Building/PuppetTheatre_northm.png.dds image:Default
 Textures/Anneli_Building/PuppetTheatre_south.png.dds image:Default
+Textures/Anneli_Building/PuppetTheatre_southm.png.dds image:Default
 Textures/Anneli_Corpse/Dessicated/Dessicated_Female_east.png.dds image:Default
 Textures/Anneli_Corpse/Dessicated/Dessicated_Female_eastm.png.dds image:Default
 Textures/Anneli_Corpse/Dessicated/Dessicated_Female_north.png.dds image:Default

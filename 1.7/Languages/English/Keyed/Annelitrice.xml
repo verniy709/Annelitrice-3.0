@@ -12,10 +12,11 @@
 	<Anneli.SelectSong>select</Anneli.SelectSong>
 	<Anneli.SelectSongDesc>select a song in the list</Anneli.SelectSongDesc>
 
+	<Anneli.LarvaAllowPupation>Allow pupation</Anneli.LarvaAllowPupation>
+	<Anneli.LarvaAllowPupationDesc>When off, this larva's food level stays fixed and eating does not advance pupation. Turn it on to resume.</Anneli.LarvaAllowPupationDesc>
+
 	<Anneli.SettingTitle>Annelitrice 3.0</Anneli.SettingTitle>
 	<Anneli.SettingLabel>Requires a restart to take effect</Anneli.SettingLabel>
 	<Anneli.CensoredBodytypeCheckbox>Censor NSFW Bodytype</Anneli.CensoredBodytypeCheckbox>
 	<Anneli.RemoveRaceRestrictionCheckbox>Remove Race Apparel Restriction(NOT recommended. Removing the race restriction may cause bugs)</Anneli.RemoveRaceRestrictionCheckbox>
-
-	
 </LanguageData>

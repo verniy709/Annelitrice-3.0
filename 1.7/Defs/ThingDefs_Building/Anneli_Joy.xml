@@ -18,6 +18,7 @@
         <rect>(0.1,0.1,1.0,1.0)</rect>
       </damageData>
     </graphicData>
+    <uiIconScale>0.8</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>
     <pathCost>50</pathCost>
     <passability>PassThroughOnly</passability>

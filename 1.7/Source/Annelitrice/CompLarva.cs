@@ -6,8 +6,19 @@ namespace Annelitrice
 {
     public class CompLarva : ThingComp
     {
+        public bool AllowPupation => allowPupation;
+
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
+            yield return new Command_Toggle
+            {
+                defaultLabel = "Anneli.LarvaAllowPupation".Translate(),
+                defaultDesc = "Anneli.LarvaAllowPupationDesc".Translate(),
+                icon = ContentFinder<UnityEngine.Texture2D>.Get("Anneli_Item/Pupa/PupaA"),
+                isActive = () => allowPupation,
+                toggleAction = () => allowPupation = !allowPupation
+            };
+
             if (DebugSettings.ShowDevGizmos)
             {
                 yield return new Command_Action
@@ -22,6 +33,11 @@ namespace Annelitrice
         }
         public void IngestFood(float nutrition)
         {
+            if (!allowPupation)
+            {
+                return;
+            }
+
             accumulatedNutrition += nutrition;
             if(accumulatedNutrition >= SpawnNutrition)
             {
@@ -30,6 +46,11 @@ namespace Annelitrice
         }
 		public void Cocoon()
 		{
+			if (!allowPupation)
+			{
+				return;
+			}
+
 			IntVec3 pos = parent.Position;
 			Map map = parent.Map;
 			DefDatabase<EffecterDef>.GetNamed("Anneli_PupationStart").Spawn(pos, map);
@@ -48,8 +69,10 @@ namespace Annelitrice
 		public override void PostExposeData()
         {
             Scribe_Values.Look(ref accumulatedNutrition, "accumulatedNutrition");
+            Scribe_Values.Look(ref allowPupation, "allowPupation", true);
         }
         private float accumulatedNutrition;
+        private bool allowPupation = true;
         public const int SpawnNutrition = 8;
     }
 }
