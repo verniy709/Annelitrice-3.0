@@ -35,6 +35,11 @@
       <li>ITab_Storage</li>
       <li>NareisLib.ITab_ContentsNewOutfitStand</li>
     </inspectorTabs>
+    <tradeTags>
+      <li>Art</li>
+    </tradeTags>
+    <tradeNeverStack>true</tradeNeverStack>
+    <tradeability>Sellable</tradeability>
     <modExtensions>
       <li Class="NareisLib.OutfitStandRenderPlanExtension">
         <renderPlanDef>Annelitrice</renderPlanDef>

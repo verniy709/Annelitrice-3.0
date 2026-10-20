@@ -45,6 +45,8 @@
     <tradeTags>
       <li>Art</li>
     </tradeTags>
+    <tradeNeverStack>true</tradeNeverStack>
+    <tradeability>Sellable</tradeability>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Artistic</workSkill>
@@ -72,7 +74,6 @@
         </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
-    <!--    <ideoBuildingNamerBase MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSculpture</ideoBuildingNamerBase>-->
     <building>
       <paintable>true</paintable>
     </building>

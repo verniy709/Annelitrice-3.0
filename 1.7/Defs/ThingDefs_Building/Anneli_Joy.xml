@@ -64,6 +64,8 @@
     <tradeTags>
       <li>Television</li>
     </tradeTags>
+    <tradeNeverStack>true</tradeNeverStack>
+    <tradeability>Sellable</tradeability>
     <designationCategory>Joy</designationCategory>
   </ThingDef>
 </Defs>
