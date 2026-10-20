@@ -11,7 +11,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
-        <label>drink nutrient solution</label>
+        <label>consumed nutrient solution</label>
         <description>This is terrible. I would rather starve to death.</description>
         <baseMoodEffect>-15</baseMoodEffect>
       </li>
@@ -23,7 +23,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
-        <label>drink nutrient solution</label>
+        <label>consumed nutrient solution</label>
         <description>Taste of home.</description>
         <baseMoodEffect>2</baseMoodEffect>
       </li>

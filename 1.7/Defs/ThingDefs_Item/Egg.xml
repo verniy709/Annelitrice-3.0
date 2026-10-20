@@ -135,7 +135,7 @@
 <RecipeDef>
   <defName>HatchAnneliEggs</defName>
   <label>hatch annelitrice eggs</label>
-  <description>Hatch anneli eggs.</description>
+  <description>Hatch annelitrice eggs.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>
   </recipeUsers>
@@ -354,7 +354,7 @@
 <RecipeDef>
   <defName>MedicineIndustrialAnneliEggs</defName>
   <label>medicine industrial production</label>
-  <description>medicine industrial production.</description>
+  <description>Medicine industrial production.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>
   </recipeUsers>
@@ -395,7 +395,7 @@
 <RecipeDef>
   <defName>Anneli_AnthelminticAnneliEggs</defName>
   <label>annelitrice anthelmintic production</label>
-  <description>annelitrice anthelmintic production.</description>
+  <description>Annelitrice anthelmintic production.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>
   </recipeUsers>
