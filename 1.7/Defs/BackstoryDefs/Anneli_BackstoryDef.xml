@@ -277,10 +277,10 @@
 			<Plants>2</Plants>
 			<Animals>2</Animals>
 			<Crafting>2</Crafting>
-			<Artistic>2</Artistic>
+			<Artistic>6</Artistic>
 			<Medicine>2</Medicine>
 			<Social>2</Social>
-			<Intellectual>10</Intellectual>
+			<Intellectual>6</Intellectual>
 		</skillGains>
 		<spawnCategories>
 			<li>Anneli_Childhood</li>
