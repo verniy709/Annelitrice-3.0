@@ -50,7 +50,7 @@
 <ThingDef ParentName="Anneli_Egg">
   <defName>Anneli_ColonistEgg</defName>
   <label>colonist egg</label>
-  <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
+  <description>If you manage to capture a single Annelitrice egg, it's probable that several others have already fled undetected.</description>
   <graphicData>
    <texPath>Anneli_Item/Egg_Colonist</texPath>
    <graphicClass>Graphic_Random</graphicClass>
@@ -61,7 +61,7 @@
 <ThingDef ParentName="Anneli_Egg">
   <defName>Anneli_OutsiderEgg</defName>
   <label>outsider egg</label>
-  <description>If you manage to capture a single annelitrice egg, it's probable that several others have already fled undetected.</description>
+  <description>If you manage to capture a single Annelitrice egg, it's probable that several others have already fled undetected.</description>
   <graphicData>
    <texPath>Anneli_Item/Egg</texPath>
    <graphicClass>Graphic_Random</graphicClass>
@@ -72,7 +72,7 @@
 <RecipeDef>
   <defName>ResurrectAnneliCorpse</defName>
   <label>resurrect annelitrice corpse</label>
-  <description>This recipe only works on annelitrice.</description>
+  <description>This recipe only works on Annelitrice.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>
   </recipeUsers>
@@ -135,7 +135,7 @@
 <RecipeDef>
   <defName>HatchAnneliEggs</defName>
   <label>hatch annelitrice eggs</label>
-  <description>Hatch annelitrice eggs.</description>
+  <description>Hatch Annelitrice eggs.</description>
   <recipeUsers>
     <li>Anneli_Fountain</li>
   </recipeUsers>

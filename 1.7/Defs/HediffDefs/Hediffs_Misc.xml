@@ -5,7 +5,7 @@
     <defName>Anneli_Regeneration</defName>
     <label>annelitrice regeneration</label>
     <labelNoun>annelitrice regeneration</labelNoun>
-    <description>Annelitrice regeneration of lost bodyparts.</description>
+    <description>Allows an Annelitrice to regenerate lost body parts.</description>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
@@ -33,14 +33,14 @@
     <initialSeverity>0.001</initialSeverity>
     <stages>
       <li>
-        <label>Early-stage</label>
+        <label>early-stage</label>
         <becomeVisible>true</becomeVisible>
         <vomitMtbDays>4.0</vomitMtbDays>
         <painOffset>0.02</painOffset>
         <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
       </li>
       <li>
-        <label>Middle-stage</label>
+        <label>middle-stage</label>
         <minSeverity>0.333</minSeverity>
         <vomitMtbDays>3.5</vomitMtbDays>
         <painOffset>0.02</painOffset>
@@ -53,7 +53,7 @@
         </capMods>
       </li>
       <li>
-        <label>Late-stage</label>
+        <label>late-stage</label>
         <minSeverity>0.666</minSeverity>
         <vomitMtbDays>2.5</vomitMtbDays>
         <painOffset>0.02</painOffset>
@@ -66,7 +66,7 @@
         </capMods>
       </li>
       <li>
-        <label>Final-stage</label>
+        <label>final-stage</label>
         <minSeverity>0.90</minSeverity>
         <vomitMtbDays>1.5</vomitMtbDays>
         <painOffset>0.02</painOffset>
@@ -89,15 +89,15 @@
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>Cure_Anneli_Infection</defName>
     <label>cure annelitrice infection</label>
-    <description>This medical operation cures annelitrice infection.</description>
+    <description>This medical operation cures Annelitrice infection.</description>
     <workerClass>Recipe_RemoveHediff</workerClass>
-    <jobString>Curing annelitrice infection.</jobString>
+    <jobString>Curing Annelitrice infection.</jobString>
     <workAmount>1000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>false</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <removesHediff>Anneli_Infection</removesHediff>
-    <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s annelitrice infection.</successfullyRemovedHediffMessage>
+    <successfullyRemovedHediffMessage>{0} has successfully cured {1}'s Annelitrice infection.</successfullyRemovedHediffMessage>
     <ingredients>
       <li>
         <filter>

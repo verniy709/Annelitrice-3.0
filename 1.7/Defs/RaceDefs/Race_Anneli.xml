@@ -3,7 +3,7 @@
 
 	<LifeStageDef>
 		<defName>AnneliAdult</defName>
-		<label>Adult</label>
+		<label>adult</label>
 		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
 		<adjective>Adult</adjective>
 		<reproductive>false</reproductive>
@@ -1686,7 +1686,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="Anneli_BasePawn">
 		<defName>Annelitrice</defName>
 		<label>annelitrice</label>
-		<description>Annelitrice are highly pathogenic parasites found across numerous worlds. They possess no fixed shape, usually appearing as familiar lifeforms, presumably because screaming hosts are inconvenient. Their life cycle begins when an adult implants eggs in an unwilling host. Inside the host, the eggs enter a parasitic proliferative phase and produce more eggs. Once expelled, these eggs hatch into free-living larvae, which feed, pupate, and eventually emerge as adults.\n\nTheir bodies are fragile, but they can regenerate from almost any injury by consuming nutrients.\n\nAnnelitrice know they exist only to entertain beings from a higher dimension. This does not disturb them at all.\n\nEvery Annelitrice pawn possesses the Infest ability, which causes a humanoid victim to lay eggs once per day.\n\nRight-click Nutrient Solution to activate eggs or revive dead Annelitrice. The recipes of Annelitrice Fountain can automate both processes.</description>
+		<description>Annelitrice are highly pathogenic parasites found across numerous worlds. They possess no fixed shape, usually appearing as familiar lifeforms, presumably because screaming hosts are inconvenient. Their life cycle begins when an adult implants eggs in an unwilling host. Inside the host, the eggs enter a parasitic proliferative phase and produce more eggs. Once expelled, these eggs hatch into free-living larvae, which feed, pupate, and eventually emerge as adults.\n\nTheir bodies are fragile, but they can regenerate from almost any injury by consuming nutrients.\n\nAnnelitrice know they exist only to entertain beings from a higher dimension. This does not disturb them at all.\n\nEvery Annelitrice pawn possesses the Infest ability, which causes a humanoid victim to lay eggs once per day.\n\nRight-click nutrient solution to activate eggs or revive dead Annelitrice. The recipes of the Annelitrice fountain can automate both processes.</description>
 		<statBases>
 			<MarketValue>1200</MarketValue>
 			<MentalBreakThreshold>0.25</MentalBreakThreshold>

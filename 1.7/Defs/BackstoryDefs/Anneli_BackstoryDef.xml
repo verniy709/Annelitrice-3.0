@@ -4,8 +4,8 @@
 	<!--Childhood-->
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_NormalWorm</defName>
-		<title>Normal Worm</title>
-		<titleShort>Normal Worm</titleShort>
+		<title>normal worm</title>
+		<titleShort>normal worm</titleShort>
 		<baseDesc>[PAWN_nameDef] was not a special one in the culture chamber.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -30,8 +30,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_ActiveWorm</defName>
-		<title>Active Worm</title>
-		<titleShort>Active Worm</titleShort>
+		<title>active worm</title>
+		<titleShort>active worm</titleShort>
 		<baseDesc>[PAWN_nameDef] was a little too energetic.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -56,9 +56,9 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_FriendlyWorm</defName>
-		<title>Friendly Worm</title>
-		<titleShort>Friendly Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] liked to make friends with the foods.</baseDesc>
+		<title>friendly worm</title>
+		<titleShort>friendly worm</titleShort>
+		<baseDesc>[PAWN_nameDef] liked to make friends with animals.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -82,9 +82,9 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_CreativeWorm</defName>
-		<title>Creative Worm</title>
-		<titleShort>Creative Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] could draw Mona Lisa with digestive juices.</baseDesc>
+		<title>creative worm</title>
+		<titleShort>creative worm</titleShort>
+		<baseDesc>[PAWN_nameDef] could paint the Mona Lisa with digestive juices.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -108,9 +108,9 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_DiggingWorm</defName>
-		<title>Digging Worm</title>
-		<titleShort>Digging Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] drilled well-organized holes on solid media.</baseDesc>
+		<title>digging worm</title>
+		<titleShort>digging worm</titleShort>
+		<baseDesc>[PAWN_nameDef] drilled carefully arranged holes in solid materials.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -134,8 +134,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_FastGrowingWorm</defName>
-		<title>Fast-Growing Worm</title>
-		<titleShort>Fast-Growing Worm</titleShort>
+		<title>fast-growing worm</title>
+		<titleShort>fast-growing worm</titleShort>
 		<baseDesc>[PAWN_nameDef] had an insatiable appetite.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -160,8 +160,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_BellicoseWorm</defName>
-		<title>Bellicose Worm</title>
-		<titleShort>Bellicose Worm</titleShort>
+		<title>bellicose worm</title>
+		<titleShort>bellicose worm</titleShort>
 		<baseDesc>[PAWN_nameDef] loved to start a fight.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -186,8 +186,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_NerdyWorm</defName>
-		<title>Nerdy Worm</title>
-		<titleShort>Nerdy Worm</titleShort>
+		<title>nerdy worm</title>
+		<titleShort>nerdy worm</titleShort>
 		<baseDesc>[PAWN_nameDef] was fascinated with the history of agriculture.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -212,8 +212,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_ShrewdWorm</defName>
-		<title>Shrewd Worm</title>
-		<titleShort>Shrewd Worm</titleShort>
+		<title>shrewd worm</title>
+		<titleShort>shrewd worm</titleShort>
 		<baseDesc>[PAWN_nameDef] knew how to arm itself at any time.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -238,8 +238,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_ImitatingWorm</defName>
-		<title>Imitating Worm</title>
-		<titleShort>Imitating Worm</titleShort>
+		<title>imitating worm</title>
+		<titleShort>imitating worm</titleShort>
 		<baseDesc>[PAWN_nameDef] loved to simulate humans.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -264,8 +264,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_BizarreWorm</defName>
-		<title>Bizarre Worm</title>
-		<titleShort>Bizarre Worm</titleShort>
+		<title>bizarre worm</title>
+		<titleShort>bizarre worm</titleShort>
 		<baseDesc>[PAWN_nameDef] was always in a deep meditation.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -290,8 +290,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_HoardingWorm</defName>
-		<title>Hoarding Worm</title>
-		<titleShort>Hoarding Worm</titleShort>
+		<title>hoarding worm</title>
+		<titleShort>hoarding worm</titleShort>
 		<baseDesc>[PAWN_nameDef] had a hoarding disorder.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -316,9 +316,9 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_CatWorm</defName>
-		<title>Cat Worm</title>
-		<titleShort>Cat Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] dreamed of becoming into an actual cat, or at least infecting one.</baseDesc>
+		<title>cat worm</title>
+		<titleShort>cat worm</titleShort>
+		<baseDesc>[PAWN_nameDef] dreamed of becoming an actual cat, or at least infecting one.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -342,8 +342,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_AutisticWorm</defName>
-		<title>Autistic Worm</title>
-		<titleShort>Autistic Worm</titleShort>
+		<title>autistic worm</title>
+		<titleShort>autistic worm</titleShort>
 		<baseDesc>[PAWN_nameDef] would avoid people if possible.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -368,8 +368,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_ZealousWorm</defName>
-		<title>Zealous Worm</title>
-		<titleShort>Zealous Worm</titleShort>
+		<title>zealous worm</title>
+		<titleShort>zealous worm</titleShort>
 		<baseDesc>[PAWN_nameDef] believed herself to be a reincarnation of a cult leader.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -394,8 +394,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_MedicalWorm</defName>
-		<title>Medical Worm</title>
-		<titleShort>Medical Worm</titleShort>
+		<title>medical worm</title>
+		<titleShort>medical worm</titleShort>
 		<baseDesc>[PAWN_nameDef] was employed at a massage therapy establishment that specializes in providing leech therapy.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -420,8 +420,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_CheesyWorm</defName>
-		<title>Cheesy Worm</title>
-		<titleShort>Cheesy Worm</titleShort>
+		<title>cheesy worm</title>
+		<titleShort>cheesy worm</titleShort>
 		<baseDesc>[PAWN_nameDef] lived in soft and creamy Sardinian cheese.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
@@ -446,9 +446,9 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_BookWorm</defName>
-		<title>Book Worm</title>
-		<titleShort>Book Worm</titleShort>
-		<baseDesc>[PAWN_nameDef] could not read, but finds great joy in admiring illustrations.</baseDesc>
+		<title>book worm</title>
+		<titleShort>book worm</titleShort>
+		<baseDesc>[PAWN_nameDef] could not read, but found great joy in admiring illustrations.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<Shooting>2</Shooting>
@@ -472,8 +472,8 @@
 
 	<AlienRace.AlienBackstoryDef ParentName="Anneli_Backstory_Base">
 		<defName>Anneli_DOSWorm</defName>
-		<title>DOS Worm</title>
-		<titleShort>DOS Worm</titleShort>
+		<title>DOS worm</title>
+		<titleShort>DOS worm</titleShort>
 		<baseDesc>[PAWN_nameDef] was enlisted in the monumental conflict known as DOS Worm in 1995.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>

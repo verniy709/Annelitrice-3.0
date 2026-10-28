@@ -39,10 +39,10 @@
 
 	<FactionDef ParentName="Anneli_FactionBase">
 		<defName>Anneli_Faction_Player</defName>
-		<label>Annelitrice Colony</label>
+		<label>annelitrice colony</label>
 		<pawnSingular>Annelitrice</pawnSingular>
 		<pawnsPlural>Annelitrice</pawnsPlural>
-		<description>A colony founded by annelitrice survivors.</description>
+		<description>A colony founded by Annelitrice survivors.</description>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>

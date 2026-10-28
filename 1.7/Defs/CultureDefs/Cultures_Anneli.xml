@@ -2,8 +2,8 @@
 <Defs>
   <CultureDef>
     <defName>Anneli_Cultures_Rustican_Player</defName>
-    <label>Anneli Rustican Cultures</label>
-    <description>Anneli Rustican Cultures.</description>
+    <label>anneli rustican culture</label>
+    <description>A rustican culture of the Annelitrice.</description>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoRustican</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
     <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>

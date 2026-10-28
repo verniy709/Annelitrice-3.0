@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>Anneli_Fountain</defName>
 		<label>annelitrice fountain</label>
-		<description>The production bench for annelitrice recipes, including transmog apparel, egg-related items, nutrient solution.</description>
+		<description>The production bench for Annelitrice recipes, including transmog apparel, egg-related items, nutrient solution.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Anneli_Building/Fountain</texPath>
@@ -44,6 +44,7 @@
 			<li>ITab_Bills</li>
 		</inspectorTabs>
 		<building>
+			<paintable>true</paintable>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>

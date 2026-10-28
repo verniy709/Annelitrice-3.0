@@ -4,7 +4,7 @@
 
   <BodyDef>
     <defName>Anneli_Body</defName>
-    <label>Annelitrice Body</label>
+    <label>annelitrice body</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>

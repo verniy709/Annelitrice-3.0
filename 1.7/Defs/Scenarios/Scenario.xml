@@ -2,7 +2,7 @@
 <Defs>
   <ScenarioDef ParentName="ScenarioBase">
 	<defName>Annelitrice_Loner</defName>
-	<label>The Lone Annelitrice</label>
+	<label>the lone annelitrice</label>
 	<description>Against the odds, you survived the clumsy plunder of your long-sleep tomb. They damaged much, yet fled without taking everything. Now, the silence echoes a harsher theft: three hundred years gone.</description>
 	<scenario>
 		<summary>You woke up from a cryptosleep sarcophagus and found some resources in a hidden storage room.</summary>
@@ -70,7 +70,7 @@
 
 	<ScenarioDef ParentName="ScenarioBase">
 	<defName>Annelitrice_Drifters</defName>
-	<label>Wandering Theatre</label>
+	<label>wandering theatre</label>
 	<description>This stellar troupe had danced their way to fame, enchanting planets with their art. Yet unwittingly, they stirred the wrath of powers high above. The blow was swift and total: equipment seized, costumes taken, possessions gone. Adrift in the endless dark, they drifted until a silent, barren planet swallowed them – and their songs fell silent.</description>
 	<scenario>
 		<summary>On this wretched rock, artists are less than dirt: they soiled our honors with contempt.</summary>

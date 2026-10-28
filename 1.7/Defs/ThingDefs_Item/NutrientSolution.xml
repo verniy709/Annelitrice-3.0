@@ -3,7 +3,7 @@
 	<ThingDef ParentName="MealBase">
     <defName>Anneli_NutrientSolution</defName>
     <label>annelitrice nutrient solution</label>
-    <description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, annelitrice have no aversion to it since they are raised in its presence.</description>
+    <description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, Annelitrice have no aversion to it since they are raised in its presence.</description>
     <graphicData>
       <texPath>Anneli_Item/NutrientSolution</texPath>
       <graphicClass>Annelitrice.Graphic_NutrientSolutionStackCount</graphicClass>
@@ -35,7 +35,7 @@
       </li>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
-        <useLabel>Use annelitrice nutrient solution</useLabel>
+        <useLabel>use annelitrice nutrient solution</useLabel>
         <useDuration>0</useDuration>
         <warmupMote>Mote_ResurrectAbility</warmupMote>
         <showUseGizmo>true</showUseGizmo>
@@ -51,8 +51,8 @@
 
   <RecipeDef>
   	<defName>Anneli_MakeNutrientSolution</defName>
-    <label>make Annelitrice nutrient solution</label>
-    <description>Juice organic matters.</description>
+    <label>make annelitrice nutrient solution</label>
+    <description>Process organic matter into nutrient solution.</description>
     <jobString>Making Annelitrice nutrient solution.</jobString>
     <workAmount>1000</workAmount>
     <researchPrerequisite>Anneli_NutrientSolution</researchPrerequisite>

@@ -18,7 +18,7 @@
 
 	<PawnKindDef ParentName="Anneli_KindBase">
 		<defName>Anneli_Player</defName>
-		<label>Annelitrice Colonist</label>
+		<label>annelitrice colonist</label>
 		<defaultFactionType>Anneli_Faction_Player</defaultFactionType>
 		<isFighter>true</isFighter>
 		<combatPower>100</combatPower>
@@ -76,7 +76,7 @@
 
 	<PawnKindDef ParentName="Anneli_KindBase">
 		<defName>Anneli_Wild</defName>
-		<label>Annelitrice Wild</label>
+		<label>annelitrice wild</label>
 		<defaultFactionType>Anneli_Faction_Wild</defaultFactionType>
 		<apparelMoney>0</apparelMoney>
 		<isFighter>false</isFighter>

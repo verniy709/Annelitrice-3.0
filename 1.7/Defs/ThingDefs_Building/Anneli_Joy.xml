@@ -49,6 +49,7 @@
     </thingCategories>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <building>
+      <paintable>true</paintable>
       <joyKind>Anneli_Spectate</joyKind>
       <watchBuildingStandDistanceRange>2~7</watchBuildingStandDistanceRange>
       <watchBuildingStandRectWidth>7</watchBuildingStandRectWidth>

@@ -2,13 +2,13 @@
 <Defs>
 	<ResearchTabDef>
 		<defName>Anneli_Research</defName>
-		<label>Annelitrice</label>
+		<label>annelitrice</label>
 	</ResearchTabDef>
 
 	<ResearchProjectDef>
 		<defName>Anneli_Fountain</defName>
 		<label>annelitrice fountain</label>
-		<description>The production bench for annelitrice recipes, including transmog apparel, egg-related items, nutrient solution.</description>
+		<description>The production bench for Annelitrice recipes, including transmog apparel, egg-related items, nutrient solution.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>0</researchViewX>
@@ -19,7 +19,7 @@
 	<ResearchProjectDef>
 		<defName>Anneli_NutrientSolution</defName>
 		<label>annelitrice nutrient solution</label>
-		<description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, annelitrice have no aversion to it since they are raised in its presence.</description>
+		<description>The suspicious liquid contained in a bottle is both more potent and repulsive than nutrient paste meals, and its unpleasant taste cannot be disguised by artificial flavorings. Surprisingly, Annelitrice have no aversion to it since they are raised in its presence.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>1</researchViewX>
