@@ -6,9 +6,6 @@
     <label>annelitrice anthelmintic</label>
     <description>An Annelitrice egg extract that removes all addictions and cures flu, plague, malaria, gut worms, sleeping sickness, muscle parasites, fibrous mechanites, and sensory mechanites. Non-Annelitrice users may suffer food poisoning.</description>
     <possessionCount>10</possessionCount>
-    <descriptionHyperlinks>
-      <HediffDef>FoodPoisoning</HediffDef>
-    </descriptionHyperlinks>
     <graphicData>
       <texPath>Anneli_Item/Anthelmintic</texPath>
       <graphicClass>Annelitrice.Graphic_AnthelminticStackCount</graphicClass>
@@ -41,26 +38,5 @@
       </li>
     </comps>
   </ThingDef>
-
-  <!-- Kept for existing saves and retheme patches; new doses never apply this hediff. -->
-  <HediffDef>
-    <defName>Anneli_AnthelminticHigh</defName>
-    <hediffClass>Hediff_High</hediffClass>
-    <label>annelitrice anthelmintic</label>
-    <description>An obsolete effect from an earlier formulation of the drug. It no longer grants an immunity bonus and will expire.</description>
-    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>1.0</maxSeverity>
-    <isBad>false</isBad>
-    <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>20000</disappearsAfterTicks>
-        <showRemainingTime>true</showRemainingTime>
-      </li>
-    </comps>
-    <stages>
-      <li />
-    </stages>
-  </HediffDef>
 
 </Defs>
