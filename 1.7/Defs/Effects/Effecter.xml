@@ -84,4 +84,24 @@
     </children>
   </EffecterDef>
 
+  <EffecterDef>
+    <defName>Anneli_Hatch</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>Anneli_PupationFinish</soundDef>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>Anneli_PupaFinishA</fleckDef>
+        <burstCount>3~4</burstCount>
+        <speed>1.2</speed>
+        <scale>0.5~0.7</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionOffset>(0, 0, -0.3)</positionOffset>
+      </li>
+    </children>
+  </EffecterDef>
+
 </Defs>

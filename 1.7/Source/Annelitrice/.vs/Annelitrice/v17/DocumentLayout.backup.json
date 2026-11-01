@@ -3,14 +3,37 @@
   "WorkspaceRootPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\complarva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:complarva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\verb_casttargeteffectlances_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:verb_casttargeteffectlances_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compplaymusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compplaymusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\recipe_hatchegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:recipe_hatchegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Annelitrice_RJWPatch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Annelitrice||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\annelitriceconditionisdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\annelitriceconditionisdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:annelitriceconditionisdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\getdrawparms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\getdrawparms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\getdrawparms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,31 +41,28 @@
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\drawequipmentaiming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\corpse_destroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\corpse_destroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\corpse_destroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\patchmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\patchmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\patchmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\jobdriver_fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\jobdriver_fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\jobdriver_fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\ingestfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\ingestfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\ingestfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\getgizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\getgizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\getgizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\extendedgraphicscondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\extendedgraphicscondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\extendedgraphicscondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Annelitrice_RJWPatch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Annelitrice_GiddyUp2Patch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
@@ -51,103 +71,83 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Annelitrice_DBHPatch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\annelitricedefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\annelitricedefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:annelitricedefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\cancrawl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\cancrawl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\cancrawl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\harmonypatches\\compstatue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\harmonypatches\\compstatue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:harmonypatches\\compstatue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\pawnrendersubworker_nodraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\pawnrendersubworker_nodraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:pawnrendersubworker_nodraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compregeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\jobdriver_watchpuppetshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\jobdriver_watchpuppetshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:jobdriver_watchpuppetshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\recipe_resurrectcorpse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\recipe_resurrectcorpse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:recipe_resurrectcorpse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\complarva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:complarva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\recipe_hatchegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:recipe_hatchegg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\whitelistcleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\whitelistcleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:whitelistcleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\verb_casttargeteffectlances_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:verb_casttargeteffectlances_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\comptargeteffect_nutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\comptargeteffect_nutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:comptargeteffect_nutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\comptargetable_parameters_egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\comptargetable_parameters_egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:comptargetable_parameters_egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\jobdriver_usenutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\jobdriver_usenutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:jobdriver_usenutrientsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\itab_pawn_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\itab_pawn_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:itab_pawn_character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\hediff_egginfected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\hediff_egginfected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:hediff_egginfected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compproperties_connaturalabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compproperties_connaturalabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compproperties_connaturalabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compproperties_apparelcausehediff_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compproperties_apparelcausehediff_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compproperties_apparelcausehediff_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compplaymusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compplaymusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compcontainpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compcontainpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compcontainpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compconnaturalabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compconnaturalabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compconnaturalabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\compapparelcausehediff_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\compapparelcausehediff_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:compapparelcausehediff_aoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\annelitricesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\annelitricesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|solutionrelative:annelitricesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -211,7 +211,7 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCA008F-C74A-4A93-9F59-6BCD9F54D3AD}|Annelitrice.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+      "AbsoluteMoniker": "D:0:0:{4C269235-71BA-4015-82AA-AAA137595162}|..\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\annelitrice-3.0\\1.7\\source\\annelitrice_rjwpatch\\annelitrice_rjwpatch\\annelitrice_rjwpatch.csproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -221,7 +221,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -229,27 +229,199 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Patch_RenderLayerCompression.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
-              "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "GetGizmos.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetGizmos.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\GetGizmos.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetGizmos.cs",
+              "RelativeToolTip": "HarmonyPatches\\GetGizmos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T12:59:44.746Z"
+              "WhenOpened": "2025-12-10T08:27:44.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Patch_Main.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
-              "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "IngestFood.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\IngestFood.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\IngestFood.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\IngestFood.cs",
+              "RelativeToolTip": "HarmonyPatches\\IngestFood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T13:06:29.771Z"
+              "WhenOpened": "2025-06-13T03:16:38.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobDriver_Fish.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\JobDriver_Fish.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\JobDriver_Fish.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\JobDriver_Fish.cs",
+              "RelativeToolTip": "HarmonyPatches\\JobDriver_Fish.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T06:10:40.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatchMain.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\PatchMain.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\PatchMain.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\PatchMain.cs",
+              "RelativeToolTip": "HarmonyPatches\\PatchMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:11:54.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnnelitriceConditionIsDead.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\AnnelitriceConditionIsDead.cs",
+              "RelativeDocumentMoniker": "AnnelitriceConditionIsDead.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\AnnelitriceConditionIsDead.cs",
+              "RelativeToolTip": "AnnelitriceConditionIsDead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T01:40:31.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Corpse_Destroy.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\Corpse_Destroy.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\Corpse_Destroy.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\Corpse_Destroy.cs",
+              "RelativeToolTip": "HarmonyPatches\\Corpse_Destroy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:36:57.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Annelitrice",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Annelitrice.csproj",
+              "RelativeDocumentMoniker": "Annelitrice.csproj",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Annelitrice.csproj",
+              "RelativeToolTip": "Annelitrice.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-19T13:00:01.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Annelitrice_RJWPatch",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
+              "RelativeDocumentMoniker": "..\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
+              "RelativeToolTip": "..\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-19T12:59:53.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompLarva.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompLarva.cs",
+              "RelativeDocumentMoniker": "CompLarva.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompLarva.cs",
+              "RelativeToolTip": "CompLarva.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:46:04.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Recipe_HatchEgg.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Recipe_HatchEgg.cs",
+              "RelativeDocumentMoniker": "Recipe_HatchEgg.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Recipe_HatchEgg.cs",
+              "RelativeToolTip": "Recipe_HatchEgg.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:00:55.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompEgg.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompEgg.cs",
+              "RelativeDocumentMoniker": "CompEgg.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompEgg.cs",
+              "RelativeToolTip": "CompEgg.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwFUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:03:53.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompPlayMusic.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompPlayMusic.cs",
+              "RelativeDocumentMoniker": "CompPlayMusic.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompPlayMusic.cs",
+              "RelativeToolTip": "CompPlayMusic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T01:41:20.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Verb_CastTargetEffectLances_AoE.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Verb_CastTargetEffectLances_AoE.cs",
+              "RelativeDocumentMoniker": "Verb_CastTargetEffectLances_AoE.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Verb_CastTargetEffectLances_AoE.cs",
+              "RelativeToolTip": "Verb_CastTargetEffectLances_AoE.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T01:30:04.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetDrawParms.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetDrawParms.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\GetDrawParms.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetDrawParms.cs",
+              "RelativeToolTip": "HarmonyPatches\\GetDrawParms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:10:55.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExtendedGraphicsCondition.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\ExtendedGraphicsCondition.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\ExtendedGraphicsCondition.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\ExtendedGraphicsCondition.cs",
+              "RelativeToolTip": "HarmonyPatches\\ExtendedGraphicsCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T03:16:30.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DrawEquipmentAiming.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\DrawEquipmentAiming.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\DrawEquipmentAiming.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\DrawEquipmentAiming.cs",
+              "RelativeToolTip": "HarmonyPatches\\DrawEquipmentAiming.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T02:09:56.687Z"
             },
             {
               "$type": "Document",
@@ -259,153 +431,45 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_Main.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_Main.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:32:35.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DrawEquipmentAiming.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\DrawEquipmentAiming.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\DrawEquipmentAiming.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\DrawEquipmentAiming.cs",
-              "RelativeToolTip": "HarmonyPatches\\DrawEquipmentAiming.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 53,
+              "Title": "Patch_Main.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
+              "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_Main.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T02:09:56.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T13:06:29.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExtendedGraphicsCondition.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\ExtendedGraphicsCondition.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\ExtendedGraphicsCondition.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\ExtendedGraphicsCondition.cs",
-              "RelativeToolTip": "HarmonyPatches\\ExtendedGraphicsCondition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABuAAAAAAAAAA==",
+              "DocumentIndex": 52,
+              "Title": "Patch_RenderLayerCompression.cs",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
+              "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RenderLayerCompression.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T03:16:30.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T12:59:44.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetDrawParms.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetDrawParms.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\GetDrawParms.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetDrawParms.cs",
-              "RelativeToolTip": "HarmonyPatches\\GetDrawParms.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:10:55.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetGizmos.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetGizmos.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\GetGizmos.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\GetGizmos.cs",
-              "RelativeToolTip": "HarmonyPatches\\GetGizmos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T08:27:44.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IngestFood.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\IngestFood.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\IngestFood.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\IngestFood.cs",
-              "RelativeToolTip": "HarmonyPatches\\IngestFood.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T03:16:38.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JobDriver_Fish.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\JobDriver_Fish.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\JobDriver_Fish.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\JobDriver_Fish.cs",
-              "RelativeToolTip": "HarmonyPatches\\JobDriver_Fish.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T06:10:40.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PatchMain.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\PatchMain.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\PatchMain.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\PatchMain.cs",
-              "RelativeToolTip": "HarmonyPatches\\PatchMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T22:11:54.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AnnelitriceConditionIsDead.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\AnnelitriceConditionIsDead.cs",
-              "RelativeDocumentMoniker": "AnnelitriceConditionIsDead.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\AnnelitriceConditionIsDead.cs",
-              "RelativeToolTip": "AnnelitriceConditionIsDead.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T01:40:31.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Corpse_Destroy.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\Corpse_Destroy.cs",
-              "RelativeDocumentMoniker": "HarmonyPatches\\Corpse_Destroy.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\Corpse_Destroy.cs",
-              "RelativeToolTip": "HarmonyPatches\\Corpse_Destroy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T00:36:57.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Annelitrice",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Annelitrice.csproj",
-              "RelativeDocumentMoniker": "Annelitrice.csproj",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Annelitrice.csproj",
-              "RelativeToolTip": "Annelitrice.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-19T13:00:01.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Annelitrice_GiddyUp2Patch",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
-              "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
+              "RelativeDocumentMoniker": "..\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
+              "RelativeToolTip": "..\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2Patch.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-19T12:59:49.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "AnnelitriceDefOf.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\AnnelitriceDefOf.cs",
               "RelativeDocumentMoniker": "AnnelitriceDefOf.cs",
@@ -417,25 +481,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Annelitrice_DBHPatch",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
-              "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
+              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
+              "RelativeDocumentMoniker": "..\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
+              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
+              "RelativeToolTip": "..\\Annelitrice_DBHPatch\\Annelitrice_DBHPatch.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-19T13:00:05.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Annelitrice_RJWPatch",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
-              "RelativeToolTip": "..\\..\\..\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-19T12:59:53.007Z"
             },
             {
               "$type": "Document",
@@ -445,7 +498,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_GetBodyPos.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_GetBodyPos.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_GetBodyPos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:30:31.073Z"
             },
@@ -457,7 +509,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_HediffSet.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_HediffSet.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_HediffSet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:32:30.491Z"
             },
@@ -469,7 +520,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RiderOffset.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RiderOffset.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_GiddyUp2Patch\\Annelitrice_GiddyUp2HarmonyPatches\\Patch_RiderOffset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:51:07.507Z"
             },
@@ -481,7 +531,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_CompRJW.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_CompRJW.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_CompRJW.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:32:44.744Z"
             },
@@ -493,7 +542,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_Main.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_Main.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:32:45.657Z"
             },
@@ -505,13 +553,12 @@
               "RelativeDocumentMoniker": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs",
               "RelativeToolTip": "..\\..\\..\\1.6\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:32:42.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "CompStatue.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\CompStatue.cs",
               "RelativeDocumentMoniker": "HarmonyPatches\\CompStatue.cs",
@@ -523,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CanCrawl.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\HarmonyPatches\\CanCrawl.cs",
               "RelativeDocumentMoniker": "HarmonyPatches\\CanCrawl.cs",
@@ -541,7 +588,7 @@
               "RelativeDocumentMoniker": "..\\..\\..\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_CompRJW.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_CompRJW.cs",
               "RelativeToolTip": "..\\..\\..\\LoadFolders\\1.6\\RJW\\Source\\Annelitrice_RJWPatch\\Annelitrice_RJWPatch\\Annelitrice_RJWHarmonyPatches\\Patch_CompRJW.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:00:14.661Z"
             },
@@ -553,7 +600,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_GetBodyPos.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_GetBodyPos.cs",
               "RelativeToolTip": "..\\..\\..\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_GetBodyPos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:11:23.437Z"
             },
@@ -565,7 +611,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_HediffSet.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_HediffSet.cs",
               "RelativeToolTip": "..\\..\\..\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_HediffSet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:11:09.357Z"
             },
@@ -577,13 +622,12 @@
               "RelativeDocumentMoniker": "..\\..\\..\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs",
               "RelativeToolTip": "..\\..\\..\\LoadFolders\\1.6\\DubsBadHygiene\\Source\\Annelitrice_DBHPatch\\Annelitrice_DBHHarmonyPatches\\Patch_PawnRenderNodeWorker_TextureLevels_CanDrawNow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T13:10:40.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "CompRegeneration.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompRegeneration.cs",
               "RelativeDocumentMoniker": "CompRegeneration.cs",
@@ -595,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "PawnRenderSubWorker_NoDraw.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\PawnRenderSubWorker_NoDraw.cs",
               "RelativeDocumentMoniker": "PawnRenderSubWorker_NoDraw.cs",
@@ -607,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "WhitelistCleaner.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\WhitelistCleaner.cs",
               "RelativeDocumentMoniker": "WhitelistCleaner.cs",
@@ -619,67 +663,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T12:39:57.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CompEgg.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompEgg.cs",
-              "RelativeDocumentMoniker": "CompEgg.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompEgg.cs",
-              "RelativeToolTip": "CompEgg.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAmwGUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T19:03:53.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CompLarva.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompLarva.cs",
-              "RelativeDocumentMoniker": "CompLarva.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompLarva.cs",
-              "RelativeToolTip": "CompLarva.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:46:04.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Recipe_HatchEgg.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Recipe_HatchEgg.cs",
-              "RelativeDocumentMoniker": "Recipe_HatchEgg.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Recipe_HatchEgg.cs",
-              "RelativeToolTip": "Recipe_HatchEgg.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:00:55.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Recipe_ResurrectCorpse.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Recipe_ResurrectCorpse.cs",
               "RelativeDocumentMoniker": "Recipe_ResurrectCorpse.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Recipe_ResurrectCorpse.cs",
               "RelativeToolTip": "Recipe_ResurrectCorpse.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAEBTwBsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T05:25:30.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "JobDriver_WatchPuppetShow.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\JobDriver_WatchPuppetShow.cs",
               "RelativeDocumentMoniker": "JobDriver_WatchPuppetShow.cs",
@@ -691,19 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Verb_CastTargetEffectLances_AoE.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Verb_CastTargetEffectLances_AoE.cs",
-              "RelativeDocumentMoniker": "Verb_CastTargetEffectLances_AoE.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Verb_CastTargetEffectLances_AoE.cs",
-              "RelativeToolTip": "Verb_CastTargetEffectLances_AoE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T01:30:04.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CompTargetable_Parameters_Egg.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompTargetable_Parameters_Egg.cs",
               "RelativeDocumentMoniker": "CompTargetable_Parameters_Egg.cs",
@@ -715,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CompTargetEffect_NutrientSolution.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompTargetEffect_NutrientSolution.cs",
               "RelativeDocumentMoniker": "CompTargetEffect_NutrientSolution.cs",
@@ -731,7 +727,6 @@
               "Title": "CompStatue.cs",
               "DocumentMoniker": "C:\\Users\\verni\\Desktop\\Rimworld\\Assembly-CSharp\\RimWorld\\CompStatue.cs",
               "ToolTip": "C:\\Users\\verni\\Desktop\\Rimworld\\Assembly-CSharp\\RimWorld\\CompStatue.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T08:49:10.275Z"
             },
@@ -741,7 +736,6 @@
               "Title": "AnnelitriceShieldBelt.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\AnnelitriceShieldBelt.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\AnnelitriceShieldBelt.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:03:15.201Z"
             },
@@ -751,7 +745,6 @@
               "Title": "CompEvolution.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\CompEvolution.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\CompEvolution.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:03:15.152Z"
             },
@@ -761,7 +754,6 @@
               "Title": "BaseHairDef.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\BaseHairDef.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\BaseHairDef.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:03:15.203Z"
             },
@@ -771,7 +763,6 @@
               "Title": "HarmonyPatches.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\HarmonyPatches.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\HarmonyPatches.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:03:15.206Z"
             },
@@ -781,7 +772,6 @@
               "Title": "AnnelitriceUtils.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\AnnelitriceUtils.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-2.0\\1.4\\Source\\Annelitrice\\AnnelitriceUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:03:15.206Z"
             },
@@ -791,81 +781,68 @@
               "Title": "CompProperties_Statue.cs",
               "DocumentMoniker": "C:\\Users\\verni\\Desktop\\Rimworld\\Assembly-CSharp\\RimWorld\\CompProperties_Statue.cs",
               "ToolTip": "C:\\Users\\verni\\Desktop\\Rimworld\\Assembly-CSharp\\RimWorld\\CompProperties_Statue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T08:48:12.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "JobDriver_UseNutrientSolution.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\JobDriver_UseNutrientSolution.cs",
               "RelativeDocumentMoniker": "JobDriver_UseNutrientSolution.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\JobDriver_UseNutrientSolution.cs",
               "RelativeToolTip": "JobDriver_UseNutrientSolution.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T20:48:11.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ITab_Pawn_Character.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\ITab_Pawn_Character.cs",
               "RelativeDocumentMoniker": "ITab_Pawn_Character.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\ITab_Pawn_Character.cs",
               "RelativeToolTip": "ITab_Pawn_Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T21:28:12.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Hediff_EggInfected.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Hediff_EggInfected.cs",
               "RelativeDocumentMoniker": "Hediff_EggInfected.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Hediff_EggInfected.cs",
               "RelativeToolTip": "Hediff_EggInfected.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T02:09:47.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CompProperties_ConnaturalAbilities.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompProperties_ConnaturalAbilities.cs",
               "RelativeDocumentMoniker": "CompProperties_ConnaturalAbilities.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompProperties_ConnaturalAbilities.cs",
               "RelativeToolTip": "CompProperties_ConnaturalAbilities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T21:28:04.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CompProperties_ApparelCauseHediff_AoE.cs",
               "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompProperties_ApparelCauseHediff_AoE.cs",
               "RelativeDocumentMoniker": "CompProperties_ApparelCauseHediff_AoE.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompProperties_ApparelCauseHediff_AoE.cs",
               "RelativeToolTip": "CompProperties_ApparelCauseHediff_AoE.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T22:17:24.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CompPlayMusic.cs",
-              "DocumentMoniker": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompPlayMusic.cs",
-              "RelativeDocumentMoniker": "CompPlayMusic.cs",
-              "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompPlayMusic.cs",
-              "RelativeToolTip": "CompPlayMusic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T01:41:20.86Z"
             },
             {
               "$type": "Document",
@@ -875,7 +852,7 @@
               "RelativeDocumentMoniker": "CompContainPawn.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompContainPawn.cs",
               "RelativeToolTip": "CompContainPawn.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:04:33.897Z"
             },
@@ -887,7 +864,7 @@
               "RelativeDocumentMoniker": "CompConnaturalAbilities.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompConnaturalAbilities.cs",
               "RelativeToolTip": "CompConnaturalAbilities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T03:17:05.496Z"
             },
@@ -899,7 +876,7 @@
               "RelativeDocumentMoniker": "CompApparelCauseHediff_AoE.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\CompApparelCauseHediff_AoE.cs",
               "RelativeToolTip": "CompApparelCauseHediff_AoE.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T19:03:25.208Z"
             },
@@ -911,7 +888,7 @@
               "RelativeDocumentMoniker": "AnnelitriceSettings.cs",
               "ToolTip": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\AnnelitriceSettings.cs",
               "RelativeToolTip": "AnnelitriceSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T03:40:18.024Z"
             }

@@ -12,7 +12,7 @@
 	<Anneli.SelectSong>select</Anneli.SelectSong>
 	<Anneli.SelectSongDesc>select a song in the list</Anneli.SelectSongDesc>
 
-	<Anneli.LarvaAllowPupation>Allow pupation</Anneli.LarvaAllowPupation>
+	<Anneli.LarvaAllowPupation>allow pupation</Anneli.LarvaAllowPupation>
 	<Anneli.LarvaAllowPupationDesc>When off, this larva's food level stays fixed and eating does not advance pupation. Turn it on to resume.</Anneli.LarvaAllowPupationDesc>
 
 	<Anneli.SettingTitle>Annelitrice 3.0</Anneli.SettingTitle>

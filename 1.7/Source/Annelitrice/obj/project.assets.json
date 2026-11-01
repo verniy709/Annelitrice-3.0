@@ -8,7 +8,7 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Verniy\\.codex\\.chatgpt-projects\\g-p-6ac48118ffd4819197bcfa6fcbf9a912\\.tmp-build-verify\\.nuget\\packages\\": {},
+    "C:\\Users\\Verniy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -17,7 +17,7 @@
       "projectUniqueName": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Annelitrice.csproj",
       "projectName": "Annelitrice",
       "projectPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\Annelitrice.csproj",
-      "packagesPath": "C:\\Users\\Verniy\\.codex\\.chatgpt-projects\\g-p-6ac48118ffd4819197bcfa6fcbf9a912\\.tmp-build-verify\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Verniy\\.nuget\\packages\\",
       "outputPath": "D:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Annelitrice-3.0\\1.7\\Source\\Annelitrice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [

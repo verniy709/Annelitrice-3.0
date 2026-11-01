@@ -100,6 +100,7 @@ namespace Annelitrice
 
 				egg.GetDirectlyHeldThings().TryTransferAllToContainer(larvaContainer.GetDirectlyHeldThings());
 				GenSpawn.Spawn(larva, pos, map, WipeMode.VanishOrMoveAside);
+				DefDatabase<EffecterDef>.GetNamed("Anneli_Hatch").Spawn(pos, map);
 			}
 
 			parent.Destroy();

@@ -35,6 +35,7 @@ namespace Annelitrice
 			CompContainPawn larvaContainer = larva.GetComp<CompContainPawn>();
 			eggContainer.GetDirectlyHeldThings().TryTransferAllToContainer(larvaContainer.GetDirectlyHeldThings());
 			GenSpawn.Spawn(larva, pos, map, WipeMode.VanishOrMoveAside);
+			DefDatabase<EffecterDef>.GetNamed("Anneli_Hatch").Spawn(pos, map);
 		}
 	}
 }
