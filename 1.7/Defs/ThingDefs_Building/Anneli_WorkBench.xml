@@ -13,7 +13,7 @@
 			<drawSize>(1.35,1.35)</drawSize>
 			<drawOffset>(0,0,0.15)</drawOffset>
 			<shadowData>
-				<volume>(0.2, 0.2, 0.6)</volume>
+				<volume>(0.75, 0.3, 0.75)</volume>
 			</shadowData>
 		</graphicData>
 		<defaultPlacingRot>North</defaultPlacingRot>

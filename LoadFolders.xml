@@ -24,5 +24,6 @@
 		<li IfModActive="Dubwise.DubsBadHygiene.Lite">LoadFolders/1.7/DubsBadHygieneLite</li>
 		<li IfModActive="rim.job.world">LoadFolders/1.7/RJW</li>
 		<li IfModActive="MemeGoddess.GiddyUp">LoadFolders/1.7/GiddyUp2</li>
+		<li IfModActive="tanyavonhart.visceralanatomy">LoadFolders/1.7/VisceralAnatomy</li>
 	</v1.7>
 </loadFolders>

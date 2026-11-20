@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Annelitrice 3.0</name>
   <author>Verniy709</author>
@@ -37,6 +37,7 @@
     <li>Ludeon.RimWorld.Odyssey</li>
     <li>erdelf.HumanoidAlienRaces</li>
     <li>NareisLib.kamijouko.nazunarei</li>
+    <li>tanyavonhart.visceralanatomy</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
   </loadAfter>
   <incompatibleWith>

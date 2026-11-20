@@ -12,7 +12,7 @@
       <drawSize>(1.5,1.5)</drawSize>
       <drawOffset>(0,0,0.12)</drawOffset>
       <shadowData>
-        <volume>(0.5, 1.0, 1.0)</volume>
+        <volume>(0.85, 0.5, 0.85)</volume>
       </shadowData>
       <damageData>
         <rect>(0.1,0.1,1.0,1.0)</rect>
